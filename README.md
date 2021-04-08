@@ -1,0 +1,172 @@
+
+# Ship
+
+- `Shift + 1` Travel mode
+- `Shift + 2` Scan mode
+- `Shift + 3` Long scan mode
+
+  > Scan: Press `L` for a short while (secondary weapon button).
+
+## Flight
+
+- Close menu: `Del`
+- Active ship menu: `Enter`
+- Afterburner: `Tab`
+- Autopilot toggle: `SHIFT+A`
+- Roll: `Q`, `E`
+- Speed+: `X`, `Mouse wheel`
+- Speed-: `Y`, `Mouse wheel`
+- Stop ship: `Backspace`
+- Mouse steering (toggle): `SHIFT+Space`
+- Mouse steering  (manual): `Hold Left Mouse + Move`
+- Undock: `SHIFT+D`
+- Pick up items: `O` (tractor beam)
+- Flight Assist: `CTRL+Space`
+- Shoot: `Space`
+
+## Targeting
+
+- Target in front of ship: `T`  
+  or
+- Open the map, select item, press `T`
+
+# Map
+
+Rotate: `Q`, `E`, `Hold Right Mouse + Move`
+Panning: `WASD` or `Hold Left Mouse + Move`
+Zoom: Numpad `+` and `-` or `Mouse Wheel`
+
+# Mining
+
+1) Ship menu, launch resource probe.
+2) Check out nearby asteroids
+3) Fly close to the selected asteroid
+4) Scan mode
+5) Ship Menu > Change turret behavior to mining
+
+When asteroid is depleted:
+
+Ship Menu > Ore collector drone > Change status to "Armed"
+
+  > NOTE: It seems the ore collector drone is not always needed,
+    since the ship's tractor beam (`O` key) works as well.
+
+# Cheats
+
+## Money
+
+- Save your game and note the amount of money in your account
+- Go to the samegame folder, usually in `Documents\Egosoft\X4\70814229\save`
+- Extract the `.xml` file from the savegame `.gz` archive
+- Open the XML file in a text reader
+- Replace all occurrences of the amount in the file
+- Delete the `.gz` file and leave the `.xml` file  
+  or
+- Replace the `.xml` file in the archive to save disk space
+
+These are the texts to search for and replace:
+
+```
+money="xxxx"
+<account id="[0x102]" amount="xxxx"/>
+<stat id="money_player" value="xxxx"/>
+```
+
+Where `xxxx` is the amount of money. It's important to replace them all, otherwise
+the change will not be applied correctly.
+
+# Knowledgebase
+
+## Ship stuck in something
+
+I was stuck in a station once with the _Moreya_, and could not let an NPC pilot get it out, since it's a pilotless ship. This helped:
+
+- Turn off flight assist
+- Constantly push forward until you're free
+
+NPC alternative:
+
+- Teleport to another ship
+- Let the NPC piloit wiggle the ship free
+
+This works, because NPC pilots do not use flight assist.
+
+  > It may also help to teleport to another system, since this will unload
+  objects in space like asteroids.
+
+## Service crew
+
+These are some known facts about crew skills:
+
+- They can repair the ship.
+- The more crew there is, the faster the repairs.
+- Their skill determines how much they can repair (5 Star = 100%)
+- They are useless on S sized ships (too slow).
+- They also repair the turrets of capital ships.
+
+## Marines
+
+Marines on a ship can repel boarders, and make it possible to board enemy ships. 
+
+I have not been seen the AI try to board any of my ships, so I believe 
+they are not needed to defend ships when playing solo. However, they can
+be useful to board ships or recover abandoned ships.
+
+## Recovering / claiming an abandoned ship:
+
+- Take a ship with some marines on board
+- Approach the abandoned ship
+- Target it and right-click > "Claim"
+
+A boarding drone will slowly approach the ship, breach it, and take it over.
+
+  > Get close to the target ship, as the boarding drone is really slow.
+  
+  > In some cases, the target ship will take a little damage.
+
+### The lazy way
+
+Let one of your NPC controlled ships do it: 
+
+- Open the map
+- Select a ship with marines on board
+- Right-click the abandoned ship
+- Select "Claim"
+
+Your ship will go there and launch a boarding drone automatically.
+
+
+## Abbreviations
+
+- PHQ: Player Headquarters Station
+
+## Claiming sectors
+
+- Destroy all existing admin centers (even allies)
+- Create a plot
+- Start with the admin center module (get BP from faction with +20 rep)
+- Add at least docking module and defense modules
+- No workforce is needed, if there are no production modules
+
+
+## Station building
+
+When building stations, one key factor is workforce. Having too many people is worse than not having enough. Example: if requiring 2000 workers, having 1800 is better than 2200.
+
+- Use the [Station Calculator][] to simulate the build
+- Make it as close to 100% workforce usage as possible
+- Ideally, everything should work starting with ~10% workforce
+
+
+### Building presets
+
+- [Split Engine Part Factory][] 
+- [Split Hull Part Factory][]
+ 
+ 
+ 
+[Split Hull Part Factory][http://www.x4-game.com/#/station-calculator?l=@$module-module_gen_prod_hullparts_01,count:13;,$module-module_gen_prod_energycells_01,count:4;,$module-module_gen_prod_graphene_01,count:2;,$module-module_gen_prod_refinedmetals_01,count:7;,$module-module_spl_hab_l_01,count:7;,$module-module_spl_prod_cheltmeat_01,count:2;,$module-module_spl_prod_scruffinfruits_01,count:2;,$module-module_spl_prod_medicalsupplies_01,count:4;,$module-module_gen_prod_spices_01,count:1;,$module-module_gen_prod_water_01,count:2]
+
+[Split Engine Part Factory][http://www.x4-game.com/#/station-calculator?l=@$module-module_gen_prod_engineparts_01,count:12;,$module-module_gen_prod_energycells_01,count:4;,$module-module_gen_prod_antimattercells_01,count:4;,$module-module_gen_prod_refinedmetals_01,count:2;,$module-module_spl_hab_l_01,count:5;,$module-module_spl_prod_cheltmeat_01,count:2;,$module-module_spl_prod_scruffinfruits_01,count:2;,$module-module_spl_prod_medicalsupplies_01,count:3;,$module-module_gen_prod_spices_01,count:1;,$module-module_gen_prod_water_01,count:1]
+
+[Station Calculator][http://www.x4-game.com/#/station-calculator]
