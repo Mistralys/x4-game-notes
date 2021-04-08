@@ -216,6 +216,7 @@ In one of my games, when buying ships in Split territory, they often took long b
 
 ### Building presets
 
+- [Terran Claytronics Factory][]
 - [Split Engine Part Factory][] 
 - [Split Hull Part Factory][]
 - [Split Shield Component Factory][]
@@ -227,5 +228,7 @@ In one of my games, when buying ships in Split territory, they often took long b
 [Split Engine Part Factory]: http://www.x4-game.com/#/station-calculator?l=@$module-module_gen_prod_engineparts_01,count:12;,$module-module_gen_prod_energycells_01,count:4;,$module-module_gen_prod_antimattercells_01,count:4;,$module-module_gen_prod_refinedmetals_01,count:2;,$module-module_spl_hab_l_01,count:5;,$module-module_spl_prod_cheltmeat_01,count:2;,$module-module_spl_prod_scruffinfruits_01,count:2;,$module-module_spl_prod_medicalsupplies_01,count:3;,$module-module_gen_prod_spices_01,count:1;,$module-module_gen_prod_water_01,count:1
 
 [Split Shield Component Factory]: http://www.x4-game.com/#/station-calculator?l=@$module-module_gen_prod_shieldcomponents_01,count:12;,$module-module_gen_prod_energycells_01,count:4;,$module-module_gen_prod_quantumtubes_01,count:2;,$module-module_gen_prod_refinedmetals_01,count:1;,$module-module_spl_hab_l_01,count:7;,$module-module_spl_prod_cheltmeat_01,count:2;,$module-module_spl_prod_scruffinfruits_01,count:2;,$module-module_spl_prod_medicalsupplies_01,count:4;,$module-module_gen_prod_spices_01,count:1;,$module-module_gen_prod_water_01,count:2;,$module-module_gen_prod_plasmaconductors_01,count:5;,$module-module_gen_prod_superfluidcoolant_01,count:3;,$module-module_gen_prod_graphene_01,count:3
+
+[Terran Claytronics Factory]: http://www.x4-game.com/#/station-calculator?l=@$module-module_ter_hab_m_01,count:1;,$module-module_ter_hab_l_01,count:14;,$module-module_gen_prod_antimattercells_01,count:1;,$module-module_gen_prod_claytronics_01,count:2;,$module-module_gen_prod_graphene_01,count:1;,$module-module_gen_prod_microchips_01,count:3;,$module-module_ter_prod_proteinpaste_01,count:2;,$module-module_gen_prod_quantumtubes_01,count:2;,$module-module_gen_prod_siliconwafers_01,count:3;,$module-module_gen_prod_superfluidcoolant_01,count:1;,$module-module_ter_prod_energycells_01,count:8;,$module-module_ter_prod_terranmre_01,count:4;,$module-module_ter_prod_medicalsupplies_01,count:6
 
 [Station Calculator]: http://www.x4-game.com/#/station-calculator
