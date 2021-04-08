@@ -2,9 +2,9 @@
 
 ## Ship
 
-- `Shift + 1` Travel mode
-- `Shift + 2` Scan mode
-- `Shift + 3` Long scan mode
+- Travel mode: `Shift + 1` 
+- Scan mode: `Shift + 2` 
+- Long scan mode: `Shift + 3` 
 - Close menu: `Del`
 - Active ship menu: `Enter`
 - Afterburner: `Tab`
