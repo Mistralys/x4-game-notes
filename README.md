@@ -166,6 +166,25 @@ Let one of your NPC controlled ships do it:
 
 Your ship will go there and launch a boarding drone automatically.
 
+## Attacking stations
+
+Station defenses pack a wallop, and can easily take down destroyers and battleships with surprising ease. The key here is range, so you can hit a station from outside of its guns' range. A destroyer with some gun modifications will do nicely, even with green level modifications.
+
+The biggest issue is that in my experience, using the AI to do a synchronized fleet attack or simple attack command will get your ships shot. The AI invariably gets too close to the station. Even if not at first, the ships slowly get closer over time, often when changing positions to shoot at another part of the station. Even if the guns can hit from 2x the distance they are at, and this even if turrets and defense drones are disarmed. Micromanaging this is almost impossible.
+
+My personal solution:
+
+- Identify gun installations (defense disks and bridges)
+- Manually position a destroyer above the target station
+- Take out all defense modules
+- Take a fast M-sized ship
+- Make a flyby to identify leftover large gun emplacements
+- Take these out with the destroyer
+- Now teethless, let your fleet take down the station
+
+Even after killing all gun emplacements and defense modules, the station will still have more than 80% hull left, which is what takes the most time to whittle down.
+
+  > The AI rarely, if ever, attacks a station from above or below, from which position it's easier to hit gun emplacements.
 
 ## Abbreviations
 
