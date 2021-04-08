@@ -20,29 +20,17 @@
 - Flight Assist: `CTRL+Space`
 - Shoot: `Space`
 
-## Long range scanning
-
-Switch to scan mode with `Shift + 3`, then press `L` for a short while (secondary weapon button). Has to be timed right: if the key press is too short or too long, it will not work. If it works, a blue pulse will shoot out from the ship.
-
-  > The pulse is not visible on the map, only from the ship's cockpit.
-   
-Items detected by the scan will display colored pulse hits in space.
-
-- Yellow: Lockboxes
-- Blue: Wrecks with contents
-- Gray: Asteroids, empty wrecks, stations
-
 ## Targeting
 
 - Target in front of ship: `T`  
   or
 - Open the map, select item, press `T`
 
-# Map
+## Map
 
-Rotate: `Q`, `E`, `Hold Right Mouse + Move`
-Panning: `WASD` or `Hold Left Mouse + Move`
-Zoom: Numpad `+` and `-` or `Mouse Wheel`
+- Rotate: `Q`, `E`, `Hold Right Mouse + Move`
+- Panning: `WASD` or `Hold Left Mouse + Move`
+- Zoom: Numpad `+` and `-` or `Mouse Wheel`
 
 # Mining
 
@@ -84,6 +72,18 @@ Where `xxxx` is the amount of money. It's important to replace them all, otherwi
 the change will not be applied correctly.
 
 # Knowledgebase
+
+## Long range scanning
+
+Switch to scan mode with `Shift + 3`, then press `L` for a short while (secondary weapon button). Has to be timed right: if the key press is too short or too long, it will not work. If it works, a blue pulse will shoot out from the ship.
+
+  > The pulse is not visible on the map, only from the ship's cockpit.
+   
+Items detected by the scan will display colored pulse hits in space.
+
+- Yellow: Lockboxes
+- Blue: Wrecks with contents
+- Gray: Asteroids, empty wrecks, stations
 
 ## Ship stuck in something
 
