@@ -102,6 +102,29 @@ This works, because NPC pilots do not use flight assist.
   > It may also help to teleport to another system, since this will unload
   objects in space like asteroids.
 
+## Gaining faction reputation
+
+- Killing their enemies in their own space
+- Running missions for them
+
+### Killing enemies
+
+You get +1 reputation for kills. Any of their enemies count (rival factions or Xenon), but also criminals:
+
+- Approach a station closely
+- Often little red criminal ships will appear
+- Shoot the criminals 
+
+  > Take care not to shoot the station.
+   
+### Missions
+
+Approach their stations, and check if they have any missions to offer. Small repair missions are often 
+available, and are also shown on map as small icons above the station when getting close.
+
+  > Scanning stations for signals also works, but from experience those mostly give illegal missions
+    that will not help reputation.
+
 ## Service crew
 
 These are some known facts about crew skills:
