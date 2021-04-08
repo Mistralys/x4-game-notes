@@ -204,15 +204,17 @@ When building stations, one key factor is workforce. Having too many people is w
 
 - Use the [Station Calculator][] to simulate the build
 - Make it as close to 100% workforce usage as possible
-- Ideally, everything should work starting with ~10% workforce
+- Ideally, everything should be in the green* starting a ~10% workforce
+
+*Profit as well as all production modules. Raw resources like ore excluded.
 
 ### Finding markets
 
   > As a general rule, do not worry about the market too much, your goods will be bought wherever you build your station. 
 
-Still, it can be beneficial to check if there are sectors that lack specific component factories. A good example is ship building parts: In sectors with a wharf or shipyard, check if there are factories for Hull Parts, Engine Parts and Shield Components. If not, you have guaranteed regular customers for matching factories.
+Still, it can be beneficial to check if there are sectors that lack specific component factories. A good example is ship building parts: In sectors with a wharf or shipyard, check if there are factories for Hull Parts, Engine Parts and Shield Components. If not, you have guaranteed regular customers for matching factories. 
 
-In one of my games, when buying ships in Split territory, they often took long because they did not have enough hull parts. I was able to solve that issue myself by building a hull part factory in their shipyard sector. It cut down on build times substantially.
+To find out which products stations build, the easiest is to check out the station's trade offers. Otherwise, fly over to the station and scan it to identify the production modules that it uses.
 
 ### Building presets
 
