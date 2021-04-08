@@ -1,14 +1,10 @@
+# Keyboard shortcuts
 
-# Ship
+## Ship
 
 - `Shift + 1` Travel mode
 - `Shift + 2` Scan mode
 - `Shift + 3` Long scan mode
-
-  > Scan: Press `L` for a short while (secondary weapon button).
-
-## Flight
-
 - Close menu: `Del`
 - Active ship menu: `Enter`
 - Afterburner: `Tab`
@@ -23,6 +19,18 @@
 - Pick up items: `O` (tractor beam)
 - Flight Assist: `CTRL+Space`
 - Shoot: `Space`
+
+## Long range scanning
+
+Switch to scan mode with `Shift + 3`, then press `L` for a short while (secondary weapon button). Has to be timed right: if the key press is too short or too long, it will not work. If it works, a blue pulse will shoot out from the ship.
+
+  > The pulse is not visible on the map, only from the ship's cockpit.
+   
+Items detected by the scan will display colored pulse hits in space.
+
+- Yellow: Lockboxes
+- Blue: Wrecks with contents
+- Gray: Asteroids, empty wrecks, stations
 
 ## Targeting
 
@@ -112,7 +120,7 @@ I have not been seen the AI try to board any of my ships, so I believe
 they are not needed to defend ships when playing solo. However, they can
 be useful to board ships or recover abandoned ships.
 
-## Recovering / claiming an abandoned ship:
+## Recovering / claiming abandoned ships:
 
 - Take a ship with some marines on board
 - Approach the abandoned ship
@@ -147,7 +155,6 @@ Your ship will go there and launch a boarding drone automatically.
 - Start with the admin center module (get BP from faction with +20 rep)
 - Add at least docking module and defense modules
 - No workforce is needed, if there are no production modules
-
 
 ## Station building
 
