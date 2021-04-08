@@ -187,16 +187,26 @@ When building stations, one key factor is workforce. Having too many people is w
 - Make it as close to 100% workforce usage as possible
 - Ideally, everything should work starting with ~10% workforce
 
+### Finding markets
+
+  > As a general rule, do not worry about the market too much, your goods will be bought wherever you build your station. 
+
+Still, it can be beneficial to check if there are sectors that lack specific component factories. A good example is ship building parts: In sectors with a wharf or shipyard, check if there are factories for Hull Parts, Engine Parts and Shield Components. If not, you have guaranteed regular customers for matching factories.
+
+In one of my games, when buying ships in Split territory, they often took long because they did not have enough hull parts. I was able to solve that issue myself by building a hull part factory in their shipyard sector. It cut down on build times substantially.
 
 ### Building presets
 
 - [Split Engine Part Factory][] 
 - [Split Hull Part Factory][]
+- [Split Shield Component Factory][]
  
  
  
-[Split Hull Part Factory][http://www.x4-game.com/#/station-calculator?l=@$module-module_gen_prod_hullparts_01,count:13;,$module-module_gen_prod_energycells_01,count:4;,$module-module_gen_prod_graphene_01,count:2;,$module-module_gen_prod_refinedmetals_01,count:7;,$module-module_spl_hab_l_01,count:7;,$module-module_spl_prod_cheltmeat_01,count:2;,$module-module_spl_prod_scruffinfruits_01,count:2;,$module-module_spl_prod_medicalsupplies_01,count:4;,$module-module_gen_prod_spices_01,count:1;,$module-module_gen_prod_water_01,count:2]
+[Split Hull Part Factory]: http://www.x4-game.com/#/station-calculator?l=@$module-module_gen_prod_hullparts_01,count:13;,$module-module_gen_prod_energycells_01,count:4;,$module-module_gen_prod_graphene_01,count:2;,$module-module_gen_prod_refinedmetals_01,count:7;,$module-module_spl_hab_l_01,count:7;,$module-module_spl_prod_cheltmeat_01,count:2;,$module-module_spl_prod_scruffinfruits_01,count:2;,$module-module_spl_prod_medicalsupplies_01,count:4;,$module-module_gen_prod_spices_01,count:1;,$module-module_gen_prod_water_01,count:2
 
-[Split Engine Part Factory][http://www.x4-game.com/#/station-calculator?l=@$module-module_gen_prod_engineparts_01,count:12;,$module-module_gen_prod_energycells_01,count:4;,$module-module_gen_prod_antimattercells_01,count:4;,$module-module_gen_prod_refinedmetals_01,count:2;,$module-module_spl_hab_l_01,count:5;,$module-module_spl_prod_cheltmeat_01,count:2;,$module-module_spl_prod_scruffinfruits_01,count:2;,$module-module_spl_prod_medicalsupplies_01,count:3;,$module-module_gen_prod_spices_01,count:1;,$module-module_gen_prod_water_01,count:1]
+[Split Engine Part Factory]: http://www.x4-game.com/#/station-calculator?l=@$module-module_gen_prod_engineparts_01,count:12;,$module-module_gen_prod_energycells_01,count:4;,$module-module_gen_prod_antimattercells_01,count:4;,$module-module_gen_prod_refinedmetals_01,count:2;,$module-module_spl_hab_l_01,count:5;,$module-module_spl_prod_cheltmeat_01,count:2;,$module-module_spl_prod_scruffinfruits_01,count:2;,$module-module_spl_prod_medicalsupplies_01,count:3;,$module-module_gen_prod_spices_01,count:1;,$module-module_gen_prod_water_01,count:1
 
-[Station Calculator][http://www.x4-game.com/#/station-calculator]
+[Split Shield Component Factory]: http://www.x4-game.com/#/station-calculator?l=@$module-module_gen_prod_shieldcomponents_01,count:12;,$module-module_gen_prod_energycells_01,count:4;,$module-module_gen_prod_quantumtubes_01,count:2;,$module-module_gen_prod_refinedmetals_01,count:1;,$module-module_spl_hab_l_01,count:7;,$module-module_spl_prod_cheltmeat_01,count:2;,$module-module_spl_prod_scruffinfruits_01,count:2;,$module-module_spl_prod_medicalsupplies_01,count:4;,$module-module_gen_prod_spices_01,count:1;,$module-module_gen_prod_water_01,count:2;,$module-module_gen_prod_plasmaconductors_01,count:5;,$module-module_gen_prod_superfluidcoolant_01,count:3;,$module-module_gen_prod_graphene_01,count:3
+
+[Station Calculator]: http://www.x4-game.com/#/station-calculator
