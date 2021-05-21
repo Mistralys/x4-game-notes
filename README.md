@@ -724,25 +724,28 @@ Station defenses pack a wallop, and can easily take down destroyers and battlesh
 
 The biggest issue is that in my experience, using the AI to do a synchronized fleet attack or simple attack command will get your ships shot. The AI invariably gets too close to the station. Even if not at first, the ships slowly get closer over time, often when changing positions to shoot at another part of the station. Even if the guns can hit from 2x the distance they are at, and this even if turrets and defense drones are disarmed. Micromanaging this is almost impossible.
 
-My personal solution:
+My personal, manual solution:
 
 - Identify gun installations (defense disks and bridges)
-- Manually position a destroyer above the target station
-- Take out all gund installations
-- Take a fast M-sized ship
-- Make a flyby to identify leftover large gun emplacements
-- Take these out with the destroyer
-- Now teethless, let your fleet take down the station
+- Manually position the ship above the target station
+- Take out all gun installations (it helps to know where they are)
+- Once teethless, let your fleet destroy the remaining modules.
 
 Even after killing all gun emplacements and defense modules, the station will still have more than 80% hull left, which is what takes the most time to whittle down.
 
-  > The AI rarely, if ever, attacks a station from above or below, from which position it's easier to hit gun emplacements.
+> The AI rarely, if ever, attacks a station from above or below, from which position it's easier to hit gun emplacements:
+  You can see them all, and hit everything without moving.
 
 ### Ship choices
 
-1. Asgard: The premium choice. 
-2. Syn: High damage.
-3. Phoenix 
+From experience, these are the best ships for station bashing:
+
+1. Asgard: High damage, least suicidal.
+2. Syn: High damage, but pretty suicidal.
+3. Phoenix / Odysseus: Passable, AI doesn't suicide so often.
+
+Rattlesnakes are the worst. In my games, they just loved making flybys through the center of the target station,
+where all guns can conventiently shoot them at the same time :|
 
 ## Abbreviations
 
@@ -753,21 +756,54 @@ Even after killing all gun emplacements and defense modules, the station will st
 
 ### Ship choice: Rattlesnake
 
-If possible, use rattlesnakes as sector defenders. 
+If possible, use Rattlesnake destroyers as sector defenders. 
 
 - Marauders often use Rattlesnakes themselves
-- The other ships are too slow compared to Rattlesnakes
+- The other destroyers are too slow compared to Rattlesnakes
+- Smaller ships will get destroyed too easily
+- No need for whole fleets, single ships are enough
+- Carriers are overkill, and fighters will get killed regardless
 
-> I used some "Sin" destroyers for patrolling: they got shot down
+> I used some "Syn" destroyers for patrolling: they got shot down
   by Rattlesnake pirates, being way too slow.
 
 ## Claiming sectors
 
 - Destroy all existing admin centers (even allies)
 - Create a plot
-- Start with the admin center module (get the blueprint from faction with +20 rep)
-- Add at least a docking module and defense modules (discs and bridges)
+- Start with the admin center module (get the blueprint from a faction with +20 rep)
+- Add at least a docking module. Everything else is optional.
 - No workforce is needed, if there are no production modules
+
+> As long as the admin center is the first module built, the station will be 
+  considered a defense station, even if you turn it into a factory later.
+
+## Locking down an enemy stargate
+
+In one of my games, three entire sectors were overrun by Xenon, and a steady stream of ships was pouring forth from 
+the so le stargate that led there (Company Regard). To close it down, I placed a fleet of destroyers directly on the
+gate exit:
+
+1. Build about 10-12 destroyers
+2. Use "Protect position" individually near the gate
+3. Set the range to 14 km
+4. Avoid the player being on grid in the system 
+
+This will catch everything except the scouts, which can't do any real damage. All the Xenon K and even Xenon I 
+ships go down with this setup, leaving enough time to build an invasion fleet.
+
+## Conquering enemy sectors
+
+Basically, locking down the stargates (see above) to cut off supply lines, and then slowly 
+destroying all enemy stations (see "Attacking stations").
+
+1. Lock down the exit stargate
+2. Move a fleet to the entry stargate
+3. Let the enemy fleets be mowed down by the fleet
+4. Attack the stations
+
+If there are several incoming stargates in the target system, do steps 1-3, then put
+a fleet on both incoming stargates.
 
 ## Station building
 
@@ -777,11 +813,11 @@ When building stations, one key factor is workforce. Having too many people is w
 - Make it as close to 100% workforce usage as possible
 - Ideally, everything should be in the green* starting a ~10% workforce
 
-*Profit as well as all production modules. Raw resources li^^^^^^^^ke ore excluded.
+*Profit as well as all production modules. Raw resources like ore excluded.
 
 ### Finding markets
 
-  > As a general rule, do not worry about the market too much, your goods will be bought wherever you build your station. 
+> As a general rule, do not worry about the market too much, your goods will be bought wherever you build your station. 
 
 Still, it can be beneficial to check if there are sectors that lack specific component factories. A good example is ship building parts: In sectors with a wharf or shipyard, check if there are factories for Hull Parts, Engine Parts and Shield Components. If not, you have guaranteed regular customers for matching factories. 
 
