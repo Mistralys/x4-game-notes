@@ -536,7 +536,95 @@ These go below the `<blueprints>` tag in the file (there is only one, so it's ea
 <blueprint ware="weapon_tel_s_charge_02_mk1"/>
 ```
 
+## Player inventory
 
+NPCs have `<inventory>` tags just like the player, so the easiest
+way to find the player's inventory is to search for an inventory
+item that only the player can have, for instance:
+
+`weapon_gen_spacesuit_laser`
+
+### Modding parts
+
+These are all known parts that are used for modding ships.
+
+```xml
+<ware ware="modpart_enginefuelinjector_t1" amount="999"/>
+<ware ware="modpart_enginefuelinjector_t2" amount="999"/>
+<ware ware="modpart_enginefuelinjector_t3" amount="999"/>
+<ware ware="modpart_extendedfuelcontainer" amount="999"/>
+<ware ware="modpart_highenergycatalyst" amount="999"/>
+<ware ware="modpart_nividiumcrystallite" amount="999"/>
+<ware ware="modpart_nividiumoxide" amount="999"/>
+<ware ware="modpart_shieldgeneratorcoil_t1" amount="999"/>
+<ware ware="modpart_shieldgeneratorcoil_t2" amount="999"/>
+<ware ware="modpart_shieldgeneratorcoil_t3" amount="999"/>
+<ware ware="modpart_shipnanoweave_t1" amount="999"/>
+<ware ware="modpart_shipnanoweave_t2" amount="999"/>
+<ware ware="modpart_shipnanoweave_t3" amount="999"/>
+<ware ware="modpart_tuningsoftware" amount="999"/>
+<ware ware="modpart_weaponchamber_t1" amount="999"/>
+<ware ware="modpart_weaponchamber_t2" amount="999"/>
+<ware ware="modpart_weaponchamber_t3" amount="999"/>
+```
+
+### Modding resources
+
+These are additional resources that are used when modding ships.
+
+```xml
+<ware ware="inv_advancedtargetingmodule" amount="69"/>
+<ware ware="inv_agidevice_01" amount="141"/>
+<ware ware="inv_agidevice_02" amount="102"/>
+<ware ware="inv_agidevice_03" amount="16"/>
+<ware ware="inv_algaescrubber" amount="30"/>
+<ware ware="inv_antimatter_injection_sensor" amount="4"/>
+<ware ware="inv_argnusteak" amount="45"/>
+<ware ware="inv_bandages" amount="25"/>
+<ware ware="inv_carbonfilter" amount="29"/>
+<ware ware="inv_charged_particle_regulator"/>
+<ware ware="inv_crystal_01" amount="11"/>
+<ware ware="inv_crystal_02" amount="2"/>
+<ware ware="inv_crystal_03" amount="11"/>
+<ware ware="inv_crystalbit" amount="19"/>
+<ware ware="inv_damagedsingularityengine" amount="23"/>
+<ware ware="inv_decryptionmodule" amount="114"/>
+<ware ware="inv_encrypted_contract"/>
+<ware ware="inv_finemeal" amount="3"/>
+<ware ware="inv_firstaidkit"/>
+<ware ware="inv_fluxcapacitor" amount="20"/>
+<ware ware="inv_hallucinogenics" amount="8"/>
+<ware ware="inv_herbicide" amount="4"/>
+<ware ware="inv_hydraulicpump" amount="15"/>
+<ware ware="inv_interfaceunit" amount="4176"/>
+<ware ware="inv_kyondevice_03" amount="2"/>
+<ware ware="inv_magneticmaterial" amount="123"/>
+<ware ware="inv_majaglit" amount="3345"/>
+<ware ware="inv_microgimble" amount="54"/>
+<ware ware="inv_micromotor" amount="69"/>
+<ware ware="inv_mixedfruit" amount="40"/>
+<ware ware="inv_modulartrigger" amount="41"/>
+<ware ware="inv_needle" amount="55"/>
+<ware ware="inv_programmablefieldarray" amount="255"/>
+<ware ware="inv_rapidsandfilter" amount="36"/>
+<ware ware="inv_rarespices" amount="131"/>
+<ware ware="inv_remotedetonator" amount="65"/>
+<ware ware="inv_salvagedelectronics" amount="6"/>
+<ware ware="inv_securecontainer" amount="95"/>
+<ware ware="inv_securitybypasssystem" amount="25"/>
+<ware ware="inv_securitydecryptionsystem" amount="133"/>
+<ware ware="inv_securityslicer" amount="21"/>
+<ware ware="inv_sedative" amount="25"/>
+<ware ware="inv_seminar_management_0" amount="15"/>
+<ware ware="inv_seminar_management_1" amount="9"/>
+<ware ware="inv_seminar_management_2" amount="2"/>
+<ware ware="inv_seminar_piloting_0" amount="32"/>
+<ware ware="inv_seminar_piloting_1" amount="10"/>
+<ware ware="inv_spaceflyeggs" amount="672"/>
+<ware ware="inv_timewarp"/>
+<ware ware="inv_unmarked_black_box"/>
+<ware ware="inv_unstablecrystal" amount="351"/>
+```
 
 # Knowledgebase
 
@@ -544,35 +632,32 @@ These go below the `<blueprints>` tag in the file (there is only one, so it's ea
 
 Switch to scan mode with `Shift + 3`, then press `L` for a short while (secondary weapon button). Has to be timed right: if the key press is too short or too long, it will not work. If it works, a blue pulse will shoot out from the ship.
 
-  > The pulse is not visible on the map, only from the ship's cockpit.
+> The pulse is not visible on the map, only from the ship's cockpit.
    
 Items detected by the scan will display colored pulse hits in space.
 
 - Yellow: Lockboxes
-- Blue: Wrecks with contents
+- Blue: Wrecks with contents, data vaults
 - Gray: Asteroids, empty wrecks, stations
 
 ## Ship stuck in something
 
-I was stuck in a station once with the _Moreya_, and could not let an NPC pilot get it out, since it's a pilotless ship. This helped:
+### Method 1: Let an NPC do it
 
-- Turn off flight assist
+- Teleport out of the sector
+- Let the NPC pilot wiggle the ship free
+
+> This works, because when the player is "off-grid", all
+  laws of physics are suspended.
+
+### Method 2: Wiggle wiggle
+
+I was stuck in a station once with the _Moreya_, and since it's a pilotless ship, I could not let an NPC pilot get it out. This helped:
+
+- Turn off flight assist (this is key)
 - Constantly push forward until you're free
 
-NPC alternative:
-
-- Teleport to another ship
-- Let the NPC piloit wiggle the ship free
-
-This works, because NPC pilots do not use flight assist.
-
-  > It may also help to teleport to another system, since this will unload
-  objects in space like asteroids.
-
 ## Gaining faction reputation
-
-- Killing their enemies in their own space
-- Running missions for them
 
 ### Killing enemies
 
@@ -582,15 +667,15 @@ You get +1 reputation for kills. Any of their enemies count (rival factions or X
 - Often little red criminal ships will appear
 - Shoot the criminals 
 
-  > Take care not to shoot the station.
+> Take care not to shoot the station.
    
 ### Missions
 
 Approach their stations, and check if they have any missions to offer. Small repair missions are often 
 available, and are also shown on map as small icons above the station when getting close.
 
-  > Scanning stations for signals also works, but from experience those mostly give illegal missions
-    that will not help reputation.
+> Scanning stations for signals also works, but from experience those mostly give illegal missions
+  that will not help reputation.
 
 ## Service crew
 
@@ -612,22 +697,22 @@ be useful to board ships or recover abandoned ships.
 
 ## Recovering / claiming abandoned ships:
 
-- Take a ship with some marines on board
+- Take a ship with at least 1 marine on board
 - Approach the abandoned ship
 - Target it and right-click > "Claim"
 
 A boarding drone will slowly approach the ship, breach it, and take it over.
 
-  > Get close to the target ship, as the boarding drone is really slow.
-  
-  > In some cases, the target ship will take a little damage.
+> Get close to the target ship, as the boarding drone is really slow.
+  In some cases, the target ship will take a little damage (the crew
+  of the ship sabotaging it).
 
 ### The lazy way
 
 Let one of your NPC controlled ships do it: 
 
 - Open the map
-- Select a ship with marines on board
+- Select a ship with at least 1 marine on board
 - Right-click the abandoned ship
 - Select "Claim"
 
@@ -643,7 +728,7 @@ My personal solution:
 
 - Identify gun installations (defense disks and bridges)
 - Manually position a destroyer above the target station
-- Take out all defense modules
+- Take out all gund installations
 - Take a fast M-sized ship
 - Make a flyby to identify leftover large gun emplacements
 - Take these out with the destroyer
@@ -653,16 +738,35 @@ Even after killing all gun emplacements and defense modules, the station will st
 
   > The AI rarely, if ever, attacks a station from above or below, from which position it's easier to hit gun emplacements.
 
+### Ship choices
+
+1. Asgard: The premium choice. 
+2. Syn: High damage.
+3. Phoenix 
+
 ## Abbreviations
 
 - PHQ: Player Headquarters Station
+
+## Defending, patrolling and policing sectors
+
+
+### Ship choice: Rattlesnake
+
+If possible, use rattlesnakes as sector defenders. 
+
+- Marauders often use Rattlesnakes themselves
+- The other ships are too slow compared to Rattlesnakes
+
+> I used some "Sin" destroyers for patrolling: they got shot down
+  by Rattlesnake pirates, being way too slow.
 
 ## Claiming sectors
 
 - Destroy all existing admin centers (even allies)
 - Create a plot
-- Start with the admin center module (get BP from faction with +20 rep)
-- Add at least docking module and defense modules
+- Start with the admin center module (get the blueprint from faction with +20 rep)
+- Add at least a docking module and defense modules (discs and bridges)
 - No workforce is needed, if there are no production modules
 
 ## Station building
@@ -673,7 +777,7 @@ When building stations, one key factor is workforce. Having too many people is w
 - Make it as close to 100% workforce usage as possible
 - Ideally, everything should be in the green* starting a ~10% workforce
 
-*Profit as well as all production modules. Raw resources like ore excluded.
+*Profit as well as all production modules. Raw resources li^^^^^^^^ke ore excluded.
 
 ### Finding markets
 
@@ -691,6 +795,9 @@ To find out which products stations build, the easiest is to check out the stati
 - [Split Shield Component Factory][]
 - [Argon Wharf][] _Workforce sustained, relies on externally built components_
 - [Argon Weapon Components Factory][]
+- [Argon Shipyard][] - _Workforce sustained, relies on externally built components_
+- [Argon Smart Chip Factory][]
+- [Argon Missile Components Factory][]
  
  
 [Split Hull Part Factory]: http://www.x4-game.com/#/station-calculator?l=@$module-module_gen_prod_hullparts_01,count:13;,$module-module_gen_prod_energycells_01,count:4;,$module-module_gen_prod_graphene_01,count:2;,$module-module_gen_prod_refinedmetals_01,count:7;,$module-module_spl_hab_l_01,count:7;,$module-module_spl_prod_cheltmeat_01,count:2;,$module-module_spl_prod_scruffinfruits_01,count:2;,$module-module_spl_prod_medicalsupplies_01,count:4;,$module-module_gen_prod_spices_01,count:1;,$module-module_gen_prod_water_01,count:2
@@ -706,5 +813,15 @@ To find out which products stations build, the easiest is to check out the stati
 [Argon Weapon Components Factory]: 
 http://www.x4-game.com/#/station-calculator?l=@$module-module_gen_prod_weaponcomponents_01,count:6;,$module-module_ter_prod_energycells_01,count:10;,$module-module_gen_prod_hullparts_01,count:2;,$module-module_gen_prod_graphene_01,count:3;,$module-module_gen_prod_refinedmetals_01,count:2;,$module-module_gen_prod_plasmaconductors_01,count:7;,$module-module_gen_prod_superfluidcoolant_01,count:3;,$module-module_arg_hab_l_01,count:6;,$module-module_arg_prod_foodrations_01,count:3;,$module-module_arg_prod_medicalsupplies_01,count:4;,$module-module_arg_prod_meat_01,count:1;,$module-module_gen_prod_spices_01,count:2;,$module-module_arg_prod_wheat_01,count:1;,$module-module_gen_prod_water_01,count:2;,$module-module_arg_hab_m_01,count:1
 
+
+[Argon Shipyard]:
+http://www.x4-game.com/#/station-calculator?l=@$module-module_gen_build_l_01,count:3;,$module-module_arg_hab_l_01,count:3;,$module-module_arg_prod_foodrations_01,count:1;,$module-module_arg_prod_meat_01,count:1;,$module-module_gen_prod_spices_01,count:1;,$module-module_arg_prod_wheat_01,count:1;,$module-module_arg_prod_medicalsupplies_01,count:2;,$module-module_gen_prod_water_01,count:1;,$module-module_ter_prod_energycells_01,count:4
+
+[Argon Smart Chip Factory]: http://www.x4-game.com/#/station-calculator?l=@$module-module_gen_prod_smartchips_01,count:12;,$module-module_ter_prod_energycells_01,count:4;,$module-module_gen_prod_siliconwafers_01,count:1;,$module-module_arg_hab_l_01,count:2;,$module-module_arg_prod_foodrations_01,count:1;,$module-module_arg_prod_medicalsupplies_01,count:2;,$module-module_arg_prod_meat_01,count:1;,$module-module_gen_prod_spices_01,count:1;,$module-module_arg_prod_wheat_01,count:1;,$module-module_gen_prod_water_01,count:1
+
+
+[Argon Missile Components Factory]: http://www.x4-game.com/#/station-calculator?l=@$module-module_gen_prod_missilecomponents_01,count:8;,$module-module_gen_prod_advancedcomposites_01,count:1;,$module-module_gen_prod_energycells_01,count:2;,$module-module_gen_prod_hullparts_01,count:1;,$module-module_gen_prod_graphene_01,count:1;,$module-module_gen_prod_refinedmetals_01,count:1;,$module-module_arg_hab_l_01,count:2;,$module-module_arg_prod_foodrations_01,count:1;,$module-module_arg_prod_medicalsupplies_01,count:2;,$module-module_arg_prod_meat_01,count:1;,$module-module_gen_prod_spices_01,count:1;,$module-module_arg_prod_wheat_01,count:1;,$module-module_gen_prod_water_01,count:1
+
+[Argon Weapon Component Factory]: http://www.x4-game.com/#/station-calculator?l=@$module-module_gen_prod_weaponcomponents_01,count:12;,$module-module_arg_hab_l_01,count:6;,$module-module_gen_prod_energycells_01,count:2;,$module-module_gen_prod_hullparts_01,count:1;,$module-module_gen_prod_plasmaconductors_01,count:5;,$module-module_arg_prod_foodrations_01,count:2;,$module-module_arg_prod_medicalsupplies_01,count:4;,$module-module_gen_prod_graphene_01,count:2;,$module-module_gen_prod_refinedmetals_01,count:1;,$module-module_gen_prod_superfluidcoolant_01,count:2;,$module-module_arg_prod_meat_01,count:1;,$module-module_gen_prod_spices_01,count:2;,$module-module_arg_prod_wheat_01,count:1;,$module-module_gen_prod_water_01,count:1
 
 [Station Calculator]: http://www.x4-game.com/#/station-calculator
