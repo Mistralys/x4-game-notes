@@ -70,11 +70,15 @@ These are the texts to search for and replace:
 
 ```
 money="xxxx"
-<account id="[0x102]" amount="xxxx"/>
+]" amount="xxxx"/>  (to find <account id="[???]" amount="xxxx">)
 <stat id="money_player" value="xxxx"/>
 ```
 
-Where `xxxx` is the amount of money. It's important to replace them all, otherwise
+Where `xxxx` is the amount of money. 
+
+
+
+It's important to replace them all, otherwise
 the change will not be applied correctly.
 
 ## Faction relations
