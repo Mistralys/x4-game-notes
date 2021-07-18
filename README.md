@@ -543,8 +543,15 @@ These go below the `<blueprints>` tag in the file (there is only one, so it's ea
 ## Player inventory
 
 NPCs have `<inventory>` tags just like the player, so the easiest
-way to find the player's inventory is to search for an inventory
-item that only the player can have, for instance:
+way to find the player's inventory is to search for the player
+component. The inventory is nested in here.
+
+Search for the following:
+
+`<component class="player"`
+
+Alternatively, search for an item that only the player can have, 
+for instance:
 
 `weapon_gen_spacesuit_repairlaser_01_mk1`
 
