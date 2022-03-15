@@ -761,6 +761,7 @@ where all guns can conventiently shoot them at the same time :|
 ## Abbreviations
 
 - PHQ: Player Headquarters Station
+- OOS: "Out Of System", moving the player outside of their own ship's systems for easier navigation
 
 ## Defending, patrolling and policing sectors
 
