@@ -749,7 +749,7 @@ Even after killing all gun emplacements and defense modules, the station will st
 
 ### Ship choices
 
-From experience, these are the best ships for station bashing:
+From experience, these are the best ships for station bashing when playing OOS:
 
 1. Asgard: High damage, least suicidal.
 2. Syn: High damage, but pretty suicidal.
@@ -758,13 +758,27 @@ From experience, these are the best ships for station bashing:
 Rattlesnakes are the worst. In my games, they just loved making flybys through the center of the target station,
 where all guns can conventiently shoot them at the same time :|
 
+## Attacking K and I class Xenon ships
+
+Key to killing these when flying a ship solo is speed, to keep out of the range of their guns. 
+
+My personal favorite is the Rattlesnake, modded for better thrust (possible to fly backwards faster too) and increased range on the main guns.
+
+These mods will make it possible:
+
+- Thrust mod.
+- Main guns projectile lifetime mod.
+- Large plasma turrets with projectile lifetime mode.
+- Drag or mass mod.
+
+If at all possible, attack the Xenon from behind, or from the side. They turn very slowly, and will not be able to use their top speed to close the distance. It makes them a lot easier to hit by the plasma turrets as well, whose projectiles fly very slowly.
+
 ## Abbreviations
 
 - PHQ: Player Headquarters Station
 - OOS: "Out Of System", moving the player outside of their own ship's systems for easier navigation
 
 ## Defending, patrolling and policing sectors
-
 
 ### Ship choice: Rattlesnake
 
@@ -803,6 +817,18 @@ gate exit:
 
 This will catch everything except the scouts, which can't do any real damage. All the Xenon K and even Xenon I 
 ships go down with this setup, leaving enough time to build an invasion fleet.
+
+### Gate defense stations
+
+Building a defense station right on a stargate can replace the fleet of destroyers. 
+
+- Create a plot as close to the stargate as possible (won't allow right next to it).
+- Increase the size of the created plot to include the stargate.
+- Now it's possible to build right next to the stargate.
+- Build a station with at least 10 defensive modules.
+- If you intend to play on grid, make sure your defense modules point towards the gate (turn them to face the gate).
+- To handle K and I class ships, more guns is better.
+- Keep a fleet of frigates close to mop up any fast stragglers that make it through.
 
 ## Conquering enemy sectors
 
