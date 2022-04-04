@@ -560,81 +560,93 @@ for instance:
 These are all known parts that are used for modding ships.
 
 ```xml
-<ware ware="modpart_enginefuelinjector_t1" amount="999"/>
-<ware ware="modpart_enginefuelinjector_t2" amount="999"/>
-<ware ware="modpart_enginefuelinjector_t3" amount="999"/>
-<ware ware="modpart_extendedfuelcontainer" amount="999"/>
-<ware ware="modpart_highenergycatalyst" amount="999"/>
-<ware ware="modpart_nividiumcrystallite" amount="999"/>
-<ware ware="modpart_nividiumoxide" amount="999"/>
-<ware ware="modpart_shieldgeneratorcoil_t1" amount="999"/>
-<ware ware="modpart_shieldgeneratorcoil_t2" amount="999"/>
-<ware ware="modpart_shieldgeneratorcoil_t3" amount="999"/>
-<ware ware="modpart_shipnanoweave_t1" amount="999"/>
-<ware ware="modpart_shipnanoweave_t2" amount="999"/>
-<ware ware="modpart_shipnanoweave_t3" amount="999"/>
-<ware ware="modpart_tuningsoftware" amount="999"/>
-<ware ware="modpart_weaponchamber_t1" amount="999"/>
-<ware ware="modpart_weaponchamber_t2" amount="999"/>
-<ware ware="modpart_weaponchamber_t3" amount="999"/>
+<ware ware="modpart_enginefuelinjector_t1" amount="9999"/>
+<ware ware="modpart_enginefuelinjector_t2" amount="9999"/>
+<ware ware="modpart_enginefuelinjector_t3" amount="9999"/>
+<ware ware="modpart_extendedfuelcontainer" amount="9999"/>
+<ware ware="modpart_highenergycatalyst" amount="9999"/>
+<ware ware="modpart_nividiumcrystallite" amount="9999"/>
+<ware ware="modpart_nividiumoxide" amount="9999"/>
+<ware ware="modpart_shieldgeneratorcoil_t1" amount="9999"/>
+<ware ware="modpart_shieldgeneratorcoil_t2" amount="9999"/>
+<ware ware="modpart_shieldgeneratorcoil_t3" amount="9999"/>
+<ware ware="modpart_shipnanoweave_t1" amount="9999"/>
+<ware ware="modpart_shipnanoweave_t2" amount="9999"/>
+<ware ware="modpart_shipnanoweave_t3" amount="9999"/>
+<ware ware="modpart_tuningsoftware" amount="9999"/>
+<ware ware="modpart_weaponchamber_t1" amount="9999"/>
+<ware ware="modpart_weaponchamber_t2" amount="9999"/>
+<ware ware="modpart_weaponchamber_t3" amount="9999"/>
 ```
 
-### Modding resources
+### Inventory & crafting resources
 
-These are additional resources that are used when modding ships.
+These are other inventory items used for crafting, as well as the 
+objects the player can use, like the repair laser for the space suit.
 
 ```xml
-<ware ware="inv_advancedtargetingmodule" amount="69"/>
-<ware ware="inv_agidevice_01" amount="141"/>
-<ware ware="inv_agidevice_02" amount="102"/>
-<ware ware="inv_agidevice_03" amount="16"/>
-<ware ware="inv_algaescrubber" amount="30"/>
-<ware ware="inv_antimatter_injection_sensor" amount="4"/>
-<ware ware="inv_argnusteak" amount="45"/>
-<ware ware="inv_bandages" amount="25"/>
-<ware ware="inv_carbonfilter" amount="29"/>
-<ware ware="inv_charged_particle_regulator"/>
-<ware ware="inv_crystal_01" amount="11"/>
-<ware ware="inv_crystal_02" amount="2"/>
-<ware ware="inv_crystal_03" amount="11"/>
-<ware ware="inv_crystalbit" amount="19"/>
-<ware ware="inv_damagedsingularityengine" amount="23"/>
-<ware ware="inv_decryptionmodule" amount="114"/>
-<ware ware="inv_encrypted_contract"/>
-<ware ware="inv_finemeal" amount="3"/>
-<ware ware="inv_firstaidkit"/>
-<ware ware="inv_fluxcapacitor" amount="20"/>
-<ware ware="inv_hallucinogenics" amount="8"/>
-<ware ware="inv_herbicide" amount="4"/>
-<ware ware="inv_hydraulicpump" amount="15"/>
-<ware ware="inv_interfaceunit" amount="4176"/>
-<ware ware="inv_kyondevice_03" amount="2"/>
-<ware ware="inv_magneticmaterial" amount="123"/>
-<ware ware="inv_majaglit" amount="3345"/>
-<ware ware="inv_microgimble" amount="54"/>
-<ware ware="inv_micromotor" amount="69"/>
-<ware ware="inv_mixedfruit" amount="40"/>
-<ware ware="inv_modulartrigger" amount="41"/>
-<ware ware="inv_needle" amount="55"/>
-<ware ware="inv_programmablefieldarray" amount="255"/>
-<ware ware="inv_rapidsandfilter" amount="36"/>
-<ware ware="inv_rarespices" amount="131"/>
-<ware ware="inv_remotedetonator" amount="65"/>
-<ware ware="inv_salvagedelectronics" amount="6"/>
-<ware ware="inv_securecontainer" amount="95"/>
-<ware ware="inv_securitybypasssystem" amount="25"/>
-<ware ware="inv_securitydecryptionsystem" amount="133"/>
-<ware ware="inv_securityslicer" amount="21"/>
-<ware ware="inv_sedative" amount="25"/>
-<ware ware="inv_seminar_management_0" amount="15"/>
-<ware ware="inv_seminar_management_1" amount="9"/>
-<ware ware="inv_seminar_management_2" amount="2"/>
-<ware ware="inv_seminar_piloting_0" amount="32"/>
-<ware ware="inv_seminar_piloting_1" amount="10"/>
-<ware ware="inv_spaceflyeggs" amount="672"/>
+<ware ware="weapon_gen_spacesuit_repairlaser_01_mk1"/>
+<ware ware="software_scannerobjectmk3"/>
+<ware ware="engine_gen_spacesuit_01_mk2"/>
+<ware ware="weapon_gen_spacesuit_laser_01_mk1"/>
+<ware ware="weapon_gen_spacesuit_demolition_01_mk1"/>
+<ware ware="weapon_gen_spacesuit_laser_02_mk1"/>
 <ware ware="inv_timewarp"/>
-<ware ware="inv_unmarked_black_box"/>
-<ware ware="inv_unstablecrystal" amount="351"/>
+
+<ware ware="bomb_player_limpet_emp_01_mk1" amount="9999"/>
+<ware ware="inv_advancedtargetingmodule" amount="9999"/>
+<ware ware="inv_agidevice_01" amount="9999"/>
+<ware ware="inv_agidevice_02" amount="9999"/>
+<ware ware="inv_agidevice_03" amount="9999"/>
+<ware ware="inv_algaescrubber" amount="9999"/>
+<ware ware="inv_antimatter_injection_sensor" amount="9999"/>
+<ware ware="inv_argnusteak" amount="9999"/>
+<ware ware="inv_bandages" amount="9999"/>
+<ware ware="inv_carbonfilter" amount="9999"/>
+<ware ware="inv_crystalbit" amount="9999"/>
+<ware ware="inv_crystal_01" amount="9999"/>
+<ware ware="inv_crystal_02" amount="9999"/>
+<ware ware="inv_crystal_03" amount="9999"/>
+<ware ware="inv_damagedsingularityengine" amount="9999"/>
+<ware ware="inv_decryptionmodule" amount="9999"/>
+<ware ware="inv_finemeal" amount="9999"/>
+<ware ware="inv_fluxcapacitor" amount="9999"/>
+<ware ware="inv_hallucinogenics" amount="9999"/>
+<ware ware="inv_herbicide" amount="9999"/>
+<ware ware="inv_hydraulicpump" amount="9999"/>
+<ware ware="inv_interfaceunit" amount="2696"/>
+<ware ware="inv_interfaceunit" amount="9999"/>
+<ware ware="inv_kyondevice_03" amount="9999"/>
+<ware ware="inv_magneticmaterial" amount="9999"/>
+<ware ware="inv_majaglit" amount="9999"/>
+<ware ware="inv_microgimble" amount="9999"/>
+<ware ware="inv_micromotor" amount="9999"/>
+<ware ware="inv_mixedfruit" amount="9999"/>
+<ware ware="inv_modulartrigger" amount="9999"/>
+<ware ware="inv_needle" amount="9999"/>
+<ware ware="inv_processing_panel_12G" amount="9999"/>
+<ware ware="inv_processing_panel_19L" amount="9999"/>
+<ware ware="inv_processing_panel_46B" amount="9999"/>
+<ware ware="inv_processing_panel_7A" amount="9999"/>
+<ware ware="inv_processing_panel_8X" amount="9999"/>
+<ware ware="inv_programmablefieldarray" amount="9999"/>
+<ware ware="inv_rapidsandfilter" amount="9999"/>
+<ware ware="inv_rarespices" amount="9999"/>
+<ware ware="inv_remotedetonator" amount="9999"/>
+<ware ware="inv_salvagedelectronics" amount="9999"/>
+<ware ware="inv_securecontainer" amount="9999"/>
+<ware ware="inv_securitybypasssystem" amount="9999"/>
+<ware ware="inv_securitydecryptionsystem" amount="9999"/>
+<ware ware="inv_securityslicer" amount="9999"/>
+<ware ware="inv_sedative" amount="9999"/>
+<ware ware="inv_spaceflyeggs" amount="9999"/>
+<ware ware="inv_unstablecrystal" amount="9999"/>
+
+<ware ware="inv_seminar_management_0" amount="9999"/>
+<ware ware="inv_seminar_management_1" amount="9999"/>
+<ware ware="inv_seminar_management_2" amount="9999"/>
+<ware ware="inv_seminar_piloting_0" amount="9999"/>
+<ware ware="inv_seminar_piloting_1" amount="9999"/>
 ```
 
 # Knowledgebase
