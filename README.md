@@ -663,6 +663,12 @@ Items detected by the scan will display colored pulse hits in space.
 - Blue: Wrecks with contents, data vaults
 - Gray: Asteroids, empty wrecks, stations
 
+## Teleportation
+
+Needs to be researched.
+
+> When an ally reaches 27 reputation, it becomes possible to teleport to any of their stations.
+
 ## Ship stuck in something
 
 ### Method 1: Let an NPC do it
