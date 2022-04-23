@@ -55,6 +55,8 @@ Installing mods using a workshop in an NPC station, costs money for each install
 
 > This will also work even if the wharf or shipyard is not capable of actually building ships.
 
+> Workshops are size-depedent, which means that for L and XL-sized ships, a shipyard's workshop must be used.
+
 # Cheats
 
 ## Savegame editing
