@@ -57,6 +57,17 @@ Installing mods using a workshop in an NPC station, costs money for each install
 
 > Workshops are size-depedent, which means that for L and XL-sized ships, a shipyard's workshop must be used.
 
+## Quick station building
+
+The station builder has a handy feature hidden under the settings button (the gears icon): "Shuffle modules".
+
+When building a new station, just drop all modules you wish to build, without connecting them. When all modules have been placed, click the shuffle button - it will automatically create connections between the modules. Each time you click on it, a new design is generated.
+
+Drawbacks:
+
+- All modules are shuffled. If you need them to be built in a specific order, this is useless.
+- Connectors are taken from all your available blueprints, which can result in a wild mix. There is no option to use only argon connectors, for example.
+
 # Cheats
 
 ## Savegame editing
