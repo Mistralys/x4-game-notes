@@ -47,6 +47,14 @@ Ship Menu > Ore collector drone > Change status to "Armed"
   > NOTE: It seems the ore collector drone is not always needed,
     since the ship's tractor beam (`O` key) works as well.
 
+# Gameplay tips and howtos
+
+## Free ship mods
+
+Installing mods using a workshop in an NPC station, costs money for each installation. However, using a workshop on a player owned station does not cost anything - except the required materials. 
+
+> This will also work even if the wharf or shipyard is not capable of actually building ships.
+
 # Cheats
 
 ## Savegame editing
