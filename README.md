@@ -4,7 +4,7 @@
 
 - Travel mode: `Shift + 1` 
 - Scan mode: `Shift + 2` 
-- Long scan mode: `Shift + 3` 
+- Long scan mode: `Shift + 3` - Hold `L` to scan
 - Close menu: `Del`
 - Active ship menu: `Enter`
 - Afterburner: `Tab`
@@ -19,6 +19,7 @@
 - Pick up items: `O` (tractor beam)
 - Flight Assist: `CTRL+Space`
 - Shoot: `Space`
+- Go back to ship: `SHIFT+D` (while on station)
 
 ## Targeting
 
