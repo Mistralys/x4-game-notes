@@ -20,6 +20,7 @@
 - Flight Assist: `CTRL+Space`
 - Shoot: `Space`
 - Go back to ship: `SHIFT+D` (while on station)
+- Pause: Keyboard layout dependent; best to remap it.
 
 ## Targeting
 
@@ -98,9 +99,7 @@ money="xxxx"
 
 Where `xxxx` is the amount of money. 
 
-
-
-It's important to replace them all, otherwise
+*It's important to replace them all*, otherwise
 the change will not be applied correctly.
 
 ## Faction relations
