@@ -61,7 +61,7 @@ In essence, being in a system has the potential to slow things down significantl
 
 I usually choose a nice spot in a safe system out of the way with minimal activity to teleport to when I'm not flying around in first person.
 
-> Tip: An ideal system for example is _Hearty of Acrimony - The Boneyard_ once the Split Vendetta mission has progressed a bit.
+> Tip: An ideal system for example is _Heart of Acrimony - The Boneyard_ once the Split Vendetta mission has progressed a bit.
 
 ## Free ship mods
 
