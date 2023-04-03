@@ -51,6 +51,18 @@ Ship Menu > Ore collector drone > Change status to "Armed"
 
 # Gameplay tips and howtos
 
+## Minimize player presence
+
+The game is built so the physics simulation system (collisions, inertia of ships, etc...) is enabled only in the system where the player is located. Doing this for all systems would not be feasible performance-wise. In practice, this means that the player has a massive impact on how things happen in a given system, solely by being there. 
+
+Take docking, for example: When the player is not present, ships will simply fly through the station's geometry to access the target docking port. When the player is present, all ships in the system will use the collision detection, so docking will take substantially longer. Combat is also heavily affected, switching from a pure numbers game (their total power vs your total power) to fully simulated projectile trajectories and ship movements.
+
+In essence, being in a system has the potential to slow things down significantly, or even disrupt them. I don't usually think about it too much, but I do choose where I stay when I know I am not going to be moving around much, to keep my impact low. For example, in one game I set up my largest manufacturing empire in Grand Exchange where the HQ initially appears. There is so much activity there now, that teleporting into the system has become problematic (think of all the ships in the asteroid belts suddenly all doing collision checks).
+
+I usually choose a nice spot in a safe system out of the way with minimal activity to teleport to when I'm not flying around in first person.
+
+> Tip: An ideal system for example is _Hearty of Acrimony - The Boneyard_ once the Split Vendetta mission has progressed a bit.
+
 ## Free ship mods
 
 Installing mods using a workshop in an NPC station, costs money for each installation. However, using a workshop on a player owned station does not cost anything - except the required materials. 
