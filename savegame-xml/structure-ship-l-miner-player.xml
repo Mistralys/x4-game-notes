@@ -1,0 +1,762 @@
+<connection connection="ships">
+    <component class="ship_l" macro="ship_par_l_miner_liquid_02_a_macro" connection="space" attackmethod="lowattentionattack" attacktime="942641.861" shipattacktime="942641.861" intentionalattacktime="942641.861" name="SM AHO Graphene Forge - Chthonios E (G)" code="OXT-880" owner="player" knownto="player" variation="0" spawntime="127529.443" thruster="thruster_gen_l_allround_01_mk2_macro" id="[0xb956]">
+        <listeners>
+            <listener listener="[0xb96c]" event="killed"/>
+            <listener listener="[0xb96d]" event="killed"/>
+            <listener listener="[0xb971]" event="boostdisabled"/>
+            <listener listener="[0xb972]" event="boostdisabled"/>
+            <listener listener="[0xb970]" event="boostdisabled"/>
+            <listener listener="[0xbf29]" event="killed"/>
+            <listener listener="[0xb96a]" event="killed"/>
+            <listener listener="[0x49ba7]" event="killed tempcomponentremoved"/>
+        </listeners>
+        <events>
+            <event event="updateengineparameters" time="1368395.925"/>
+            <event event="updatebuild" time="1368449.211"/>
+        </events>
+        <movement forceposition="0" class="navigation">
+            <position>
+                <read space="[0x1c988a]" avoidbigobjects="1" avoidsmallobjects="1">
+                    <offset>
+                        <position x="7872.008" y="-3981.062" z="49283.086"/>
+                        <rotation yaw="81.71024"/>
+                    </offset>
+                    <velocity/>
+                    <acceleration/>
+                </read>
+                <write space="[0x1c988a]" avoidbigobjects="1" avoidsmallobjects="1">
+                    <offset>
+                        <position x="7872.008" y="-3981.062" z="49283.086"/>
+                        <rotation yaw="81.71024"/>
+                    </offset>
+                    <velocity/>
+                    <acceleration/>
+                </write>
+            </position>
+            <targetpoints/>
+            <flightcontrolmodel type="linear"/>
+            <transition/>
+        </movement>
+        <offset>
+            <position x="-5882.086" y="-4035.927" z="47279.09"/>
+            <rotation yaw="80.89945" pitch="0.0485268"/>
+        </offset>
+        <render>
+            <parameter value="4279113491" name="letter_color" type="color"/>
+            <parameter value="4280427034" name="number_color" type="color"/>
+            <parameter value="assets\fx\gui\textures\factions\faction_player" name="diffuse_map" type="texture"/>
+            <parameter value="assets\fx\gui\textures\factions\faction_player_normal" name="normal_map" type="texture"/>
+            <parameter value="assets\fx\gui\textures\factions\faction_player_glow" name="color_glow_map" type="texture"/>
+        </render>
+        <modification>
+            <paint ware="paintmod_0100" generated="1"/>
+        </modification>
+        <gravidar/>
+        <subordinate group="1"/>
+        <orders>
+            <order id="[0x4fd]" default="1" order="MiningRoutine">
+                <param name="warebasket" type="list" value="46361"/>
+                <param name="range" type="component" value="[0xb8a9]"/>
+                <param name="minbuy" type="integer"/>
+                <param name="maxbuy" type="integer" value="5"/>
+                <param name="minsell" type="integer"/>
+                <param name="maxsell" type="integer"/>
+                <param name="deepspace" type="integer"/>
+                <param name="resourcescout" type="integer"/>
+                <param name="duration" type="time"/>
+                <param name="endtime" type="time"/>
+                <param name="effectiveskill" type="integer" value="38"/>
+                <param name="preferownspace" type="integer"/>
+                <param name="debugchance" type="integer"/>
+                <param name="debugchance2" type="integer"/>
+            </order>
+            <order id="[0x49f8c]" order="MiningCollect" state="started" temp="1">
+                <param name="destination" type="list" value="94201"/>
+                <param name="ware" type="ware" value="methane"/>
+                <param name="secwares" type="list" value="94106"/>
+                <param name="internalorder" type="integer" value="1"/>
+                <param name="debugchance" type="integer"/>
+                <param name="time_started"/>
+                <param name="debug_eco" type="integer"/>
+            </order>
+        </orders>
+        <software wares="software_dockmk2 software_scannerlongrangemk2 software_scannerobjectmk2 software_targetmk1 software_trademk1"/>
+        <control>
+            <post id="defence" component="[0xb96c]"/>
+            <post id="tradecomputer"/>
+            <post id="aipilot" component="[0xb96a]"/>
+            <post id="playerpilot"/>
+            <post id="engineer" component="[0xb96d]"/>
+        </control>
+        <people>
+            <person macro="character_paranid_generic_02_macro" role="service">
+                <npcseed seed="1727874716011255526"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_pilot_02_macro" role="service">
+                <npcseed seed="6108328904542675211"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_02_macro" role="service">
+                <npcseed seed="5900494685154946911"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_01_macro" role="service">
+                <npcseed seed="14480748424440879244"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_02_macro" role="service">
+                <npcseed seed="17720388080271944804"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_02_macro" role="service">
+                <npcseed seed="2970712233382530895"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_01_macro" role="service">
+                <npcseed seed="16677200943163521086"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_pilot_02_macro" role="service">
+                <npcseed seed="1387617555465155475"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_02_macro" role="service">
+                <npcseed seed="16543929804632543960"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_01_macro" role="service">
+                <npcseed seed="9903331719099869640"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_pilot_02_macro" role="service">
+                <npcseed seed="2462650403450276684"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_pilot_02_macro" role="service">
+                <npcseed seed="12420670221111702043"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_pilot_02_macro" role="service">
+                <npcseed seed="16240812494501979574"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_02_macro" role="service">
+                <npcseed seed="14060581997165535474"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_pilot_02_macro" role="service">
+                <npcseed seed="10443136683454013617"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_02_macro" role="service">
+                <npcseed seed="4551321979466717152"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_01_macro" role="service">
+                <npcseed seed="1623402752202209755"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_02_macro" role="service">
+                <npcseed seed="1210737549245934322"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_pilot_02_macro" role="service">
+                <npcseed seed="8637676010052766296"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_01_macro" role="service">
+                <npcseed seed="16880294405922916645"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_01_macro" role="service">
+                <npcseed seed="13463887699141295912"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_02_macro" role="service">
+                <npcseed seed="14686707948764916340"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_02_macro" role="service">
+                <npcseed seed="17780898860338445535"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_01_macro" role="service">
+                <npcseed seed="7746607690250340359"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_01_macro" role="service">
+                <npcseed seed="1021207581035451053"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_02_macro" role="service">
+                <npcseed seed="12793314113831292879"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_02_macro" role="service">
+                <npcseed seed="8462617428663092524"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_01_macro" role="service">
+                <npcseed seed="4109478787051004921"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_02_macro" role="service">
+                <npcseed seed="3565932473229385941"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_01_macro" role="service">
+                <npcseed seed="10476726172905909934"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_01_macro" role="service">
+                <npcseed seed="14781164518199094601"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_01_macro" role="service">
+                <npcseed seed="14083616399403122583"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_pilot_02_macro" role="service">
+                <npcseed seed="11802476067439542113"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_01_macro" role="service">
+                <npcseed seed="18270972339315100778"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_02_macro" role="service">
+                <npcseed seed="4029645134045870281"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_pilot_02_macro" role="service">
+                <npcseed seed="9674156699858701665"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_pilot_02_macro" role="service">
+                <npcseed seed="17999028012272417568"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_01_macro" role="service">
+                <npcseed seed="9257387046825133990"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_02_macro" role="service">
+                <npcseed seed="2986210988298464472"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_01_macro" role="service">
+                <npcseed seed="1784837261187538578"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+            <person macro="character_paranid_generic_02_macro" role="service">
+                <npcseed seed="12990079136098629532"/>
+                <skill type="boarding" value="15"/>
+                <skill type="engineering" value="15"/>
+                <skill type="management" value="15"/>
+                <skill type="morale" value="15"/>
+                <skill type="piloting" value="15"/>
+            </person>
+        </people>
+        <shields>
+            <group group="group_back_mid_mid"/>
+            <group group="group_front_up_right"/>
+            <group group="group_back_down_mid"/>
+            <group group="group_front_down_mid"/>
+        </shields>
+        <ammunition>
+            <available>
+                <item macro="countermeasure_flares_01_macro" amount="20"/>
+                <item macro="ship_gen_xs_repairdrone_01_a_macro" amount="2"/>
+                <item macro="ship_gen_s_miningdrone_liquid_01_a_macro" amount="6"/>
+                <item macro="ship_gen_xs_cargodrone_empty_01_a_macro" amount="2"/>
+            </available>
+        </ammunition>
+        <weapongroups>
+            <primary active="0"/>
+            <secondary active="0"/>
+        </weapongroups>
+        <locked nextchecktime="1350648.927"/>
+        <economylog cargo="136332.018" offer="136332.018">
+            <cargo ware="methane" v="2026"/>
+        </economylog>
+        <account id="[0x108]" amount="9793997968"/>
+        <connections>
+            <connection connection="con_shipstorage_xs_01" macro="con_shipstorage_xs_01">
+                <component class="dockingbay" macro="shipstorage_gen_xs_01_macro" connection="object" id="[0xb957]">
+                    <offset default="1"/>
+                </component>
+            </connection>
+            <connection connection="con_storage01" macro="con_storage01">
+                <component class="storage" macro="storage_par_l_miner_liquid_02_a_macro" connection="shipconnection" id="[0xb958]">
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_player" name="diffuse_map" type="texture"/>
+                        <parameter value="assets\fx\gui\textures\factions\faction_player_normal" name="normal_map" type="texture"/>
+                        <parameter value="assets\fx\gui\textures\factions\faction_player_glow" name="color_glow_map" type="texture"/>
+                    </render>
+                    <cargo>
+                        <ware ware="methane" amount="2638"/>
+                    </cargo>
+                </component>
+            </connection>
+            <connection connection="con_shield_l_01">
+                <component class="shieldgenerator" macro="shield_par_l_standard_01_mk2_macro" connection="small_con_shieldgen_01" id="[0xb959]">
+                    <offset>
+                        <position y="-62.898" z="-249.516"/>
+                        <rotation yaw="-179.99989" roll="-179.99989"/>
+                    </offset>
+                </component>
+            </connection>
+            <connection connection="con_shield_m_04">
+                <component class="shieldgenerator" macro="shield_par_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0xb95a]">
+                    <offset>
+                        <position x="4.298" y="3.583" z="-347.808"/>
+                        <rotation pitch="12.33662"/>
+                    </offset>
+                </component>
+            </connection>
+            <connection connection="con_shield_m_07">
+                <component class="shieldgenerator" macro="shield_par_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0xb95b]">
+                    <offset>
+                        <position x="-4.362" y="3.583" z="-347.808"/>
+                        <rotation pitch="12.3366"/>
+                    </offset>
+                </component>
+            </connection>
+            <connection connection="con_shield_m_01">
+                <component class="shieldgenerator" macro="shield_par_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0xb95c]">
+                    <offset>
+                        <position x="31.965" y="16.201" z="309.548"/>
+                        <rotation yaw="53.77899" pitch="-13.96866"/>
+                    </offset>
+                </component>
+            </connection>
+            <connection connection="con_shield_m_02">
+                <component class="shieldgenerator" macro="shield_par_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0xb95d]">
+                    <offset>
+                        <position y="-64.872" z="-287.817"/>
+                        <rotation yaw="-90.00005" roll="-179.99989"/>
+                    </offset>
+                </component>
+            </connection>
+            <connection connection="con_shield_m_03">
+                <component class="shieldgenerator" macro="shield_par_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0xb95e]">
+                    <offset>
+                        <position y="-15.445" z="294.539"/>
+                        <rotation yaw="179.99989" pitch="-2.59419" roll="-179.99989"/>
+                    </offset>
+                </component>
+            </connection>
+            <connection connection="commander" id="[0xb95f]">
+                <connected connection="[0xbf2b]"/>
+            </connection>
+            <connection connection="con_turret_m_06">
+                <component class="turret" macro="turret_par_m_gatling_02_mk1_macro" connection="con_gatling_turret" mode="attackenemies" lastshottime="127529.443" ammunition="15" id="[0xb960]">
+                    <offset>
+                        <position x="16.399" y="-16.125" z="285.529"/>
+                        <rotation yaw="-89.99995" roll="175.37781"/>
+                    </offset>
+                    <render>
+                        <parameter flags="on|override" owner="[0xb960]" name="mat_dynamicglow" type="glow">
+                            <persistent start="127710.136" duration="1.22158" interval="0"/>
+                        </parameter>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_turret_m_05">
+                <component class="turret" macro="turret_par_m_gatling_02_mk1_macro" connection="con_gatling_turret" mode="attackenemies" lastshottime="127529.443" ammunition="15" id="[0xb961]">
+                    <offset>
+                        <position x="-16.399" y="-16.125" z="285.529"/>
+                        <rotation yaw="-89.99995" roll="175.37781"/>
+                    </offset>
+                    <render>
+                        <parameter flags="on|override" owner="[0xb961]" name="mat_dynamicglow" type="glow">
+                            <persistent start="127710.136" duration="2.62146" interval="0"/>
+                        </parameter>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_turret_m_04">
+                <component class="turret" macro="turret_par_m_gatling_02_mk1_macro" connection="con_gatling_turret" mode="attackenemies" lastshottime="127529.443" ammunition="15" id="[0xb962]">
+                    <offset>
+                        <position x="11.648" y="-64.364" z="-304.053"/>
+                        <rotation roll="167.79607"/>
+                    </offset>
+                    <render>
+                        <parameter flags="on|override" owner="[0xb962]" name="mat_dynamicglow" type="glow">
+                            <persistent start="127710.136" duration="2.12377" interval="0"/>
+                        </parameter>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_turret_m_03">
+                <component class="turret" macro="turret_par_m_gatling_02_mk1_macro" connection="con_gatling_turret" attackmethod="lowattentionattack" attacktime="936389.165" shipattacktime="936389.165" intentionalattacktime="936389.165" mode="attackenemies" lastshottime="127529.443" ammunition="15" id="[0xb963]">
+                    <offset>
+                        <position x="-11.298" y="-65.064" z="-304.053"/>
+                        <rotation roll="-167.79594"/>
+                    </offset>
+                    <render>
+                        <parameter flags="on|override" owner="[0xb963]" name="mat_dynamicglow" type="glow">
+                            <persistent start="127710.136" duration="1.34316" interval="0"/>
+                        </parameter>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_turret_m_02">
+                <component class="turret" macro="turret_par_m_gatling_02_mk1_macro" connection="con_gatling_turret" mode="attackenemies" lastshottime="127529.443" ammunition="15" id="[0xb964]">
+                    <offset>
+                        <position x="40.097" y="16.79" z="298.638"/>
+                        <rotation yaw="53.779" pitch="-13.96866"/>
+                    </offset>
+                    <render>
+                        <parameter flags="on|override" owner="[0xb964]" name="mat_dynamicglow" type="glow">
+                            <persistent start="127710.136" duration="1.22798" interval="0"/>
+                        </parameter>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_turret_m_01">
+                <component class="turret" macro="turret_par_m_gatling_02_mk1_macro" connection="con_gatling_turret" mode="attackenemies" lastshottime="127529.443" ammunition="15" id="[0xb965]">
+                    <offset>
+                        <position x="23.893" y="16.131" z="320.467"/>
+                        <rotation yaw="53.78724" pitch="-12.96157" roll="-0.754808"/>
+                    </offset>
+                    <render>
+                        <parameter flags="on|override" owner="[0xb965]" name="mat_dynamicglow" type="glow">
+                            <persistent start="127710.136" duration="1.7969" interval="0"/>
+                        </parameter>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_dockarea_par_l_miner_solid_01" macro="con_dockarea_par_l_miner_solid_01">
+                <component class="dockarea" macro="dockarea_par_l_miner_solid_01_macro" connection="connection01" id="[0xb966]">
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_player" name="diffuse_map" type="texture"/>
+                        <parameter value="assets\fx\gui\textures\factions\faction_player_normal" name="normal_map" type="texture"/>
+                        <parameter value="assets\fx\gui\textures\factions\faction_player_glow" name="color_glow_map" type="texture"/>
+                    </render>
+                    <connections>
+                        <connection connection="connectionfor_dockingbay_arg_s_01_macro1" macro="connectionfor_dockingbay_arg_s_01_macro1">
+                            <component class="dockingbay" macro="dockingbay_arg_s_01_macro" connection="position" id="[0xb967]">
+                                <offset default="1"/>
+                                <render>
+                                    <parameter value="assets\fx\gui\textures\factions\faction_player" name="diffuse_map" type="texture"/>
+                                    <parameter value="assets\fx\gui\textures\factions\faction_player_normal" name="normal_map" type="texture"/>
+                                    <parameter value="assets\fx\gui\textures\factions\faction_player_glow" name="color_glow_map" type="texture"/>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="connectionfor_dockingbay_arg_s_01_macro" macro="connectionfor_dockingbay_arg_s_01_macro">
+                            <component class="dockingbay" macro="dockingbay_arg_s_01_macro" connection="position" id="[0xb968]">
+                                <offset default="1"/>
+                                <render>
+                                    <parameter value="assets\fx\gui\textures\factions\faction_player" name="diffuse_map" type="texture"/>
+                                    <parameter value="assets\fx\gui\textures\factions\faction_player_normal" name="normal_map" type="texture"/>
+                                    <parameter value="assets\fx\gui\textures\factions\faction_player_glow" name="color_glow_map" type="texture"/>
+                                </render>
+                            </component>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="con_cockpit" macro="con_cockpit">
+                <component class="cockpit" macro="bridge_par_l_01_macro" connection="con_cockpit" id="[0xb969]">
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_player" name="diffuse_map" type="texture"/>
+                        <parameter value="assets\fx\gui\textures\factions\faction_player_normal" name="normal_map" type="texture"/>
+                        <parameter value="assets\fx\gui\textures\factions\faction_player_glow" name="color_glow_map" type="texture"/>
+                    </render>
+                    <connections>
+                        <connection connection="entities">
+                            <component class="npc" macro="character_paranid_pilot_02_macro" connection="parentconnection" name="Ramanckolok" code="TAU-053" owner="player" known="1" read="0" page="10302" id="[0xb96a]">
+                                <listeners>
+                                    <listener listener="[0xb956]" event="killed"/>
+                                </listeners>
+                                <offset>
+                                    <position y="-1.34" z="16.241"/>
+                                </offset>
+                                <traits flags="remotecommable">
+                                    <skill type="boarding" value="15"/>
+                                    <skill type="engineering" value="15"/>
+                                    <skill type="management" value="15"/>
+                                    <skill type="morale" value="15"/>
+                                    <skill type="piloting" value="15"/>
+                                </traits>
+                                <entity type="officer" post="aipilot"/>
+                                <blackboard>
+                                    <value name="$StateMachine" type="cue" value="81024"/>
+                                </blackboard>
+                                <npcseed seed="2528552676784224686"/>
+                                <connections>
+                                    <connection connection="roomposition" id="[0xb96b]">
+                                        <connected connection="[0xb96e]"/>
+                                    </connection>
+                                </connections>
+                            </component>
+                        </connection>
+                        <connection connection="entities">
+                            <component class="computer" macro="character_defence_computer_01_macro" connection="parentconnection" code="CQV-938" owner="player" known="1" read="0" id="[0xb96c]">
+                                <listeners>
+                                    <listener listener="[0xb956]" event="killed"/>
+                                </listeners>
+                                <traits flags="remotecommable">
+                                    <skill type="morale" value="6"/>
+                                </traits>
+                                <entity type="officer" post="defence"/>
+                            </component>
+                        </connection>
+                        <connection connection="entities">
+                            <component class="computer" macro="character_engineer_computer_01_macro" connection="parentconnection" code="XEQ-940" owner="player" known="1" read="0" id="[0xb96d]">
+                                <listeners>
+                                    <listener listener="[0xb956]" event="killed"/>
+                                </listeners>
+                                <traits flags="remotecommable">
+                                    <skill type="engineering" value="6"/>
+                                    <skill type="morale" value="6"/>
+                                </traits>
+                                <entity type="officer" post="engineer"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_commander" id="[0xb96e]">
+                            <connected connection="[0xb96b]"/>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="con_shipstorage_s_01" macro="con_shipstorage_s_01">
+                <component class="dockingbay" macro="shipstorage_gen_s_four_macro" connection="object" id="[0xb96f]">
+                    <offset default="1"/>
+                </component>
+            </connection>
+            <connection connection="con_engine_03">
+                <component class="engine" macro="engine_par_l_travel_01_mk1_macro" connection="engineconnection01" id="[0xb970]">
+                    <offset>
+                        <position x="44.261" y="-1.847" z="-353.073"/>
+                    </offset>
+                    <render>
+                        <parameter flags="on|override" owner="[0xb970]" name="mat_dynamicglow" type="glow">
+                            <persistent start="127710.136" duration="1.84679" interval="0"/>
+                        </parameter>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_engine_02">
+                <component class="engine" macro="engine_par_l_travel_01_mk1_macro" connection="engineconnection01" id="[0xb971]">
+                    <offset>
+                        <position y="-35.125" z="-332.535"/>
+                    </offset>
+                    <render>
+                        <parameter flags="on|override" owner="[0xb971]" name="mat_dynamicglow" type="glow">
+                            <persistent start="127710.136" duration="2.94963" interval="0"/>
+                        </parameter>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_engine_01">
+                <component class="engine" macro="engine_par_l_travel_01_mk1_macro" connection="engineconnection01" id="[0xb972]">
+                    <offset>
+                        <position x="-44.261" y="-1.847" z="-353.073"/>
+                    </offset>
+                    <render>
+                        <parameter flags="on|override" owner="[0xb972]" name="mat_dynamicglow" type="glow">
+                            <persistent start="127710.136" duration="1.15652" interval="0"/>
+                        </parameter>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_launchtube_arg_s_01_a" macro="con_launchtube_arg_s_01_a">
+                <component class="dockingbay" macro="launchtube_arg_s_01_macro" connection="connection02" id="[0xb973]">
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_player" name="diffuse_map" type="texture"/>
+                        <parameter value="assets\fx\gui\textures\factions\faction_player_normal" name="normal_map" type="texture"/>
+                        <parameter value="assets\fx\gui\textures\factions\faction_player_glow" name="color_glow_map" type="texture"/>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_launchtube_arg_s_01_b" macro="con_launchtube_arg_s_01_b">
+                <component class="dockingbay" macro="launchtube_arg_s_01_macro" connection="connection02" id="[0xb974]">
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_player" name="diffuse_map" type="texture"/>
+                        <parameter value="assets\fx\gui\textures\factions\faction_player_normal" name="normal_map" type="texture"/>
+                        <parameter value="assets\fx\gui\textures\factions\faction_player_glow" name="color_glow_map" type="texture"/>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_dock_xs" macro="con_dock_xs">
+                <component class="dockingbay" macro="dock_gen_xs_ship_01_macro" connection="connection_component" id="[0xb975]">
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_player" name="diffuse_map" type="texture"/>
+                        <parameter value="assets\fx\gui\textures\factions\faction_player_normal" name="normal_map" type="texture"/>
+                        <parameter value="assets\fx\gui\textures\factions\faction_player_glow" name="color_glow_map" type="texture"/>
+                    </render>
+                </component>
+            </connection>
+        </connections>
+    </component>
+</connection>

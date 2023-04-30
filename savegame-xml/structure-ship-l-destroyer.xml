@@ -1,0 +1,711 @@
+<connection connection="ships">
+    <component class="ship_l" macro="ship_tel_l_destroyer_01_b_macro" connection="space" attacker="[0x5ef7]" attackmethod="lowattentionattack" attacktime="1363808.674" attackership="[0x5ef7]" shipattacktime="1363808.674" intentionalattacktime="1363808.674" code="OAY-127" owner="scaleplate" cover="paranid" level="0.959878" variation="0.3" spawntime="1355998.898" thruster="thruster_gen_l_allround_01_mk3_macro" id="[0x52a3]">
+        <listeners>
+            <listener listener="[0x52bb]" event="killed"/>
+            <listener listener="[0x52bc]" event="killed"/>
+            <listener listener="[0x52b9]" event="killed"/>
+            <listener listener="[0x52c4]" event="boostdisabled"/>
+            <listener listener="[0x52c3]" event="boostdisabled"/>
+            <listener listener="[0x52c2]" event="boostdisabled"/>
+        </listeners>
+        <events>
+            <event event="updateengineparameters" time="1368397.342"/>
+            <event event="updatebuild" time="1368451.901"/>
+        </events>
+        <movement class="navigation">
+            <position>
+                <read space="[0x4b81]" avoidbigobjects="1" avoidsmallobjects="1">
+                    <offset>
+                        <position x="3467.257" y="-6350.125" z="630.255"/>
+                        <rotation yaw="-89.97319"/>
+                    </offset>
+                    <velocity/>
+                    <acceleration/>
+                </read>
+                <write space="[0x4b81]" avoidbigobjects="1" avoidsmallobjects="1">
+                    <offset>
+                        <position x="3467.257" y="-6350.125" z="630.255"/>
+                        <rotation yaw="-89.97319"/>
+                    </offset>
+                    <velocity/>
+                    <acceleration/>
+                </write>
+            </position>
+            <targetpoints/>
+            <flightcontrolmodel type="linear"/>
+            <transition/>
+        </movement>
+        <offset>
+            <position x="49742.988" y="-1524.975" z="-12395.211"/>
+            <rotation yaw="-75.68141" pitch="-3.22645"/>
+        </offset>
+        <render>
+            <parameter value="4279107608" name="letter_color" type="color"/>
+            <parameter value="4279966753" name="number_color" type="color"/>
+            <parameter value="assets\fx\gui\textures\factions\faction_paranid" name="diffuse_map" type="texture"/>
+        </render>
+        <hull value="101922.055"/>
+        <drop ref="ship_large_military"/>
+        <source job="scaleplate_plunderer_l_cluster" seed="16438388935325604407" sector="[0x4b7e]" zone="[0x5df2]" commandeerable="1" class="job"/>
+        <modification>
+            <paint ware="paintmod_0005" generated="1"/>
+        </modification>
+        <gravidar/>
+        <orders>
+            <order id="[0xe9]" default="1" order="Plunder" state="started">
+                <syncpoint state="reached"/>
+                <param name="space" type="component" value="[0x4b79]"/>
+                <param name="base"/>
+                <param name="returntobase" type="integer" value="1"/>
+                <param name="findbaseowner"/>
+                <param name="basebasket" type="list" value="30512"/>
+                <param name="forcetransfer" type="integer"/>
+                <param name="deepspace" type="integer"/>
+                <param name="checkrelation" type="integer"/>
+                <param name="plundermode" type="integer" value="1"/>
+                <param name="range_internal" type="keyword" value="cluster"/>
+                <param name="target"/>
+                <param name="module"/>
+                <param name="movetomodule" type="integer" value="1"/>
+                <param name="debugchance" type="integer"/>
+            </order>
+        </orders>
+        <software wares="software_dockmk2 software_scannerlongrangemk2 software_scannerobjectmk2 software_trademk1"/>
+        <control>
+            <post id="defence" component="[0x52bb]"/>
+            <post id="tradecomputer"/>
+            <post id="aipilot" component="[0x52b9]"/>
+            <post id="playerpilot"/>
+            <post id="engineer" component="[0x52bc]"/>
+        </control>
+        <people>
+            <person macro="character_teladi_female_pilot_01_macro" role="marine">
+                <npcseed seed="2537244340929438302"/>
+                <skill type="boarding" value="2"/>
+                <skill type="morale" value="1"/>
+            </person>
+            <person macro="character_paranid_pilot_02_macro" role="service">
+                <npcseed seed="17927193008343575274"/>
+                <skill type="boarding" value="2"/>
+                <skill type="engineering" value="9"/>
+                <skill type="morale" value="9"/>
+                <skill type="piloting" value="3"/>
+            </person>
+            <person macro="character_teladi_female_generic_01_macro" role="marine">
+                <npcseed seed="13826675517230861147"/>
+                <skill type="boarding" value="2"/>
+                <skill type="management" value="1"/>
+                <skill type="morale" value="1"/>
+            </person>
+            <person macro="character_argon_female_cau_crew_01_macro" role="service">
+                <npcseed seed="6656764638586105982"/>
+                <skill type="boarding" value="1"/>
+                <skill type="engineering" value="3"/>
+                <skill type="morale" value="3"/>
+                <skill type="piloting" value="2"/>
+            </person>
+            <person macro="character_split_female_generic_04_macro" role="marine">
+                <npcseed seed="5753866680007125113"/>
+                <skill type="boarding" value="7"/>
+                <skill type="engineering" value="1"/>
+                <skill type="management" value="1"/>
+                <skill type="morale" value="9"/>
+                <skill type="piloting" value="4"/>
+            </person>
+            <person macro="character_split_male_generic_05_macro" role="marine">
+                <npcseed seed="3851391903457621058"/>
+                <skill type="boarding" value="6"/>
+                <skill type="engineering" value="1"/>
+                <skill type="management" value="1"/>
+                <skill type="morale" value="9"/>
+                <skill type="piloting" value="4"/>
+            </person>
+            <person macro="character_teladi_male_pilot_01_macro" role="marine">
+                <npcseed seed="2912224872601875364"/>
+                <skill type="boarding" value="3"/>
+                <skill type="morale" value="3"/>
+                <skill type="piloting" value="2"/>
+            </person>
+            <person macro="character_teladi_female_pilot_01_macro" role="service">
+                <npcseed seed="7898199273174963890"/>
+                <skill type="engineering" value="7"/>
+                <skill type="management" value="2"/>
+                <skill type="morale" value="9"/>
+                <skill type="piloting" value="4"/>
+            </person>
+            <person macro="character_paranid_generic_02_macro" role="marine">
+                <npcseed seed="15142183350604160325"/>
+                <skill type="boarding" value="9"/>
+                <skill type="management" value="2"/>
+                <skill type="morale" value="8"/>
+                <skill type="piloting" value="1"/>
+            </person>
+            <person macro="character_paranid_pilot_02_macro" role="marine">
+                <npcseed seed="17234032497151269398"/>
+                <skill type="boarding" value="7"/>
+                <skill type="engineering" value="1"/>
+                <skill type="management" value="3"/>
+                <skill type="morale" value="7"/>
+                <skill type="piloting" value="3"/>
+            </person>
+            <person macro="character_paranid_generic_01_macro" role="marine">
+                <npcseed seed="2153574394126453466"/>
+                <skill type="boarding" value="2"/>
+                <skill type="engineering" value="1"/>
+                <skill type="morale" value="2"/>
+                <skill type="piloting" value="1"/>
+            </person>
+            <person macro="character_split_male_generic_03_macro" role="marine">
+                <npcseed seed="15566920503074887074"/>
+                <skill type="boarding" value="7"/>
+                <skill type="engineering" value="1"/>
+                <skill type="management" value="1"/>
+                <skill type="morale" value="9"/>
+                <skill type="piloting" value="6"/>
+            </person>
+            <person macro="character_paranid_generic_02_macro" role="marine">
+                <npcseed seed="11771033080672867267"/>
+                <skill type="boarding" value="11"/>
+                <skill type="engineering" value="3"/>
+                <skill type="management" value="1"/>
+                <skill type="morale" value="12"/>
+                <skill type="piloting" value="4"/>
+            </person>
+            <person macro="character_paranid_generic_01_macro" role="marine">
+                <npcseed seed="3474978098266052305"/>
+                <skill type="boarding" value="6"/>
+                <skill type="engineering" value="1"/>
+                <skill type="morale" value="9"/>
+                <skill type="piloting" value="4"/>
+            </person>
+            <person macro="character_argon_female_asi_pilot_01_macro" role="marine">
+                <npcseed seed="7256484763850390867"/>
+                <skill type="boarding" value="9"/>
+                <skill type="engineering" value="2"/>
+                <skill type="morale" value="8"/>
+                <skill type="piloting" value="6"/>
+            </person>
+            <person macro="character_teladi_female_generic_01_macro" role="marine">
+                <npcseed seed="15185715425475229173"/>
+                <skill type="boarding" value="3"/>
+                <skill type="management" value="1"/>
+                <skill type="morale" value="3"/>
+                <skill type="piloting" value="1"/>
+            </person>
+            <person macro="character_argon_male_afr_pilot_01_macro" role="marine">
+                <npcseed seed="3741996175108683781"/>
+                <skill type="boarding" value="7"/>
+                <skill type="management" value="3"/>
+                <skill type="morale" value="6"/>
+                <skill type="piloting" value="2"/>
+            </person>
+            <person macro="character_paranid_generic_01_macro" role="service">
+                <npcseed seed="15975264350966154541"/>
+                <skill type="engineering" value="5"/>
+                <skill type="management" value="1"/>
+                <skill type="morale" value="3"/>
+                <skill type="piloting" value="1"/>
+            </person>
+            <person macro="character_teladi_female_generic_02_macro" role="marine">
+                <npcseed seed="1444651745817846853"/>
+                <skill type="boarding" value="4"/>
+                <skill type="management" value="2"/>
+                <skill type="morale" value="3"/>
+            </person>
+            <person macro="character_teladi_female_pilot_01_macro" role="marine">
+                <npcseed seed="4007169706067640006"/>
+                <skill type="boarding" value="2"/>
+                <skill type="management" value="2"/>
+                <skill type="morale" value="4"/>
+                <skill type="piloting" value="2"/>
+            </person>
+            <person macro="character_paranid_generic_01_macro" role="marine">
+                <npcseed seed="16693892054432702504"/>
+                <skill type="boarding" value="7"/>
+                <skill type="engineering" value="1"/>
+                <skill type="morale" value="6"/>
+                <skill type="piloting" value="6"/>
+            </person>
+            <person macro="character_paranid_pilot_02_macro" role="marine">
+                <npcseed seed="14095446813910417993"/>
+                <skill type="boarding" value="6"/>
+                <skill type="engineering" value="2"/>
+                <skill type="morale" value="6"/>
+                <skill type="piloting" value="5"/>
+            </person>
+            <person macro="character_paranid_generic_02_macro" role="marine">
+                <npcseed seed="12123205119524968321"/>
+                <skill type="boarding" value="2"/>
+                <skill type="morale" value="3"/>
+                <skill type="piloting" value="2"/>
+            </person>
+            <person macro="character_teladi_female_generic_01_macro" role="marine">
+                <npcseed seed="6146472341196385288"/>
+                <skill type="boarding" value="8"/>
+                <skill type="management" value="3"/>
+                <skill type="morale" value="6"/>
+                <skill type="piloting" value="4"/>
+            </person>
+            <person macro="character_paranid_generic_02_macro" role="marine">
+                <npcseed seed="4232580208788227158"/>
+                <skill type="boarding" value="7"/>
+                <skill type="engineering" value="2"/>
+                <skill type="management" value="1"/>
+                <skill type="morale" value="7"/>
+                <skill type="piloting" value="1"/>
+            </person>
+        </people>
+        <shields>
+            <group group="group_center_bottom_left2"/>
+            <group group="group_center_bottom_right2"/>
+            <group group="group_back_mid_mid"/>
+            <group group="group_center_bottom_left"/>
+            <group group="group_center_top_center"/>
+            <group group="group_center_bottom_right"/>
+            <group group="group_front_top_right"/>
+            <group group="group_front_top_left"/>
+            <group group="group_front_down_mid"/>
+        </shields>
+        <ammunition>
+            <available>
+                <item macro="weapon_gen_mine_02_macro" amount="32"/>
+                <item macro="countermeasure_flares_01_macro" amount="12"/>
+                <item macro="missile_heatseeker_heavy_mk1_macro" amount="232"/>
+                <item macro="ship_gen_xs_lasertower_01_a_macro" amount="31"/>
+                <item macro="ship_gen_xs_repairdrone_01_a_macro" amount="5"/>
+                <item macro="ship_gen_s_lasertower_01_a_macro" amount="15"/>
+                <item macro="weapon_gen_mine_03_macro" amount="16"/>
+                <item macro="ship_gen_xs_cargodrone_empty_01_a_macro" amount="1"/>
+                <item macro="weapon_gen_mine_01_macro" amount="156"/>
+            </available>
+        </ammunition>
+        <weapongroups>
+            <primary active="0">
+                <entry>
+                    <weapon id="[0x52b4]"/>
+                    <weapon id="[0x52b5]"/>
+                </entry>
+            </primary>
+            <secondary active="0"/>
+        </weapongroups>
+        <economylog cargo="1356346.58" offer="1356346.58"/>
+        <connections>
+            <connection connection="con_shipstorage_xs_01" macro="con_shipstorage_xs_01">
+                <component class="dockingbay" macro="shipstorage_gen_xs_01_macro" connection="object" id="[0x52a4]">
+                    <offset default="1"/>
+                </component>
+            </connection>
+            <connection connection="con_storage01" macro="con_storage01">
+                <component class="storage" macro="storage_tel_l_destroyer_01_b_macro" connection="shipconnection" id="[0x52a5]">
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_paranid" name="diffuse_map" type="texture"/>
+                    </render>
+                    <cargo>
+                        <ware ware="dronecomponents" amount="2"/>
+                        <ware ware="quantumtubes" amount="54"/>
+                        <ware ware="hullparts" amount="233"/>
+                    </cargo>
+                </component>
+            </connection>
+            <connection connection="con_shield_m_007">
+                <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x52a6]">
+                    <offset>
+                        <position x="-197.926" y="-96.45" z="-40.585"/>
+                        <rotation roll="-33.29985"/>
+                    </offset>
+                </component>
+            </connection>
+            <connection connection="con_shield_m_008">
+                <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x52a7]">
+                    <offset>
+                        <position x="198.512" y="-96.874" z="-42.959"/>
+                        <rotation roll="33.6"/>
+                    </offset>
+                </component>
+            </connection>
+            <connection connection="con_shield_m_009">
+                <component class="shieldgenerator" macro="shield_par_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x52a8]">
+                    <offset>
+                        <position x="-0.0008261" y="-129.542" z="147.753"/>
+                        <rotation yaw="-179.99995" pitch="-63.38817"/>
+                    </offset>
+                </component>
+            </connection>
+            <connection connection="con_shield_m_011">
+                <component class="shieldgenerator" macro="shield_par_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x52a9]">
+                    <offset>
+                        <position x="112.188" y="64.771" z="147.753"/>
+                        <rotation yaw="120.05061" pitch="26.55337" roll="104.50013"/>
+                    </offset>
+                </component>
+            </connection>
+            <connection connection="con_shield_m_010">
+                <component class="shieldgenerator" macro="shield_par_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x52aa]">
+                    <offset>
+                        <position x="-112.187" y="64.772" z="147.753"/>
+                        <rotation yaw="-120.05062" pitch="26.55336" roll="-104.50017"/>
+                    </offset>
+                </component>
+            </connection>
+            <connection connection="con_shield_l_03">
+                <component class="shieldgenerator" macro="shield_arg_l_standard_01_mk1_macro" connection="small_con_shieldgen_01" id="[0x52ab]">
+                    <offset>
+                        <position x="179.338" y="-121.441" z="-172.542"/>
+                        <rotation yaw="179.99995" roll="149.99997"/>
+                    </offset>
+                </component>
+            </connection>
+            <connection connection="con_shield_l_02">
+                <component class="shieldgenerator" macro="shield_tel_l_standard_01_mk2_macro" connection="small_con_shieldgen_01" id="[0x52ac]">
+                    <offset>
+                        <position x="-180.598" y="-122.158" z="-172.542"/>
+                        <rotation yaw="-179.99995" roll="-153.60002"/>
+                    </offset>
+                </component>
+            </connection>
+            <connection connection="con_shield_l_01">
+                <component class="shieldgenerator" macro="shield_tel_l_standard_01_mk1_macro" connection="small_con_shieldgen_01" id="[0x52ad]">
+                    <offset>
+                        <position y="-109.011" z="53.078"/>
+                        <rotation yaw="-89.99997" roll="-179.99998"/>
+                    </offset>
+                </component>
+            </connection>
+            <connection connection="con_shield_m_04">
+                <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x52ae]">
+                    <offset>
+                        <position x="-234.655" y="-135.462" z="-60.417"/>
+                        <rotation yaw="179.99994" roll="119.9999"/>
+                    </offset>
+                </component>
+            </connection>
+            <connection connection="con_shield_m_05">
+                <component class="shieldgenerator" macro="shield_tel_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x52af]">
+                    <offset>
+                        <position x="-0.0008261" y="270.921" z="-57.293"/>
+                        <rotation yaw="-179.99997"/>
+                    </offset>
+                </component>
+            </connection>
+            <connection connection="con_shield_m_06">
+                <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x52b0]">
+                    <offset>
+                        <position x="234.629" y="-135.5" z="-56.509"/>
+                        <rotation yaw="-179.99995" roll="-120"/>
+                    </offset>
+                </component>
+            </connection>
+            <connection connection="con_shield_m_01">
+                <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk1_macro" connection="con_shieldgen_01" id="[0x52b1]">
+                    <offset>
+                        <position x="222.012" y="128.179" z="157.292"/>
+                        <rotation yaw="164.46143" pitch="8.79197" roll="-61.20186"/>
+                    </offset>
+                </component>
+            </connection>
+            <connection connection="con_shield_m_02">
+                <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk1_macro" connection="con_shieldgen_01" id="[0x52b2]">
+                    <offset>
+                        <position x="-222.012" y="128.179" z="157.292"/>
+                        <rotation yaw="-164.46138" pitch="8.79198" roll="61.20186"/>
+                    </offset>
+                </component>
+            </connection>
+            <connection connection="con_shield_m_03">
+                <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x52b3]">
+                    <offset>
+                        <position y="-256.358" z="157.292"/>
+                        <rotation yaw="-179.99997" pitch="-17.79998" roll="179.99995"/>
+                    </offset>
+                </component>
+            </connection>
+            <connection connection="con_weapon_01">
+                <component class="weapon" macro="weapon_tel_l_destroyer_01_mk1_macro" connection="con_weapon_01" lastshottime="1355998.898" id="[0x52b4]">
+                    <offset>
+                        <position x="113.701" z="248.691"/>
+                        <rotation roll="89.99995"/>
+                    </offset>
+                    <render>
+                        <parameter flags="override" owner="[0x52b4]" name="mat_dynamicglow" type="glow">
+                            <persistent start="1355998.898" interval="0"/>
+                        </parameter>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_weapon_02">
+                <component class="weapon" macro="weapon_tel_l_destroyer_01_mk1_macro" connection="con_weapon_01" lastshottime="1355998.898" id="[0x52b5]">
+                    <offset>
+                        <position x="-113.701" z="248.691"/>
+                        <rotation roll="89.99995"/>
+                    </offset>
+                    <render>
+                        <parameter flags="override" owner="[0x52b5]" name="mat_dynamicglow" type="glow">
+                            <persistent start="1355998.898" interval="0"/>
+                        </parameter>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_turret_l_01">
+                <component class="turret" macro="turret_arg_l_plasma_01_mk1_macro" connection="con_turret_plasma_l" lastshottime="1355998.898" id="[0x52b6]">
+                    <offset>
+                        <position x="-197.926" y="-96.45" z="-160.248"/>
+                        <rotation roll="-33.29994"/>
+                    </offset>
+                    <render>
+                        <parameter flags="override" owner="[0x52b6]" name="mat_dynamicglow" type="glow">
+                            <persistent start="1355998.898" interval="0"/>
+                        </parameter>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_turret_l_02">
+                <component class="missileturret" macro="turret_par_l_guided_01_mk1_macro" connection="con_turret_guided_l" lastshottime="1363683.724" ammunition="1" id="[0x52b7]">
+                    <offset>
+                        <position x="198.512" y="-96.874" z="-164.736"/>
+                        <rotation roll="33.59999"/>
+                    </offset>
+                    <render>
+                        <parameter flags="override" owner="[0x52b7]" name="mat_dynamicglow" type="glow">
+                            <persistent start="1355998.898" interval="0"/>
+                        </parameter>
+                    </render>
+                    <launched macro="missile_heatseeker_heavy_mk1_macro"/>
+                </component>
+            </connection>
+            <connection connection="con_cockpit" macro="con_cockpit">
+                <component class="cockpit" macro="bridge_tel_l_01_macro" connection="con_cockpit" id="[0x52b8]">
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_paranid" name="diffuse_map" type="texture"/>
+                    </render>
+                    <connections>
+                        <connection connection="entities">
+                            <component class="npc" macro="character_teladi_male_generic_01_macro" connection="parentconnection" name="Gustiosanis Ganatos Gustiosanis IX" code="NCP-701" owner="scaleplate" cover="paranid" known="1" read="0" page="10503" id="[0x52b9]">
+                                <listeners>
+                                    <listener listener="[0x52a3]" event="killed"/>
+                                </listeners>
+                                <offset>
+                                    <position x="-0.0201" y="-0.7772" z="9.205"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x52b9]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1355998.898" interval="0"/>
+                                    </parameter>
+                                </render>
+                                <traits flags="remotecommable">
+                                    <skill type="management" value="5"/>
+                                    <skill type="morale" value="5"/>
+                                    <skill type="piloting" value="11"/>
+                                </traits>
+                                <entity type="officer" post="aipilot"/>
+                                <blackboard>
+                                    <value name="$StateMachine" type="cue" value="753199"/>
+                                    <value name="$signaldone" type="string" value="7546"/>
+                                </blackboard>
+                                <npcseed seed="5456243214127956124"/>
+                                <connections>
+                                    <connection connection="roomposition" id="[0x52ba]">
+                                        <connected connection="[0x52bd]"/>
+                                    </connection>
+                                </connections>
+                            </component>
+                        </connection>
+                        <connection connection="entities">
+                            <component class="computer" macro="character_defence_computer_01_macro" connection="parentconnection" code="WVQ-146" owner="scaleplate" cover="paranid" known="1" read="0" id="[0x52bb]">
+                                <listeners>
+                                    <listener listener="[0x52a3]" event="killed"/>
+                                </listeners>
+                                <traits flags="remotecommable">
+                                    <skill type="morale" value="6"/>
+                                </traits>
+                                <entity type="officer" post="defence"/>
+                            </component>
+                        </connection>
+                        <connection connection="entities">
+                            <component class="computer" macro="character_engineer_computer_01_macro" connection="parentconnection" code="IYU-122" owner="scaleplate" cover="paranid" known="1" read="0" id="[0x52bc]">
+                                <listeners>
+                                    <listener listener="[0x52a3]" event="killed"/>
+                                </listeners>
+                                <traits flags="remotecommable">
+                                    <skill type="engineering" value="6"/>
+                                    <skill type="morale" value="6"/>
+                                </traits>
+                                <entity type="officer" post="engineer"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_commander" id="[0x52bd]">
+                            <connected connection="[0x52ba]"/>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="con_dockarea_tel_l_transporter_01" macro="con_dockarea_tel_l_transporter_01">
+                <component class="dockarea" macro="dockarea_tel_l_transporter_01_macro" connection="connection01" id="[0x52be]">
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_paranid" name="diffuse_map" type="texture"/>
+                    </render>
+                    <connections>
+                        <connection connection="connectionfor_dockingbay_arg_s_01_macro1" macro="connectionfor_dockingbay_arg_s_01_macro1">
+                            <component class="dockingbay" macro="dockingbay_arg_s_01_macro" connection="space" id="[0x52bf]">
+                                <offset default="1"/>
+                                <render>
+                                    <parameter value="assets\fx\gui\textures\factions\faction_paranid" name="diffuse_map" type="texture"/>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="connectionfor_dockingbay_arg_s_01_macro" macro="connectionfor_dockingbay_arg_s_01_macro">
+                            <component class="dockingbay" macro="dockingbay_arg_s_01_macro" connection="space" id="[0x52c0]">
+                                <offset default="1"/>
+                                <render>
+                                    <parameter value="assets\fx\gui\textures\factions\faction_paranid" name="diffuse_map" type="texture"/>
+                                </render>
+                            </component>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="con_shipstorage_s_01" macro="con_shipstorage_s_01">
+                <component class="dockingbay" macro="shipstorage_gen_s_01_macro" connection="object" id="[0x52c1]">
+                    <offset default="1"/>
+                </component>
+            </connection>
+            <connection connection="con_engine_03">
+                <component class="engine" macro="engine_arg_l_travel_01_mk1_macro" connection="engineconnection01" id="[0x52c2]">
+                    <offset>
+                        <position x="0.024" y="-205.292" z="119.959"/>
+                    </offset>
+                    <render>
+                        <parameter flags="override" owner="[0x52c2]" name="mat_dynamicglow" type="glow">
+                            <persistent start="1355998.898" interval="0"/>
+                        </parameter>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_engine_02">
+                <component class="engine" macro="engine_arg_l_travel_01_mk1_macro" connection="engineconnection01" id="[0x52c3]">
+                    <offset>
+                        <position x="177.691" y="102.762" z="119.999"/>
+                    </offset>
+                    <render>
+                        <parameter flags="override" owner="[0x52c3]" name="mat_dynamicglow" type="glow">
+                            <persistent start="1355998.898" interval="0"/>
+                        </parameter>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_engine_01">
+                <component class="engine" macro="engine_arg_l_travel_01_mk1_macro" connection="engineconnection01" id="[0x52c4]">
+                    <offset>
+                        <position x="-176.584" y="102.633" z="119.999"/>
+                    </offset>
+                    <render>
+                        <parameter flags="override" owner="[0x52c4]" name="mat_dynamicglow" type="glow">
+                            <persistent start="1355998.898" interval="0"/>
+                        </parameter>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_turret_07">
+                <component class="turret" macro="turret_arg_m_plasma_02_mk1_macro" connection="con_plasma_turret" lastshottime="1355998.898" id="[0x52c5]">
+                    <offset>
+                        <position x="217.033" y="125.304" z="174.633"/>
+                        <rotation yaw="-15.53854" pitch="-8.79197" roll="61.20185"/>
+                    </offset>
+                    <render>
+                        <parameter flags="override" owner="[0x52c5]" name="mat_dynamicglow" type="glow">
+                            <persistent start="1355998.898" interval="0"/>
+                        </parameter>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_turret_06">
+                <component class="turret" macro="turret_arg_m_flak_02_mk1_macro" connection="con_flak_turret" lastshottime="1355998.898" ammunition="9" id="[0x52c6]">
+                    <offset>
+                        <position y="-250.608" z="174.633"/>
+                        <rotation pitch="17.79995" roll="-179.99994"/>
+                    </offset>
+                    <render>
+                        <parameter flags="override" owner="[0x52c6]" name="mat_dynamicglow" type="glow">
+                            <persistent start="1355998.898" interval="0"/>
+                        </parameter>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_turret_05">
+                <component class="turret" macro="turret_arg_m_flak_02_mk1_macro" connection="con_flak_turret" lastshottime="1355998.898" ammunition="9" id="[0x52c7]">
+                    <offset>
+                        <position x="-234.655" y="-135.468" z="-83.157"/>
+                        <rotation roll="-120"/>
+                    </offset>
+                    <render>
+                        <parameter flags="override" owner="[0x52c7]" name="mat_dynamicglow" type="glow">
+                            <persistent start="1355998.898" interval="0"/>
+                        </parameter>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_turret_04">
+                <component class="turret" macro="turret_arg_m_flak_02_mk1_macro" connection="con_flak_turret" lastshottime="1355998.898" ammunition="9" id="[0x52c8]">
+                    <offset>
+                        <position x="-234.665" y="-135.461" z="-36.357"/>
+                        <rotation roll="-120"/>
+                    </offset>
+                    <render>
+                        <parameter flags="override" owner="[0x52c8]" name="mat_dynamicglow" type="glow">
+                            <persistent start="1355998.898" interval="0"/>
+                        </parameter>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_turret_02">
+                <component class="missileturret" macro="turret_par_m_guided_02_mk1_macro" connection="con_guided_turret" lastshottime="1363702.519" ammunition="1" id="[0x52c9]">
+                    <offset>
+                        <position x="234.634" y="-135.49" z="-34.69"/>
+                        <rotation roll="119.99998"/>
+                    </offset>
+                    <render>
+                        <parameter flags="override" owner="[0x52c9]" name="mat_dynamicglow" type="glow">
+                            <persistent start="1355998.898" interval="0"/>
+                        </parameter>
+                    </render>
+                    <launched macro="missile_heatseeker_heavy_mk1_macro"/>
+                </component>
+            </connection>
+            <connection connection="con_turret_09">
+                <component class="turret" macro="turret_arg_m_plasma_02_mk1_macro" connection="con_plasma_turret" lastshottime="1355998.898" id="[0x52ca]">
+                    <offset>
+                        <position x="0.0004647" y="270.918" z="-33.137"/>
+                    </offset>
+                    <render>
+                        <parameter flags="override" owner="[0x52ca]" name="mat_dynamicglow" type="glow">
+                            <persistent start="1355998.898" interval="0"/>
+                        </parameter>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_turret_08">
+                <component class="turret" macro="turret_arg_m_flak_02_mk1_macro" connection="con_flak_turret" lastshottime="1355998.898" ammunition="9" id="[0x52cb]">
+                    <offset>
+                        <position x="-217.033" y="125.304" z="174.633"/>
+                        <rotation yaw="15.53859" pitch="-8.79197" roll="-61.20186"/>
+                    </offset>
+                    <render>
+                        <parameter flags="override" owner="[0x52cb]" name="mat_dynamicglow" type="glow">
+                            <persistent start="1355998.898" interval="0"/>
+                        </parameter>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_dock_xs" macro="con_dock_xs">
+                <component class="dockingbay" macro="dock_gen_xs_ship_01_macro" connection="connection_component" id="[0x52cc]">
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_paranid" name="diffuse_map" type="texture"/>
+                    </render>
+                </component>
+            </connection>
+        </connections>
+    </component>
+</connection>
