@@ -1,0 +1,241 @@
+<log>
+    <entry time="14.0175" category="tips" title="Tip" text="[\033]#FFFFFFFF#The flight school has already taught you the basics of space flight. To learn about missions and other activities, open the 'Tutorials and Help' menu with H and select a tutorial.[\033]X"/>
+    <entry time="340.919" category="news" title="News update: " text="Hatikvah Free League station under construction in Hatikvah's Choice I"/>
+    <entry time="548.165" category="news" title="News update: " text="Antigone Republic mounting defence in Second Contact II Flashpoint"/>
+    <entry time="1786.509" category="news" title="News update: " text="Construction of Hatikvah Free League station completed in Hatikvah's Choice I"/>
+    <entry time="2784.415" category="tips" title="Tip" text="[\033]#FFFFFFFF#You are near a wharf. Wharfs require a constant supply of resources to support the production of S and M-sized ships. Consider deploying a satellite here to receive real-time updates on the station's trade offers.[\033]X[\012][\033]#FFFFFFFF#You may also want to learn how to identify profitable trades using the map. Once you have spoken to, and hired, a relief pilot, open the 'Tutorials and Help' menu with H and start the 'Map: Trading' tutorial.[\033]X"/>
+    <entry time="2859.013" category="news" title="News update: " text="Construction of Antigone Republic station completed in Second Contact II Flashpoint"/>
+    <entry time="3745.188" category="tips" title="Tip" text="[\033]#FFFFFFFF#Inventory items are small things you carry with you whereas cargo is stored in your ships.[\033]X"/>
+    <entry time="3765.207" category="tips" title="Tip" text="[\033]#FFFFFFFF#Illegal items can be sold to black market traders.[\033]X"/>
+    <entry time="3765.207" category="tips" title="Tip" text="[\033]#FFFFFFFF#You picked up spacefly eggs. Using a workbench on a station you can make very expensive spacefly caviar![\033]X"/>
+    <entry time="3978.754" category="news" title="News update: " text="Antigone Republic mounting defence in Second Contact II Flashpoint"/>
+    <entry time="4195.336" category="news" title="News update: " text="Antigone Republic mounting defence in Second Contact II Flashpoint"/>
+    <entry time="4685.869" category="news" title="News update: " text="Antigone Republic mounting defence in Second Contact II Flashpoint"/>
+    <entry time="5640.431" category="news" title="News update: " text="Antigone Republic mounting defence in Second Contact II Flashpoint"/>
+    <entry time="6301.63" category="news" title="News update: " text="Antigone Republic mounting defence in Second Contact II Flashpoint"/>
+    <entry time="6947.976" category="news" title="News update: " text="Teladi Company mounting defence in Ianamus Zura IV"/>
+    <entry time="7410.89" category="news" title="News update: " text="Teladi Company mounting defence in Ianamus Zura IV"/>
+    <entry time="8824.377" category="tips" title="Tip" text="[\033]#FFFFFFFF#There is a Signal Leak nearby, which could contain a hidden mission offer. To learn more about this activity, open the 'Tutorials and Help' menu with H and select the 'Ship Modes' tutorial.[\033]X"/>
+    <entry time="16488.838" category="news" title="News update: " text="Antigone Republic mounting defence in Second Contact II Flashpoint"/>
+    <entry time="20962.569" category="missions" title="Scan Results - FVZ-920" text="Ship wreckage, seemingly belonging to the freighter commanded by Dal Busta, was found close to his last known location. It is possible that the Scale Plate Pact would have attempted to silence him and his crew before taking further hostile actions against the Hatikvah Free League.[\012][\012]There was no clear evidence of escape pods being launched, nor any report of distress calls in the area." faction="Anthea Syrkos" highlighted="1"/>
+    <entry time="21378.429" category="news" title="News update: " text="Holy Order of the Pontifex mounting defence in Holy Vision"/>
+    <entry time="21558.546" category="news" title="News update: " text="Holy Order of the Pontifex mounting defence in Holy Vision"/>
+    <entry time="22115.671" category="missions" title="Cease and Desist" text="You located a Segarian research vessel. However, they are busy observing gravimetric shears and will not leave until their work is completed." faction="Anthea Syrkos"/>
+    <entry time="23018.881" category="missions" title="Gravimetric Studies" text="You helped the Segarian chief scientist, Dr. Rick Feynman, with his gravimetric research. The team's work, however, is not yet finished and they have requested further assistance." faction="Anthea Syrkos"/>
+    <entry time="23356.062" category="missions" title="Reclaiming What Was Lost" text="By analysing the Segarian malware, Boso Ta worked out what the Segarian researchers are after. He has prepared a file with their data on Project Genesis for you to deliver." faction="Anthea Syrkos"/>
+    <entry time="23552.038" category="missions" title="Double Assistant" text="You successfully delivered the Segarian research to their chief scientist." faction="Anthea Syrkos"/>
+    <entry time="24254.188" category="news" title="News update: " text="Antigone Republic mounting defence in Second Contact II Flashpoint"/>
+    <entry time="29547.708" category="news" title="News update: " text="Holy Order of the Pontifex mounting defence in True Sight"/>
+    <entry time="29805.191" category="news" title="News update: " text="Holy Order of the Pontifex mounting defence in True Sight"/>
+    <entry time="30011.622" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Getsu Fune"/>
+    <entry time="30122.502" category="news" title="Emergency alert: " text="Increased Xenon reconnaissance in Getsu Fune"/>
+    <entry time="30333.73" category="news" title="Emergency alert: " text="Increased Terran Protectorate reconnaissance in Getsu Fune"/>
+    <entry time="30499.164" category="news" title="Emergency alert: " text="Increased Terran Protectorate reconnaissance in Getsu Fune"/>
+    <entry time="30504.358" category="news" title="Emergency alert: " text="Increased Argon Federation reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="30526.705" category="news" title="Emergency alert: " text="Holy Order of the Pontifex station under construction in Second Contact II Flashpoint"/>
+    <entry time="30558.077" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Getsu Fune"/>
+    <entry time="30572.013" category="news" title="Emergency alert: " text="Increased Terran Protectorate reconnaissance in Getsu Fune"/>
+    <entry time="30647.273" category="news" title="Emergency alert: " text="Increased Antigone Republic reconnaissance in Getsu Fune"/>
+    <entry time="30753.194" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Getsu Fune"/>
+    <entry time="31263.243" category="news" title="Emergency alert: " text="Increased Holy Order of the Pontifex reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="31268.998" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Second Contact II Flashpoint"/>
+    <entry time="31404.809" category="news" title="Emergency alert: " text="Increased Holy Order of the Pontifex reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="31548.181" category="news" title="Emergency alert: " text="Increased Holy Order of the Pontifex reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="31621.264" category="news" title="Emergency alert: " text="Holy Order of the Pontifex mounting defence in Second Contact II Flashpoint"/>
+    <entry time="31748.49" category="news" title="Emergency alert: " text="Increased Xenon reconnaissance in Getsu Fune"/>
+    <entry time="31825.129" category="news" title="Emergency alert: " text="Holy Order of the Pontifex mounting defence in Second Contact II Flashpoint"/>
+    <entry time="32092.768" category="news" title="Emergency alert: " text="Terran Protectorate mounting defence in Getsu Fune"/>
+    <entry time="32464.74" category="news" title="Emergency alert: " text="Holy Order of the Pontifex mounting defence in Second Contact II Flashpoint"/>
+    <entry time="32747.076" category="news" title="News update: " text="Holy Order of the Pontifex station in Second Contact II Flashpoint was destroyed"/>
+    <entry time="32838.896" category="missions" title="Second Assistant" text="You successfully rescued your colleague from the caustic cloud." faction="Anthea Syrkos"/>
+    <entry time="32965.318" category="news" title="Emergency alert: " text="Holy Order of the Pontifex mounting defence in Second Contact II Flashpoint"/>
+    <entry time="33303.296" category="news" title="Emergency alert: " text="Holy Order of the Pontifex mounting defence in Second Contact II Flashpoint"/>
+    <entry time="33741.816" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Getsu Fune"/>
+    <entry time="33790.578" category="news" title="Emergency alert: " text="Increased Terran Protectorate reconnaissance in Getsu Fune"/>
+    <entry time="34017.869" category="missions" title="Fast Flight" text="Mission accepted." entity="Selina Smith" faction="{20203,10301}"/>
+    <entry time="34198.434" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Getsu Fune"/>
+    <entry time="34393.575" category="news" title="Emergency alert: " text="Terran Protectorate mounting defence in Getsu Fune"/>
+    <entry time="34461.002" category="missions" title="Fast Flight" text="Mission completed." entity="Selina Smith" money="4384500"/>
+    <entry time="34888.928" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Getsu Fune"/>
+    <entry time="35159.55" category="missions" title="Terran Pests" text="You successfully sneaked past the Terran forces and reached the Torus wreckage." faction="Anthea Syrkos"/>
+    <entry time="37964.475" category="missions" title="Torus Aeternal" text="Hostile towers" faction="Anthea Syrkos"/>
+    <entry time="38263.712" category="missions" title="Data Transfer" text="You delivered terraforming data from the Torus to the Segarians and unlocked advanced terraforming projects." faction="Anthea Syrkos"/>
+    <entry time="40988.738" category="news" title="Emergency alert: " text="Increased Antigone Republic reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="41482.554" category="news" title="Emergency alert: " text="Holy Order of the Pontifex station under construction in Second Contact II Flashpoint"/>
+    <entry time="41739.897" category="news" title="News update: " text="Argon Federation mounting defence in Second Contact II Flashpoint"/>
+    <entry time="41937.29" category="news" title="News update: " text="Argon Federation mounting defence in Second Contact II Flashpoint"/>
+    <entry time="42130.415" category="news" title="News update: " text="Argon Federation mounting defence in Second Contact II Flashpoint"/>
+    <entry time="42751.599" category="news" title="Emergency alert: " text="Increased Xenon reconnaissance in Getsu Fune"/>
+    <entry time="42769.104" category="news" title="Emergency alert: " text="Increased Terran Protectorate reconnaissance in Getsu Fune"/>
+    <entry time="42942.392" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Getsu Fune"/>
+    <entry time="42949.95" category="news" title="Emergency alert: " text="Increased Holy Order of the Pontifex reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="44027.379" category="news" title="News update: " text="Antigone Republic mounting defence in Second Contact II Flashpoint"/>
+    <entry time="44347.466" category="missions" title="Opportunity of a Lifetime" text="After meeting with Dal Busta, your self-proclaimed diplomatic advisor, you now have a starting point for your mission to investigate the diplomatic situation between the Godrealm of the Paranid and the Holy Order of the Pontifex." faction="Anthea Syrkos"/>
+    <entry time="44493.568" category="news" title="News update: " text="Argon Federation mounting defence in Second Contact II Flashpoint"/>
+    <entry time="45157.58" category="news" title="News update: " text="Antigone Republic mounting defence in Second Contact II Flashpoint"/>
+    <entry time="45367.73" category="news" title="News update: " text="Argon Federation mounting defence in Second Contact II Flashpoint"/>
+    <entry time="45637.892" category="news" title="News update: " text="Argon Federation mounting defence in Second Contact II Flashpoint"/>
+    <entry time="46216.008" category="news" title="News update: " text="Holy Order of the Pontifex mounting defence in Pontifex's Claim"/>
+    <entry time="53996.795" category="news" title="Emergency alert: " text="Increased Holy Order of the Pontifex reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="54085.781" category="news" title="Emergency alert: " text="Increased Holy Order of the Pontifex reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="55498.514" category="missions" title="Suspicious Split" text="Following rumours of gate activities you found a reactivated Jump Gate leading to Split space!" faction="Anthea Syrkos"/>
+    <entry time="56401.574" category="news" title="News update: " text="Xenon mounting defence in Fires of Defeat"/>
+    <entry time="56911.858" category="news" title="News update: " text="Xenon mounting defence in Fires of Defeat"/>
+    <entry time="57658.613" category="missions" title="Rebellious Thralls" text="You tracked down a group of escaped Argon slaves and rescued their Split hostage. As a token of gratitude you have been invited to attend the funeral of a Split war hero." faction="Anthea Syrkos"/>
+    <entry time="57815.518" category="news" title="News update: " text="Antigone Republic mounting defence in Second Contact II Flashpoint"/>
+    <entry time="58175.264" category="missions" title="Tomb of Patriarchs" text="You attended the funeral of Gau t'Pg, a former Patriarch of the Free Families." faction="Anthea Syrkos"/>
+    <entry time="59221.851" category="missions" title="Court Case" text="Defiance in reparation payments is not a crime overlooked by the overzealous Zyarth Patriarchy. They brought Patriarch Noa t'Hlp to justice before you were able to review the trading records and confirm that he had been set up. Now, however, you know the culprit." faction="Anthea Syrkos"/>
+    <entry time="61335.291" category="missions" title="Seem Valuable" text="You found the Funeral Service's assets, just as Dal suspected, right behind their Funeral Accelerator. Shortly after your little break-in though you got caught. Able to convince your captors of your own ongoing feud with the Zyarth Police, you were allowed to leave the sector and prove your worth for, and dedication to the separatist cause." faction="Anthea Syrkos"/>
+    <entry time="61869.716" category="news" title="Emergency alert: " text="Increased Holy Order of the Pontifex reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="62082.268" category="news" title="News update: " text="Antigone Republic mounting defence in Second Contact II Flashpoint"/>
+    <entry time="62565.28" category="news" title="News update: " text="Argon Federation mounting defence in Second Contact II Flashpoint"/>
+    <entry time="62854.326" category="news" title="News update: " text="Argon Federation mounting defence in Second Contact II Flashpoint"/>
+    <entry time="63376.397" category="news" title="Emergency alert: " text="Increased Holy Order of the Pontifex reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="63601.074" category="news" title="News update: " text="Argon Federation mounting defence in Second Contact II Flashpoint"/>
+    <entry time="65190.539" category="news" title="News update: " text="Argon Federation mounting defence in Second Contact II Flashpoint"/>
+    <entry time="66088.402" category="news" title="News update: " text="Antigone Republic mounting defence in Second Contact II Flashpoint"/>
+    <entry time="66301.942" category="news" title="News update: " text="Argon Federation mounting defence in Second Contact II Flashpoint"/>
+    <entry time="66509.612" category="news" title="News update: " text="Argon Federation mounting defence in Second Contact II Flashpoint"/>
+    <entry time="66873.465" category="news" title="Emergency alert: " text="Holy Order of the Pontifex station under construction in Second Contact II Flashpoint"/>
+    <entry time="66948.568" category="news" title="Emergency alert: " text="Holy Order of the Pontifex mounting defence in Second Contact II Flashpoint"/>
+    <entry time="68099.765" category="news" title="Emergency alert: " text="Increased Xenon reconnaissance in Getsu Fune"/>
+    <entry time="68349.328" category="news" title="Emergency alert: " text="Terran Protectorate mounting defence in Getsu Fune"/>
+    <entry time="68692.218" category="news" title="News update: " text="Holy Order of the Pontifex mounting defence in Holy Vision"/>
+    <entry time="68925.404" category="news" title="News update: " text="Zyarth Patriarchy mounting defence in Zyarth's Dominion I"/>
+    <entry time="69460.218" category="news" title="News update: " text="Zyarth Patriarchy mounting defence in Family Zhin"/>
+    <entry time="69730.838" category="news" title="News update: " text="Antigone Republic mounting defence in Second Contact II Flashpoint"/>
+    <entry time="69933.761" category="news" title="News update: " text="Xenon mounting defence in Fires of Defeat"/>
+    <entry time="71044.675" category="news" title="Emergency alert: " text="Increased Free Families reconnaissance in Tharka's Ravine XXIV"/>
+    <entry time="71179.953" category="missions" title="Report to Slave Trader 2" text="You assisted in a major attack on the Hall of Judgement, which included a break-in on the highly restricted station, aiding a prison breakout, and aiding a slave revolt with their terrorist bombings. As a result, the station has been taken over by now-free Argon slaves. Now that you're a tried and tested field operator, the Curb should trust you enough to reveal the conspiring Patriarchs of this separatist movement.[\012][\012]Escaping the scene instead of protecting the Slave Trader, you left the battlefield. This might reflect poorly on you with the separatists." faction="{20203,1601}"/>
+    <entry time="71649.293" category="news" title="News update: " text="Antigone Republic mounting defence in Second Contact II Flashpoint"/>
+    <entry time="71839.063" category="news" title="News update: " text="Antigone Republic mounting defence in Second Contact II Flashpoint"/>
+    <entry time="72020.306" category="news" title="News update: " text="Argon Federation mounting defence in Second Contact II Flashpoint"/>
+    <entry time="72088.966" category="news" title="Emergency alert: " text="Increased Terran Protectorate reconnaissance in Getsu Fune"/>
+    <entry time="72257.358" category="news" title="Emergency alert: " text="Increased Terran Protectorate reconnaissance in Getsu Fune"/>
+    <entry time="72495.088" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Getsu Fune"/>
+    <entry time="77770.552" category="news" title="News update: " text="Godrealm of the Paranid mounting defence in Litany of Fury IX"/>
+    <entry time="79470.73" category="news" title="News update: " text="Godrealm of the Paranid mounting defence in Litany of Fury IX"/>
+    <entry time="79837.905" category="news" title="News update: " text="Godrealm of the Paranid mounting defence in Litany of Fury IX"/>
+    <entry time="90931.153" category="news" title="News update: " text="Holy Order of the Pontifex mounting defence in Pontifex's Claim"/>
+    <entry time="91327.838" category="news" title="News update: " text="Holy Order of the Pontifex mounting defence in Pontifex's Claim"/>
+    <entry time="116903.009" category="news" title="News update: " text="Antigone Republic mounting defence in The Void"/>
+    <entry time="126640.785" category="news" title="News update: " text="Zyarth Patriarchy mounting defence in Zyarth's Dominion X"/>
+    <entry time="156079.435" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Getsu Fune"/>
+    <entry time="156123.762" category="news" title="Emergency alert: " text="Increased Argon Federation reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="158019.981" category="news" title="Emergency alert: " text="Terran Protectorate mounting defence in Getsu Fune"/>
+    <entry time="158335.59" category="news" title="Emergency alert: " text="Terran Protectorate mounting defence in Getsu Fune"/>
+    <entry time="158557.629" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Getsu Fune"/>
+    <entry time="158782.798" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Getsu Fune"/>
+    <entry time="158913.583" category="news" title="Emergency alert: " text="Increased Terran Protectorate reconnaissance in Getsu Fune"/>
+    <entry time="159098.032" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Getsu Fune"/>
+    <entry time="159336.55" category="news" title="Emergency alert: " text="Increased Antigone Republic reconnaissance in Getsu Fune"/>
+    <entry time="159339.71" category="news" title="Emergency alert: " text="Increased Antigone Republic reconnaissance in Getsu Fune"/>
+    <entry time="159530.567" category="missions" title="Defenders of Sol" text="The threat to the Terran Outpost has been subdued, for now." faction="{20203,3001}"/>
+    <entry time="159839.736" category="news" title="Emergency alert: " text="Increased Terran Protectorate reconnaissance in Getsu Fune"/>
+    <entry time="160132.769" category="news" title="Emergency alert: " text="Increased Terran Protectorate reconnaissance in Getsu Fune"/>
+    <entry time="160285.335" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Getsu Fune"/>
+    <entry time="160554.147" category="news" title="Emergency alert: " text="Increased Xenon reconnaissance in Getsu Fune"/>
+    <entry time="160717.889" category="missions" title="Wartime Economics" text="Despite the chaotic wrap-up of the Solborn Militia project and the loss of Haile Shinamon, Mission Command has deemed you worthy to take part in further special operations." faction="{20203,3001}"/>
+    <entry time="161206.296" category="missions" title="An Exclusive Invitation" text="You've been made a special operative of the Terran Secret Service. Top secret missions are now available." faction="{20203,3001}"/>
+    <entry time="161342.906" category="news" title="News update: " text="Holy Order of the Pontifex mounting defence in True Sight"/>
+    <entry time="162055.204" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Second Contact II Flashpoint"/>
+    <entry time="162125.176" category="news" title="Emergency alert: " text="Increased Argon Federation reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="162203.431" category="news" title="Emergency alert: " text="Increased Holy Order of the Pontifex reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="162294.611" category="news" title="Emergency alert: " text="Increased Antigone Republic reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="162957.397" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Second Contact II Flashpoint"/>
+    <entry time="163630.187" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Second Contact II Flashpoint"/>
+    <entry time="164112.486" category="news" title="Emergency alert: " text="Increased Holy Order of the Pontifex reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="164622.974" category="news" title="Emergency alert: " text="Increased Argon Federation reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="164653.284" category="news" title="Emergency alert: " text="Increased Holy Order of the Pontifex reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="165045.417" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Second Contact II Flashpoint"/>
+    <entry time="165106.466" category="news" title="Emergency alert: " text="Increased Argon Federation reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="165752.883" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Second Contact II Flashpoint"/>
+    <entry time="166035.9" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Second Contact II Flashpoint"/>
+    <entry time="166332.726" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Second Contact II Flashpoint"/>
+    <entry time="166348.71" category="news" title="Emergency alert: " text="Increased Antigone Republic reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="178850.538" category="news" title="Emergency alert: " text="Increased Holy Order of the Pontifex reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="178981.492" category="news" title="Emergency alert: " text="Increased Argon Federation reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="179205.35" category="news" title="Emergency alert: " text="Increased Argon Federation reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="179893.074" category="news" title="Emergency alert: " text="Increased Antigone Republic reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="179935.211" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Second Contact II Flashpoint"/>
+    <entry time="180592.048" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Second Contact II Flashpoint"/>
+    <entry time="181281.947" category="news" title="Emergency alert: " text="Increased Argon Federation reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="181781.251" category="news" title="Emergency alert: " text="Increased Argon Federation reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="181808.879" category="news" title="Emergency alert: " text="Increased Holy Order of the Pontifex reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="181945.274" category="news" title="Emergency alert: " text="Xenon mounting defence in Family Zhin"/>
+    <entry time="182570.706" category="news" title="Emergency alert: " text="Xenon mounting defence in Family Zhin"/>
+    <entry time="182750.79" category="news" title="Emergency alert: " text="Xenon mounting defence in Family Zhin"/>
+    <entry time="186572.418" category="news" title="Emergency alert: " text="Increased Argon Federation reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="187151.944" category="news" title="Emergency alert: " text="Increased Holy Order of the Pontifex reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="187375.476" category="news" title="Emergency alert: " text="Increased Argon Federation reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="225966.751" category="missions" title="A Pirate's Trail" text="You've tracked down one of the Yaki pirates, but the circumstances of his defeat have only raised further questions." faction="{20203,3001}"/>
+    <entry time="227600.781" category="missions" title="Astronauts, Champions, Truth Seekers" text="Through sheer perseverance and the exploitation of human emotions, you've managed to find a genuine Yaki ship, which still contains the navigational data for its origin system." faction="{20203,3001}"/>
+    <entry time="228058.867" category="news" title="Emergency alert: " text="Increased Antigone Republic reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="228862.178" category="news" title="Emergency alert: " text="Increased Xenon reconnaissance in Getsu Fune"/>
+    <entry time="229914.764" category="missions" title="Towards Distant Shores" text="You've arrived at the doorstep of the Yaki, much to the surprise of their gate guard." faction="{20203,3001}"/>
+    <entry time="229960.306" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Getsu Fune"/>
+    <entry time="230504.076" category="news" title="Emergency alert: " text="Terran Protectorate mounting defence in Getsu Fune"/>
+    <entry time="230681.544" category="missions" title="Treacherous Shallows" text="You've reunited with Haile Shinamon, who showed you the danger which lies at the heart of the Yaki community." faction="{20203,2801}"/>
+    <entry time="230684.191" category="news" title="Emergency alert: " text="Terran Protectorate mounting defence in Getsu Fune"/>
+    <entry time="230781.559" category="news" title="Emergency alert: " text="Increased Terran Protectorate reconnaissance in Getsu Fune"/>
+    <entry time="230934.071" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Getsu Fune"/>
+    <entry time="231249.334" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Getsu Fune"/>
+    <entry time="231440.473" category="missions" title="The Smoking Gun" text="The Terrans were told that there's no organised threat, so the Yaki are safe - for now." faction="{20203,3001}"/>
+    <entry time="231606.235" category="missions" title="Duty's Just Reward" text="The decommissioned warship has been claimed or destroyed." faction="Anthea Syrkos"/>
+    <entry time="231839.873" category="news" title="Emergency alert: " text="Increased Xenon reconnaissance in Getsu Fune"/>
+    <entry time="235389.562" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Getsu Fune"/>
+    <entry time="257145.253" category="news" title="News update: " text="Holy Order of the Pontifex mounting defence in Holy Vision"/>
+    <entry time="308510.823" category="news" title="Emergency alert: " text="Xenon mounting defence in Family Tkr"/>
+    <entry time="309344.878" category="news" title="Emergency alert: " text="Xenon mounting defence in Family Tkr"/>
+    <entry time="309543.319" category="news" title="Emergency alert: " text="Xenon mounting defence in Family Tkr"/>
+    <entry time="310043.693" category="news" title="Emergency alert: " text="Xenon mounting defence in Family Tkr"/>
+    <entry time="310066.375" category="news" title="Emergency alert: " text="Increased Xenon reconnaissance in Family Tkr"/>
+    <entry time="310945.882" category="news" title="Emergency alert: " text="Xenon mounting defence in Family Tkr"/>
+    <entry time="311213.214" category="news" title="Emergency alert: " text="Xenon mounting defence in Family Tkr"/>
+    <entry time="379333.506" category="news" title="Emergency alert: " text="Increased Xenon reconnaissance in Litany of Fury IX"/>
+    <entry time="415936.788" category="news" title="Emergency alert: " text="Increased Antigone Republic reconnaissance in Second Contact II Flashpoint"/>
+    <entry time="435006.237" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Getsu Fune"/>
+    <entry time="503617.948" category="missions" title="Mutually Assured Destruction" text="The Yaki weren't able to activate their amplifier station in time." faction="{20203,2801}"/>
+    <entry time="505192.51" category="missions" title="Save Them From Themselves" text="With the amplifier station destroyed, the threat to Sol subsides." faction="Anthea Syrkos"/>
+    <entry time="505192.51" category="missions" title="The Fate of the Yaki" text="You have completed or failed all objectives belonging to the mission." faction="Anthea Syrkos"/>
+    <entry time="525825.552" category="news" title="Emergency alert: " text="Terran Protectorate mounting defence in Getsu Fune"/>
+    <entry time="525888.702" category="news" title="Emergency alert: " text="Increased Antigone Republic reconnaissance in Getsu Fune"/>
+    <entry time="526020.698" category="news" title="Emergency alert: " text="Terran Protectorate mounting defence in Getsu Fune"/>
+    <entry time="526541.812" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Getsu Fune"/>
+    <entry time="526905.778" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Getsu Fune"/>
+    <entry time="527192.214" category="news" title="News update: " text="Xenon station under construction in Savage Spur I"/>
+    <entry time="527266.216" category="news" title="Emergency alert: " text="Antigone Republic mounting defence in Getsu Fune"/>
+    <entry time="532977.848" category="missions" title="A Heart for Pirates" text="With their Xenon problem solved, the Yaki are now free to trade with their neighbours." faction="Anthea Syrkos"/>
+    <entry time="708133.921" category="missions" title="Riptide Defiance" text="You helped a Riptide Raker smuggle food to Avarice." faction="Anthea Syrkos"/>
+    <entry time="708503.495" category="missions" title="Trade Obstruction" text="You helped the Teladi escape his misfortune!" faction="Anthea Syrkos"/>
+    <entry time="709496.338" category="missions" title="Scrapyard Salvage" text="You trespassed onto a Syndicate Scrapyard and stole one of their dumped ships for your Teladi friend!" faction="Anthea Syrkos"/>
+    <entry time="711337.912" category="missions" title="Trading Lessons" text="You helped your humble Teladi friend to strike a most bankable deal!" faction="Anthea Syrkos"/>
+    <entry time="718516.377" category="missions" title="The Protectyon Monopoly" text="The invisible hand of market forces failed to ensure supply, and left a Riptide station defenceless against the Tides of Avarice! To prevent this from ever happening again, you will need to find a researcher capable of unravelling the mysteries of Protectyon and supporting your planned patent infringement." faction="Anthea Syrkos"/>
+    <entry time="735512.472" category="tips" title="Tip" text="[\033]#FFFFFFFF#Drop a beacon near the anomaly to mark it on your map.[\033]X"/>
+    <entry time="741319.086" category="news" title="News update: " text="Argon Federation mounting defence in Second Contact II Flashpoint"/>
+    <entry time="753633.812" category="tips" title="Tip" text="[\033]#FFFFFFFF#Open the SHIP MENU ([\033][keyboard_INPUT_KEYCODE_RETURN]) and select the deploy sub menu.[\033]X[\012][\033]#FFFFFFFF#Objects like satellites, beacons or mines can be deployed from this menu.[\033]X[\012][\033]#FFFFFFFF#Your ship will drop the item from its XS dock.[\033]X[\012][\033]#FFFFFFFF#Deployed objects can also be retrieved again later.[\033]X"/>
+    <entry time="756289.016" category="news" title="News update: " text="Godrealm of the Paranid mounting defence in Pontifex's Claim"/>
+    <entry time="757168.146" category="tips" title="Tip" text="[\033]#FFFFFFFF#In order to launch a Spacesuit Bomb, you will first need to get close to the target in your spacesuit.[\033]X[\012][\033]#FFFFFFFF#With your Bomb Launcher selected, cycle through the available bomb types with K until you reach the Spacesuit Bomb.[\033]X[\012][\033]#FFFFFFFF#Finally, launch the Spacesuit Bomb with [\033][keyboard_INPUT_KEYCODE_SPACE].[\033]X[\012][\033]#FFFFFFFF#Alternatively, you can also launch the Spacesuit Bomb in the direction indicated by your cursor with Middle Mouse Button.[\033]X"/>
+    <entry time="757226.356" category="tips" title="Tip" text="[\033]#FFFFFFFF#To detonate a Spacesuit Bomb, use your secondary weapon with L.[\033]X[\012][\033]#FFFFFFFF#Alternatively, select the Spacesuit Bomb, open its context menu with F and select Trigger All Bombs.[\033]X"/>
+    <entry time="761758.3" category="missions" title="Commissioned Herald" text="You received your debriefing from Numanckaret and unlocked the Queen's missions." faction="Anthea Syrkos"/>
+    <entry time="766130.816" category="missions" title="The High Road" text="The carrier ship Menelaus' Reminiscence's deployment against the Kha'ak in the sector Sanctuary of Darkness was a success." faction="Anthea Syrkos"/>
+    <entry time="768520.632" category="missions" title="A Boron's Gratitude" text="With the help of a ploy, Boso Ta managed to fill his BoFu reserves and will not suffer from inadequate nutrition any longer." faction="Anthea Syrkos"/>
+    <entry time="769725.062" category="missions" title="Hatikvah Patrols" text="With your assistance, the Boron Queendom secured an arms deal with the Hatikvah Free League." faction="{20203,1301}"/>
+    <entry time="770117.111" category="missions" title="Riptide Waters" text="You successfully delivered water to the Riptide Rakers." faction="Anthea Syrkos"/>
+    <entry time="771001.591" category="missions" title="Calming Terran Waters" text="You successfully delivered the Nishala Water sample to the Terran Protectorate." faction="{20203,1301}"/>
+    <entry time="771573.522" category="missions" title="Paranid Dignitary" text="Following your rescue of a Paranid dignitary, the Boron Queendom secured diplomatic relations with the Paranid Empire." faction="{20203,1301}"/>
+    <entry time="772255.925" category="news" title="News update: " text="Antigone Republic mounting defence in Savage Spur I"/>
+    <entry time="775849.421" category="missions" title="Diplomatic Outpost in Teladi Space" text="You successfully built a Diplomatic Outpost in Teladi space for the Boron Queendom." faction="{20203,1301}"/>
+    <entry time="779489.258" category="missions" title="Diplomatic Arrangements" text="With your help, the Boron Queendom managed to re-establish its diplomatic relations with various governments in the Jump gate network." faction="Anthea Syrkos"/>
+    <entry time="779932.173" category="missions" title="Royal Commendations" text="The Queendom of Boron thanks you for your service." faction="{20203,1301}"/>
+    <entry time="853986.64" category="news" title="News update: " text="Antigone Republic mounting defence in Savage Spur I"/>
+    <entry time="900995.489" category="news" title="News update: " text="Antigone Republic mounting defence in Savage Spur I"/>
+    <entry time="901116.193" category="news" title="Emergency alert: " text="Increased Antigone Republic reconnaissance in Matrix #79B"/>
+    <entry time="954310.354" category="alerts" title="Khaak have been spotted" text="Location: Silent Witness XII"/>
+    <entry time="954340.121" category="alerts" title="Khaak have been spotted" text="Location: Heretic's End"/>
+    <entry time="954340.276" category="alerts" title="Khaak have been spotted" text="Location: Getsu Fune"/>
+    <entry time="954340.351" category="alerts" title="Khaak have been spotted" text="Location: Morning Star IV"/>
+    <entry time="954340.351" category="alerts" title="Khaak have been spotted" text="Location: Sacred Relic"/>
+    <entry time="954340.419" category="alerts" title="Khaak have been spotted" text="Location: Memory of Profit IX"/>
+</log>
+    

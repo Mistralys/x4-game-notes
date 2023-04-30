@@ -1,0 +1,287 @@
+<savegame>
+    <info>
+        <!-- See info -->
+    </info>
+    <universe>
+        <blacklists>
+			<blacklist id="1" owner="player" type="sectortravel" name="Dangerous Sectors">
+				<macros>
+					<macro ref="cluster_45_sector001_macro"/>
+				</macros>
+			</blacklist>
+		</blacklists>
+		<traderules>
+			<traderule id="1" owner="player" name="Self-Trade only" factions="player" allow="1"/>
+		</traderules>
+		<factions>
+			<!-- See factions -->
+        </factions>
+        <jobs>
+        </jobs>
+        <god/>
+        <controltextures>
+        </controltextures>
+        <component class="galaxy">
+            <connections>
+                <connection connection="custer_{00}_connection">
+                    <!-- 
+                        Cluster definition
+                    -->
+                    <component class="cluster" macro="cluster_{00}_macro" connection="galaxy" code="NWM-734" knownto="player" known="1" read="0" id="[0x2c457]">
+                        <connections>
+                       
+                            <!--
+                                Region definition
+                            -->
+                            <connection connection="c31s01_region001_connection">
+                                <component class="region" macro="c31s01_region001_macro" connection="cluster" id="[0x2c458]">
+                                    <connections>
+                                        <connection connection="adjacentsectors" id="[0x2c459]">
+                                            <connected connection="[0x2c45f]"/>
+                                        </connection>
+                                    </connections>
+                                </component>
+                            </connection>
+
+                            <!--
+                                Sector definition
+                            -->
+                            <connection connection="cluster_31_sector001_connection">
+                                <component class="sector" macro="cluster_31_sector001_macro" connection="cluster" code="MBY-420" owner="ownerless" knownto="player" known="1" id="[0x2c45e]">
+                                    <listeners>
+                                        <listener listener="[0x21d5546]" event="objectentered"/>
+                                    </listeners>
+                                    
+                                    <resourceareas>
+                                    
+                                        <!--
+                                            Individual resource areas
+                                            
+                                            Repeatable: Yes
+                                        -->
+                                        <area x="192000" y="64000" z="192000">
+                                            <wares>
+                                                <ware ware="ore">
+                                                    <recharge max="381601" time="144000"/>
+                                                </ware>
+                                            </wares>
+                                            <yields>
+                                                <ware ware="ore">
+                                                    <yield name="medium"/>
+                                                </ware>
+                                            </yields>
+                                        </area>
+                                    </resourceareas>
+                                    
+                                    <connections>
+                                        <!--
+                                            Regions adjacent to the sector
+                                        
+                                            Repeatable: Yes, for each sector
+                                        -->
+                                        <connection connection="adjacentregions" id="[0x2c45f]">
+                                            <connected connection="[0x2c459]"/>
+                                        </connection>
+                                    </connections>
+                                    
+                                    <!--
+                                        Zone in a cluster
+                                        
+                                        Repeatable: Yes
+                                    -->
+                                    <connection connection="zone001_cluster_31_sector001_connection">
+                                        <component class="zone" macro="zone001_cluster_31_sector001_macro" connection="sector" code="MHC-686" knownto="player" id="[0x2c462]">
+                                            <offset default="1"/>
+                                            
+                                            <masstraffic>
+                                                <network id="[0x470]" dynamic="0" zonewide="1">
+                                                    <behavior class="base"/>
+                                                </network>
+                                            </masstraffic>
+                                            
+                                            <sensors>
+                                                <!--
+                                                    Individual sensors
+                                                    
+                                                    Repeatable: Yes
+                                                -->
+                                                <sensor range="127.156" firsthit="1" class="areadamage" firsttime="1280484.818" lasttime="1357334.587">
+                                                    <damage value="200"/>
+                                                    <damagedeffect hull="dmgfx_cockpit_radiation_01_spacesuit" shield="dmgfx_cockpit_electrostatic_01"/>
+                                                    <offset component="[0x0]">
+                                                        <position z="-198.369"/>
+                                                    </offset>
+                                                </sensor>
+                                            </sensors>
+                                            
+                                            <connections><-- Zone connections -->
+                                            
+                                                <connection connection="connection_clustergate031to030">
+                                                    <!--
+                                                        Jump gates
+                                                        
+                                                        Repeatable: Yes
+                                                    -->
+                                                    <component class="gate" macro="props_gates_anc_gate_macro" connection="space" code="SVY-943" knownto="player" known="1" read="0" id="[0x2c463]">
+                                                        <listeners>
+                                                            <listener listener="[0x49ba7]" event="killed tempcomponentremoved"/>
+                                                        </listeners>
+                                                        <offset default="1"/>
+                                                        <connections>
+                                                            <connection connection="destination" id="[0x2c464]">
+                                                                <connected connection="[0x1cac9]"/>
+                                                            </connection>
+                                                        </connections>
+                                                    </component>
+                                                </connection>
+                                            
+                                                <!--
+                                                    Ships in system
+                                                    
+                                                    Repeatable: Yes
+                                                -->
+                                                <connection connection="ships">
+                                                    <!-- See ships -->
+                                                </connection>
+                                                
+                                                <!-- 
+                                                    Visible zones
+                                                    
+                                                    Repeatable: Yes
+                                                -->
+                                                <connection connection="visiblezones" id="[0x2c4bc]">
+                                                    <connected connection="[0x2ce77]"/>
+                                                </connection>
+                                                
+                                                <connection connection="triggerobjects">
+                                                    <component class="anomaly" macro="wormhole_v1_macro" connection="space" code="SCV-252" owner="ownerless" knownto="player" id="[0x2c4bf]">
+                                                        <offset>
+                                                            <position x="1775" z="1369"/>
+                                                            <rotation yaw="-104.9744" pitch="-31.87967"/>
+                                                        </offset>
+                                                        <source entry="hereticsend_anomaly_01" seed="12047126033890362819" class="godobject"/>
+                                                    </component>
+                                                </connection>
+                                                
+                                                <connection connection="satellites">
+                                                    <!-- See satellite -->
+                                                </connection>
+                                                
+                                                <connection connection="resourceprobe">
+                                                    <!-- See resource probe -->
+                                                </connection>
+                                                
+                                                
+                                                <!--
+                                                    Build storages
+                                                    
+                                                    Repeatable: ?
+                                                -->
+                                                <connection connection="buildstorages">
+                                                    <!-- See build storages -->
+                                                </connection>
+                                                
+                                                <!--
+                                                    Stations
+                                                    
+                                                    Repeatable: Yes
+                                                -->
+                                                <connection connection="stations">
+                                                    <!-- See stations -->
+                                                </connection>
+                                                                    
+                                            </connections><!-- Zone connections -->
+                                            
+                                        </component><!-- Zone component -->
+                                        
+                                    </connection><!-- Zone connection -->
+                                    
+                                </component><!-- Sector component -->
+                                
+                            </connection><!-- Sector connection -->
+                            
+                        </connections><!-- Cluster connections -->
+                        
+                    </component><!-- Cluster component -->
+                    
+                </connection><!-- Cluster connection -->
+                
+            </connections><!-- Galaxy connections -->
+            
+        </component><!-- Galaxy component -->
+        
+    </universe>
+    
+    <!--
+        Log of individual ship and station market transactions.
+        Size: Very large
+    -->
+    <economylog>
+        <!-- See economy log -->
+    </economylog>
+    
+    <!--
+        Player statistics
+    -->
+    <stats>
+    </stats>
+    
+    <!-- 
+        The personal log (also contains custom alerts)
+    -->
+    <log>
+    </log>
+    
+    <!--
+        The message log
+    -->
+    <messages>
+        <!-- See messages -->
+    </messages>
+    
+    <!-- 
+        Stored commands list?
+        
+        Size: Very large
+    -->
+    <script>
+        <refs>
+        </refs>
+    </script>
+    
+    <!-- 
+        Data storage?
+        
+        Size: Very large
+    -->
+    <md>
+    </md>
+    
+    <missions>
+        <!-- See missions -->
+    </missions>
+    
+    <!-- 
+        AI tasks list
+        
+        Size: Very large
+    -->
+    <aidirector>
+    </aidirector>
+    
+    <operations/>
+    
+    <ventures><!-- Contains an encoded XML document --></ventures>
+    
+    <notifications/>
+    
+    <ui>
+        <addons>
+        </addons>
+    </ui>
+    
+    <signature><!-- Hash string --></signature>
+</savegame>
+
+
+

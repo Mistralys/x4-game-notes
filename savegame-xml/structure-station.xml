@@ -1,0 +1,1962 @@
+<connection connection="stations">
+    <component class="station" macro="station_gen_piratebase_base_01_macro" connection="space" attackmethod="lowattentionattack" attacktime="1354545.341" shipattacktime="1354545.341" intentionalattacktime="1354545.341" code="NMV-749" owner="hatikvah" knownto="player" basename="{20102,1511}" level="0.75" transportdronemode="trade" pendingtransportdronemode="trade" usertransportdronemode="trade" spawntime="0" id="[0x2c517]">
+        <listeners>
+            <listener listener="[0x2c4f4]" event="killed"/>
+            <listener listener="[0x2c4c2]" event="killed"/>
+            <listener listener="[0x2c51c]" event="killed"/>
+            <listener listener="[0x2c51a]" event="killed"/>
+            <listener listener="[0x2c51b]" event="killed"/>
+            <listener listener="[0x49ba7]" event="killed tempcomponentremoved"/>
+        </listeners>
+        <events>
+            <event event="updatebuild" time="1368427.119"/>
+            <event event="updatetradeoffers" time="1368449.765"/>
+        </events>
+        <offset>
+            <position x="-11394.553" y="-883.364" z="25074.531"/>
+            <rotation yaw="31.30135"/>
+        </offset>
+        <render>
+            <parameter value="assets\fx\gui\textures\factions\faction_hatikvah" name="diffuse_map" type="texture"/>
+        </render>
+        <source entry="freeport_hatikvah_01" seed="9499029698344161083" class="godstation"/>
+        <gravidar/>
+        <control>
+            <post id="shiptrader"/>
+            <post id="shadyguy"/>
+            <post id="manager" component="[0x2c51c]"/>
+            <post id="defence" component="[0x2c51a]"/>
+            <post id="trainee_individual"/>
+            <post id="tradeagent"/>
+            <post id="engineer" component="[0x2c51b]"/>
+        </control>
+        <construction>
+            <sequence>
+                <entry id="[0x2d7d]" index="1" macro="defence_arg_disc_01_macro">
+                    <offset>
+                        <position x="892.629" z="-1169.282"/>
+                    </offset>
+                    <upgrades generated="1">
+                        <groups>
+                            <shields macro="shield_arg_m_standard_02_mk2_macro" group="group02"/>
+                            <shields macro="shield_arg_m_standard_02_mk2_macro" group="group03"/>
+                            <shields macro="shield_arg_m_standard_02_mk2_macro" group="group01"/>
+                            <shields macro="shield_arg_m_standard_02_mk2_macro" group="group04"/>
+                            <shields macro="shield_tel_l_standard_01_mk2_macro" group="group05"/>
+                            <shields macro="shield_tel_l_standard_01_mk2_macro" group="group06"/>
+                            <shields macro="shield_par_l_standard_01_mk2_macro" group="group07"/>
+                            <shields macro="shield_arg_l_standard_01_mk2_macro" group="group08"/>
+                            <turrets macro="turret_arg_m_laser_02_mk1_macro" group="group02" exact="2"/>
+                            <turrets macro="turret_arg_m_laser_02_mk1_macro" group="group03" exact="2"/>
+                            <turrets macro="turret_arg_m_laser_02_mk1_macro" group="group01" exact="2"/>
+                            <turrets macro="turret_arg_m_laser_02_mk1_macro" group="group04" exact="2"/>
+                            <turrets macro="turret_par_l_laser_01_mk1_macro" group="group05" exact="3"/>
+                            <turrets macro="turret_arg_l_laser_01_mk1_macro" group="group06" exact="3"/>
+                            <turrets macro="turret_par_l_laser_01_mk1_macro" group="group07" exact="3"/>
+                            <turrets macro="turret_arg_l_laser_01_mk1_macro" group="group08" exact="3"/>
+                        </groups>
+                        <ammunition>
+                            <unit macro="ship_gen_s_fightingdrone_01_a_macro" exact="11"/>
+                        </ammunition>
+                    </upgrades>
+                </entry>
+                <entry id="[0x2d7e]" index="2" macro="defence_arg_disc_01_macro">
+                    <offset>
+                        <position x="-748.92" z="-91.135"/>
+                        <rotation yaw="-1.43602"/>
+                    </offset>
+                    <upgrades generated="1">
+                        <groups>
+                            <shields macro="shield_arg_m_standard_02_mk2_macro" group="group02"/>
+                            <shields macro="shield_arg_m_standard_02_mk2_macro" group="group03"/>
+                            <shields macro="shield_arg_m_standard_02_mk2_macro" group="group01"/>
+                            <shields macro="shield_arg_m_standard_02_mk2_macro" group="group04"/>
+                            <shields macro="shield_par_l_standard_01_mk2_macro" group="group05"/>
+                            <shields macro="shield_arg_l_standard_01_mk2_macro" group="group06"/>
+                            <shields macro="shield_tel_l_standard_01_mk2_macro" group="group07"/>
+                            <shields macro="shield_arg_l_standard_01_mk2_macro" group="group08"/>
+                            <turrets macro="turret_arg_m_laser_02_mk1_macro" group="group02" exact="2"/>
+                            <turrets macro="turret_arg_m_laser_02_mk1_macro" group="group03" exact="2"/>
+                            <turrets macro="turret_arg_m_laser_02_mk1_macro" group="group01" exact="2"/>
+                            <turrets macro="turret_arg_m_laser_02_mk1_macro" group="group04" exact="2"/>
+                            <turrets macro="turret_arg_l_laser_01_mk1_macro" group="group05" exact="3"/>
+                            <turrets macro="turret_arg_l_laser_01_mk1_macro" group="group06" exact="3"/>
+                            <turrets macro="turret_arg_l_laser_01_mk1_macro" group="group07" exact="3"/>
+                            <turrets macro="turret_par_l_laser_01_mk1_macro" group="group08" exact="3"/>
+                        </groups>
+                        <ammunition>
+                            <unit macro="ship_gen_s_fightingdrone_01_a_macro" exact="11"/>
+                        </ammunition>
+                    </upgrades>
+                </entry>
+                <entry id="[0x2d7f]" index="3" macro="pier_arg_harbor_02_macro">
+                    <offset>
+                        <position x="80.944" z="-762.829"/>
+                        <rotation yaw="-90.55901"/>
+                    </offset>
+                    <upgrades generated="1">
+                        <ammunition>
+                            <unit macro="ship_gen_xs_repairdrone_01_a_macro"/>
+                            <unit macro="ship_gen_xs_cargodrone_empty_01_a_macro" exact="4"/>
+                        </ammunition>
+                    </upgrades>
+                </entry>
+                <entry id="[0x2d80]" index="4" macro="hab_arg_s_01_macro" connection="connectionsnap001">
+                    <predecessor index="3" connection="connectionsnap006"/>
+                    <offset>
+                        <position x="82.896" y="600" z="-962.819"/>
+                        <rotation yaw="0.876962"/>
+                    </offset>
+                </entry>
+                <entry id="[0x2d81]" index="5" macro="dockarea_arg_m_station_02_lowtech_macro" connection="connectionsnap003">
+                    <predecessor index="3" connection="connectionsnap004"/>
+                    <offset>
+                        <position x="78.993" z="-562.839"/>
+                        <rotation yaw="-0.558987"/>
+                    </offset>
+                </entry>
+                <entry id="[0x2d82]" index="6" macro="storage_arg_s_container_01_macro" connection="connectionsnap001">
+                    <predecessor index="5" connection="connectionsnap004"/>
+                    <offset>
+                        <position x="73.139" z="37.133"/>
+                        <rotation yaw="179.44098"/>
+                    </offset>
+                    <upgrades generated="1">
+                        <groups>
+                            <shields macro="shield_arg_m_standard_02_mk2_macro" group="top_01"/>
+                            <shields macro="shield_arg_m_standard_02_mk2_macro" group="left_01"/>
+                            <shields macro="shield_arg_m_standard_02_mk2_macro" group="bottom_01"/>
+                            <turrets macro="turret_arg_m_laser_02_mk1_macro" group="top_01" exact="2"/>
+                            <turrets macro="turret_arg_m_laser_02_mk1_macro" group="left_01" exact="2"/>
+                            <turrets macro="turret_arg_m_laser_02_mk1_macro" group="bottom_01" exact="2"/>
+                        </groups>
+                    </upgrades>
+                </entry>
+                <entry id="[0x2d83]" index="7" macro="storage_arg_s_container_01_macro" connection="connectionsnap002">
+                    <predecessor index="6" connection="connectionsnap002"/>
+                    <offset>
+                        <position x="65.335" z="837.095"/>
+                        <rotation yaw="-0.558987"/>
+                    </offset>
+                    <upgrades generated="1">
+                        <groups>
+                            <shields macro="shield_arg_m_standard_02_mk2_macro" group="top_01"/>
+                            <shields macro="shield_arg_m_standard_02_mk2_macro" group="left_01"/>
+                            <shields macro="shield_arg_m_standard_02_mk2_macro" group="bottom_01"/>
+                            <turrets macro="turret_arg_m_laser_02_mk1_macro" group="top_01" exact="2"/>
+                            <turrets macro="turret_arg_m_laser_02_mk1_macro" group="left_01" exact="2"/>
+                            <turrets macro="turret_arg_m_laser_02_mk1_macro" group="bottom_01" exact="2"/>
+                        </groups>
+                    </upgrades>
+                </entry>
+                <entry id="[0x2d84]" index="8" macro="defence_arg_tube_01_macro" connection="connectionsnap001">
+                    <predecessor index="5" connection="connectionsnap002"/>
+                    <offset>
+                        <position x="478.974" z="-558.936"/>
+                        <rotation yaw="89.44092"/>
+                    </offset>
+                    <upgrades generated="1">
+                        <groups>
+                            <shields macro="shield_arg_m_standard_02_mk2_macro" group="group02"/>
+                            <shields macro="shield_arg_m_standard_02_mk2_macro" group="group03"/>
+                            <shields macro="shield_arg_m_standard_02_mk2_macro" group="group01"/>
+                            <shields macro="shield_arg_m_standard_02_mk2_macro" group="group04"/>
+                            <shields macro="shield_tel_l_standard_01_mk2_macro" group="group05"/>
+                            <shields macro="shield_par_l_standard_01_mk2_macro" group="group06"/>
+                            <turrets macro="turret_arg_m_laser_02_mk1_macro" group="group02" exact="2"/>
+                            <turrets macro="turret_arg_m_laser_02_mk1_macro" group="group03" exact="2"/>
+                            <turrets macro="turret_arg_m_laser_02_mk1_macro" group="group01" exact="2"/>
+                            <turrets macro="turret_arg_m_laser_02_mk1_macro" group="group04" exact="2"/>
+                            <turrets macro="turret_par_l_laser_01_mk1_macro" group="group05" exact="3"/>
+                            <turrets macro="turret_par_l_laser_01_mk1_macro" group="group06" exact="3"/>
+                        </groups>
+                        <ammunition>
+                            <unit macro="ship_gen_s_fightingdrone_01_a_macro" exact="11"/>
+                        </ammunition>
+                    </upgrades>
+                </entry>
+                <entry id="[0x2d85]" index="9" macro="defence_arg_tube_01_macro" connection="connectionsnap002">
+                    <predecessor index="5" connection="connectionsnap001"/>
+                    <offset>
+                        <position x="-320.988" z="-566.741"/>
+                        <rotation yaw="89.44097"/>
+                    </offset>
+                    <upgrades generated="1">
+                        <groups>
+                            <shields macro="shield_arg_m_standard_02_mk2_macro" group="group02"/>
+                            <shields macro="shield_arg_m_standard_02_mk2_macro" group="group03"/>
+                            <shields macro="shield_arg_m_standard_02_mk2_macro" group="group01"/>
+                            <shields macro="shield_arg_m_standard_02_mk2_macro" group="group04"/>
+                            <shields macro="shield_tel_l_standard_01_mk2_macro" group="group05"/>
+                            <shields macro="shield_arg_l_standard_01_mk2_macro" group="group06"/>
+                            <turrets macro="turret_arg_m_laser_02_mk1_macro" group="group02" exact="2"/>
+                            <turrets macro="turret_arg_m_laser_02_mk1_macro" group="group03" exact="2"/>
+                            <turrets macro="turret_arg_m_laser_02_mk1_macro" group="group01" exact="2"/>
+                            <turrets macro="turret_arg_m_laser_02_mk1_macro" group="group04" exact="2"/>
+                            <turrets macro="turret_par_l_laser_01_mk1_macro" group="group05" exact="3"/>
+                            <turrets macro="turret_arg_l_laser_01_mk1_macro" group="group06" exact="3"/>
+                        </groups>
+                        <ammunition>
+                            <unit macro="ship_gen_s_fightingdrone_01_a_macro" exact="11"/>
+                        </ammunition>
+                    </upgrades>
+                </entry>
+            </sequence>
+        </construction>
+        <shields>
+            <group context="[0x2c51d]"/>
+            <group context="[0x2c531]"/>
+            <group context="[0x2c535]"/>
+            <group context="[0x2c535]" group="left_01" value="0" time="1366088.748"/>
+            <group context="[0x2c535]" group="top_01" value="0" time="1366088.748"/>
+            <group context="[0x2c535]" group="bottom_01" value="0" time="1366088.748"/>
+            <group context="[0x2c541]"/>
+            <group context="[0x2c541]" group="left_01" value="0" time="903710.409"/>
+            <group context="[0x2c541]" group="top_01" value="0" time="903710.409"/>
+            <group context="[0x2c541]" group="bottom_01" value="0" time="903710.409"/>
+            <group context="[0x2c54c]"/>
+            <group context="[0x2c54c]" group="group01"/>
+            <group context="[0x2c54c]" group="group02"/>
+            <group context="[0x2c54c]" group="group03"/>
+            <group context="[0x2c54c]" group="group04"/>
+            <group context="[0x2c54c]" group="group07"/>
+            <group context="[0x2c54c]" group="group05"/>
+            <group context="[0x2c54c]" group="group06"/>
+            <group context="[0x2c54c]" group="group08"/>
+            <group context="[0x2c569]"/>
+            <group context="[0x2c569]" group="group01" value="6069.887" time="1054797.918"/>
+            <group context="[0x2c569]" group="group02" value="5903.326" time="1054814.703"/>
+            <group context="[0x2c569]" group="group03"/>
+            <group context="[0x2c569]" group="group04"/>
+            <group context="[0x2c569]" group="group06"/>
+            <group context="[0x2c569]" group="group07"/>
+            <group context="[0x2c569]" group="group05"/>
+            <group context="[0x2c569]" group="group08"/>
+            <group context="[0x2c586]"/>
+            <group context="[0x2c586]" group="group01"/>
+            <group context="[0x2c586]" group="group02"/>
+            <group context="[0x2c586]" group="group03"/>
+            <group context="[0x2c586]" group="group04"/>
+            <group context="[0x2c586]" group="group06"/>
+            <group context="[0x2c586]" group="group05"/>
+            <group context="[0x2c59c]"/>
+            <group context="[0x2c59c]" group="group01" value="5977.594" time="894560.35"/>
+            <group context="[0x2c59c]" group="group02"/>
+            <group context="[0x2c59c]" group="group03"/>
+            <group context="[0x2c59c]" group="group04"/>
+            <group context="[0x2c59c]" group="group06"/>
+            <group context="[0x2c59c]" group="group05"/>
+            <group context="[0x2c5b2]"/>
+        </shields>
+        <ammunition>
+            <available>
+                <item macro="ship_gen_xs_repairdrone_01_a_macro" amount="1"/>
+                <item macro="ship_gen_s_fightingdrone_01_a_macro" amount="44"/>
+                <item macro="ship_gen_xs_cargodrone_empty_01_a_macro" amount="4"/>
+            </available>
+        </ammunition>
+        <weapongroups>
+            <primary active="0"/>
+            <secondary active="0"/>
+        </weapongroups>
+        <trade wares="majadust spacefuel spaceweed">
+            <reservations>
+                <reservation reserver="[0x89c0e]" id="[0xeae5]" buyer="[0x2c517]" partner="[0x89c0e]" ware="foodrations" price="1332" amount="147" desired="147" flags="invertfactionrestriction">
+                    <source class="production"/>
+                </reservation>
+                <reservation reserver="[0x2ce8e]" id="[0x42b1e]" seller="[0x2c517]" partner="[0x2ce8e]" ware="spaceweed" price="16600" amount="33" desired="33" flags="sellermoneyvirtual|buyermoneyvirtual|invertfactionrestriction">
+                    <source class="production"/>
+                </reservation>
+            </reservations>
+            <offers>
+                <production>
+                    <trade id="[0x6392]" buyer="[0x2c517]" ware="foodrations" price="1237" amount="35" desired="35" flags="invertfactionrestriction">
+                        <source class="production"/>
+                    </trade>
+                    <trade id="[0x6393]" buyer="[0x2c517]" ware="majadust" price="20700" amount="2612" desired="2612" flags="invertfactionrestriction">
+                        <source class="production"/>
+                    </trade>
+                    <trade id="[0x6394]" seller="[0x2c517]" ware="majadust" price="20800" amount="0" flags="invertfactionrestriction">
+                        <source class="production"/>
+                    </trade>
+                    <trade id="[0x6395]" buyer="[0x2c517]" ware="medicalsupplies" price="4626" amount="86" desired="86" flags="invertfactionrestriction">
+                        <source class="production"/>
+                    </trade>
+                    <trade id="[0x6396]" buyer="[0x2c517]" ware="spacefuel" price="13200" amount="0" flags="invertfactionrestriction">
+                        <source class="production"/>
+                    </trade>
+                    <trade id="[0x6397]" seller="[0x2c517]" ware="spacefuel" price="13300" amount="7838" flags="invertfactionrestriction">
+                        <source class="production"/>
+                    </trade>
+                    <trade id="[0x6398]" buyer="[0x2c517]" ware="spaceweed" price="16500" amount="4259" desired="4259" flags="invertfactionrestriction">
+                        <source class="production"/>
+                    </trade>
+                    <trade id="[0x6399]" seller="[0x2c517]" ware="spaceweed" price="16600" amount="933" flags="invertfactionrestriction">
+                        <source class="production"/>
+                    </trade>
+                </production>
+            </offers>
+            <settings>
+                <setting name="buy" wares="majadust spacefuel spaceweed"/>
+                <setting name="sell" wares="majadust spacefuel spaceweed"/>
+                <setting name="lockavgprice" wares="majadust spacefuel spaceweed"/>
+            </settings>
+            <prices>
+                <reference>
+                    <ware ware="spacefuel" buy="132" sell="0"/>
+                    <ware ware="medicalsupplies" buy="46" sell="0"/>
+                    <ware ware="foodrations" buy="12" sell="0"/>
+                    <ware ware="majadust" buy="207" sell="0"/>
+                    <ware ware="spaceweed" buy="165" sell="0"/>
+                </reference>
+            </prices>
+        </trade>
+        <workforces lasttime="1368265.691">
+            <workforce race="argon" amount="151"/>
+            <bonus value="1" endtime="1368307" busy="0"/>
+        </workforces>
+        <economylog cargo="0" offer="0">
+            <cargo ware="foodrations" v="1305"/>
+            <cargo ware="spacefuel" v="7748"/>
+            <cargo ware="medicalsupplies" v="671"/>
+            <buy ware="majadust" price="20700" v="2612"/>
+            <sell ware="majadust" price="20800"/>
+            <buy ware="medicalsupplies" price="4918" v="138"/>
+            <buy ware="spacefuel" price="13200" v="90"/>
+            <sell ware="spacefuel" price="13300" v="7748"/>
+            <buy ware="spaceweed" price="16500" v="5225"/>
+            <sell ware="spaceweed" price="16600"/>
+            <buy ware="foodrations" price="1244" v="45"/>
+        </economylog>
+        <buildplot>
+            <max x="5000" y="5000" z="5000"/>
+        </buildplot>
+        <connections>
+            <connection connection="buildingmodule" id="[0x2c518]">
+                <connected connection="[0x2c4f5]"/>
+            </connection>
+            <connection connection="controlroom" macro="controlroom">
+                <component class="controlroom" macro="control_room_macro" connection="connection01" id="[0x2c519]">
+                    <connections>
+                        <connection connection="entities">
+                            <component class="computer" macro="character_defence_computer_01_macro" connection="parentconnection" code="HBR-327" owner="hatikvah" known="1" read="0" id="[0x2c51a]">
+                                <listeners>
+                                    <listener listener="[0x2c517]" event="killed"/>
+                                </listeners>
+                                <traits flags="remotecommable">
+                                    <skill type="morale" value="6"/>
+                                </traits>
+                                <entity type="officer" post="defence"/>
+                            </component>
+                        </connection>
+                        <connection connection="entities">
+                            <component class="computer" macro="character_engineer_computer_01_macro" connection="parentconnection" code="LNM-721" owner="hatikvah" known="1" read="0" id="[0x2c51b]">
+                                <listeners>
+                                    <listener listener="[0x2c517]" event="killed"/>
+                                </listeners>
+                                <traits flags="remotecommable">
+                                    <skill type="engineering" value="6"/>
+                                    <skill type="morale" value="6"/>
+                                </traits>
+                                <entity type="officer" post="engineer"/>
+                            </component>
+                        </connection>
+                        <connection connection="entities">
+                            <component class="npc" macro="character_teladi_male_pilot_01_macro" connection="parentconnection" name="Yahondras Lalundas Zusilas III" code="LAY-989" owner="hatikvah" known="1" read="0" page="10506" id="[0x2c51c]">
+                                <listeners>
+                                    <listener listener="[0x2c517]" event="killed"/>
+                                </listeners>
+                                <traits flags="remotecommable">
+                                    <skill type="management" value="15"/>
+                                    <skill type="morale" value="12"/>
+                                    <skill type="piloting" value="2"/>
+                                </traits>
+                                <entity type="officer" post="manager"/>
+                                <blackboard>
+                                    <value name="$StateMachine" type="cue" value="187176"/>
+                                </blackboard>
+                                <npcseed seed="2787602336426772740"/>
+                            </component>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="modules">
+                <component class="dockarea" macro="dockarea_arg_m_station_02_lowtech_macro" connection="space" construction="[0x2d81]" id="[0x2c51d]">
+                    <offset>
+                        <position x="78.993" z="-562.839"/>
+                        <rotation yaw="-0.558987"/>
+                    </offset>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_hatikvah" name="diffuse_map" type="texture"/>
+                    </render>
+                    <connections>
+                        <connection connection="con_shipstorage_xs_01" macro="con_shipstorage_xs_01">
+                            <component class="dockingbay" macro="shipstorage_gen_xs_01_macro" connection="object" id="[0x2c51e]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="connectionfor_room_arg_m_station_02_lowtech_macro" macro="connectionfor_room_arg_m_station_02_lowtech_macro">
+                            <component class="room" macro="room_arg_m_station_02_lowtech_macro" connection="position" id="[0x2c51f]">
+                                <render>
+                                    <parameter value="assets\fx\gui\textures\factions\faction_hatikvah" name="diffuse_map" type="texture"/>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_dock_xs_01" macro="con_dock_xs_01">
+                            <component class="dockingbay" macro="dock_gen_xs_ship_01_macro" connection="connection_component" id="[0x2c520]">
+                                <offset default="1"/>
+                                <render>
+                                    <parameter value="assets\fx\gui\textures\factions\faction_hatikvah" name="diffuse_map" type="texture"/>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_dock_xs_02" macro="con_dock_xs_02">
+                            <component class="dockingbay" macro="dock_gen_xs_ship_01_macro" connection="connection_component" id="[0x2c521]">
+                                <offset default="1"/>
+                                <render>
+                                    <parameter value="assets\fx\gui\textures\factions\faction_hatikvah" name="diffuse_map" type="texture"/>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="connectionfor_dockingbay_arg_s_01_lowtech_macro" macro="connectionfor_dockingbay_arg_s_01_lowtech_macro">
+                            <component class="dockingbay" macro="dockingbay_arg_s_01_lowtech_macro" connection="position" id="[0x2c522]">
+                                <offset default="1"/>
+                                <render>
+                                    <parameter value="assets\fx\gui\textures\factions\faction_hatikvah" name="diffuse_map" type="texture"/>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_shipstorage_s_01" macro="con_shipstorage_s_01">
+                            <component class="dockingbay" macro="shipstorage_gen_s_01_macro" connection="object" id="[0x2c523]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_shipstorage_m_01" macro="con_shipstorage_m_01">
+                            <component class="dockingbay" macro="shipstorage_gen_m_01_macro" connection="object" id="[0x2c524]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="connectionfor_dockingbay_arg_s_01_lowtech_macro3" macro="connectionfor_dockingbay_arg_s_01_lowtech_macro3">
+                            <component class="dockingbay" macro="dockingbay_arg_s_01_lowtech_macro" connection="position" id="[0x2c525]">
+                                <offset default="1"/>
+                                <render>
+                                    <parameter value="assets\fx\gui\textures\factions\faction_hatikvah" name="diffuse_map" type="texture"/>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="connectionfor_dockingbay_arg_s_01_lowtech_macro2" macro="connectionfor_dockingbay_arg_s_01_lowtech_macro2">
+                            <component class="dockingbay" macro="dockingbay_arg_s_01_lowtech_macro" connection="position" id="[0x2c526]">
+                                <offset default="1"/>
+                                <render>
+                                    <parameter value="assets\fx\gui\textures\factions\faction_hatikvah" name="diffuse_map" type="texture"/>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="connectionfor_dockingbay_arg_s_01_lowtech_macro1" macro="connectionfor_dockingbay_arg_s_01_lowtech_macro1">
+                            <component class="dockingbay" macro="dockingbay_arg_s_01_lowtech_macro" connection="position" id="[0x2c527]">
+                                <offset default="1"/>
+                                <render>
+                                    <parameter value="assets\fx\gui\textures\factions\faction_hatikvah" name="diffuse_map" type="texture"/>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="connectionfor_dockingbay_arg_s_01_lowtech_macro5" macro="connectionfor_dockingbay_arg_s_01_lowtech_macro5">
+                            <component class="dockingbay" macro="dockingbay_arg_s_01_lowtech_macro" connection="position" id="[0x2c528]">
+                                <offset default="1"/>
+                                <render>
+                                    <parameter value="assets\fx\gui\textures\factions\faction_hatikvah" name="diffuse_map" type="texture"/>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="connectionfor_dockingbay_arg_s_01_lowtech_macro4" macro="connectionfor_dockingbay_arg_s_01_lowtech_macro4">
+                            <component class="dockingbay" macro="dockingbay_arg_s_01_lowtech_macro" connection="position" id="[0x2c529]">
+                                <offset default="1"/>
+                                <render>
+                                    <parameter value="assets\fx\gui\textures\factions\faction_hatikvah" name="diffuse_map" type="texture"/>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="connectionfor_dockingbay_arg_m_01_lowtech_macro" macro="connectionfor_dockingbay_arg_m_01_lowtech_macro">
+                            <component class="dockingbay" macro="dockingbay_arg_m_01_lowtech_macro" connection="position" id="[0x2c52a]">
+                                <offset default="1"/>
+                                <render>
+                                    <parameter value="assets\fx\gui\textures\factions\faction_hatikvah" name="diffuse_map" type="texture"/>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="connectionfor_dockingbay_arg_m_01_lowtech_macro1" macro="connectionfor_dockingbay_arg_m_01_lowtech_macro1">
+                            <component class="dockingbay" macro="dockingbay_arg_m_01_lowtech_macro" connection="position" id="[0x2c52b]">
+                                <offset default="1"/>
+                                <render>
+                                    <parameter value="assets\fx\gui\textures\factions\faction_hatikvah" name="diffuse_map" type="texture"/>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="connectionfor_dockingbay_arg_m_01_lowtech_macro2" macro="connectionfor_dockingbay_arg_m_01_lowtech_macro2">
+                            <component class="dockingbay" macro="dockingbay_arg_m_01_lowtech_macro" connection="position" id="[0x2c52c]">
+                                <offset default="1"/>
+                                <render>
+                                    <parameter value="assets\fx\gui\textures\factions\faction_hatikvah" name="diffuse_map" type="texture"/>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="connectionsnap004" id="[0x2c52d]">
+                            <connected connection="[0x2c540]"/>
+                        </connection>
+                        <connection connection="connectionsnap003" id="[0x2c52e]">
+                            <connected connection="[0x2c534]"/>
+                        </connection>
+                        <connection connection="connectionsnap002" id="[0x2c52f]">
+                            <connected connection="[0x2c59b]"/>
+                        </connection>
+                        <connection connection="connectionsnap001" id="[0x2c530]">
+                            <connected connection="[0x2c5b1]"/>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="modules">
+                <component class="pier" macro="pier_arg_harbor_02_macro" connection="space" attackmethod="lowattentionattack" attacktime="902365.131" shipattacktime="902365.131" intentionalattacktime="902365.131" construction="[0x2d7f]" id="[0x2c531]">
+                    <offset>
+                        <position x="80.944" z="-762.829"/>
+                        <rotation yaw="-90.55901"/>
+                    </offset>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_hatikvah" name="diffuse_map" type="texture"/>
+                    </render>
+                    <connections>
+                        <connection connection="connectionfor_dockingbay_gen_xl_pier_01_macro" macro="connectionfor_dockingbay_gen_xl_pier_01_macro">
+                            <component class="dockingbay" macro="dockingbay_gen_xl_pier_01_macro" connection="position" id="[0x2c532]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="connectionsnap006" id="[0x2c533]">
+                            <connected connection="[0x2c5b3]"/>
+                        </connection>
+                        <connection connection="connectionsnap004" id="[0x2c534]">
+                            <connected connection="[0x2c52e]"/>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="modules">
+                <component class="storage" macro="storage_arg_s_container_01_macro" connection="space" attackmethod="lowattentionattack" attacktime="950406.872" shipattacktime="950406.872" intentionalattacktime="950406.872" construction="[0x2d82]" id="[0x2c535]">
+                    <listeners>
+                        <listener listener="[0x49ba7]" event="killed tempcomponentremoved"/>
+                    </listeners>
+                    <offset>
+                        <position x="73.139" z="37.133"/>
+                        <rotation yaw="179.44098"/>
+                    </offset>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_hatikvah" name="diffuse_map" type="texture"/>
+                    </render>
+                    <cargo>
+                        <ware ware="foodrations" amount="1102"/>
+                        <ware ware="spacefuel" amount="5080"/>
+                        <ware ware="medicalsupplies" amount="443"/>
+                        <ware ware="spaceweed" amount="966"/>
+                    </cargo>
+                    <connections>
+                        <connection connection="con_shieldgen_004">
+                            <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x2c536]">
+                                <offset>
+                                    <position x="-160.346" y="-0.1667" z="24.049"/>
+                                    <quaternion qx="-0.5" qy="0.5" qz="0.5" qw="0.5"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shieldgen_005">
+                            <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x2c537]">
+                                <offset>
+                                    <position x="88.981" y="74.141" z="-3.722"/>
+                                    <rotation yaw="90.00001"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shieldgen_006">
+                            <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x2c538]">
+                                <offset>
+                                    <position x="87.986" y="-74.16" z="-3.722"/>
+                                    <rotation roll="179.99989"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_005">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c539]">
+                                <offset>
+                                    <position x="88.165" y="-74.155" z="-75.659"/>
+                                    <rotation yaw="-90.00002" roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="on|override" owner="[0x2c539]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1366268.759" duration="0.5" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_004">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c53a]">
+                                <offset>
+                                    <position x="88.718" y="74.121" z="-75.302"/>
+                                    <rotation yaw="90.00001"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="on|override" owner="[0x2c53a]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1366268.759" duration="0.5" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_006">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c53b]">
+                                <offset>
+                                    <position x="88.165" y="-74.139" z="75.999"/>
+                                    <rotation yaw="-90.00002" roll="-179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="on|override" owner="[0x2c53b]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1366268.759" duration="0.5" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_001">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c53c]">
+                                <offset>
+                                    <position x="-160.346" y="-0.1667" z="-74.9"/>
+                                    <quaternion qx="-0.5" qy="0.5" qz="0.5" qw="0.5"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="on|override" owner="[0x2c53c]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1366268.759" duration="0.5" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_003">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c53d]">
+                                <offset>
+                                    <position x="88.886" y="74.166" z="75.966"/>
+                                    <rotation yaw="90.00001"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="on|override" owner="[0x2c53d]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1366268.759" duration="0.5" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_002">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c53e]">
+                                <offset>
+                                    <position x="-160.346" y="-0.1667" z="74.315"/>
+                                    <quaternion qx="-0.5" qy="0.5" qz="0.5" qw="0.5"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="on|override" owner="[0x2c53e]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1366268.759" duration="0.5" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="connectionsnap002" id="[0x2c53f]">
+                            <connected connection="[0x2c54b]"/>
+                        </connection>
+                        <connection connection="connectionsnap001" id="[0x2c540]">
+                            <connected connection="[0x2c52d]"/>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="modules">
+                <component class="storage" macro="storage_arg_s_container_01_macro" connection="space" attackmethod="lowattentionattack" attacktime="1354545.341" shipattacktime="1354545.341" intentionalattacktime="1354545.341" construction="[0x2d83]" id="[0x2c541]">
+                    <listeners>
+                        <listener listener="[0x49ba7]" event="killed tempcomponentremoved"/>
+                    </listeners>
+                    <offset>
+                        <position x="65.335" z="837.095"/>
+                        <rotation yaw="-0.558987"/>
+                    </offset>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_hatikvah" name="diffuse_map" type="texture"/>
+                    </render>
+                    <cargo>
+                        <ware ware="spacefuel" amount="2758"/>
+                        <ware ware="medicalsupplies" amount="281"/>
+                        <ware ware="foodrations" amount="66"/>
+                    </cargo>
+                    <connections>
+                        <connection connection="con_shieldgen_004">
+                            <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x2c542]">
+                                <offset>
+                                    <position x="-160.346" y="-0.1667" z="24.049"/>
+                                    <quaternion qx="-0.5" qy="0.5" qz="0.5" qw="0.5"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shieldgen_005">
+                            <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x2c543]">
+                                <offset>
+                                    <position x="88.981" y="74.141" z="-3.722"/>
+                                    <rotation yaw="90.00001"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shieldgen_006">
+                            <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x2c544]">
+                                <offset>
+                                    <position x="87.986" y="-74.16" z="-3.722"/>
+                                    <rotation roll="179.99989"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_005">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c545]">
+                                <offset>
+                                    <position x="88.165" y="-74.155" z="-75.659"/>
+                                    <rotation yaw="-90.00002" roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="on|override" owner="[0x2c545]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="903890.424" duration="0.5" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_004">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c546]">
+                                <offset>
+                                    <position x="88.718" y="74.121" z="-75.302"/>
+                                    <rotation yaw="90.00001"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="on|override" owner="[0x2c546]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="903890.424" duration="0.5" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_006">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c547]">
+                                <offset>
+                                    <position x="88.165" y="-74.139" z="75.999"/>
+                                    <rotation yaw="-90.00002" roll="-179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="on|override" owner="[0x2c547]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="903890.424" duration="0.5" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_001">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c548]">
+                                <offset>
+                                    <position x="-160.346" y="-0.1667" z="-74.9"/>
+                                    <quaternion qx="-0.5" qy="0.5" qz="0.5" qw="0.5"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="on|override" owner="[0x2c548]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="903890.424" duration="0.5" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_003">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c549]">
+                                <offset>
+                                    <position x="88.886" y="74.166" z="75.966"/>
+                                    <rotation yaw="90.00001"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="on|override" owner="[0x2c549]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="903890.424" duration="0.5" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_002">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c54a]">
+                                <offset>
+                                    <position x="-160.346" y="-0.1667" z="74.315"/>
+                                    <quaternion qx="-0.5" qy="0.5" qz="0.5" qw="0.5"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="on|override" owner="[0x2c54a]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="903890.424" duration="0.5" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="connectionsnap002" id="[0x2c54b]">
+                            <connected connection="[0x2c53f]"/>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="modules">
+                <component class="defencemodule" macro="defence_arg_disc_01_macro" connection="space" construction="[0x2d7d]" id="[0x2c54c]">
+                    <offset>
+                        <position x="892.629" z="-1169.282"/>
+                    </offset>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_hatikvah" name="diffuse_map" type="texture"/>
+                    </render>
+                    <connections>
+                        <connection connection="con_shieldgen_001">
+                            <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x2c54d]">
+                                <offset>
+                                    <position x="-16.946" y="70.335"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shieldgen_002">
+                            <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x2c54e]">
+                                <offset>
+                                    <position x="16.619" y="70.335"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shieldgen_003">
+                            <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x2c54f]">
+                                <offset>
+                                    <position x="-17.105" y="-70.265"/>
+                                    <rotation roll="179.99989"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shieldgen_004">
+                            <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x2c550]">
+                                <offset>
+                                    <position x="17.292" y="-70.265"/>
+                                    <rotation roll="179.99989"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_005">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c551]">
+                                <offset>
+                                    <position y="-76.881" z="33.641"/>
+                                    <rotation yaw="179.99989" roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c551]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_004">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c552]">
+                                <offset>
+                                    <position y="76.951" z="55.407"/>
+                                    <rotation yaw="-179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c552]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_007">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c553]">
+                                <offset>
+                                    <position y="-76.881" z="-33.23"/>
+                                    <rotation yaw="179.99989" roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c553]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_006">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c554]">
+                                <offset>
+                                    <position y="-76.881" z="55.407"/>
+                                    <rotation yaw="179.99989" roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c554]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_001">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c555]">
+                                <offset>
+                                    <position y="76.951" z="-33.252"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c555]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_003">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c556]">
+                                <offset>
+                                    <position y="76.951" z="33.641"/>
+                                    <rotation yaw="-179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c556]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_002">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c557]">
+                                <offset>
+                                    <position y="76.951" z="-55.206"/>
+                                    <rotation yaw="-179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c557]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_008">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c558]">
+                                <offset>
+                                    <position y="-76.881" z="-54.996"/>
+                                    <rotation yaw="179.99989" roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c558]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_009">
+                            <component class="turret" macro="turret_par_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" id="[0x2c559]">
+                                <offset>
+                                    <position x="36.937" y="-59.026" z="131.832"/>
+                                    <rotation pitch="10.00003" roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c559]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_001">
+                            <component class="turret" macro="turret_par_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" id="[0x2c55a]">
+                                <offset>
+                                    <position x="-132.265" y="58.87" z="-37.621"/>
+                                    <rotation yaw="-90.00002" pitch="-10"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c55a]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_002">
+                            <component class="turret" macro="turret_par_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" id="[0x2c55b]">
+                                <offset>
+                                    <position x="-132.265" y="58.87" z="37.785"/>
+                                    <rotation yaw="-90.00002" pitch="-10"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c55b]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_003">
+                            <component class="turret" macro="turret_arg_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" ammunition="3" id="[0x2c55c]">
+                                <offset>
+                                    <position x="133.082" y="58.87" z="-37.621"/>
+                                    <rotation yaw="89.99995" pitch="-10"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c55c]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_004">
+                            <component class="turret" macro="turret_arg_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" ammunition="3" id="[0x2c55d]">
+                                <offset>
+                                    <position x="133.082" y="58.87" z="37.785"/>
+                                    <rotation yaw="89.99982" pitch="-10"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c55d]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_005">
+                            <component class="turret" macro="turret_par_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" id="[0x2c55e]">
+                                <offset>
+                                    <position x="-38.469" y="58.87" z="133.108"/>
+                                    <rotation pitch="-10"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c55e]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_006">
+                            <component class="turret" macro="turret_arg_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" ammunition="3" id="[0x2c55f]">
+                                <offset>
+                                    <position x="36.937" y="58.87" z="133.108"/>
+                                    <rotation pitch="-10"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c55f]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_013">
+                            <component class="turret" macro="turret_par_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" id="[0x2c560]">
+                                <offset>
+                                    <position x="133.082" y="-59.026" z="-36.345"/>
+                                    <rotation yaw="89.99982" pitch="10" roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c560]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_012">
+                            <component class="turret" macro="turret_arg_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" ammunition="3" id="[0x2c561]">
+                                <offset>
+                                    <position x="-38.469" y="-59.026" z="-131.667"/>
+                                    <rotation yaw="179.99989" pitch="10" roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c561]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_016">
+                            <component class="turret" macro="turret_arg_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" ammunition="3" id="[0x2c562]">
+                                <offset>
+                                    <position x="-132.265" y="-59.026" z="39.062"/>
+                                    <rotation yaw="-90.00001" pitch="10.00002" roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c562]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_015">
+                            <component class="turret" macro="turret_arg_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" ammunition="3" id="[0x2c563]">
+                                <offset>
+                                    <position x="-132.265" y="-59.026" z="-36.345"/>
+                                    <rotation yaw="-90.00001" pitch="10.00002" roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c563]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_014">
+                            <component class="turret" macro="turret_par_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" id="[0x2c564]">
+                                <offset>
+                                    <position x="133.082" y="-59.026" z="39.062"/>
+                                    <rotation yaw="89.99995" pitch="10" roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c564]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_shieldgen_large_001">
+                            <component class="shieldgenerator" macro="shield_tel_l_standard_01_mk2_macro" connection="small_con_shieldgen_01" id="[0x2c565]">
+                                <offset>
+                                    <position x="-66.431" y="60.819" z="-0.002404"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shieldgen_large_002">
+                            <component class="shieldgenerator" macro="shield_tel_l_standard_01_mk2_macro" connection="small_con_shieldgen_01" id="[0x2c566]">
+                                <offset>
+                                    <position x="66.193" y="60.819" z="-0.002404"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shieldgen_large_003">
+                            <component class="shieldgenerator" macro="shield_par_l_standard_01_mk2_macro" connection="small_con_shieldgen_01" id="[0x2c567]">
+                                <offset>
+                                    <position x="66.193" y="-60.617" z="-0.002406"/>
+                                    <rotation yaw="-179.99989" roll="179.99989"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shieldgen_large_004">
+                            <component class="shieldgenerator" macro="shield_arg_l_standard_01_mk2_macro" connection="small_con_shieldgen_01" id="[0x2c568]">
+                                <offset>
+                                    <position x="-66.431" y="-60.617" z="-0.002406"/>
+                                    <rotation yaw="-179.99989" roll="179.99989"/>
+                                </offset>
+                            </component>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="modules">
+                <component class="defencemodule" macro="defence_arg_disc_01_macro" connection="space" attackmethod="lowattentionattack" attacktime="1054848.582" shipattacktime="1054848.582" intentionalattacktime="1054848.582" construction="[0x2d7e]" id="[0x2c569]">
+                    <offset>
+                        <position x="-748.92" z="-91.135"/>
+                        <rotation yaw="-1.43602"/>
+                    </offset>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_hatikvah" name="diffuse_map" type="texture"/>
+                    </render>
+                    <connections>
+                        <connection connection="con_shieldgen_001">
+                            <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x2c56a]">
+                                <offset>
+                                    <position x="-16.946" y="70.335"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shieldgen_002">
+                            <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x2c56b]">
+                                <offset>
+                                    <position x="16.619" y="70.335"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shieldgen_003">
+                            <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x2c56c]">
+                                <offset>
+                                    <position x="-17.105" y="-70.265"/>
+                                    <rotation roll="179.99989"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shieldgen_004">
+                            <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x2c56d]">
+                                <offset>
+                                    <position x="17.292" y="-70.265"/>
+                                    <rotation roll="179.99989"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_005">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c56e]">
+                                <offset>
+                                    <position y="-76.881" z="33.641"/>
+                                    <rotation yaw="179.99989" roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c56e]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_004">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" attackmethod="lowattentionattack" attacktime="1054797.918" shipattacktime="1054797.918" intentionalattacktime="1054797.918" lastshottime="0" ammunition="3" id="[0x2c56f]">
+                                <offset>
+                                    <position y="76.951" z="55.407"/>
+                                    <rotation yaw="-179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c56f]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_007">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c570]">
+                                <offset>
+                                    <position y="-76.881" z="-33.23"/>
+                                    <rotation yaw="179.99989" roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c570]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_006">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c571]">
+                                <offset>
+                                    <position y="-76.881" z="55.407"/>
+                                    <rotation yaw="179.99989" roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c571]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_001">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c572]">
+                                <offset>
+                                    <position y="76.951" z="-33.252"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c572]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_003">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c573]">
+                                <offset>
+                                    <position y="76.951" z="33.641"/>
+                                    <rotation yaw="-179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c573]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_002">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" attackmethod="lowattentionattack" attacktime="1054814.703" shipattacktime="1054814.703" intentionalattacktime="1054814.703" lastshottime="0" ammunition="3" id="[0x2c574]">
+                                <offset>
+                                    <position y="76.951" z="-55.206"/>
+                                    <rotation yaw="-179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c574]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_008">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c575]">
+                                <offset>
+                                    <position y="-76.881" z="-54.996"/>
+                                    <rotation yaw="179.99989" roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c575]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_008">
+                            <component class="turret" macro="turret_arg_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" ammunition="3" id="[0x2c576]">
+                                <offset>
+                                    <position x="36.937" y="58.87" z="-130.391"/>
+                                    <rotation yaw="179.99989" pitch="-10.00001"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c576]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_009">
+                            <component class="turret" macro="turret_arg_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" ammunition="3" id="[0x2c577]">
+                                <offset>
+                                    <position x="36.937" y="-59.026" z="131.832"/>
+                                    <rotation pitch="10.00003" roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c577]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_002">
+                            <component class="turret" macro="turret_arg_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" ammunition="3" id="[0x2c578]">
+                                <offset>
+                                    <position x="-132.265" y="58.87" z="37.785"/>
+                                    <rotation yaw="-90.00002" pitch="-10"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c578]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_003">
+                            <component class="turret" macro="turret_arg_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" ammunition="3" id="[0x2c579]">
+                                <offset>
+                                    <position x="133.082" y="58.87" z="-37.621"/>
+                                    <rotation yaw="89.99995" pitch="-10"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c579]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_005">
+                            <component class="turret" macro="turret_arg_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" ammunition="3" id="[0x2c57a]">
+                                <offset>
+                                    <position x="-38.469" y="58.87" z="133.108"/>
+                                    <rotation pitch="-10"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c57a]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_006">
+                            <component class="turret" macro="turret_arg_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" ammunition="3" id="[0x2c57b]">
+                                <offset>
+                                    <position x="36.937" y="58.87" z="133.108"/>
+                                    <rotation pitch="-10"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c57b]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_007">
+                            <component class="turret" macro="turret_arg_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" ammunition="3" id="[0x2c57c]">
+                                <offset>
+                                    <position x="-38.469" y="58.87" z="-130.391"/>
+                                    <rotation yaw="179.99989" pitch="-10.00001"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c57c]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_013">
+                            <component class="turret" macro="turret_arg_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" ammunition="3" id="[0x2c57d]">
+                                <offset>
+                                    <position x="133.082" y="-59.026" z="-36.345"/>
+                                    <rotation yaw="89.99982" pitch="10" roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c57d]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_012">
+                            <component class="turret" macro="turret_par_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" id="[0x2c57e]">
+                                <offset>
+                                    <position x="-38.469" y="-59.026" z="-131.667"/>
+                                    <rotation yaw="179.99989" pitch="10" roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c57e]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_016">
+                            <component class="turret" macro="turret_par_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" id="[0x2c57f]">
+                                <offset>
+                                    <position x="-132.265" y="-59.026" z="39.062"/>
+                                    <rotation yaw="-90.00001" pitch="10.00002" roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c57f]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_015">
+                            <component class="turret" macro="turret_par_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" id="[0x2c580]">
+                                <offset>
+                                    <position x="-132.265" y="-59.026" z="-36.345"/>
+                                    <rotation yaw="-90.00001" pitch="10.00002" roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c580]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_014">
+                            <component class="turret" macro="turret_arg_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" ammunition="3" id="[0x2c581]">
+                                <offset>
+                                    <position x="133.082" y="-59.026" z="39.062"/>
+                                    <rotation yaw="89.99995" pitch="10" roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c581]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_shieldgen_large_001">
+                            <component class="shieldgenerator" macro="shield_par_l_standard_01_mk2_macro" connection="small_con_shieldgen_01" id="[0x2c582]">
+                                <offset>
+                                    <position x="-66.431" y="60.819" z="-0.002404"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shieldgen_large_002">
+                            <component class="shieldgenerator" macro="shield_arg_l_standard_01_mk2_macro" connection="small_con_shieldgen_01" id="[0x2c583]">
+                                <offset>
+                                    <position x="66.193" y="60.819" z="-0.002404"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shieldgen_large_003">
+                            <component class="shieldgenerator" macro="shield_tel_l_standard_01_mk2_macro" connection="small_con_shieldgen_01" id="[0x2c584]">
+                                <offset>
+                                    <position x="66.193" y="-60.617" z="-0.002406"/>
+                                    <rotation yaw="-179.99989" roll="179.99989"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shieldgen_large_004">
+                            <component class="shieldgenerator" macro="shield_arg_l_standard_01_mk2_macro" connection="small_con_shieldgen_01" id="[0x2c585]">
+                                <offset>
+                                    <position x="-66.431" y="-60.617" z="-0.002406"/>
+                                    <rotation yaw="-179.99989" roll="179.99989"/>
+                                </offset>
+                            </component>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="modules">
+                <component class="defencemodule" macro="defence_arg_tube_01_macro" connection="space" attackmethod="lowattentionattack" attacktime="800254.968" shipattacktime="800254.968" intentionalattacktime="800254.968" construction="[0x2d84]" id="[0x2c586]">
+                    <offset>
+                        <position x="478.974" z="-558.936"/>
+                        <rotation yaw="89.44092"/>
+                    </offset>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_hatikvah" name="diffuse_map" type="texture"/>
+                    </render>
+                    <connections>
+                        <connection connection="con_shieldgen_001">
+                            <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x2c587]">
+                                <offset>
+                                    <position y="51.166" z="99.5"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shieldgen_002">
+                            <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x2c588]">
+                                <offset>
+                                    <position y="51.081" z="-99.5"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shieldgen_003">
+                            <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x2c589]">
+                                <offset>
+                                    <position y="-51.192" z="99.5"/>
+                                    <rotation roll="179.99989"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shieldgen_004">
+                            <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x2c58a]">
+                                <offset>
+                                    <position y="-51.192" z="-99.5"/>
+                                    <rotation roll="179.99989"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_005">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c58b]">
+                                <offset>
+                                    <position y="-53.221" z="54.774"/>
+                                    <rotation yaw="179.99989" roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c58b]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_004">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c58c]">
+                                <offset>
+                                    <position y="53.211" z="144.643"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c58c]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_007">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c58d]">
+                                <offset>
+                                    <position y="-53.221" z="-144.972"/>
+                                    <rotation yaw="179.99989" roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c58d]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_006">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c58e]">
+                                <offset>
+                                    <position y="-53.221" z="144.643"/>
+                                    <rotation roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c58e]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_001">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c58f]">
+                                <offset>
+                                    <position y="53.126" z="-55.104"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c58f]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_003">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c590]">
+                                <offset>
+                                    <position y="53.211" z="54.774"/>
+                                    <rotation yaw="-179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c590]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_002">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c591]">
+                                <offset>
+                                    <position y="53.126" z="-144.972"/>
+                                    <rotation yaw="-179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c591]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_008">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c592]">
+                                <offset>
+                                    <position y="-53.221" z="-55.104"/>
+                                    <rotation roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c592]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_008">
+                            <component class="turret" macro="turret_par_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" id="[0x2c593]">
+                                <offset>
+                                    <position x="99.279" y="-32.632" z="-100.036"/>
+                                    <rotation yaw="-179.99989" roll="-149.99995"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c593]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_001">
+                            <component class="turret" macro="turret_par_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" id="[0x2c594]">
+                                <offset>
+                                    <position x="-98.398" y="33.446" z="99.303"/>
+                                    <rotation roll="-30"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c594]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_002">
+                            <component class="turret" macro="turret_par_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" id="[0x2c595]">
+                                <offset>
+                                    <position x="-98.398" y="33.446" z="-100.184"/>
+                                    <rotation roll="-30"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c595]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_003">
+                            <component class="turret" macro="turret_par_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" id="[0x2c596]">
+                                <offset>
+                                    <position x="99.279" y="33.446" z="99.125"/>
+                                    <rotation yaw="-179.99989" roll="-30"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c596]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_005">
+                            <component class="turret" macro="turret_par_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" id="[0x2c597]">
+                                <offset>
+                                    <position x="-98.714" y="-32.632" z="99.234"/>
+                                    <rotation roll="-149.99995"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c597]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_006">
+                            <component class="turret" macro="turret_par_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" id="[0x2c598]">
+                                <offset>
+                                    <position x="-98.714" y="-32.632" z="-100.036"/>
+                                    <rotation roll="-149.99995"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c598]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_shieldgen_large_001">
+                            <component class="shieldgenerator" macro="shield_tel_l_standard_01_mk2_macro" connection="small_con_shieldgen_01" id="[0x2c599]">
+                                <offset>
+                                    <position y="43.954"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shieldgen_large_002">
+                            <component class="shieldgenerator" macro="shield_par_l_standard_01_mk2_macro" connection="small_con_shieldgen_01" id="[0x2c59a]">
+                                <offset>
+                                    <position y="-43.944" z="-0.002405"/>
+                                    <rotation yaw="-179.99989" roll="179.99989"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="connectionsnap001" id="[0x2c59b]">
+                            <connected connection="[0x2c52f]"/>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="modules">
+                <component class="defencemodule" macro="defence_arg_tube_01_macro" connection="space" attackmethod="lowattentionattack" attacktime="951206.395" shipattacktime="951206.395" intentionalattacktime="951206.395" construction="[0x2d85]" id="[0x2c59c]">
+                    <offset>
+                        <position x="-320.988" z="-566.741"/>
+                        <rotation yaw="89.44097"/>
+                    </offset>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_hatikvah" name="diffuse_map" type="texture"/>
+                    </render>
+                    <connections>
+                        <connection connection="con_shieldgen_001">
+                            <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk2_macro" connection="con_shieldgen_01" attackmethod="lowattentionattack" attacktime="894560.35" shipattacktime="894560.35" intentionalattacktime="894560.35" id="[0x2c59d]">
+                                <offset>
+                                    <position y="51.166" z="99.5"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shieldgen_002">
+                            <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x2c59e]">
+                                <offset>
+                                    <position y="51.081" z="-99.5"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shieldgen_003">
+                            <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x2c59f]">
+                                <offset>
+                                    <position y="-51.192" z="99.5"/>
+                                    <rotation roll="179.99989"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shieldgen_004">
+                            <component class="shieldgenerator" macro="shield_arg_m_standard_02_mk2_macro" connection="con_shieldgen_01" id="[0x2c5a0]">
+                                <offset>
+                                    <position y="-51.192" z="-99.5"/>
+                                    <rotation roll="179.99989"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_005">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c5a1]">
+                                <offset>
+                                    <position y="-53.221" z="54.774"/>
+                                    <rotation yaw="179.99989" roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c5a1]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_004">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c5a2]">
+                                <offset>
+                                    <position y="53.211" z="144.643"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c5a2]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_007">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c5a3]">
+                                <offset>
+                                    <position y="-53.221" z="-144.972"/>
+                                    <rotation yaw="179.99989" roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c5a3]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_006">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c5a4]">
+                                <offset>
+                                    <position y="-53.221" z="144.643"/>
+                                    <rotation roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c5a4]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_001">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c5a5]">
+                                <offset>
+                                    <position y="53.126" z="-55.104"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c5a5]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_003">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c5a6]">
+                                <offset>
+                                    <position y="53.211" z="54.774"/>
+                                    <rotation yaw="-179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c5a6]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_002">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c5a7]">
+                                <offset>
+                                    <position y="53.126" z="-144.972"/>
+                                    <rotation yaw="-179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c5a7]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_008">
+                            <component class="turret" macro="turret_arg_m_laser_02_mk1_macro" connection="con_laser_turret_01" lastshottime="0" ammunition="3" id="[0x2c5a8]">
+                                <offset>
+                                    <position y="-53.221" z="-55.104"/>
+                                    <rotation roll="179.99989"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c5a8]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_008">
+                            <component class="turret" macro="turret_arg_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" ammunition="3" id="[0x2c5a9]">
+                                <offset>
+                                    <position x="99.279" y="-32.632" z="-100.036"/>
+                                    <rotation yaw="-179.99989" roll="-149.99995"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c5a9]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_002">
+                            <component class="turret" macro="turret_par_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" id="[0x2c5aa]">
+                                <offset>
+                                    <position x="-98.398" y="33.446" z="-100.184"/>
+                                    <rotation roll="-30"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c5aa]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_003">
+                            <component class="turret" macro="turret_par_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" id="[0x2c5ab]">
+                                <offset>
+                                    <position x="99.279" y="33.446" z="99.125"/>
+                                    <rotation yaw="-179.99989" roll="-30"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c5ab]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_004">
+                            <component class="turret" macro="turret_par_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" id="[0x2c5ac]">
+                                <offset>
+                                    <position x="99.279" y="33.446" z="-100.184"/>
+                                    <rotation yaw="-179.99989" roll="-30"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c5ac]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_006">
+                            <component class="turret" macro="turret_arg_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" ammunition="3" id="[0x2c5ad]">
+                                <offset>
+                                    <position x="-98.714" y="-32.632" z="-100.036"/>
+                                    <rotation roll="-149.99995"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c5ad]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_laser_l_007">
+                            <component class="turret" macro="turret_arg_l_laser_01_mk1_macro" connection="con_turret_laser_l" lastshottime="0" ammunition="3" id="[0x2c5ae]">
+                                <offset>
+                                    <position x="99.279" y="-32.632" z="99.125"/>
+                                    <rotation yaw="-179.99989" roll="-149.99995"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c5ae]" name="mat_dynamicglow" type="glow">
+                                        <persistent interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_shieldgen_large_001">
+                            <component class="shieldgenerator" macro="shield_tel_l_standard_01_mk2_macro" connection="small_con_shieldgen_01" id="[0x2c5af]">
+                                <offset>
+                                    <position y="43.954"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shieldgen_large_002">
+                            <component class="shieldgenerator" macro="shield_arg_l_standard_01_mk2_macro" connection="small_con_shieldgen_01" id="[0x2c5b0]">
+                                <offset>
+                                    <position y="-43.944" z="-0.002405"/>
+                                    <rotation yaw="-179.99989" roll="179.99989"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="connectionsnap002" id="[0x2c5b1]">
+                            <connected connection="[0x2c530]"/>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="modules">
+                <component class="habitation" macro="hab_arg_s_01_macro" connection="space" attackmethod="lowattentionattack" attacktime="903351.211" shipattacktime="903351.211" intentionalattacktime="903351.211" construction="[0x2d80]" operationaltime="0" id="[0x2c5b2]">
+                    <offset>
+                        <position x="82.896" y="600" z="-962.819"/>
+                        <rotation yaw="0.876962"/>
+                    </offset>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_hatikvah" name="diffuse_map" type="texture"/>
+                    </render>
+                    <connections>
+                        <connection connection="connectionsnap001" id="[0x2c5b3]">
+                            <connected connection="[0x2c533]"/>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+        </connections>
+    </component>
+</connection>

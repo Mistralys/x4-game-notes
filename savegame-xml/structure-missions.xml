@@ -1,0 +1,412 @@
+<missions>
+    <listeners>
+        <listener listener="[0x49ba7]" event="missionofferremoved"/>
+    </listeners>
+    <offer id="849499" actor="[0x49ba8]" name="14) Boarding Ships" description="Boarding large ships." faction="player" type="tutorial" level="trivial">
+        <briefing>
+            <objective step="1" type="custom" name="Training Marines"/>
+            <objective step="2" type="custom" name="Finding a Ship"/>
+            <objective step="3" type="custom" name="Boarding Strength"/>
+            <objective step="4" type="custom" name="Starting a Boarding Operation"/>
+            <objective step="5" type="custom" name="Boarding Stages"/>
+        </briefing>
+    </offer>
+    <offer id="849539" actor="[0x49ba8]" name="13) Capturing Ships" description="Capturing small ships." faction="player" type="tutorial" level="trivial">
+        <briefing>
+            <objective step="1" type="custom" name="Finding a Ship"/>
+            <objective step="2" type="custom" name="Approaching the Ship"/>
+            <objective step="3" type="custom" name="Claiming the ship"/>
+        </briefing>
+    </offer>
+    <offer id="849579" actor="[0x49ba8]" name="12) Crew Management" description="Assigning crew and pilots to ships." faction="player" type="tutorial" level="trivial">
+        <briefing>
+            <objective step="1" type="custom" name="Assigning a Pilot"/>
+            <objective step="2" type="custom" name="Assigning Crew and Marines"/>
+            <objective step="3" type="custom" name="Promotions and Transfers"/>
+        </briefing>
+    </offer>
+    <offer id="849612" actor="[0x49ba8]" name=" 5) Item deployment" description="Deploying satellites and mines." faction="player" type="tutorial" level="trivial">
+        <briefing>
+            <objective step="1" type="custom" name="Deploy Satellite"/>
+            <objective step="2" type="custom" name="Collect Satellite"/>
+        </briefing>
+    </offer>
+    <offer id="849643" actor="[0x49ba8]" name=" 2) Flight Basics" description="Learn the basics of operating a ship." faction="player" type="tutorial" level="trivial">
+        <briefing>
+            <objective step="1" type="custom" name="Manoeuvring controls"/>
+            <objective step="2" type="custom" name="Throttle controls"/>
+            <objective step="3" type="custom" name="Boosting"/>
+            <objective step="4" type="custom" name="Shields"/>
+            <objective step="5" type="custom" name="Targeting"/>
+            <objective step="6" type="custom" name="Weapons"/>
+        </briefing>
+    </offer>
+    <offer id="849752" actor="[0x49ba8]" name=" 1) Joystick, HOTAS and Gamepad Mapping" description="Customising controls for different input devices." faction="player" type="tutorial" level="trivial">
+        <briefing>
+            <objective step="1" type="custom" name="Input Devices"/>
+            <objective step="2" type="custom" name="Default Profiles"/>
+            <objective step="3" type="custom" name="Mapping Controls"/>
+            <objective step="4" type="custom" name="Saving and Sharing Profiles"/>
+        </briefing>
+    </offer>
+    <offer id="849783" actor="[0x49ba8]" name=" 8) Map: Basic usage" description="Learn the basics of operating the map." faction="player" type="tutorial" level="trivial">
+        <briefing>
+            <objective step="1" type="custom" name="Interactive Control"/>
+            <objective step="2" type="custom" name="Context Menus"/>
+            <objective step="3" type="custom" name="Object Selection"/>
+        </briefing>
+    </offer>
+    <offer id="849817" actor="[0x49ba8]" name=" 9) Map: Ships and squads usage" description="Commanding ships using the map." faction="player" type="tutorial" level="trivial">
+        <briefing>
+            <objective step="1" type="custom" name="Giving orders"/>
+            <objective step="2" type="custom" name="Order queue"/>
+            <objective step="3" type="custom" name="Ship behaviour"/>
+        </briefing>
+    </offer>
+    <offer id="849856" actor="[0x49ba8]" name=" 4) Mission Management" description="Managing active missions, briefings and objectives." faction="player" type="tutorial" level="trivial">
+        <briefing>
+            <objective step="1" type="custom" name="Accept mission"/>
+        </briefing>
+    </offer>
+    <offer id="849895" actor="[0x49ba8]" name="10) Map: Trading" description="Remote trading and finding good buy and sell offers." faction="player" type="tutorial" level="trivial">
+        <briefing>
+            <objective step="1" type="custom" name="Giving orders"/>
+            <objective step="2" type="custom" name="Order queue"/>
+            <objective step="3" type="custom" name="Ship behaviour"/>
+        </briefing>
+    </offer>
+    <offer id="849936" actor="[0x49ba8]" name="16) Mining and Crystals" description="Obtaining resources from asteroids." faction="player" type="tutorial" level="trivial">
+        <briefing>
+            <objective step="1" type="custom" name="Mineral Scanners"/>
+            <objective step="2" type="custom" name="Mining Asteroids"/>
+            <objective step="3" type="custom" name="Crystals"/>
+        </briefing>
+    </offer>
+    <offer id="849992" actor="[0x49ba8]" name=" 3) Ship Modes" description="Learn the basics of ship modes, including remote scanning and the travel drive." faction="player" type="tutorial" level="trivial">
+        <briefing>
+            <objective step="1" type="custom" name="Try out Scan Mode"/>
+            <objective step="2" type="custom" name="Try out Long Range Scan Mode"/>
+            <objective step="3" type="custom" name="Try out Travel Mode"/>
+        </briefing>
+    </offer>
+    <offer id="850035" actor="[0x49ba8]" name=" 6) Platform Tutorial" description="Learn the basics of docking, crafting and the encyclopedia." faction="player" type="tutorial" level="trivial">
+        <briefing>
+            <objective step="1" type="custom" name="Approach and Dock"/>
+            <objective step="2" type="custom" name="Ship management"/>
+            <objective step="3" type="custom" name="Platform controls"/>
+            <objective step="4" type="custom" name="Traders"/>
+            <objective step="5" type="custom" name="Crafting"/>
+            <objective step="6" type="custom" name="Encyclopedia"/>
+        </briefing>
+    </offer>
+    <offer id="850081" actor="[0x49ba8]" name="17) Fleet resupply" description="Tutorial to resupply your fleet." faction="player" type="tutorial" level="trivial">
+        <briefing>
+            <objective step="1" type="custom" name="Resupply ship management"/>
+            <objective step="2" type="custom" name="Global resupply settings"/>
+            <objective step="3" type="custom" name="Ship resupply settings"/>
+        </briefing>
+    </offer>
+    <offer id="850113" actor="[0x49ba8]" name=" 7) Spacesuit usage" description="Using spacesuit and items." faction="player" type="tutorial" level="trivial">
+        <briefing>
+            <objective step="1" type="custom" name="Enter spacesuit"/>
+            <objective step="2" type="custom" name="Spacesuit Items"/>
+            <objective step="3" type="custom" name="Docking"/>
+        </briefing>
+    </offer>
+    <offer id="850152" actor="[0x49ba8]" name="11) Stations: Building" description="Reserving your plot, building and extending stations." faction="player" type="tutorial" level="trivial">
+        <briefing>
+            <objective step="1" type="custom" name="Preparing to Build"/>
+            <objective step="2" type="custom" name="Obtaining a Plot"/>
+            <objective step="3" type="custom" name="Designing a Station"/>
+            <objective step="4" type="custom" name="Construction Vessels"/>
+        </briefing>
+    </offer>
+    <offer id="850223" actor="[0x49ba8]" name="15) Shipyards" description="Tutorial to help construct your first shipyard." faction="player" type="tutorial" level="trivial">
+        <briefing>
+            <objective step="1" type="custom" name="Seek Ally"/>
+            <objective step="2" type="custom" name="Acquire Blueprints"/>
+            <objective step="3" type="custom" name="Prepare a station"/>
+            <objective step="4" type="custom" name="Acquire Ship Trader"/>
+            <objective step="5" type="custom" name="Acquire Drones"/>
+            <objective step="6" type="custom" name="Station operation"/>
+        </briefing>
+    </offer>
+    <offer id="856543" actor="[0x1766aa]" name="Holy Order vs. Argon" description="In its infinite stupidity, the Argon Federation has sided with the weak and pathetic Godrealm of the Paranid and have joined in their fight against us. The fools have made a grave error in judgement. We seek a brave and strong warrior to join our fight and show those that stand against us that they will know no victory." faction="holyorder" group="holyorder_war_argon" type="fight" level="trivial">
+        <briefing>
+            <objective step="1" type="talkto" text="Timanckolok"/>
+        </briefing>
+    </offer>
+    <offer id="856414" actor="[0x176626]" name="Argon Vs. Xenon" description="Due to our close proximity to Xenon space, we are looking for volunteers help secure our borders as well as repel any Xenon incursions. We have a wide variety of tasks to assign so whatever your skills do not hesitate to sign up!" faction="argon" group="argon_war_xenon" type="fight" level="trivial">
+        <briefing>
+            <objective step="1" type="talkto" text="Janne Lanner"/>
+        </briefing>
+    </offer>
+    <offer id="856457" actor="[0x176652]" name="Argon Vs. Holy Order" description="The Holy Order, an offshoot faction of the Paranid Empire, continues to test our borders and those of our allies. These 'heretics', as described by the Godrealm of the Paranid, are being pushed from all sides with no allies to speak of. We are looking for trusted friends of the Argon Federation to help keep them in check." faction="argon" group="argon_war_holyorder" type="fight" level="trivial">
+        <briefing>
+            <objective step="1" type="talkto" text="Iven Felden"/>
+        </briefing>
+    </offer>
+    <offer id="854489" actor="[0x175ea0]" name="Split Vs. Argon" description="Wretched Argon Federation refuse to back down. Their insistence on opposing subjugation can only be met with open war. Split are looking for capable individuals to aid with Argon annihilation. Reinforce borders. Lead attacks on their turf. Split can offer a variety of duties for you to tend to!" faction="split" group="split_war_argon" type="fight" level="trivial">
+        <briefing>
+            <objective step="1" type="talkto" text="Pu t'Tn"/>
+        </briefing>
+    </offer>
+    <offer id="825216" actor="[0x32898]" name="The Arcadian Endeavour Contraband Connection" description="This is Maestro speaking, captain of Arcadian Endeavour and leader of Empyrean Curs. Arcadian Endeavour has made name for itself by navigating far corners of Jump Gate network, breaking the laws and regulations of a vast number of governments and organisations. This posting is open to anyone not intimidated by oppressive authority crackdown on pirate activity. Experience in smuggling and avoiding law enforcement a plus. Must bring own ship with sufficient cargo capacity.[\012][\012]Come talk on bridge of Arcadian Endeavour for further information." faction="civilian" type="plot" level="medium" reward="50000" rewardtext="and the recognition of a crew of free spirits" abortable="0">
+        <briefing>
+            <objective step="1" type="talkto" text="Maestro">
+                <targets>
+                    <target id="[0x32898]"/>
+                </targets>
+            </objective>
+            <objective step="2" type="smuggle" text="Spaceweed"/>
+        </briefing>
+    </offer>
+    <offer id="856874" actor="[0x1767f7]" name="Terran Vs. Xenon" description="The Community of Planet's irresponsible inaction in containing the Xenon has once again demonstrated that Sol can only be safe if the Terran Protectorate takes a proactive stance. We request that any able citizen of the Sol system reports to their designated representative. Furthermore, we also welcome any individual from outside Sol, as long as they prove to be capable." faction="terran" group="ter_war_xenon" type="fight" level="trivial">
+        <briefing>
+            <objective step="1" type="talkto" text="Carolyn Choi"/>
+        </briefing>
+    </offer>
+    <offer id="15793" actor="[0xa7b67]" hidden="1" name="Economic Minefield" description="In order to make sure we have a clear-cut advantage over our competitors in the coming weeks, we'd like to see their traders... delayed by some well-located but inexplicably placed explosive mines. We're looking for a third-party contractor to place these mines around the Gates, superhighways and accelerators in our competitors' territories." faction="antigone" type="drop" level="easy" reward="132550">
+        <briefing>
+            <objective step="1" type="deploy" text="5x  Mine at target position"/>
+        </briefing>
+    </offer>
+    <offer id="856500" actor="[0x17667e]" name="The Righteous Paranid Empire Vs. the 'Heretical Order'" description="Our burning holy light continues to grow with each passing day. We find ourselves tested with our own brethren being led astray by their own hubris. While we hope to bring a number of them back into the fold, their 'governing' leaders wish them to continue down this path of blasphemy and destruction. We seek to uplift those willing to aid the Paranid Empire, so that they can bathe in its glory. Should you have faith in your abilities, we are willing to listen to your pleas." faction="paranid" group="paranid_war_holyorder" type="fight" level="trivial">
+        <briefing>
+            <objective step="1" type="talkto" text="Abmanckosset"/>
+        </briefing>
+    </offer>
+    <offer id="15822" actor="[0xa7b85]" hidden="1" name="Vigil at the Gates" description="Even if we're told the future looks bright and peaceful, recent events have taught us that it is still better to keep an eye on who is entering our space. With that in mind, we are looking for someone to help us build a satellite network around the entry locations in this sector.[\012][\012]A standard satellite will suffice." faction="loanshark" type="drop" level="easy" reward="88270">
+        <briefing>
+            <objective step="1" type="deploy" text="1x  Satellite at target position"/>
+        </briefing>
+    </offer>
+    <offer id="848696" actor="[0x812c7]" name="Homeworld" description="After the Xenon overran Scale Plate Green and devastated the planet, the few survivors struggled to make a living and eventually joined up with criminals out of desperation, turning to a life of crime and forming what is now called the Scale Plate Pact. Many of them would choose to return home, were they able to do so in peace." faction="scaleplate" group="terraforming" type="think" level="veryhard" rewardtext="Reduced pirate activity">
+        <briefing>
+            <objective step="1" type="relocate" text="Aramean HQ to Scale Plate Green">
+                <encyclopedia space="[0x740c5]"/>
+            </objective>
+            <objective step="2" type="neutralize" text="Radioactivity"/>
+            <objective step="3" type="build_project" text="Sunrise Flower Fields"/>
+            <objective step="4" type="build_housing" text="Housing for 1,000,000,000"/>
+            <objective step="5" type="build_project" text="Luxury Housing"/>
+        </briefing>
+    </offer>
+    <offer id="848794" actor="[0x812c7]" name="Show of Support" description="Black Hole Sun is an exclave of the Argon Federation, separated from the core systems by the Antigone Republic. The Argon Federation is working hard to show that they support all of their colonies, especially remote ones like this one. As a symbol of this, they want to make this system more stable by enabling planetside habitation." faction="argon" group="terraforming" type="think" level="veryhard" rewardtext="Unknown, perhaps nothing">
+        <briefing>
+            <objective step="1" type="relocate" text="Aramean HQ to Black Hole Sun">
+                <encyclopedia space="[0x77c23]"/>
+            </objective>
+            <objective step="2" type="build_project" text="Wheat Fields"/>
+            <objective step="3" type="build_housing" text="Housing for 100,000,000"/>
+        </briefing>
+    </offer>
+    <offer id="848890" actor="[0x812c7]" name="Low Hanging Fruit" description="Several problems, not obvious to the casual observer, make habitation on this planet difficult. Nonetheless, it's an attractive prospect for citizens of the Antigone Republic, and they would surely be very grateful if someone were to take care of the aforementioned difficulties for them." faction="antigone" group="terraforming" type="think" level="hard" rewardtext="Strengthening the Antigone Republic">
+        <briefing>
+            <objective step="1" type="relocate" text="Aramean HQ to Getsu Fune">
+                <encyclopedia space="[0x2d9f0]"/>
+            </objective>
+            <objective step="2" type="neutralize" text="Toxicity"/>
+            <objective step="3" type="build_project" text="Wheat Fields"/>
+            <objective step="4" type="build_housing" text="Housing for 250,000,000"/>
+            <objective step="5" type="build_project" text="Vineyards"/>
+            <objective step="6" type="build_project" text="Fine Dining"/>
+        </briefing>
+    </offer>
+    <offer id="848985" actor="[0x812c7]" name="On the Edge" description="This beautiful planet is already almost perfect for life as we know it. The biggest problem isn't actually planetside, but in space: the nearby Xenon are a constant threat and have thus far been an effective deterrent to any kind of settlement effort. Perhaps someone with enough military clout to throw around could convince the Antigone Senate to greenlight immigration as soon as infrastructure exists." faction="antigone" group="terraforming" type="think" level="veryhard" rewardtext="Strengthening the Antigone Republic">
+        <briefing>
+            <objective step="1" type="relocate" text="Aramean HQ to Frontier Edge">
+                <encyclopedia space="[0x1508d]"/>
+            </objective>
+            <objective step="2" type="build_project" text="Wheat Fields"/>
+            <objective step="3" type="build_housing" text="Housing for 250,000,000"/>
+            <objective step="4" type="build_project" text="Winter Sports Resort"/>
+        </briefing>
+    </offer>
+    <offer id="849080" actor="[0x812c7]" name="Beyond the Frontier" description="Atiya's Misfortune e. This planet is absolutely perfect for settling down on if you like hourly earthquakes, not breathing and being on fire. (Don't worry, it's a dry heat.) The heavy Xenon presence in space is just the cherry on top.[\012]Why would you even try to make this a liveable world when there is so much lower hanging fruit out there? Well, I could quote several inspirational quotes at you, but in the end it boils down to this: you would become legendary. A hero in your own lifetime, and well beyond." faction="antigone" group="terraforming" type="think" level="impossible" rewardtext="Strengthening the Antigone Republic">
+        <briefing>
+            <objective step="1" type="relocate" text="Aramean HQ to Atiya's Misfortune">
+                <encyclopedia space="[0x3ffd5]"/>
+            </objective>
+            <objective step="2" type="build_project" text="Wheat Fields"/>
+            <objective step="3" type="build_housing" text="Housing for 250,000,000"/>
+            <objective step="4" type="build_project" text="Tropical Resort"/>
+        </briefing>
+    </offer>
+    <offer id="849182" actor="[0x812c7]" name="It's Eighteen Billion Credits" description="Contrary to official statements by the Teladi Company, the name of the system refers to a historical and, to them, very embarrassing charitable donation by one Isemados Sibasomos Nopileos IV. Some Teladi still hold her idealistic motives dear, though, and try to live by her example.[\012]They are currently looking to enlist a like-minded, charitable person to establish affordable living conditions on the planet. They can't offer much in the way of payment, but is a good deed not its own reward?" faction="teladi" group="terraforming" type="think" level="veryhard" rewardtext="A warm and fuzzy feeling deep inside">
+        <briefing>
+            <objective step="1" type="relocate" text="Aramean HQ to Eighteen Billion">
+                <encyclopedia space="[0x18352]"/>
+            </objective>
+            <objective step="2" type="build_project" text="Sunrise Flower Fields"/>
+            <objective step="3" type="build_housing" text="Housing for 100,000,000"/>
+            <objective step="4" type="build_project" text="Art College"/>
+        </briefing>
+    </offer>
+    <offer id="849277" actor="[0x812c7]" name="Memory of Profit" description="This former economic powerhouse is under-performing. Data suggests that nostalgia can increase profits by up to seven percent, so the board has approved a bounty on reinvigorating the local economy. The reward is exclusive rights to supply local workshops with precious metal." faction="teladi" group="terraforming" type="think" level="hard" rewardtext="A new market for Nividium">
+        <briefing>
+            <objective step="1" type="relocate" text="Aramean HQ to Memory of Profit IX">
+                <encyclopedia space="[0x44496]"/>
+            </objective>
+            <objective step="2" type="build_project" text="Nividium Workshop"/>
+        </briefing>
+    </offer>
+    <offer id="856586" actor="[0x1766d6]" name="Holy Order vs. Paranid" description="The so-called Godrealm of the Paranid name us heretics, but it is they who betray our beliefs and our principles. They are weak, and they must be crushed. It is simply a matter of time before we know victory against them, but we still seek brave and strong warriors to join our fight and share in our righteous glory! Praise be to the true Pontifex!" faction="holyorder" group="holyorder_war_paranid" type="fight" level="trivial">
+        <briefing>
+            <objective step="1" type="talkto" text="Etmanckussut"/>
+        </briefing>
+    </offer>
+    <offer id="13856" component="[0x18c7e]" distance="50000" actor="[0x18e53]" name="Guerilla Research and Development" description="Oh hey, you![\012]You look like someone resourceful, would you mind helping me out? Until recently, I was employed as head of Research and Development at Jinko-Tekina Technologies, the industry-leading ship manufacturing company. While working on their ship designs, in my free time and using company resources, I also pioneered a new kind of experimental on-board computer: a sentient machine, able not only to interpret information, but also to predict it, and to learn. A computer able to feel empathy and appreciate arts, to be self-aware and sapient.[\012]Think of the effects such a computer, with a personality, could have on the crew, too. No more need for dangerous missions to be manned. Lone pilots would have someone they could talk to on those long delivery runs... It would have changed everything. But alas, my superiors grew restless when progress temporarily stalled on my other projects, and things escalated when they became aware of what I was pursuing. They didn't believe I could actually pull it off, but still, they didn't want their brand to be associated with A.I. Research, and some board members even became scared, and voiced ethical concerns. How very narrow-minded of them. I was this close to success, but they fired me, and in doing so cut off all of my funding.[\012]However, I was able to smuggle out most of my research and various company resources with me when I left. Now, stranded on this wharf, I intend to finish what I started, and change the universe forever, for the better.[\012]I just need some technical parts to finish my work, but I can't acquire them myself for fear of leaving my project unguarded. They are fairly common processing units, you should be able to find them attached to... well, Xenon ships. If you bring me what I need, not only will I pay you for your work, but you'll be remembered in history as the person who made it all happen!" icon="briefing_corin_king_01" faction="civilian" type="deliver" level="easy" reward="43889">
+        <bbs>
+            <space component="[0x18359]"/>
+        </bbs>
+        <briefing>
+            <objective step="1" type="deliver" text="2x Processing Panel Unit 7A">
+                <encyclopedia type="inventory_wares" item="inv_processing_panel_7A"/>
+            </objective>
+        </briefing>
+    </offer>
+    <offer id="14058" component="[0x78d4d]" distance="50000" actor="[0x78e1d]" name="Fwd: looking for new couriers, please forward" description="FROM: Keter P.[\012]SUBJECT: looking for new couriers, please forward[\012]TO: Boger R.[\012][\012]hi boger,[\012][\012]can I ask you a favour? in today's meeting you stated that you are done with the high prio tasks, so I hope that this is not too much[\012][\012]we are running short on helpers in the producer's office, and the project is about to enter a critical stage. could you put out a job offer? they would have to take care of the usual deliveries, you know the details. I sent you some extra ideas in the attached file.[\012][\012]PS: please make sure you don't just forward this mail to the mission offer system this time[\012][\012]ATTACHMENT: New Text Document(27)" icon="briefing_keter_pullgard_01" faction="civilian" type="deliver" level="easy" reward="45988">
+        <bbs>
+            <space component="[0x78c02]"/>
+        </bbs>
+        <briefing>
+            <objective step="1" type="deliver" text="10x Interface Unit">
+                <encyclopedia type="inventory_wares" item="inv_interfaceunit"/>
+            </objective>
+        </briefing>
+    </offer>
+    <mission id="850331" name="Acquire Captain" description="Acquire a Captain for your ship, Geometric Owl.[\012]No information available" faction="player" type="upkeep_hirenpc" alert="high" abortable="0" activation="0" associated="[0x5f89f]">
+        <briefing>
+            <objective step="1" type="acquire_crew" text="Captain for Geometric Owl"/>
+        </briefing>
+    </mission>
+    <mission id="834156" name="Turning the Tide" description="As you have learned all about the separatist movement, meet Dal in order to decide which side you want to support." icon="briefing_dal_busta_01" caption="Dal Busta" faction="freesplit" type="plot" level="easy" rewardtext="Restored Order" abortable="0">
+        <briefing>
+            <objective step="1" type="retreat" text="Court of Curbs">
+                <targets>
+                    <target id="[0x5a6ea]"/>
+                </targets>
+            </objective>
+            <objective step="2" type="talkto" text="Lae t'Shn">
+                <targets>
+                    <target id="[0x49e97]"/>
+                </targets>
+            </objective>
+            <objective step="3" type="talkto" text="Dal Busta" active="1">
+                <targets>
+                    <target id="[0x812c9]"/>
+                </targets>
+            </objective>
+        </briefing>
+        <objective step="3" type="talkto" text="Dal Busta">
+            <targets>
+                <target id="[0x812c9]"/>
+            </targets>
+        </objective>
+    </mission>
+    <mission id="823383" name="Amongst the Argon" description="With the required equipment set aside, we can go about infiltrating the Argon Federation systems, specifically their internal workforce database. If you spoof a repair request, a maintenance ship will lead us right to our target. First, you will have to hack their repair terminal in the Security Office. Then, you need to breach their systems by creating a signal leak.[\012]This operation takes you deep into enemy territory, so watch your back. You wouldn't want to get compromised now." icon="briefing_deliah_shiratori_01" caption="Delilah Shiratori" faction="terran" type="plot" level="medium" rewardtext="Furthering the Terran Agenda" abortable="0">
+        <briefing>
+            <objective step="1" type="acquire_ware" text="Spacesuit EMP">
+                <encyclopedia type="inventory_wares" item="bomb_player_limpet_emp_01_mk1"/>
+            </objective>
+            <objective step="2" type="acquire_ware" text="Security Decryption System">
+                <encyclopedia type="inventory_wares" item="inv_securitydecryptionsystem"/>
+            </objective>
+            <objective step="3" type="acquire_ware" text="Bomb Launcher">
+                <encyclopedia type="inventory_wares" item="weapon_gen_spacesuit_demolition_01_mk1"/>
+            </objective>
+            <objective step="4" type="hack" text="Repair Terminal" active="1">
+                <targets>
+                    <target id="[0x5cef2]"/>
+                </targets>
+            </objective>
+        </briefing>
+        <objective step="4" type="hack" text="Repair Terminal">
+            <targets>
+                <target id="[0x5cef2]"/>
+            </targets>
+        </objective>
+    </mission>
+    <mission id="850348" name="Acquire Captain" description="Acquire a Captain for your ship, ANS &quot;Litigious Rodent&quot; - Moreya.[\012]No information available" faction="player" type="upkeep_hirenpc" alert="high" abortable="0" activation="0" associated="[0x625f0]">
+        <briefing>
+            <objective step="1" type="acquire_crew" text="Captain for ANS &quot;Litigious Rodent&quot; - Moreya"/>
+        </briefing>
+    </mission>
+    <mission id="850468" name="Assign subordinate" description="Assign a mining ship to this station to help in the collection of resources." faction="player" type="upkeep_subordinates" alert="low" abortable="0" activation="0" associated="[0x3e27e]">
+        <briefing>
+            <objective step="1" type="assign_subordinate" text="Mining Ship (Solid)" active="1">
+                <targets>
+                    <target id="[0x3e274]"/>
+                </targets>
+            </objective>
+        </briefing>
+        <objective step="1" type="assign_subordinate" text="Mining Ship (Solid)">
+            <targets>
+                <target id="[0x3e274]"/>
+            </targets>
+        </objective>
+    </mission>
+    <mission id="850487" name="Assign subordinate" description="Assign a mining ship to this station to help in the collection of resources." faction="player" type="upkeep_subordinates" alert="low" abortable="0" activation="0" associated="[0x3e27e]">
+        <briefing>
+            <objective step="1" type="assign_subordinate" text="Mining Ship (Liquid)" active="1">
+                <targets>
+                    <target id="[0x3e274]"/>
+                </targets>
+            </objective>
+        </briefing>
+        <objective step="1" type="assign_subordinate" text="Mining Ship (Liquid)">
+            <targets>
+                <target id="[0x3e274]"/>
+            </targets>
+        </objective>
+    </mission>
+    <mission id="849474" name="Rising from the Ashes" description="Decades ago, this formerly lush planet was devastated during the test firing of an experimental Xenon weapon. It will be hugely expensive and require enormous effort, but we have a plan that will restore this world to its former beauty." faction="boron" group="terraforming" type="think" level="veryhard" rewardtext="A unique blueprint for a Welfare Module">
+        <briefing>
+            <objective step="1" type="relocate" text="Aramean HQ to Ocean of Fantasy">
+                <encyclopedia space="[0x7feac]"/>
+            </objective>
+            <objective step="2" type="build_project" text="Jumpstart Ocean Currents" active="1"/>
+            <objective step="3" type="build_project" text="Reintroduce Native Megafauna"/>
+            <objective step="4" type="build_housing" text="Housing for 50,000,000"/>
+            <objective step="5" type="build_project" text="Pheromone Art Academy"/>
+        </briefing>
+        <objective step="2" type="build_project" text="Jumpstart Ocean Currents"/>
+    </mission>
+    <mission id="829329" name="Foundations of an Empire" description="Dal Busta and Kromancketslat have determined that to progress beyond the stage of ceasefire the Paranid will need a new symbol of unity: A grand palace for their leadership, constructed in a central location.[\012][\012]Destination: Pious Mists II (at specified location)[\012]Minimum plot size: 10 x 10 x 10 km[\012]Required constructs: 3 x Paranid Faction Capital, 6 x Paranid Disc Defence Platform, 9 x Paranid L Container Storage, 9 x Paranid L Dome, 3 x Dock Areas, 3 x Piers, 180 x Turrets, 80 x Shield Generators[\012][\012]At least one of these modules requires a special blueprint.[\012][\012]Dal Busta's diplomatic and economic predictions:[\012]True peace between the Holy Order of the Pontifex and the Godrealm of the Paranid will facilitate trade between their territories and likely improve both of their economies. Given enough time, the stewards of the palace will attempt to create a fledgling economy of their own and create further trade opportunities." icon="briefing_kromancketslat_01" caption="Kromancketslat" faction="player" type="plot" level="veryhard" rewardtext="Peace in Our Time" abortable="0">
+        <briefing>
+            <objective step="1" type="talkto" text="Dal Busta">
+                <targets>
+                    <target id="[0x812c9]"/>
+                </targets>
+            </objective>
+            <objective step="2" type="buy" text="Plot at Specified Location (10 x 10 x 10 km)">
+                <encyclopedia space="[0x53a13]"/>
+            </objective>
+            <objective step="3" type="build_station" text="Palace Foundation" active="1">
+                <targets>
+                    <target id="[0x5483c]"/>
+                </targets>
+            </objective>
+        </briefing>
+        <objective step="3" type="build_station" text="Palace Foundation">
+            <targets>
+                <target id="[0x5483c]"/>
+            </targets>
+        </objective>
+    </mission>
+    <mission id="872630" name="Restock Cargo Drones" description="Restock cargo drones for your station: #Palace. These drones are used to handle wares efficiently." faction="player" type="upkeep_subordinates" alert="low" abortable="0" activation="0" associated="[0x5483c]">
+        <briefing>
+            <objective step="1" type="custom" name="Restock" text="Cargo Drones" active="1">
+                <targets>
+                    <target id="[0x5483c]"/>
+                </targets>
+            </objective>
+        </briefing>
+        <objective step="1" type="custom" name="Restock" text="Cargo Drones">
+            <targets>
+                <target id="[0x5483c]"/>
+            </targets>
+        </objective>
+    </mission>
+</missions>

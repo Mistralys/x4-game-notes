@@ -1,0 +1,120 @@
+<economylog>
+    <removed>
+        <object id="3715" space="[0x3efa]" owner="antigone" name="ANT Elite Sentinel" code="JFO-325"/>
+        <object id="3736" space="[0x3efa]" owner="yaki" name="YAK Moreya" code="WNG-651"/>
+        <object id="3739" space="[0x3efa]" owner="yaki" name="YAK Moreya" code="LAQ-804"/>
+        <object id="3728" space="[0x3efa]" owner="yaki" name="YAK Moreya" code="RKX-099"/>
+        <object id="3748" space="[0x3efa]" owner="antigone" name="ANT Elite Sentinel" code="UTQ-633"/>
+        <object id="103" space="[0xb728]" owner="ownerless" name="Scanning Array Factory" code="ILA-103" cargo="932663.207" offer="932663.207"/>
+        <object id="104" space="[0xb728]" owner="ownerless" name="Scanning Array Factory" code="ILA-103" cargo="794861.017" offer="792083.538"/>
+        <object id="107" space="[0xb58a]" owner="ownerless" name="Engine Part Factory" code="HDX-280" cargo="0" offer="0">
+            <cargo ware="energycells" v="1030"/>
+            <cargo ware="engineparts" v="4242"/>
+            <cargo ware="teladianium" v="1332"/>
+            <cargo ware="antimattercells" v="1693"/>
+            <cargo ware="medicalsupplies" v="1084"/>
+            <sell ware="engineparts" price="12800" v="4242"/>
+            <buy ware="medicalsupplies" price="4306" v="2"/>
+            <buy ware="nostropoil" price="4700" v="1026"/>
+            <buy ware="energycells" price="1394" v="240"/>
+            <buy ware="teladianium" price="15600" v="150"/>
+            <buy ware="dronecomponents" price="102800" v="3"/>
+            <buy ware="smartchips" price="6300" v="30"/>
+        </object>
+    </removed>
+    <entries type="cargo" condensed="1">
+        <log time="756000" owner="[0x87ba]" ware="smartchips" v="10208" t2="766800" v2="11335"/>
+        <log time="756000" owner="[0x840a1]" ware="antimattercells" v="5026" t2="766800" v2="4469"/>
+        <log time="756000" owner="[0x48f3f]" ware="energycells" v="14873" t2="766800" v2="13361"/>
+        <log time="756000" owner="[0x122ba]" ware="energycells" v="6682" t2="766800" v2="6625"/>
+        <log time="756000" owner="[0x12434]" ware="energycells" v="4750" t2="766800" v2="4850"/>
+    </entries>
+    <entries type="cargo">
+        <log time="1270809.072" type="consume" owner="[0x22693]" ware="wheat" v="2001" t2="1274408.877" v2="1641"/>
+        <log time="1270824.52" type="consume" owner="[0x8345f]" ware="energycells" v="7457" t2="1274423.994" v2="6707"/>
+        <log time="1270852.693" type="consume" owner="[0x4fd6a]" ware="advancedcomposites" v="1206" t2="1274444.358" v2="966"/>
+        <log time="1270855.623" type="consume" owner="[0x59c5c]" ware="sunriseflowers" v="587" t2="1274451.528" v2="443"/>
+        <log time="1270857.11" type="consume" owner="[0x83fc4]" ware="energycells" v="12091" t2="1274448.715" v2="11511"/>
+        <log time="1270981.008" type="produce" owner="[0x18f9c]" ware="advancedelectronics" v="2182" t2="1274579.915" v2="3262"/>
+        <log time="1271067.691" type="produce" owner="[0x87381]" ware="scanningarrays" v="546" t2="1274648.526" v2="840"/>
+        <log time="1271183.2" type="produce" owner="[0x8c8ad]" ware="plankton" v="61927" t2="1274756.095" v2="66877"/>
+    </entries>
+    <entries type="tradeoffer" condensed="1">
+        <log time="756000" type="buyoffer" owner="[0x122ba]" ware="energycells" price="1174" v="1456" t2="766800" price2="1205" v2="1788"/>
+        <log time="756000" type="buyoffer" owner="[0x12434]" ware="energycells" price="1225" v="1188" t2="766800" price2="1211" v2="1251"/>
+        <log time="756000" type="buyoffer" owner="[0x79705]" ware="medicalsupplies" price="4716" v="199" t2="766800" price2="4764" v2="223"/>
+        <log time="756000" type="buyoffer" owner="[0x50856]" ware="medicalsupplies" price="8459" v="2421" t2="766800" price2="8900" v2="2916"/>
+        <log time="756000" type="buyoffer" owner="[0xb976]" ware="spices" price="1788" v="459" t2="766800" price2="2377" v2="955"/>
+        <log time="756000" type="buyoffer" owner="[0x538cd]" ware="ore" price="5585" v="7037" t2="766800" price2="5722" v2="7921"/>
+        <log time="756000" type="buyoffer" owner="[0x1e201]" ware="advancedcomposites" price="62075" v="82" t2="766800" price2="64559" v2="105"/>
+        <log time="756000" type="selloffer" owner="[0x794e7]" ware="smartchips" price="6378" v="5905" t2="766800" price2="6652" v2="4286"/>
+        <log time="756000" type="buyoffer" owner="[0x8492b]" ware="medicalsupplies" price="6738" v="857" t2="766800" price2="4845" v2="282"/>
+        <log time="756000" type="buyoffer" owner="[0x8492b]" ware="bofu" price="12366" v="559" t2="766800" price2="14112" v2="772"/>
+        <log time="756000" type="buyoffer" owner="[0x7fb52]" ware="teladianium" price="15782" v="5412" t2="766800" price2="21560" v2="11808"/>
+        <log time="756000" type="buyoffer" owner="[0x6575d]" ware="foodrations" price="1953" v="809" t2="766800" price2="1247" v2="71"/>
+        <log time="756000" type="selloffer" owner="[0x3d17e]" ware="water" price="4194" v="67491" t2="766800" price2="3342" v2="85739"/>
+    </entries>
+    <entries type="tradeoffer">
+        <log time="1270827.765" type="buyoffer" owner="[0x8345f]" ware="energycells" price="1017" v="100" max="7557" t2="1274424.037" price2="1090" v2="850"/>
+        <log time="1270852.693" type="buyoffer" owner="[0x4fd6a]" ware="advancedcomposites" price="46836" v="80" max="1286" t2="1274444.358" price2="52018" v2="320"/>
+        <log time="1270857.126" type="buyoffer" owner="[0x83fc4]" ware="energycells" price="1014" v="40" max="12131" t2="1274448.756" price2="1041" v2="620"/>
+        <log time="1270873.439" type="buyoffer" owner="[0x7a7a]" ware="energycells" price="1108" v="1000" max="7647" t2="1274470.901" price2="1375" v2="2500"/>
+        <log time="1270911.595" type="buyoffer" owner="[0x1e201]" ware="antimatterconverters" price="35726" v="5339" max="20481" t2="1274455.097" price2="37001" v2="6197"/>
+        <log time="1270933.428" type="buyoffer" owner="[0x2a5d0]" ware="terranmre" price="3294" v="51" max="1857" t2="1274495.208" price2="3836" v2="344"/>
+        <log time="1270952.654" type="buyoffer" owner="[0x1ddea]" ware="scruffinfruits" price="4000" v="5794" max="5796" t2="1274500.963" v2="5795"/>
+        <log time="1270969.096" type="selloffer" owner="[0x5d31]" ware="refinedmetals" price="9767" v="10315" max="12224" t2="1274406.997" price2="9292" v2="10993"/>
+        <log time="1270971.469" type="buyoffer" owner="[0x8345]" ware="turretcomponents" price="20823" v="168" max="5754" t2="1274463.945" price2="22175" v2="458"/>
+        <log time="1270994.383" type="buyoffer" owner="[0x7f390]" ware="sunriseflowers" price="8694" v="1160" max="2845" t2="1274427.087" price2="9653" v2="1480"/>
+        <log time="1271000.968" type="selloffer" owner="[0x5bc49]" ware="smartchips" price="6842" v="390" max="5486" t2="1274401.8" price2="6367" v2="1560"/>
+    </entries>
+    <entries type="trade">
+        <log time="1281012.412" type="trade" ware="plasmaconductors" buyer="[0x3dab2]" seller="[0x3cf9e]" price="87200" v="104" b="1202" bmax="1242"/>
+        <log time="1281012.517" type="trade" ware="energycells" buyer="[0x823ca]" seller="[0x82959]" price="1048" v="2679" b="31470" bmax="34578"/>
+        <log time="1281013.096" type="trade" ware="weaponcomponents" buyer="[0x3938d]" seller="[0xf560]" price="17000" v="395" b="395" bmax="4957"/>
+        <log time="1281013.642" type="trade" ware="wheat" buyer="[0x69f00]" seller="[0xd259]" price="2100" v="40" b="40" bmax="0" s="5722" smax="6058"/>
+        <log time="1281015.088" type="trade" ware="methane" buyer="[0x8273e]" seller="[0x821f7]" price="4109" v="320" b="166666" s="31480" smax="0"/>
+        <log time="1281015.636" type="trade" ware="water" buyer="[0x8114a]" seller="[0x8af8b]" price="3206" v="26" b="26" bmax="0" s="111687" smax="112071"/>
+        <log time="1281015.739" type="trade" ware="medicalsupplies" buyer="[0x3e0da]" seller="[0x799cb]" price="4615" v="248" b="2430"/>
+        <log time="1281015.87" type="trade" ware="spices" buyer="[0x1cdcf]" seller="[0x806b5]" price="1389" v="160" b="3028" bmax="3188"/>
+        <log time="1281016.444" type="trade" ware="ice" buyer="[0x81601]" seller="[0x8af79]" price="2753" v="87" b="35870" bmax="37383"/>
+    </entries>
+    <entries type="money" condensed="1">
+        <log time="756000" owner="[0x8ae7e]" v="3895225" t2="766800" v2="0"/>
+        <log time="756000" owner="[0x1060b]" v="20376536987" t2="766800" v2="20661451900"/>
+        <log time="756000" owner="[0x56993]" v="7628" t2="766800" v2="0"/>
+        <log time="756000" owner="[0x10322]" v="19662" t2="766800" v2="0"/>
+        <log time="756000"/>
+        <log time="756000" owner="[0x3cbcf]" v="13011" t2="766800" v2="0"/>
+        <log time="756000" owner="[0x116c9]" v="23580532668" t2="766800" v2="16007778200"/>
+        <log time="756000" owner="[0x3d77c]" v="7674602032" t2="766800" v2="8203915300"/>
+        <log time="756000" owner="[0xefbb]" v="139" t2="766800" v2="0"/>
+        <log time="756000" owner="[0x7bdcf]" v="4241" t2="766800" v2="0"/>
+        <log time="756000" owner="[0xf570]" v="3464479388" t2="766800" v2="3483502700"/>
+        <log time="756000" owner="[0x3e08e]" v="5906681095" t2="766800" v2="5959505100"/>
+        <log time="756000" owner="[0x700b6]" v="22739060749" t2="766800" v2="22942812100"/>
+        <log time="756000" owner="[0x3f311]" v="16574453827" t2="766800" v2="16633748200"/>
+        <log time="756000" owner="[0x7ddfd]" v="2313" t2="766800" v2="0"/>
+        <log time="756000" owner="[0x3cb7d]" v="2442" t2="766800" v2="0"/>
+    </entries>
+    <entries type="money">
+        <log time="1274399.059" type="trade" owner="[0x64ebb]" v="45795600" t2="1274402.067" v2="105737600" partner="[0x644a1]"/>
+        <log time="1274399.812"/>
+        <log time="1274399.812"/>
+        <log time="1274401.604" type="trade" owner="[0x110b4]" v="16280000" t2="1274424.616" v2="34399600" partner="[0x10424]"/>
+        <log time="1274402.276" type="trade" owner="[0x3cb8d]" v="5665300" partner="[0x784ee]"/>
+        <log time="1274402.83" type="trade" owner="[0x3cc13]" v="1100700" partner="[0x3e9cf]"/>
+        <log time="1274402.83" type="trade" owner="[0x6a807]" v="17000000" partner="342"/>
+        <log time="1274404.01" type="orderqueue_remove" owner="[0x49ba7]" v="776678374500" partner="[0x64ebb]"/>
+        <log time="1274404.01" type="orderqueue_remove" owner="[0x64ebb]"/>
+        <log time="1274404.314" type="orderqueue_remove" owner="[0x3e08e]" v="5610112300" partner="[0x3cb8d]"/>
+        <log time="1274404.314" type="orderqueue_remove" owner="[0x3cb8d]" partner="[0x3e08e]"/>
+        <log time="1274404.442" type="orderqueue_add" owner="[0x49ba7]" v="776653481100" partner="[0x2e94a]"/>
+        <log time="1274404.442" type="orderqueue_add" owner="[0x2e94a]" v="24893400" partner="[0x2f780]"/>
+        <log time="1274404.869" type="orderqueue_remove" owner="[0x3f162]" v="16678282500" partner="[0x3cc13]"/>
+        <log time="1274404.869" type="orderqueue_remove" owner="[0x3cc13]" partner="[0x3f162]"/>
+        <log time="1274404.869" type="orderqueue_remove" owner="[0xeab2]" v="17650651500" partner="[0x6a807]"/>
+        <log time="1274404.869" type="orderqueue_remove" owner="[0x6a807]" partner="[0xeab2]"/>
+        <log time="1274405.853" type="trade" owner="[0x1060b]" v="20454657400" partner="[0x1b7fb]"/>
+        <log time="1274406.064" type="trade" owner="[0x3f934]" v="17759609900" partner="1688"/>
+    </entries>
+</economylog>

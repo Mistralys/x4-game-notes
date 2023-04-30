@@ -1,0 +1,309 @@
+<connection connection="buildstorages">
+    <component class="buildstorage" macro="buildstorage_gen_base_01_macro" connection="space" code="HQH-285" owner="hatikvah" knownto="player" spawntime="0" id="[0x2c4c2]">
+        <listeners>
+            <listener listener="[0x2c4ef]" event="killed"/>
+        </listeners>
+        <events>
+            <event event="updatebuild" time="1368397.816"/>
+            <event event="updatetradeoffers" time="1368433.407"/>
+        </events>
+        <offset>
+            <position x="-14347.586" y="-883.364" z="20217.904"/>
+            <rotation yaw="31.30135"/>
+        </offset>
+        <control>
+            <post id="manager" component="[0x2c4ef]"/>
+            <post id="defence"/>
+        </control>
+        <weapongroups>
+            <primary active="0"/>
+            <secondary active="0"/>
+        </weapongroups>
+        <connections>
+            <connection connection="con_storage01" macro="con_storage01">
+                <component class="storage" macro="storage_gen_buildstorage_01_macro" connection="con_storage" id="[0x2c4c3]">
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_hatikvah" name="diffuse_map" type="texture"/>
+                    </render>
+                    <connections>
+                        <connection connection="con_cargobay_042" macro="con_cargobay_042">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4c4]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_041" macro="con_cargobay_041">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4c5]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_040" macro="con_cargobay_040">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4c6]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_014" macro="con_cargobay_014">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4c7]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_015" macro="con_cargobay_015">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4c8]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_016" macro="con_cargobay_016">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4c9]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_017" macro="con_cargobay_017">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4ca]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_010" macro="con_cargobay_010">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4cb]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_011" macro="con_cargobay_011">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4cc]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_012" macro="con_cargobay_012">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4cd]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_013" macro="con_cargobay_013">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4ce]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_018" macro="con_cargobay_018">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4cf]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_019" macro="con_cargobay_019">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4d0]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_007" macro="con_cargobay_007">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4d1]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_006" macro="con_cargobay_006">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4d2]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_005" macro="con_cargobay_005">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4d3]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_004" macro="con_cargobay_004">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4d4]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_003" macro="con_cargobay_003">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4d5]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_002" macro="con_cargobay_002">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4d6]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_001" macro="con_cargobay_001">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4d7]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_009" macro="con_cargobay_009">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4d8]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_008" macro="con_cargobay_008">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4d9]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_038" macro="con_cargobay_038">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4da]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_039" macro="con_cargobay_039">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4db]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_032" macro="con_cargobay_032">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4dc]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_033" macro="con_cargobay_033">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4dd]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_030" macro="con_cargobay_030">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4de]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_031" macro="con_cargobay_031">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4df]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_036" macro="con_cargobay_036">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4e0]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_037" macro="con_cargobay_037">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4e1]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_034" macro="con_cargobay_034">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4e2]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_035" macro="con_cargobay_035">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4e3]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_029" macro="con_cargobay_029">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4e4]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_028" macro="con_cargobay_028">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4e5]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_025" macro="con_cargobay_025">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4e6]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_024" macro="con_cargobay_024">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4e7]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_027" macro="con_cargobay_027">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4e8]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_026" macro="con_cargobay_026">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4e9]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_021" macro="con_cargobay_021">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4ea]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_020" macro="con_cargobay_020">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4eb]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_023" macro="con_cargobay_023">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4ec]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                        <connection connection="con_cargobay_022" macro="con_cargobay_022">
+                            <component class="cargobay" macro="cargo_gen_buildstorage_01_macro" connection="con_cargobay_001" id="[0x2c4ed]">
+                                <offset default="1"/>
+                            </component>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="connection_controlroom01" macro="connection_controlroom01">
+                <component class="controlroom" macro="control_room_macro" connection="connection01" seed="3704024883814456666" id="[0x2c4ee]">
+                    <connections>
+                        <connection connection="entities">
+                            <component class="npc" macro="character_paranid_generic_01_macro" connection="parentconnection" name="Uckmanckardet" code="KZH-278" owner="hatikvah" known="1" read="0" page="10304" id="[0x2c4ef]">
+                                <listeners>
+                                    <listener listener="[0x2c4c2]" event="killed"/>
+                                </listeners>
+                                <traits flags="remotecommable">
+                                    <skill type="engineering" value="2"/>
+                                    <skill type="management" value="5"/>
+                                    <skill type="morale" value="4"/>
+                                    <skill type="piloting" value="1"/>
+                                </traits>
+                                <entity type="officer" post="manager"/>
+                                <blackboard>
+                                    <value name="$StateMachine" type="cue" value="187217"/>
+                                </blackboard>
+                                <npcseed seed="14260502149896476822"/>
+                            </component>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="connectionfor_dockingbay_gen_xl_pier_01_macro" macro="connectionfor_dockingbay_gen_xl_pier_01_macro">
+                <component class="dockingbay" macro="dockingbay_gen_xl_pier_01_macro" connection="position" seed="4162056423599679982" id="[0x2c4f0]">
+                    <offset default="1"/>
+                </component>
+            </connection>
+            <connection connection="con_dock_sm_002" macro="con_dock_sm_002">
+                <component class="dockingbay" macro="dockingbay_gen_sm_buildstorage_01_macro" connection="con_component01" seed="13665421806397480148" id="[0x2c4f1]">
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_hatikvah" name="diffuse_map" type="texture"/>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_dock_sm_001" macro="con_dock_sm_001">
+                <component class="dockingbay" macro="dockingbay_gen_sm_buildstorage_01_macro" connection="con_component01" seed="7891741203309950355" id="[0x2c4f2]">
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_hatikvah" name="diffuse_map" type="texture"/>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_buildmodule01" macro="con_buildmodule01">
+                <component class="buildmodule" macro="buildmodule_gen_stations_01_macro" connection="object" id="[0x2c4f3]">
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_hatikvah" name="diffuse_map" type="texture"/>
+                    </render>
+                    <connections>
+                        <connection connection="buildprocessorconnection_01">
+                            <component class="buildprocessor" macro="buildprocessor_gen_01_macro" connection="object" id="[0x2c4f4]">
+                                <connections>
+                                    <connection connection="buildanchor" id="[0x2c4f5]">
+                                        <connected connection="[0x2c518]"/>
+                                    </connection>
+                                </connections>
+                            </component>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+        </connections>
+    </component>
+</connection>

@@ -1,0 +1,2471 @@
+<connection connection="stations">
+    <component class="station" macro="landmarks_kha_hive_01_macro" connection="space" attacker="[0x2ce2a]" attackmethod="lowattentionattack" attacktime="1352564.156" attackership="[0x2ce2a]" shipattacktime="1352564.156" intentionalattacktime="1352564.156" code="SPV-591" owner="khaak" spawntime="1300757.753" id="[0x2ccd9]">
+        <listeners>
+            <listener listener="[0x2cd4a]" event="killed"/>
+            <listener listener="[0x2cd4b]" event="killed"/>
+            <listener listener="[0x2cd49]" event="killed"/>
+        </listeners>
+        <events>
+            <event event="updatebuild" time="1368448.404"/>
+            <event event="updatetradeoffers" time="1368453.322"/>
+        </events>
+        <render>
+            <parameter value="assets\fx\gui\textures\factions\faction_khaak" name="diffuse_map" type="texture"/>
+        </render>
+        <source class="script"/>
+        <gravidar/>
+        <control>
+            <post id="shiptrader"/>
+            <post id="shadyguy"/>
+            <post id="manager" component="[0x2cd4b]"/>
+            <post id="defence" component="[0x2cd49]"/>
+            <post id="trainee_individual"/>
+            <post id="tradeagent"/>
+            <post id="engineer" component="[0x2cd4a]"/>
+        </control>
+        <construction>
+            <sequence fixed="1">
+                <entry id="[0x37bd]" index="1" macro="landmarks_kha_hive_cluster_01_macro" fixed="1">
+                    <offset>
+                        <position x="2052.543" y="-1041.694" z="1390.54"/>
+                        <rotation yaw="-88.8334" pitch="32.84593" roll="-42.23174"/>
+                    </offset>
+                    <upgrades id="default">
+                        <groups>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group01" exact="3"/>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group02" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group01" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group02" exact="3"/>
+                        </groups>
+                    </upgrades>
+                </entry>
+                <entry id="[0x37be]" index="2" macro="landmarks_kha_hive_cluster_01_macro" fixed="1">
+                    <offset>
+                        <position x="-375.796" y="-2952.893" z="1725.103"/>
+                        <rotation yaw="-67.67493" pitch="16.01338" roll="68.73219"/>
+                    </offset>
+                    <upgrades id="default">
+                        <groups>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group01" exact="3"/>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group02" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group01" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group02" exact="3"/>
+                        </groups>
+                    </upgrades>
+                </entry>
+                <entry id="[0x37bf]" index="3" macro="landmarks_kha_hive_cluster_01_macro" fixed="1">
+                    <offset>
+                        <position x="3904.698" y="1304.306" z="2732.638"/>
+                        <rotation yaw="-147.12177" pitch="41.02328" roll="-156.4205"/>
+                    </offset>
+                    <upgrades id="default">
+                        <groups>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group01" exact="3"/>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group02" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group01" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group02" exact="3"/>
+                        </groups>
+                    </upgrades>
+                </entry>
+                <entry id="[0x37c0]" index="4" macro="landmarks_kha_hive_cluster_01_macro" fixed="1">
+                    <offset>
+                        <position x="-1745.546" y="1110.275" z="5270.116"/>
+                        <rotation yaw="-138.57845" pitch="-2.4595" roll="-18.80055"/>
+                    </offset>
+                    <upgrades id="default">
+                        <groups>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group01" exact="3"/>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group02" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group01" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group02" exact="3"/>
+                        </groups>
+                    </upgrades>
+                </entry>
+                <entry id="[0x37c1]" index="5" macro="landmarks_kha_hive_cluster_01_macro" fixed="1">
+                    <offset>
+                        <position x="4548.219" y="892.745" z="-880.099"/>
+                        <rotation yaw="-147.12177" pitch="41.02328" roll="-156.4205"/>
+                    </offset>
+                    <upgrades id="default">
+                        <groups>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group01" exact="3"/>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group02" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group01" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group02" exact="3"/>
+                        </groups>
+                    </upgrades>
+                </entry>
+                <entry id="[0x37c2]" index="6" macro="landmarks_kha_hive_cluster_01_macro" fixed="1">
+                    <offset>
+                        <position x="-4464.548" y="1547.988" z="1652.618"/>
+                        <rotation yaw="-167.1842" pitch="50.8739" roll="-50.88137"/>
+                    </offset>
+                    <upgrades id="default">
+                        <groups>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group01" exact="3"/>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group02" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group01" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group02" exact="3"/>
+                        </groups>
+                    </upgrades>
+                </entry>
+                <entry id="[0x37c3]" index="7" macro="landmarks_kha_hive_cluster_01_macro" fixed="1">
+                    <offset>
+                        <position x="-1018.045" y="1239.837" z="413.114"/>
+                        <rotation yaw="-176.94351" pitch="33.3338" roll="-63.30354"/>
+                    </offset>
+                    <upgrades id="default">
+                        <groups>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group01" exact="3"/>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group02" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group01" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group02" exact="3"/>
+                        </groups>
+                    </upgrades>
+                </entry>
+                <entry id="[0x37c4]" index="8" macro="landmarks_kha_hive_arm_01_macro" fixed="1">
+                    <offset>
+                        <position x="-692.865" y="-2053.594" z="-1631.506"/>
+                        <rotation yaw="-99.247" pitch="7.5534" roll="67.82612"/>
+                    </offset>
+                    <upgrades id="default">
+                        <groups>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group01" exact="3"/>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group02" exact="3"/>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group03" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group01" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group02" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group03" exact="3"/>
+                        </groups>
+                    </upgrades>
+                </entry>
+                <entry id="[0x37c5]" index="9" macro="landmarks_kha_hive_arm_01_macro" fixed="1">
+                    <offset>
+                        <position x="-3832.575" y="4480.496" z="207.958"/>
+                        <rotation yaw="51.97269" pitch="34.73366" roll="-1.61393"/>
+                    </offset>
+                    <upgrades id="default">
+                        <groups>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group01" exact="3"/>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group02" exact="3"/>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group03" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group01" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group02" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group03" exact="3"/>
+                        </groups>
+                    </upgrades>
+                </entry>
+                <entry id="[0x37c6]" index="10" macro="landmarks_kha_hive_arm_01_macro" fixed="1">
+                    <offset>
+                        <position x="1208.266" y="6346.631" z="900.922"/>
+                        <rotation yaw="-8.02084" pitch="57.53072" roll="11.11516"/>
+                    </offset>
+                    <upgrades id="default">
+                        <groups>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group01" exact="3"/>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group02" exact="3"/>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group03" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group01" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group02" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group03" exact="3"/>
+                        </groups>
+                    </upgrades>
+                </entry>
+                <entry id="[0x37c7]" index="11" macro="landmarks_kha_hive_arm_01_macro" fixed="1">
+                    <offset>
+                        <position x="-1760.847" y="4089.657" z="-3230.468"/>
+                        <rotation yaw="-99.64687" pitch="53.64801" roll="-55.80426"/>
+                    </offset>
+                    <upgrades id="default">
+                        <groups>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group01" exact="3"/>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group02" exact="3"/>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group03" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group01" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group02" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group03" exact="3"/>
+                        </groups>
+                    </upgrades>
+                </entry>
+                <entry id="[0x37c8]" index="12" macro="landmarks_kha_hive_arm_01_macro" fixed="1">
+                    <offset>
+                        <position x="3489.028" y="-4355.229" z="1394.5"/>
+                        <rotation yaw="59.34866" pitch="12.26605" roll="169.0938"/>
+                    </offset>
+                    <upgrades id="default">
+                        <groups>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group01" exact="3"/>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group02" exact="3"/>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group03" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group01" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group02" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group03" exact="3"/>
+                        </groups>
+                    </upgrades>
+                </entry>
+                <entry id="[0x37c9]" index="13" macro="landmarks_kha_hive_arm_01_macro" fixed="1">
+                    <offset>
+                        <position x="1317.76" y="2005.05" z="3637.441"/>
+                        <rotation yaw="-21.80122" pitch="-65.55273" roll="61.2677"/>
+                    </offset>
+                    <upgrades id="default">
+                        <groups>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group01" exact="3"/>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group02" exact="3"/>
+                            <shields macro="shield_kha_m_standard_02_mk1_macro" group="group03" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group01" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group02" exact="3"/>
+                            <turrets macro="turret_kha_m_beam_01_mk1_macro" group="group03" exact="3"/>
+                        </groups>
+                    </upgrades>
+                </entry>
+            </sequence>
+        </construction>
+        <shields>
+            <group context="[0x2ccda]" group="stationgroup"/>
+            <group context="[0x2ccda]" group="group02"/>
+            <group context="[0x2ccda]" group="group01"/>
+            <group context="[0x2cce7]" group="stationgroup"/>
+            <group context="[0x2cce7]" group="group02"/>
+            <group context="[0x2cce7]" group="group01"/>
+            <group context="[0x2ccf4]" group="stationgroup"/>
+            <group context="[0x2ccf4]" group="group02"/>
+            <group context="[0x2ccf4]" group="group01"/>
+            <group context="[0x2cd01]" group="stationgroup"/>
+            <group context="[0x2cd01]" group="group02"/>
+            <group context="[0x2cd01]" group="group01"/>
+            <group context="[0x2cd0e]" group="stationgroup"/>
+            <group context="[0x2cd0e]" group="group02"/>
+            <group context="[0x2cd0e]" group="group01"/>
+            <group context="[0x2cd1b]" group="stationgroup"/>
+            <group context="[0x2cd1b]" group="group02"/>
+            <group context="[0x2cd1b]" group="group01"/>
+            <group context="[0x2cd28]" group="stationgroup"/>
+            <group context="[0x2cd28]" group="group02"/>
+            <group context="[0x2cd28]" group="group01"/>
+            <group context="[0x2cd35]" group="stationgroup"/>
+            <group context="[0x2cd35]" group="group02"/>
+            <group context="[0x2cd35]" group="group03" value="12404.211" time="1352429.052"/>
+            <group context="[0x2cd35]" group="group01"/>
+            <group context="[0x2cd4c]" group="stationgroup"/>
+            <group context="[0x2cd4c]" group="group02"/>
+            <group context="[0x2cd4c]" group="group03"/>
+            <group context="[0x2cd4c]" group="group01"/>
+            <group context="[0x2cd5f]" group="stationgroup"/>
+            <group context="[0x2cd5f]" group="group02"/>
+            <group context="[0x2cd5f]" group="group03"/>
+            <group context="[0x2cd5f]" group="group01"/>
+            <group context="[0x2cd72]" group="stationgroup"/>
+            <group context="[0x2cd72]" group="group02"/>
+            <group context="[0x2cd72]" group="group03"/>
+            <group context="[0x2cd72]" group="group01"/>
+            <group context="[0x2cd85]" group="stationgroup"/>
+            <group context="[0x2cd85]" group="group02"/>
+            <group context="[0x2cd85]" group="group03"/>
+            <group context="[0x2cd85]" group="group01"/>
+            <group context="[0x2cd98]" group="stationgroup"/>
+            <group context="[0x2cd98]" group="group02"/>
+            <group context="[0x2cd98]" group="group03"/>
+            <group context="[0x2cd98]" group="group01"/>
+        </shields>
+        <weapongroups>
+            <primary active="0"/>
+            <secondary active="0"/>
+        </weapongroups>
+        <buildplot>
+            <max x="5000" y="5000" z="5000"/>
+        </buildplot>
+        <connections>
+            <connection connection="connectionfor_landmarks_kha_hive_cluster_01_macro" macro="connectionfor_landmarks_kha_hive_cluster_01_macro">
+                <component class="defencemodule" macro="landmarks_kha_hive_cluster_01_macro" connection="position" construction="[0x37bd]" id="[0x2ccda]">
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_khaak" name="diffuse_map" type="texture"/>
+                    </render>
+                    <connections>
+                        <connection connection="con_shield_04">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2ccdb]">
+                                <offset>
+                                    <position x="-511.127" y="-460.345" z="1397.267"/>
+                                    <rotation yaw="-8.14354" pitch="-44.92334" roll="145.19037"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_05">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2ccdc]">
+                                <offset>
+                                    <position x="-598.156" y="-459.469" z="1281.858"/>
+                                    <rotation yaw="-97.74693" pitch="-44.67817" roll="-144.84242"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_06">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2ccdd]">
+                                <offset>
+                                    <position x="-594.761" y="-530.11" z="1367.731"/>
+                                    <rotation yaw="37.17721" pitch="-0.17399" roll="125.54548"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_01">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2ccde]">
+                                <offset>
+                                    <position x="-1296.261" y="465.196" z="728.955"/>
+                                    <rotation yaw="-12.65804" pitch="-44.18439" roll="-27.5106"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_02">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2ccdf]">
+                                <offset>
+                                    <position x="-1185.515" y="557.303" z="741.571"/>
+                                    <rotation yaw="37.65649" pitch="-3.5329" roll="-50.4146"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_03">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cce0]">
+                                <offset>
+                                    <position x="-1206.631" y="469.101" z="824.591"/>
+                                    <rotation yaw="-96.731" pitch="-39.44582" roll="34.55217"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_06">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cce1]">
+                                <offset>
+                                    <position x="-487.269" y="-447.699" z="1413.675"/>
+                                    <rotation yaw="55.7067" pitch="23.84061" roll="129.46289"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cce1]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_05">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cce2]">
+                                <offset>
+                                    <position x="-610.937" y="-558.433" z="1379.891"/>
+                                    <rotation yaw="-53.06635" pitch="-54.45401" roll="-179.70053"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cce2]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_04">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cce3]">
+                                <offset>
+                                    <position x="-608.034" y="-447.101" z="1254.311"/>
+                                    <rotation yaw="-161.40144" pitch="24.17068" roll="-129.58432"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cce3]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_03">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cce4]">
+                                <offset>
+                                    <position x="-1321.402" y="454.606" z="713.015"/>
+                                    <rotation yaw="-122.60822" pitch="-19.34405" roll="47.61835"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cce4]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_02">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cce5]">
+                                <offset>
+                                    <position x="-1168.021" y="581.676" z="731.116"/>
+                                    <rotation yaw="123.39425" pitch="50.28327" roll="-5.53382"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cce5]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_01">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cce6]">
+                                <offset>
+                                    <position x="-1197.534" y="453.855" z="854.533"/>
+                                    <rotation yaw="16.89898" pitch="-25.97468" roll="-44.96995"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cce6]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="connectionfor_landmarks_kha_hive_cluster_01_macro6" macro="connectionfor_landmarks_kha_hive_cluster_01_macro6">
+                <component class="defencemodule" macro="landmarks_kha_hive_cluster_01_macro" connection="position" construction="[0x37be]" id="[0x2cce7]">
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_khaak" name="diffuse_map" type="texture"/>
+                    </render>
+                    <connections>
+                        <connection connection="con_shield_04">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cce8]">
+                                <offset>
+                                    <position x="-511.127" y="-460.345" z="1397.267"/>
+                                    <rotation yaw="-8.14354" pitch="-44.92334" roll="145.19037"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_05">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cce9]">
+                                <offset>
+                                    <position x="-598.156" y="-459.469" z="1281.858"/>
+                                    <rotation yaw="-97.74693" pitch="-44.67817" roll="-144.84242"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_06">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2ccea]">
+                                <offset>
+                                    <position x="-594.761" y="-530.11" z="1367.731"/>
+                                    <rotation yaw="37.17721" pitch="-0.17399" roll="125.54548"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_01">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cceb]">
+                                <offset>
+                                    <position x="-1296.261" y="465.196" z="728.955"/>
+                                    <rotation yaw="-12.65804" pitch="-44.18439" roll="-27.5106"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_02">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2ccec]">
+                                <offset>
+                                    <position x="-1185.515" y="557.303" z="741.571"/>
+                                    <rotation yaw="37.65649" pitch="-3.5329" roll="-50.4146"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_03">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cced]">
+                                <offset>
+                                    <position x="-1206.631" y="469.101" z="824.591"/>
+                                    <rotation yaw="-96.731" pitch="-39.44582" roll="34.55217"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_06">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2ccee]">
+                                <offset>
+                                    <position x="-487.269" y="-447.699" z="1413.675"/>
+                                    <rotation yaw="55.7067" pitch="23.84061" roll="129.46289"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2ccee]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_05">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2ccef]">
+                                <offset>
+                                    <position x="-610.937" y="-558.433" z="1379.891"/>
+                                    <rotation yaw="-53.06635" pitch="-54.45401" roll="-179.70053"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2ccef]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_04">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2ccf0]">
+                                <offset>
+                                    <position x="-608.034" y="-447.101" z="1254.311"/>
+                                    <rotation yaw="-161.40144" pitch="24.17068" roll="-129.58432"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2ccf0]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_03">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2ccf1]">
+                                <offset>
+                                    <position x="-1321.402" y="454.606" z="713.015"/>
+                                    <rotation yaw="-122.60822" pitch="-19.34405" roll="47.61835"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2ccf1]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_02">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2ccf2]">
+                                <offset>
+                                    <position x="-1168.021" y="581.676" z="731.116"/>
+                                    <rotation yaw="123.39425" pitch="50.28327" roll="-5.53382"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2ccf2]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_01">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2ccf3]">
+                                <offset>
+                                    <position x="-1197.534" y="453.855" z="854.533"/>
+                                    <rotation yaw="16.89898" pitch="-25.97468" roll="-44.96995"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2ccf3]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="connectionfor_landmarks_kha_hive_cluster_01_macro4" macro="connectionfor_landmarks_kha_hive_cluster_01_macro4">
+                <component class="defencemodule" macro="landmarks_kha_hive_cluster_01_macro" connection="position" construction="[0x37bf]" id="[0x2ccf4]">
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_khaak" name="diffuse_map" type="texture"/>
+                    </render>
+                    <connections>
+                        <connection connection="con_shield_04">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2ccf5]">
+                                <offset>
+                                    <position x="-511.127" y="-460.345" z="1397.267"/>
+                                    <rotation yaw="-8.14354" pitch="-44.92334" roll="145.19037"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_05">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2ccf6]">
+                                <offset>
+                                    <position x="-598.156" y="-459.469" z="1281.858"/>
+                                    <rotation yaw="-97.74693" pitch="-44.67817" roll="-144.84242"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_06">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2ccf7]">
+                                <offset>
+                                    <position x="-594.761" y="-530.11" z="1367.731"/>
+                                    <rotation yaw="37.17721" pitch="-0.17399" roll="125.54548"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_01">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2ccf8]">
+                                <offset>
+                                    <position x="-1296.261" y="465.196" z="728.955"/>
+                                    <rotation yaw="-12.65804" pitch="-44.18439" roll="-27.5106"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_02">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2ccf9]">
+                                <offset>
+                                    <position x="-1185.515" y="557.303" z="741.571"/>
+                                    <rotation yaw="37.65649" pitch="-3.5329" roll="-50.4146"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_03">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2ccfa]">
+                                <offset>
+                                    <position x="-1206.631" y="469.101" z="824.591"/>
+                                    <rotation yaw="-96.731" pitch="-39.44582" roll="34.55217"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_06">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2ccfb]">
+                                <offset>
+                                    <position x="-487.269" y="-447.699" z="1413.675"/>
+                                    <rotation yaw="55.7067" pitch="23.84061" roll="129.46289"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2ccfb]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_05">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2ccfc]">
+                                <offset>
+                                    <position x="-610.937" y="-558.433" z="1379.891"/>
+                                    <rotation yaw="-53.06635" pitch="-54.45401" roll="-179.70053"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2ccfc]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_04">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2ccfd]">
+                                <offset>
+                                    <position x="-608.034" y="-447.101" z="1254.311"/>
+                                    <rotation yaw="-161.40144" pitch="24.17068" roll="-129.58432"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2ccfd]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_03">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2ccfe]">
+                                <offset>
+                                    <position x="-1321.402" y="454.606" z="713.015"/>
+                                    <rotation yaw="-122.60822" pitch="-19.34405" roll="47.61835"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2ccfe]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_02">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2ccff]">
+                                <offset>
+                                    <position x="-1168.021" y="581.676" z="731.116"/>
+                                    <rotation yaw="123.39425" pitch="50.28327" roll="-5.53382"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2ccff]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_01">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd00]">
+                                <offset>
+                                    <position x="-1197.534" y="453.855" z="854.533"/>
+                                    <rotation yaw="16.89898" pitch="-25.97468" roll="-44.96995"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd00]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="connectionfor_landmarks_kha_hive_cluster_01_macro5" macro="connectionfor_landmarks_kha_hive_cluster_01_macro5">
+                <component class="defencemodule" macro="landmarks_kha_hive_cluster_01_macro" connection="position" construction="[0x37c0]" id="[0x2cd01]">
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_khaak" name="diffuse_map" type="texture"/>
+                    </render>
+                    <connections>
+                        <connection connection="con_shield_04">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd02]">
+                                <offset>
+                                    <position x="-511.127" y="-460.345" z="1397.267"/>
+                                    <rotation yaw="-8.14354" pitch="-44.92334" roll="145.19037"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_05">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd03]">
+                                <offset>
+                                    <position x="-598.156" y="-459.469" z="1281.858"/>
+                                    <rotation yaw="-97.74693" pitch="-44.67817" roll="-144.84242"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_06">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd04]">
+                                <offset>
+                                    <position x="-594.761" y="-530.11" z="1367.731"/>
+                                    <rotation yaw="37.17721" pitch="-0.17399" roll="125.54548"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_01">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd05]">
+                                <offset>
+                                    <position x="-1296.261" y="465.196" z="728.955"/>
+                                    <rotation yaw="-12.65804" pitch="-44.18439" roll="-27.5106"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_02">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd06]">
+                                <offset>
+                                    <position x="-1185.515" y="557.303" z="741.571"/>
+                                    <rotation yaw="37.65649" pitch="-3.5329" roll="-50.4146"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_03">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd07]">
+                                <offset>
+                                    <position x="-1206.631" y="469.101" z="824.591"/>
+                                    <rotation yaw="-96.731" pitch="-39.44582" roll="34.55217"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_06">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd08]">
+                                <offset>
+                                    <position x="-487.269" y="-447.699" z="1413.675"/>
+                                    <rotation yaw="55.7067" pitch="23.84061" roll="129.46289"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd08]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_05">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd09]">
+                                <offset>
+                                    <position x="-610.937" y="-558.433" z="1379.891"/>
+                                    <rotation yaw="-53.06635" pitch="-54.45401" roll="-179.70053"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd09]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_04">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd0a]">
+                                <offset>
+                                    <position x="-608.034" y="-447.101" z="1254.311"/>
+                                    <rotation yaw="-161.40144" pitch="24.17068" roll="-129.58432"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd0a]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_03">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd0b]">
+                                <offset>
+                                    <position x="-1321.402" y="454.606" z="713.015"/>
+                                    <rotation yaw="-122.60822" pitch="-19.34405" roll="47.61835"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd0b]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_02">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd0c]">
+                                <offset>
+                                    <position x="-1168.021" y="581.676" z="731.116"/>
+                                    <rotation yaw="123.39425" pitch="50.28327" roll="-5.53382"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd0c]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_01">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd0d]">
+                                <offset>
+                                    <position x="-1197.534" y="453.855" z="854.533"/>
+                                    <rotation yaw="16.89898" pitch="-25.97468" roll="-44.96995"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd0d]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="connectionfor_landmarks_kha_hive_cluster_01_macro2" macro="connectionfor_landmarks_kha_hive_cluster_01_macro2">
+                <component class="defencemodule" macro="landmarks_kha_hive_cluster_01_macro" connection="position" construction="[0x37c1]" id="[0x2cd0e]">
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_khaak" name="diffuse_map" type="texture"/>
+                    </render>
+                    <connections>
+                        <connection connection="con_shield_04">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd0f]">
+                                <offset>
+                                    <position x="-511.127" y="-460.345" z="1397.267"/>
+                                    <rotation yaw="-8.14354" pitch="-44.92334" roll="145.19037"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_05">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd10]">
+                                <offset>
+                                    <position x="-598.156" y="-459.469" z="1281.858"/>
+                                    <rotation yaw="-97.74693" pitch="-44.67817" roll="-144.84242"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_06">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd11]">
+                                <offset>
+                                    <position x="-594.761" y="-530.11" z="1367.731"/>
+                                    <rotation yaw="37.17721" pitch="-0.17399" roll="125.54548"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_01">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd12]">
+                                <offset>
+                                    <position x="-1296.261" y="465.196" z="728.955"/>
+                                    <rotation yaw="-12.65804" pitch="-44.18439" roll="-27.5106"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_02">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd13]">
+                                <offset>
+                                    <position x="-1185.515" y="557.303" z="741.571"/>
+                                    <rotation yaw="37.65649" pitch="-3.5329" roll="-50.4146"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_03">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd14]">
+                                <offset>
+                                    <position x="-1206.631" y="469.101" z="824.591"/>
+                                    <rotation yaw="-96.731" pitch="-39.44582" roll="34.55217"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_06">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd15]">
+                                <offset>
+                                    <position x="-487.269" y="-447.699" z="1413.675"/>
+                                    <rotation yaw="55.7067" pitch="23.84061" roll="129.46289"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd15]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_05">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd16]">
+                                <offset>
+                                    <position x="-610.937" y="-558.433" z="1379.891"/>
+                                    <rotation yaw="-53.06635" pitch="-54.45401" roll="-179.70053"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd16]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_04">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd17]">
+                                <offset>
+                                    <position x="-608.034" y="-447.101" z="1254.311"/>
+                                    <rotation yaw="-161.40144" pitch="24.17068" roll="-129.58432"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd17]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_03">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd18]">
+                                <offset>
+                                    <position x="-1321.402" y="454.606" z="713.015"/>
+                                    <rotation yaw="-122.60822" pitch="-19.34405" roll="47.61835"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd18]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_02">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd19]">
+                                <offset>
+                                    <position x="-1168.021" y="581.676" z="731.116"/>
+                                    <rotation yaw="123.39425" pitch="50.28327" roll="-5.53382"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd19]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_01">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd1a]">
+                                <offset>
+                                    <position x="-1197.534" y="453.855" z="854.533"/>
+                                    <rotation yaw="16.89898" pitch="-25.97468" roll="-44.96995"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd1a]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="connectionfor_landmarks_kha_hive_cluster_01_macro3" macro="connectionfor_landmarks_kha_hive_cluster_01_macro3">
+                <component class="defencemodule" macro="landmarks_kha_hive_cluster_01_macro" connection="position" construction="[0x37c2]" id="[0x2cd1b]">
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_khaak" name="diffuse_map" type="texture"/>
+                    </render>
+                    <connections>
+                        <connection connection="con_shield_04">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd1c]">
+                                <offset>
+                                    <position x="-511.127" y="-460.345" z="1397.267"/>
+                                    <rotation yaw="-8.14354" pitch="-44.92334" roll="145.19037"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_05">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd1d]">
+                                <offset>
+                                    <position x="-598.156" y="-459.469" z="1281.858"/>
+                                    <rotation yaw="-97.74693" pitch="-44.67817" roll="-144.84242"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_06">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd1e]">
+                                <offset>
+                                    <position x="-594.761" y="-530.11" z="1367.731"/>
+                                    <rotation yaw="37.17721" pitch="-0.17399" roll="125.54548"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_01">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd1f]">
+                                <offset>
+                                    <position x="-1296.261" y="465.196" z="728.955"/>
+                                    <rotation yaw="-12.65804" pitch="-44.18439" roll="-27.5106"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_02">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd20]">
+                                <offset>
+                                    <position x="-1185.515" y="557.303" z="741.571"/>
+                                    <rotation yaw="37.65649" pitch="-3.5329" roll="-50.4146"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_03">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd21]">
+                                <offset>
+                                    <position x="-1206.631" y="469.101" z="824.591"/>
+                                    <rotation yaw="-96.731" pitch="-39.44582" roll="34.55217"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_06">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd22]">
+                                <offset>
+                                    <position x="-487.269" y="-447.699" z="1413.675"/>
+                                    <rotation yaw="55.7067" pitch="23.84061" roll="129.46289"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd22]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_05">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd23]">
+                                <offset>
+                                    <position x="-610.937" y="-558.433" z="1379.891"/>
+                                    <rotation yaw="-53.06635" pitch="-54.45401" roll="-179.70053"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd23]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_04">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd24]">
+                                <offset>
+                                    <position x="-608.034" y="-447.101" z="1254.311"/>
+                                    <rotation yaw="-161.40144" pitch="24.17068" roll="-129.58432"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd24]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_03">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd25]">
+                                <offset>
+                                    <position x="-1321.402" y="454.606" z="713.015"/>
+                                    <rotation yaw="-122.60822" pitch="-19.34405" roll="47.61835"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd25]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_02">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd26]">
+                                <offset>
+                                    <position x="-1168.021" y="581.676" z="731.116"/>
+                                    <rotation yaw="123.39425" pitch="50.28327" roll="-5.53382"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd26]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_01">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd27]">
+                                <offset>
+                                    <position x="-1197.534" y="453.855" z="854.533"/>
+                                    <rotation yaw="16.89898" pitch="-25.97468" roll="-44.96995"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd27]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="connectionfor_landmarks_kha_hive_cluster_01_macro1" macro="connectionfor_landmarks_kha_hive_cluster_01_macro1">
+                <component class="defencemodule" macro="landmarks_kha_hive_cluster_01_macro" connection="position" construction="[0x37c3]" id="[0x2cd28]">
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_khaak" name="diffuse_map" type="texture"/>
+                    </render>
+                    <connections>
+                        <connection connection="con_shield_04">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd29]">
+                                <offset>
+                                    <position x="-511.127" y="-460.345" z="1397.267"/>
+                                    <rotation yaw="-8.14354" pitch="-44.92334" roll="145.19037"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_05">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd2a]">
+                                <offset>
+                                    <position x="-598.156" y="-459.469" z="1281.858"/>
+                                    <rotation yaw="-97.74693" pitch="-44.67817" roll="-144.84242"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_06">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd2b]">
+                                <offset>
+                                    <position x="-594.761" y="-530.11" z="1367.731"/>
+                                    <rotation yaw="37.17721" pitch="-0.17399" roll="125.54548"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_01">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd2c]">
+                                <offset>
+                                    <position x="-1296.261" y="465.196" z="728.955"/>
+                                    <rotation yaw="-12.65804" pitch="-44.18439" roll="-27.5106"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_02">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd2d]">
+                                <offset>
+                                    <position x="-1185.515" y="557.303" z="741.571"/>
+                                    <rotation yaw="37.65649" pitch="-3.5329" roll="-50.4146"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_03">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd2e]">
+                                <offset>
+                                    <position x="-1206.631" y="469.101" z="824.591"/>
+                                    <rotation yaw="-96.731" pitch="-39.44582" roll="34.55217"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_06">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd2f]">
+                                <offset>
+                                    <position x="-487.269" y="-447.699" z="1413.675"/>
+                                    <rotation yaw="55.7067" pitch="23.84061" roll="129.46289"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd2f]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_05">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd30]">
+                                <offset>
+                                    <position x="-610.937" y="-558.433" z="1379.891"/>
+                                    <rotation yaw="-53.06635" pitch="-54.45401" roll="-179.70053"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd30]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_04">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd31]">
+                                <offset>
+                                    <position x="-608.034" y="-447.101" z="1254.311"/>
+                                    <rotation yaw="-161.40144" pitch="24.17068" roll="-129.58432"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd31]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_03">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd32]">
+                                <offset>
+                                    <position x="-1321.402" y="454.606" z="713.015"/>
+                                    <rotation yaw="-122.60822" pitch="-19.34405" roll="47.61835"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd32]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_02">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd33]">
+                                <offset>
+                                    <position x="-1168.021" y="581.676" z="731.116"/>
+                                    <rotation yaw="123.39425" pitch="50.28327" roll="-5.53382"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd33]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_01">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd34]">
+                                <offset>
+                                    <position x="-1197.534" y="453.855" z="854.533"/>
+                                    <rotation yaw="16.89898" pitch="-25.97468" roll="-44.96995"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd34]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="connectionfor_landmarks_kha_hive_arm_01_macro" macro="connectionfor_landmarks_kha_hive_arm_01_macro">
+                <component class="defencemodule" macro="landmarks_kha_hive_arm_01_macro" connection="position" attacker="[0x2ce2a]" attackmethod="lowattentionattack" attacktime="1352564.156" attackership="[0x2ce2a]" shipattacktime="1352564.156" intentionalattacktime="1352564.156" construction="[0x37c4]" id="[0x2cd35]">
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_khaak" name="diffuse_map" type="texture"/>
+                    </render>
+                    <hull value="3469810.25"/>
+                    <connections>
+                        <connection connection="con_shield_04">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd36]">
+                                <offset>
+                                    <position x="-54.408" y="-338.232" z="-530.427"/>
+                                    <rotation yaw="-52.19807" pitch="-82.30096" roll="-168.93025"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_05">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd37]">
+                                <offset>
+                                    <position x="-140.559" y="-262.903" z="-618.733"/>
+                                    <rotation yaw="-126.94498" pitch="-28.24348" roll="-98.58307"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_06">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd38]">
+                                <offset>
+                                    <position x="-137.839" y="-372.238" z="-598.377"/>
+                                    <rotation yaw="44.36572" pitch="-31.18268" roll="98.8401"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_07">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd39]">
+                                <offset>
+                                    <position x="-1813.215" y="231.402" z="-244.815"/>
+                                    <rotation yaw="-8.8358" pitch="60.00841" roll="-83.82197"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_01">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd3a]">
+                                <offset>
+                                    <position x="-238.108" y="-200.985" z="-351.591"/>
+                                    <rotation yaw="42.47581" pitch="-31.59732" roll="-9.79881"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_02">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd3b]">
+                                <offset>
+                                    <position x="-181.628" y="-144.744" z="-472.234"/>
+                                    <rotation yaw="101.95522" pitch="-7.8415" roll="-32.0863"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_03">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd3c]">
+                                <offset>
+                                    <position x="-134.038" y="-205.15" z="-391.379"/>
+                                    <rotation yaw="-25.30178" pitch="-22.79987" roll="24.43031"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_08">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd3d]">
+                                <offset>
+                                    <position x="-1833.698" y="106.828" z="-191.204"/>
+                                    <rotation yaw="-14.18348" pitch="0.152331" roll="-86.91621"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_09">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" attacker="[0x2ce2a]" attackmethod="lowattentionattack" attacktime="1352429.052" attackership="[0x2ce2a]" shipattacktime="1352429.052" intentionalattacktime="1352429.052" id="[0x2cd3e]">
+                                <offset>
+                                    <position x="-1851.422" y="224.361" z="-116.851"/>
+                                    <rotation yaw="-19.4822" pitch="-59.70506" roll="-83.87859"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_07">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd3f]">
+                                <offset>
+                                    <position x="-1805.707" y="247.967" z="-270.865"/>
+                                    <rotation yaw="164.04019" pitch="29.79996" roll="86.44588"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd3f]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_06">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd40]">
+                                <offset>
+                                    <position x="-30.671" y="-339.221" z="-509.596"/>
+                                    <rotation yaw="48.77411" pitch="-1.47387" roll="97.55731"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd40]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_05">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd41]">
+                                <offset>
+                                    <position x="-154.116" y="-401.665" z="-607.368"/>
+                                    <rotation yaw="-118.91528" pitch="-57.71029" roll="-104.2477"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd41]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_04">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd42]">
+                                <offset>
+                                    <position x="-150.222" y="-235.667" z="-631.931"/>
+                                    <rotation yaw="-144.63509" pitch="60.58438" roll="-105.52699"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd42]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_03">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd43]">
+                                <offset>
+                                    <position x="-262.872" y="-205.658" z="-332.533"/>
+                                    <rotation yaw="-52.6949" pitch="-8.33498" roll="31.97435"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd43]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_02">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd44]">
+                                <offset>
+                                    <position x="-184.074" y="-128.156" z="-499.219"/>
+                                    <rotation yaw="-172.93404" pitch="31.75108" roll="-9.23264"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd44]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_01">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd45]">
+                                <offset>
+                                    <position x="-103.002" y="-218.422" z="-382.878"/>
+                                    <rotation yaw="74.68167" pitch="-22.4124" roll="-24.78249"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd45]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_09">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd46]">
+                                <offset>
+                                    <position x="-1857.889" y="241.82" z="-87.439"/>
+                                    <rotation yaw="-12.40186" pitch="30.1043" roll="-86.43481"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd46]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_08">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" attacker="[0x2ce2a]" attackmethod="lowattentionattack" attacktime="1352319.366" attackership="[0x2ce2a]" shipattacktime="1352319.366" intentionalattacktime="1352319.366" lastshottime="1300757.053" id="[0x2cd47]">
+                                <offset>
+                                    <position x="-1835.41" y="75.279" z="-191.367"/>
+                                    <rotation yaw="-101.36063" pitch="-86.91256" roll="-2.82697"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd47]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="connection_controlroom01" macro="connection_controlroom01">
+                <component class="controlroom" macro="control_room_macro" connection="connection01" seed="17823784862668938881" id="[0x2cd48]">
+                    <connections>
+                        <connection connection="entities">
+                            <component class="computer" macro="character_defence_computer_01_macro" connection="parentconnection" code="MEJ-693" owner="khaak" known="1" read="0" id="[0x2cd49]">
+                                <listeners>
+                                    <listener listener="[0x2ccd9]" event="killed"/>
+                                </listeners>
+                                <traits flags="remotecommable">
+                                    <skill type="morale" value="6"/>
+                                </traits>
+                                <entity type="officer" post="defence"/>
+                            </component>
+                        </connection>
+                        <connection connection="entities">
+                            <component class="computer" macro="character_engineer_computer_01_macro" connection="parentconnection" code="YBG-571" owner="khaak" known="1" read="0" id="[0x2cd4a]">
+                                <listeners>
+                                    <listener listener="[0x2ccd9]" event="killed"/>
+                                </listeners>
+                                <traits flags="remotecommable">
+                                    <skill type="engineering" value="6"/>
+                                    <skill type="morale" value="6"/>
+                                </traits>
+                                <entity type="officer" post="engineer"/>
+                            </component>
+                        </connection>
+                        <connection connection="entities">
+                            <component class="computer" macro="character_khaak_macro" connection="parentconnection" code="OSK-771" owner="khaak" known="1" read="0" id="[0x2cd4b]">
+                                <listeners>
+                                    <listener listener="[0x2ccd9]" event="killed"/>
+                                </listeners>
+                                <traits flags="remotecommable">
+                                    <skill type="boarding" value="12"/>
+                                    <skill type="engineering" value="13"/>
+                                    <skill type="morale" value="15"/>
+                                    <skill type="piloting" value="15"/>
+                                </traits>
+                                <entity type="officer" post="manager"/>
+                            </component>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="connectionfor_landmarks_kha_hive_arm_01_macro4" macro="connectionfor_landmarks_kha_hive_arm_01_macro4">
+                <component class="defencemodule" macro="landmarks_kha_hive_arm_01_macro" connection="position" construction="[0x37c5]" id="[0x2cd4c]">
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_khaak" name="diffuse_map" type="texture"/>
+                    </render>
+                    <connections>
+                        <connection connection="con_shield_04">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd4d]">
+                                <offset>
+                                    <position x="-54.408" y="-338.232" z="-530.427"/>
+                                    <rotation yaw="-52.19807" pitch="-82.30096" roll="-168.93025"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_05">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd4e]">
+                                <offset>
+                                    <position x="-140.559" y="-262.903" z="-618.733"/>
+                                    <rotation yaw="-126.94498" pitch="-28.24348" roll="-98.58307"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_06">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd4f]">
+                                <offset>
+                                    <position x="-137.839" y="-372.238" z="-598.377"/>
+                                    <rotation yaw="44.36572" pitch="-31.18268" roll="98.8401"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_07">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd50]">
+                                <offset>
+                                    <position x="-1813.215" y="231.402" z="-244.815"/>
+                                    <rotation yaw="-8.8358" pitch="60.00841" roll="-83.82197"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_01">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd51]">
+                                <offset>
+                                    <position x="-238.108" y="-200.985" z="-351.591"/>
+                                    <rotation yaw="42.47581" pitch="-31.59732" roll="-9.79881"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_02">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd52]">
+                                <offset>
+                                    <position x="-181.628" y="-144.744" z="-472.234"/>
+                                    <rotation yaw="101.95522" pitch="-7.8415" roll="-32.0863"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_03">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd53]">
+                                <offset>
+                                    <position x="-134.038" y="-205.15" z="-391.379"/>
+                                    <rotation yaw="-25.30178" pitch="-22.79987" roll="24.43031"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_08">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd54]">
+                                <offset>
+                                    <position x="-1833.698" y="106.828" z="-191.204"/>
+                                    <rotation yaw="-14.18348" pitch="0.152331" roll="-86.91621"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_09">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd55]">
+                                <offset>
+                                    <position x="-1851.422" y="224.361" z="-116.851"/>
+                                    <rotation yaw="-19.4822" pitch="-59.70506" roll="-83.87859"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_07">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd56]">
+                                <offset>
+                                    <position x="-1805.707" y="247.967" z="-270.865"/>
+                                    <rotation yaw="164.04019" pitch="29.79996" roll="86.44588"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd56]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_06">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd57]">
+                                <offset>
+                                    <position x="-30.671" y="-339.221" z="-509.596"/>
+                                    <rotation yaw="48.77411" pitch="-1.47387" roll="97.55731"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd57]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_05">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd58]">
+                                <offset>
+                                    <position x="-154.116" y="-401.665" z="-607.368"/>
+                                    <rotation yaw="-118.91528" pitch="-57.71029" roll="-104.2477"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd58]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_04">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd59]">
+                                <offset>
+                                    <position x="-150.222" y="-235.667" z="-631.931"/>
+                                    <rotation yaw="-144.63509" pitch="60.58438" roll="-105.52699"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd59]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_03">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd5a]">
+                                <offset>
+                                    <position x="-262.872" y="-205.658" z="-332.533"/>
+                                    <rotation yaw="-52.6949" pitch="-8.33498" roll="31.97435"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd5a]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_02">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd5b]">
+                                <offset>
+                                    <position x="-184.074" y="-128.156" z="-499.219"/>
+                                    <rotation yaw="-172.93404" pitch="31.75108" roll="-9.23264"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd5b]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_01">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd5c]">
+                                <offset>
+                                    <position x="-103.002" y="-218.422" z="-382.878"/>
+                                    <rotation yaw="74.68167" pitch="-22.4124" roll="-24.78249"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd5c]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_09">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd5d]">
+                                <offset>
+                                    <position x="-1857.889" y="241.82" z="-87.439"/>
+                                    <rotation yaw="-12.40186" pitch="30.1043" roll="-86.43481"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd5d]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_08">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd5e]">
+                                <offset>
+                                    <position x="-1835.41" y="75.279" z="-191.367"/>
+                                    <rotation yaw="-101.36063" pitch="-86.91256" roll="-2.82697"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd5e]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="connectionfor_landmarks_kha_hive_arm_01_macro5" macro="connectionfor_landmarks_kha_hive_arm_01_macro5">
+                <component class="defencemodule" macro="landmarks_kha_hive_arm_01_macro" connection="position" construction="[0x37c6]" id="[0x2cd5f]">
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_khaak" name="diffuse_map" type="texture"/>
+                    </render>
+                    <connections>
+                        <connection connection="con_shield_04">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd60]">
+                                <offset>
+                                    <position x="-54.408" y="-338.232" z="-530.427"/>
+                                    <rotation yaw="-52.19807" pitch="-82.30096" roll="-168.93025"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_05">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd61]">
+                                <offset>
+                                    <position x="-140.559" y="-262.903" z="-618.733"/>
+                                    <rotation yaw="-126.94498" pitch="-28.24348" roll="-98.58307"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_06">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd62]">
+                                <offset>
+                                    <position x="-137.839" y="-372.238" z="-598.377"/>
+                                    <rotation yaw="44.36572" pitch="-31.18268" roll="98.8401"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_07">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd63]">
+                                <offset>
+                                    <position x="-1813.215" y="231.402" z="-244.815"/>
+                                    <rotation yaw="-8.8358" pitch="60.00841" roll="-83.82197"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_01">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd64]">
+                                <offset>
+                                    <position x="-238.108" y="-200.985" z="-351.591"/>
+                                    <rotation yaw="42.47581" pitch="-31.59732" roll="-9.79881"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_02">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd65]">
+                                <offset>
+                                    <position x="-181.628" y="-144.744" z="-472.234"/>
+                                    <rotation yaw="101.95522" pitch="-7.8415" roll="-32.0863"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_03">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd66]">
+                                <offset>
+                                    <position x="-134.038" y="-205.15" z="-391.379"/>
+                                    <rotation yaw="-25.30178" pitch="-22.79987" roll="24.43031"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_08">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd67]">
+                                <offset>
+                                    <position x="-1833.698" y="106.828" z="-191.204"/>
+                                    <rotation yaw="-14.18348" pitch="0.152331" roll="-86.91621"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_09">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd68]">
+                                <offset>
+                                    <position x="-1851.422" y="224.361" z="-116.851"/>
+                                    <rotation yaw="-19.4822" pitch="-59.70506" roll="-83.87859"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_07">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd69]">
+                                <offset>
+                                    <position x="-1805.707" y="247.967" z="-270.865"/>
+                                    <rotation yaw="164.04019" pitch="29.79996" roll="86.44588"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd69]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_06">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd6a]">
+                                <offset>
+                                    <position x="-30.671" y="-339.221" z="-509.596"/>
+                                    <rotation yaw="48.77411" pitch="-1.47387" roll="97.55731"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd6a]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_05">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd6b]">
+                                <offset>
+                                    <position x="-154.116" y="-401.665" z="-607.368"/>
+                                    <rotation yaw="-118.91528" pitch="-57.71029" roll="-104.2477"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd6b]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_04">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd6c]">
+                                <offset>
+                                    <position x="-150.222" y="-235.667" z="-631.931"/>
+                                    <rotation yaw="-144.63509" pitch="60.58438" roll="-105.52699"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd6c]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_03">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd6d]">
+                                <offset>
+                                    <position x="-262.872" y="-205.658" z="-332.533"/>
+                                    <rotation yaw="-52.6949" pitch="-8.33498" roll="31.97435"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd6d]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_02">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd6e]">
+                                <offset>
+                                    <position x="-184.074" y="-128.156" z="-499.219"/>
+                                    <rotation yaw="-172.93404" pitch="31.75108" roll="-9.23264"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd6e]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_01">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd6f]">
+                                <offset>
+                                    <position x="-103.002" y="-218.422" z="-382.878"/>
+                                    <rotation yaw="74.68167" pitch="-22.4124" roll="-24.78249"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd6f]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_09">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd70]">
+                                <offset>
+                                    <position x="-1857.889" y="241.82" z="-87.439"/>
+                                    <rotation yaw="-12.40186" pitch="30.1043" roll="-86.43481"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd70]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_08">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd71]">
+                                <offset>
+                                    <position x="-1835.41" y="75.279" z="-191.367"/>
+                                    <rotation yaw="-101.36063" pitch="-86.91256" roll="-2.82697"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd71]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="connectionfor_landmarks_kha_hive_arm_01_macro2" macro="connectionfor_landmarks_kha_hive_arm_01_macro2">
+                <component class="defencemodule" macro="landmarks_kha_hive_arm_01_macro" connection="position" construction="[0x37c7]" id="[0x2cd72]">
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_khaak" name="diffuse_map" type="texture"/>
+                    </render>
+                    <connections>
+                        <connection connection="con_shield_04">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd73]">
+                                <offset>
+                                    <position x="-54.408" y="-338.232" z="-530.427"/>
+                                    <rotation yaw="-52.19807" pitch="-82.30096" roll="-168.93025"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_05">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd74]">
+                                <offset>
+                                    <position x="-140.559" y="-262.903" z="-618.733"/>
+                                    <rotation yaw="-126.94498" pitch="-28.24348" roll="-98.58307"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_06">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd75]">
+                                <offset>
+                                    <position x="-137.839" y="-372.238" z="-598.377"/>
+                                    <rotation yaw="44.36572" pitch="-31.18268" roll="98.8401"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_07">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd76]">
+                                <offset>
+                                    <position x="-1813.215" y="231.402" z="-244.815"/>
+                                    <rotation yaw="-8.8358" pitch="60.00841" roll="-83.82197"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_01">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd77]">
+                                <offset>
+                                    <position x="-238.108" y="-200.985" z="-351.591"/>
+                                    <rotation yaw="42.47581" pitch="-31.59732" roll="-9.79881"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_02">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd78]">
+                                <offset>
+                                    <position x="-181.628" y="-144.744" z="-472.234"/>
+                                    <rotation yaw="101.95522" pitch="-7.8415" roll="-32.0863"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_03">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd79]">
+                                <offset>
+                                    <position x="-134.038" y="-205.15" z="-391.379"/>
+                                    <rotation yaw="-25.30178" pitch="-22.79987" roll="24.43031"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_08">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd7a]">
+                                <offset>
+                                    <position x="-1833.698" y="106.828" z="-191.204"/>
+                                    <rotation yaw="-14.18348" pitch="0.152331" roll="-86.91621"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_09">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd7b]">
+                                <offset>
+                                    <position x="-1851.422" y="224.361" z="-116.851"/>
+                                    <rotation yaw="-19.4822" pitch="-59.70506" roll="-83.87859"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_07">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd7c]">
+                                <offset>
+                                    <position x="-1805.707" y="247.967" z="-270.865"/>
+                                    <rotation yaw="164.04019" pitch="29.79996" roll="86.44588"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd7c]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_06">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd7d]">
+                                <offset>
+                                    <position x="-30.671" y="-339.221" z="-509.596"/>
+                                    <rotation yaw="48.77411" pitch="-1.47387" roll="97.55731"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd7d]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_05">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd7e]">
+                                <offset>
+                                    <position x="-154.116" y="-401.665" z="-607.368"/>
+                                    <rotation yaw="-118.91528" pitch="-57.71029" roll="-104.2477"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd7e]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_04">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd7f]">
+                                <offset>
+                                    <position x="-150.222" y="-235.667" z="-631.931"/>
+                                    <rotation yaw="-144.63509" pitch="60.58438" roll="-105.52699"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd7f]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_03">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd80]">
+                                <offset>
+                                    <position x="-262.872" y="-205.658" z="-332.533"/>
+                                    <rotation yaw="-52.6949" pitch="-8.33498" roll="31.97435"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd80]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_02">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd81]">
+                                <offset>
+                                    <position x="-184.074" y="-128.156" z="-499.219"/>
+                                    <rotation yaw="-172.93404" pitch="31.75108" roll="-9.23264"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd81]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_01">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd82]">
+                                <offset>
+                                    <position x="-103.002" y="-218.422" z="-382.878"/>
+                                    <rotation yaw="74.68167" pitch="-22.4124" roll="-24.78249"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd82]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_09">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd83]">
+                                <offset>
+                                    <position x="-1857.889" y="241.82" z="-87.439"/>
+                                    <rotation yaw="-12.40186" pitch="30.1043" roll="-86.43481"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd83]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_08">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd84]">
+                                <offset>
+                                    <position x="-1835.41" y="75.279" z="-191.367"/>
+                                    <rotation yaw="-101.36063" pitch="-86.91256" roll="-2.82697"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd84]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="connectionfor_landmarks_kha_hive_arm_01_macro3" macro="connectionfor_landmarks_kha_hive_arm_01_macro3">
+                <component class="defencemodule" macro="landmarks_kha_hive_arm_01_macro" connection="position" construction="[0x37c8]" id="[0x2cd85]">
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_khaak" name="diffuse_map" type="texture"/>
+                    </render>
+                    <connections>
+                        <connection connection="con_shield_04">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd86]">
+                                <offset>
+                                    <position x="-54.408" y="-338.232" z="-530.427"/>
+                                    <rotation yaw="-52.19807" pitch="-82.30096" roll="-168.93025"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_05">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd87]">
+                                <offset>
+                                    <position x="-140.559" y="-262.903" z="-618.733"/>
+                                    <rotation yaw="-126.94498" pitch="-28.24348" roll="-98.58307"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_06">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd88]">
+                                <offset>
+                                    <position x="-137.839" y="-372.238" z="-598.377"/>
+                                    <rotation yaw="44.36572" pitch="-31.18268" roll="98.8401"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_07">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd89]">
+                                <offset>
+                                    <position x="-1813.215" y="231.402" z="-244.815"/>
+                                    <rotation yaw="-8.8358" pitch="60.00841" roll="-83.82197"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_01">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd8a]">
+                                <offset>
+                                    <position x="-238.108" y="-200.985" z="-351.591"/>
+                                    <rotation yaw="42.47581" pitch="-31.59732" roll="-9.79881"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_02">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd8b]">
+                                <offset>
+                                    <position x="-181.628" y="-144.744" z="-472.234"/>
+                                    <rotation yaw="101.95522" pitch="-7.8415" roll="-32.0863"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_03">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd8c]">
+                                <offset>
+                                    <position x="-134.038" y="-205.15" z="-391.379"/>
+                                    <rotation yaw="-25.30178" pitch="-22.79987" roll="24.43031"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_08">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd8d]">
+                                <offset>
+                                    <position x="-1833.698" y="106.828" z="-191.204"/>
+                                    <rotation yaw="-14.18348" pitch="0.152331" roll="-86.91621"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_09">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd8e]">
+                                <offset>
+                                    <position x="-1851.422" y="224.361" z="-116.851"/>
+                                    <rotation yaw="-19.4822" pitch="-59.70506" roll="-83.87859"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_07">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd8f]">
+                                <offset>
+                                    <position x="-1805.707" y="247.967" z="-270.865"/>
+                                    <rotation yaw="164.04019" pitch="29.79996" roll="86.44588"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd8f]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_06">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd90]">
+                                <offset>
+                                    <position x="-30.671" y="-339.221" z="-509.596"/>
+                                    <rotation yaw="48.77411" pitch="-1.47387" roll="97.55731"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd90]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_05">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd91]">
+                                <offset>
+                                    <position x="-154.116" y="-401.665" z="-607.368"/>
+                                    <rotation yaw="-118.91528" pitch="-57.71029" roll="-104.2477"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd91]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_04">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd92]">
+                                <offset>
+                                    <position x="-150.222" y="-235.667" z="-631.931"/>
+                                    <rotation yaw="-144.63509" pitch="60.58438" roll="-105.52699"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd92]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_03">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd93]">
+                                <offset>
+                                    <position x="-262.872" y="-205.658" z="-332.533"/>
+                                    <rotation yaw="-52.6949" pitch="-8.33498" roll="31.97435"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd93]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_02">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd94]">
+                                <offset>
+                                    <position x="-184.074" y="-128.156" z="-499.219"/>
+                                    <rotation yaw="-172.93404" pitch="31.75108" roll="-9.23264"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd94]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_01">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd95]">
+                                <offset>
+                                    <position x="-103.002" y="-218.422" z="-382.878"/>
+                                    <rotation yaw="74.68167" pitch="-22.4124" roll="-24.78249"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd95]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_09">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd96]">
+                                <offset>
+                                    <position x="-1857.889" y="241.82" z="-87.439"/>
+                                    <rotation yaw="-12.40186" pitch="30.1043" roll="-86.43481"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd96]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_08">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cd97]">
+                                <offset>
+                                    <position x="-1835.41" y="75.279" z="-191.367"/>
+                                    <rotation yaw="-101.36063" pitch="-86.91256" roll="-2.82697"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cd97]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="connectionfor_landmarks_kha_hive_arm_01_macro1" macro="connectionfor_landmarks_kha_hive_arm_01_macro1">
+                <component class="defencemodule" macro="landmarks_kha_hive_arm_01_macro" connection="position" construction="[0x37c9]" id="[0x2cd98]">
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_khaak" name="diffuse_map" type="texture"/>
+                    </render>
+                    <connections>
+                        <connection connection="con_shield_04">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd99]">
+                                <offset>
+                                    <position x="-54.408" y="-338.232" z="-530.427"/>
+                                    <rotation yaw="-52.19807" pitch="-82.30096" roll="-168.93025"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_05">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd9a]">
+                                <offset>
+                                    <position x="-140.559" y="-262.903" z="-618.733"/>
+                                    <rotation yaw="-126.94498" pitch="-28.24348" roll="-98.58307"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_06">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd9b]">
+                                <offset>
+                                    <position x="-137.839" y="-372.238" z="-598.377"/>
+                                    <rotation yaw="44.36572" pitch="-31.18268" roll="98.8401"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_07">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd9c]">
+                                <offset>
+                                    <position x="-1813.215" y="231.402" z="-244.815"/>
+                                    <rotation yaw="-8.8358" pitch="60.00841" roll="-83.82197"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_01">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd9d]">
+                                <offset>
+                                    <position x="-238.108" y="-200.985" z="-351.591"/>
+                                    <rotation yaw="42.47581" pitch="-31.59732" roll="-9.79881"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_02">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd9e]">
+                                <offset>
+                                    <position x="-181.628" y="-144.744" z="-472.234"/>
+                                    <rotation yaw="101.95522" pitch="-7.8415" roll="-32.0863"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_03">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cd9f]">
+                                <offset>
+                                    <position x="-134.038" y="-205.15" z="-391.379"/>
+                                    <rotation yaw="-25.30178" pitch="-22.79987" roll="24.43031"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_08">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cda0]">
+                                <offset>
+                                    <position x="-1833.698" y="106.828" z="-191.204"/>
+                                    <rotation yaw="-14.18348" pitch="0.152331" roll="-86.91621"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_shield_09">
+                            <component class="shieldgenerator" macro="shield_kha_m_standard_02_mk1_macro" connection="con_shield_01" id="[0x2cda1]">
+                                <offset>
+                                    <position x="-1851.422" y="224.361" z="-116.851"/>
+                                    <rotation yaw="-19.4822" pitch="-59.70506" roll="-83.87859"/>
+                                </offset>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_07">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cda2]">
+                                <offset>
+                                    <position x="-1805.707" y="247.967" z="-270.865"/>
+                                    <rotation yaw="164.04019" pitch="29.79996" roll="86.44588"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cda2]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_06">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cda3]">
+                                <offset>
+                                    <position x="-30.671" y="-339.221" z="-509.596"/>
+                                    <rotation yaw="48.77411" pitch="-1.47387" roll="97.55731"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cda3]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_05">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cda4]">
+                                <offset>
+                                    <position x="-154.116" y="-401.665" z="-607.368"/>
+                                    <rotation yaw="-118.91528" pitch="-57.71029" roll="-104.2477"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cda4]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_04">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cda5]">
+                                <offset>
+                                    <position x="-150.222" y="-235.667" z="-631.931"/>
+                                    <rotation yaw="-144.63509" pitch="60.58438" roll="-105.52699"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cda5]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_03">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cda6]">
+                                <offset>
+                                    <position x="-262.872" y="-205.658" z="-332.533"/>
+                                    <rotation yaw="-52.6949" pitch="-8.33498" roll="31.97435"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cda6]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_02">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cda7]">
+                                <offset>
+                                    <position x="-184.074" y="-128.156" z="-499.219"/>
+                                    <rotation yaw="-172.93404" pitch="31.75108" roll="-9.23264"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cda7]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_01">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cda8]">
+                                <offset>
+                                    <position x="-103.002" y="-218.422" z="-382.878"/>
+                                    <rotation yaw="74.68167" pitch="-22.4124" roll="-24.78249"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cda8]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_09">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cda9]">
+                                <offset>
+                                    <position x="-1857.889" y="241.82" z="-87.439"/>
+                                    <rotation yaw="-12.40186" pitch="30.1043" roll="-86.43481"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cda9]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                        <connection connection="con_turret_m_08">
+                            <component class="turret" macro="turret_kha_m_beam_01_mk1_macro" connection="connection_component01" lastshottime="1300757.053" id="[0x2cdaa]">
+                                <offset>
+                                    <position x="-1835.41" y="75.279" z="-191.367"/>
+                                    <rotation yaw="-101.36063" pitch="-86.91256" roll="-2.82697"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2cdaa]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1300757.753" interval="0"/>
+                                    </parameter>
+                                </render>
+                            </component>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+        </connections>
+    </component>
+</connection>

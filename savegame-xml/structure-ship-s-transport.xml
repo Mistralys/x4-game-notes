@@ -1,0 +1,257 @@
+<connection connection="ships">
+    <component class="ship_s" macro="ship_tel_s_trans_container_01_a_macro" connection="space" code="ETE-905" owner="scaleplate" cover="antigone" knownto="player" level="0.0557297" variation="0.3" spawntime="1362123.749" thruster="thruster_gen_s_combat_01_mk1_macro" id="[0x2c4f6]">
+        <listeners>
+            <listener listener="[0x2c4fd]" event="killed"/>
+            <listener listener="[0x2c501]" event="boostdisabled"/>
+            <listener listener="[0x2c502]" event="boostdisabled"/>
+            <listener listener="[0x49ba7]" event="killed tempcomponentremoved"/>
+        </listeners>
+        <events>
+            <event event="updateengineparameters" time="1368393.63"/>
+            <event event="updatebuild" time="1368440.941"/>
+        </events>
+        <movement forceposition="0" class="navigation">
+            <position>
+                <read space="[0x2c4c1]" numpathpoints="1" avoidbigobjects="1" avoidsmallobjects="1">
+                    <offset>
+                        <position x="-11744.767" y="-2249.84" z="28607.98"/>
+                        <rotation yaw="3.16793" pitch="-16.73772"/>
+                    </offset>
+                    <velocity>
+                        <linear x="7.95061" y="-43.2663" z="143.65"/>
+                    </velocity>
+                    <acceleration/>
+                </read>
+                <write space="[0x2c4c1]" numpathpoints="1" avoidbigobjects="1" avoidsmallobjects="1">
+                    <offset>
+                        <position x="-11746.669" y="-2239.486" z="28573.602"/>
+                        <rotation yaw="3.16793" pitch="-16.73772"/>
+                    </offset>
+                    <velocity>
+                        <linear x="7.95061" y="-43.2663" z="143.65"/>
+                    </velocity>
+                    <acceleration/>
+                </write>
+            </position>
+            <targetpoints>
+                <targetpoint refobject="[0x2c4c1]" behavior="default" direction="forward" avoidbigobjects="1" avoidsmallobjects="1" resetroll="1" slowdownatend="0">
+                    <offset>
+                        <position x="-11433.914" y="-3941.458" z="34224.383"/>
+                        <rotation yaw="3.16793"/>
+                    </offset>
+                </targetpoint>
+            </targetpoints>
+            <flightcontrolmodel type="linear"/>
+            <transition/>
+        </movement>
+        <offset>
+            <position x="-11815.37" y="-1865.624" z="27332.328"/>
+            <rotation yaw="3.16793" pitch="-16.73772"/>
+        </offset>
+        <render>
+            <parameter value="4278457092" name="letter_color" type="color"/>
+            <parameter value="4280490527" name="number_color" type="color"/>
+            <parameter value="assets\fx\gui\textures\factions\faction_antigone" name="diffuse_map" type="texture"/>
+        </render>
+        <drop ref="ship_small_civilian"/>
+        <source job="scaleplate_smuggler_s" seed="6266135683195943739" sector="[0x2c45e]" zone="[0x2c5b6]" commandeerable="1" class="job"/>
+        <modification>
+            <paint ware="paintmod_0033" generated="1"/>
+        </modification>
+        <gravidar/>
+        <orders>
+            <order id="[0x163d]" default="1" order="TradeRoutine" state="started">
+                <syncpoint state="reachable"/>
+                <param name="warebasket" type="list" value="56213"/>
+                <param name="range" type="component" value="[0x2c45e]"/>
+                <param name="minbuy" type="integer"/>
+                <param name="maxbuy" type="integer" value="30"/>
+                <param name="minsell" type="integer"/>
+                <param name="maxsell" type="integer" value="30"/>
+                <param name="duration" type="time"/>
+                <param name="endtime" type="time"/>
+                <param name="tradeforbuildstorage"/>
+                <param name="usecover" type="integer" value="1"/>
+                <param name="preferredcoverfactions" type="list" value="77992"/>
+                <param name="onlyplayerclients" type="integer"/>
+                <param name="debugchance" type="integer"/>
+                <param name="debugchance2" type="integer"/>
+            </order>
+        </orders>
+        <software wares="software_dockmk1 software_targetmk1"/>
+        <control>
+            <post id="tradecomputer"/>
+            <post id="aipilot" component="[0x2c4fd]"/>
+            <post id="playerpilot"/>
+        </control>
+        <people>
+            <person macro="character_teladi_female_pilot_01_macro" role="service">
+                <npcseed seed="13887331564004343478"/>
+                <skill type="engineering" value="2"/>
+                <skill type="management" value="2"/>
+                <skill type="morale" value="2"/>
+                <skill type="piloting" value="2"/>
+            </person>
+            <person macro="character_teladi_female_generic_02_macro" role="service">
+                <npcseed seed="17993081235882597499"/>
+                <skill type="engineering" value="3"/>
+                <skill type="management" value="1"/>
+                <skill type="morale" value="3"/>
+                <skill type="piloting" value="2"/>
+            </person>
+            <person macro="character_teladi_female_generic_02_macro" role="service">
+                <npcseed seed="1185080392573474597"/>
+                <skill type="engineering" value="3"/>
+                <skill type="management" value="1"/>
+                <skill type="morale" value="3"/>
+                <skill type="piloting" value="1"/>
+            </person>
+        </people>
+        <weapongroups>
+            <primary active="0">
+                <entry>
+                    <weapon id="[0x2c4fb]"/>
+                </entry>
+            </primary>
+            <secondary active="0"/>
+        </weapongroups>
+        <trade>
+            <prices>
+                <reference>
+                    <ware ware="spacefuel" buy="133" sell="0"/>
+                    <ware ware="spaceweed" buy="160" sell="0"/>
+                </reference>
+            </prices>
+        </trade>
+        <connections>
+            <connection connection="con_shipstorage_xs_01" macro="con_shipstorage_xs_01">
+                <component class="dockingbay" macro="shipstorage_gen_xs_01_macro" connection="object" id="[0x2c4f7]">
+                    <offset default="1"/>
+                </component>
+            </connection>
+            <connection connection="con_storage01" macro="con_storage01">
+                <component class="storage" macro="storage_tel_s_trans_container_01_a_macro" connection="shipconnection" id="[0x2c4f8]">
+                    <listeners>
+                        <listener listener="[0x49ba7]" event="killed tempcomponentremoved"/>
+                    </listeners>
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_antigone" name="diffuse_map" type="texture"/>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_shield_01">
+                <component class="shieldgenerator" macro="shield_arg_s_standard_01_mk1_macro" connection="connection01" id="[0x2c4f9]">
+                    <offset>
+                        <position x="-6.337" y="1.856" z="-0.9611"/>
+                    </offset>
+                </component>
+            </connection>
+            <connection connection="con_shield_02">
+                <component class="shieldgenerator" macro="shield_tel_s_standard_01_mk1_macro" connection="connection01" id="[0x2c4fa]">
+                    <offset>
+                        <position x="6.337" y="1.856" z="-0.9611"/>
+                    </offset>
+                </component>
+            </connection>
+            <connection connection="con_weapon_01">
+                <component class="weapon" macro="weapon_gen_s_laser_01_mk1_macro" connection="weaponcon_01" lastshottime="1362123.749" ammunition="2" id="[0x2c4fb]">
+                    <offset>
+                        <position y="-1.441" z="7.634"/>
+                    </offset>
+                    <render>
+                        <parameter flags="override" owner="[0x2c4fb]" name="mat_dynamicglow" type="glow">
+                            <persistent start="1362123.749" interval="0"/>
+                        </parameter>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_cockpit" macro="con_cockpit">
+                <component class="cockpit" macro="cockpit_gen_virtual_01_macro" connection="ship" id="[0x2c4fc]">
+                    <offset default="1"/>
+                    <connections>
+                        <connection connection="entities">
+                            <component class="npc" macro="character_teladi_female_pilot_01_macro" connection="parentconnection" name="Yooses Desudras Gradias V" code="OOI-273" owner="scaleplate" cover="antigone" known="1" read="0" page="10501" id="[0x2c4fd]">
+                                <listeners>
+                                    <listener listener="[0x2c4f6]" event="killed"/>
+                                </listeners>
+                                <movement class="crossconnection">
+                                    <additionaloffset/>
+                                    <attached component="[0x2c4f6]" connection="con_control01"/>
+                                    <time start="1362123.749"/>
+                                    <offset>
+                                        <position x="-0.01643" y="-1.524" z="-1.151"/>
+                                    </offset>
+                                </movement>
+                                <offset>
+                                    <position x="0.006745" y="-1.169" z="1.503"/>
+                                </offset>
+                                <render>
+                                    <parameter flags="override" owner="[0x2c4fd]" name="mat_dynamicglow" type="glow">
+                                        <persistent start="1362123.749" interval="0"/>
+                                    </parameter>
+                                </render>
+                                <traits flags="remotecommable">
+                                    <skill type="management" value="4"/>
+                                    <skill type="morale" value="8"/>
+                                    <skill type="piloting" value="6"/>
+                                </traits>
+                                <entity type="officer" post="aipilot"/>
+                                <blackboard>
+                                    <value name="$StateMachine" type="cue" value="805059"/>
+                                </blackboard>
+                                <npcseed seed="7717274935194177455"/>
+                                <connections>
+                                    <connection connection="currentchair" id="[0x2c4fe]">
+                                        <connected connection="[0x2c504]"/>
+                                    </connection>
+                                    <connection connection="roomposition" id="[0x2c4ff]">
+                                        <connected connection="[0x2c500]"/>
+                                    </connection>
+                                </connections>
+                            </component>
+                        </connection>
+                    </connections>
+                </component>
+            </connection>
+            <connection connection="con_control01" id="[0x2c500]">
+                <connected connection="[0x2c4ff]"/>
+            </connection>
+            <connection connection="con_engine_02">
+                <component class="engine" macro="engine_arg_s_combat_01_mk1_macro" connection="engineconnection01" id="[0x2c501]">
+                    <offset>
+                        <position x="9.391" y="-0.4277" z="-10.62"/>
+                    </offset>
+                    <render>
+                        <parameter flags="override" owner="[0x2c501]" name="mat_dynamicglow" type="glow">
+                            <persistent start="1362123.749" interval="0"/>
+                        </parameter>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_engine_01">
+                <component class="engine" macro="engine_arg_s_combat_01_mk1_macro" connection="engineconnection01" id="[0x2c502]">
+                    <offset>
+                        <position x="-9.33" y="-0.4277" z="-10.62"/>
+                    </offset>
+                    <render>
+                        <parameter flags="override" owner="[0x2c502]" name="mat_dynamicglow" type="glow">
+                            <persistent start="1362123.749" interval="0"/>
+                        </parameter>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="con_dock_xs" macro="con_dock_xs">
+                <component class="dockingbay" macro="dock_gen_xs_ship_01_macro" connection="connection_component" id="[0x2c503]">
+                    <offset default="1"/>
+                    <render>
+                        <parameter value="assets\fx\gui\textures\factions\faction_antigone" name="diffuse_map" type="texture"/>
+                    </render>
+                </component>
+            </connection>
+            <connection connection="connection09" id="[0x2c504]">
+                <connected connection="[0x2c4fe]"/>
+            </connection>
+        </connections>
+    </component>
+</connection>

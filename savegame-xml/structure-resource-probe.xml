@@ -1,0 +1,20 @@
+<connection connection="resourceprobe">
+    <component class="resourceprobe" macro="eq_arg_resourceprobe_01_macro" connection="space" code="RXR-920" owner="player" knownto="player" id="[0x2c792]">
+        <movement class="lineardeceleration">
+            <deceleration time="10"/>
+            <velocity>
+                <linear y="-5"/>
+            </velocity>
+            <time start="783812.992"/>
+            <offset>
+                <position x="8507.877" y="-94.42" z="21872.41"/>
+                <rotation yaw="89.17998"/>
+            </offset>
+        </movement>
+        <offset>
+            <position x="8507.877" y="-119.42" z="21872.41"/>
+            <rotation yaw="89.17998"/>
+        </offset>
+        <physics ignoreforcetime="783817.992"/>
+    </component>
+</connection>

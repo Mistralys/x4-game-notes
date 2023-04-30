@@ -1,0 +1,17 @@
+<info>
+    <save name="#010" date="1682844751"/>
+    <game id="X4" version="600" build="498349" modified="1" time="1368393.009" code="12341411" original="600" originalbuild="496124" start="custom_creative" seed="42007" guid="53F033ED-7899-4C8A-A20D-9269DF7F8A61"/>
+    <player name="AeonOfTime" location="{20004,4250011}" money="9793997968"/>
+    <patches>
+        <patch extension="ego_dlc_split" version="600" name="Split Vendetta"/>
+        <patch extension="ego_dlc_pirate" version="600" name="Tides of Avarice"/>
+        <patch extension="ego_dlc_terran" version="600" name="Cradle of Humanity"/>
+        <patch extension="ego_dlc_boron" version="600" name="Kingdom End"/>
+        <history>
+            <patch extension="ego_dlc_split" version="600" name="Split Vendetta"/>
+            <patch extension="ego_dlc_pirate" version="600" name="Tides of Avarice"/>
+            <patch extension="ego_dlc_terran" version="600" name="Cradle of Humanity"/>
+            <patch extension="ego_dlc_boron" version="600" name="Kingdom End"/>
+        </history>
+    </patches>
+</info>

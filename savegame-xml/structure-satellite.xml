@@ -1,0 +1,21 @@
+<connection connection="satellites">
+    <component class="satellite" macro="eq_arg_satellite_02_macro" connection="space" code="ALQ-442" owner="player" knownto="player" id="[0x2c4c0]">
+        <movement class="lineardeceleration">
+            <deceleration time="10"/>
+            <velocity>
+                <linear x="2404.203" y="33.5837" z="-94.1768"/>
+            </velocity>
+            <time start="17816.773"/>
+            <offset>
+                <position x="-41568.82" y="-1114.318" z="-5404.876"/>
+                <rotation yaw="92.24323" pitch="0.565192"/>
+            </offset>
+        </movement>
+        <offset>
+            <position x="-29547.805" y="-946.4" z="-5875.76"/>
+            <rotation yaw="92.24323" pitch="0.565192"/>
+        </offset>
+        <gravidar/>
+        <physics ignoreforcetime="405133.245"/>
+    </component>
+</connection>

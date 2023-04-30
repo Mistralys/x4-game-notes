@@ -1,0 +1,1802 @@
+<factions>
+    <faction id="khaak">
+        <relations locked="1">
+            <relation faction="scavenger" relation="-1"/>
+            <relation faction="boron" relation="-1"/>
+            <relation faction="player" relation="-1"/>
+            <relation faction="alliance" relation="-1"/>
+            <relation faction="antigone" relation="-1"/>
+            <relation faction="argon" relation="-1"/>
+            <relation faction="buccaneers" relation="-1"/>
+            <relation faction="civilian" relation="-1"/>
+            <relation faction="criminal" relation="-1"/>
+            <relation faction="hatikvah" relation="-1"/>
+            <relation faction="holyorder" relation="-1"/>
+            <relation faction="holyorderfanatic" relation="-1"/>
+            <relation faction="ministry" relation="-1"/>
+            <relation faction="paranid" relation="-1"/>
+            <relation faction="scaleplate" relation="-1"/>
+            <relation faction="smuggler" relation="-1"/>
+            <relation faction="teladi" relation="-1"/>
+            <relation faction="trinity" relation="-1"/>
+            <relation faction="visitor" relation="-1"/>
+            <relation faction="visitor001" relation="-1"/>
+            <relation faction="visitor002" relation="-1"/>
+            <relation faction="visitor003" relation="-1"/>
+            <relation faction="visitor004" relation="-1"/>
+            <relation faction="visitor005" relation="-1"/>
+            <relation faction="visitor006" relation="-1"/>
+            <relation faction="visitor007" relation="-1"/>
+            <relation faction="visitor008" relation="-1"/>
+            <relation faction="visitor009" relation="-1"/>
+            <relation faction="visitor010" relation="-1"/>
+            <relation faction="visitor011" relation="-1"/>
+            <relation faction="visitor012" relation="-1"/>
+            <relation faction="visitor013" relation="-1"/>
+            <relation faction="visitor014" relation="-1"/>
+            <relation faction="visitor015" relation="-1"/>
+            <relation faction="visitor016" relation="-1"/>
+            <relation faction="visitor017" relation="-1"/>
+            <relation faction="visitor018" relation="-1"/>
+            <relation faction="visitor019" relation="-1"/>
+            <relation faction="visitor020" relation="-1"/>
+            <relation faction="visitor021" relation="-1"/>
+            <relation faction="visitor022" relation="-1"/>
+            <relation faction="visitor023" relation="-1"/>
+            <relation faction="visitor024" relation="-1"/>
+            <relation faction="visitor025" relation="-1"/>
+            <relation faction="visitor026" relation="-1"/>
+            <relation faction="visitor027" relation="-1"/>
+            <relation faction="visitor028" relation="-1"/>
+            <relation faction="visitor029" relation="-1"/>
+            <relation faction="visitor030" relation="-1"/>
+            <relation faction="visitor031" relation="-1"/>
+            <relation faction="visitor032" relation="-1"/>
+            <relation faction="visitor033" relation="-1"/>
+            <relation faction="visitor034" relation="-1"/>
+            <relation faction="visitor035" relation="-1"/>
+            <relation faction="visitor036" relation="-1"/>
+            <relation faction="visitor037" relation="-1"/>
+            <relation faction="visitor038" relation="-1"/>
+            <relation faction="visitor039" relation="-1"/>
+            <relation faction="visitor040" relation="-1"/>
+            <relation faction="visitor041" relation="-1"/>
+            <relation faction="visitor042" relation="-1"/>
+            <relation faction="visitor043" relation="-1"/>
+            <relation faction="visitor044" relation="-1"/>
+            <relation faction="visitor045" relation="-1"/>
+            <relation faction="visitor046" relation="-1"/>
+            <relation faction="visitor047" relation="-1"/>
+            <relation faction="visitor048" relation="-1"/>
+            <relation faction="visitor049" relation="-1"/>
+            <relation faction="visitor050" relation="-1"/>
+            <relation faction="visitor051" relation="-1"/>
+            <relation faction="visitor052" relation="-1"/>
+            <relation faction="visitor053" relation="-1"/>
+            <relation faction="visitor054" relation="-1"/>
+            <relation faction="visitor055" relation="-1"/>
+            <relation faction="visitor056" relation="-1"/>
+            <relation faction="visitor057" relation="-1"/>
+            <relation faction="visitor058" relation="-1"/>
+            <relation faction="visitor059" relation="-1"/>
+            <relation faction="visitor060" relation="-1"/>
+            <relation faction="visitor061" relation="-1"/>
+            <relation faction="visitor062" relation="-1"/>
+            <relation faction="visitor063" relation="-1"/>
+            <relation faction="visitor064" relation="-1"/>
+            <relation faction="visitor065" relation="-1"/>
+            <relation faction="visitor066" relation="-1"/>
+            <relation faction="visitor067" relation="-1"/>
+            <relation faction="visitor068" relation="-1"/>
+            <relation faction="visitor069" relation="-1"/>
+            <relation faction="visitor070" relation="-1"/>
+            <relation faction="visitor071" relation="-1"/>
+            <relation faction="visitor072" relation="-1"/>
+            <relation faction="visitor073" relation="-1"/>
+            <relation faction="visitor074" relation="-1"/>
+            <relation faction="visitor075" relation="-1"/>
+            <relation faction="visitor076" relation="-1"/>
+            <relation faction="visitor077" relation="-1"/>
+            <relation faction="visitor078" relation="-1"/>
+            <relation faction="visitor079" relation="-1"/>
+            <relation faction="visitor080" relation="-1"/>
+            <relation faction="visitor081" relation="-1"/>
+            <relation faction="visitor082" relation="-1"/>
+            <relation faction="visitor083" relation="-1"/>
+            <relation faction="visitor084" relation="-1"/>
+            <relation faction="visitor085" relation="-1"/>
+            <relation faction="visitor086" relation="-1"/>
+            <relation faction="visitor087" relation="-1"/>
+            <relation faction="visitor088" relation="-1"/>
+            <relation faction="visitor089" relation="-1"/>
+            <relation faction="visitor090" relation="-1"/>
+            <relation faction="visitor091" relation="-1"/>
+            <relation faction="visitor092" relation="-1"/>
+            <relation faction="visitor093" relation="-1"/>
+            <relation faction="visitor094" relation="-1"/>
+            <relation faction="visitor095" relation="-1"/>
+            <relation faction="visitor096" relation="-1"/>
+            <relation faction="visitor097" relation="-1"/>
+            <relation faction="visitor098" relation="-1"/>
+            <relation faction="visitor099" relation="-1"/>
+            <relation faction="visitor100" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+            <relation faction="court" relation="-1"/>
+            <relation faction="fallensplit" relation="-1"/>
+            <relation faction="freesplit" relation="-1"/>
+            <relation faction="split" relation="-1"/>
+            <relation faction="pioneers" relation="-1"/>
+            <relation faction="terran" relation="-1"/>
+            <relation faction="yaki" relation="-1"/>
+            <relation faction="loanshark" relation="-1"/>
+        </relations>
+        <signals>
+            <response signal="policehalt" response="attack"/>
+        </signals>
+    </faction>
+    <faction active="0" id="court">
+        <relations>
+            <relation faction="boron" relation="-0.032"/>
+            <relation faction="player" relation="0.00256"/>
+            <relation faction="antigone" relation="-0.011"/>
+            <relation faction="argon" relation="-0.011"/>
+            <relation faction="buccaneers" relation="-0.032"/>
+            <relation faction="criminal" relation="-0.5"/>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="scaleplate" relation="-0.32"/>
+            <relation faction="smuggler" relation="-0.06"/>
+            <relation faction="xenon" relation="-1"/>
+            <relation faction="fallensplit" relation="-0.32"/>
+            <relation faction="split" relation="-0.1"/>
+            <relation faction="terran" relation="-0.011"/>
+            <relation faction="yaki" relation="-0.32"/>
+            <relation faction="loanshark" relation="-0.032"/>
+            <booster faction="yaki" relation="0" time="532977.848"/>
+        </relations>
+        <licences>
+            <licence type="capitalequipment" factions="freesplit"/>
+            <licence type="capitalship" factions="freesplit"/>
+            <licence type="generaluseequipment" factions="freesplit"/>
+            <licence type="generaluseship" factions="freesplit"/>
+            <licence type="militaryequipment" factions="freesplit"/>
+            <licence type="militaryship" factions="freesplit"/>
+            <licence type="station_gen_basic" factions="freesplit"/>
+            <licence type="station_gen_intermediate" factions="freesplit"/>
+            <licence type="station_gen_advanced" factions="freesplit"/>
+            <licence type="station_equip_sm" factions="freesplit"/>
+            <licence type="station_equip_lxl" factions="freesplit"/>
+        </licences>
+    </faction>
+    <faction id="civilian">
+        <relations locked="1">
+            <relation faction="criminal" relation="-0.5"/>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="smuggler" relation="-0.06"/>
+            <relation faction="xenon" relation="-1"/>
+            <relation faction="loanshark" relation="0.032"/>
+        </relations>
+    </faction>
+    <faction id="criminal">
+        <relations locked="1">
+            <relation faction="scavenger" relation="-0.5"/>
+            <relation faction="boron" relation="-0.5"/>
+            <relation faction="player" relation="-0.5"/>
+            <relation faction="alliance" relation="-0.5"/>
+            <relation faction="antigone" relation="-0.5"/>
+            <relation faction="argon" relation="-0.5"/>
+            <relation faction="buccaneers" relation="-0.5"/>
+            <relation faction="civilian" relation="-0.5"/>
+            <relation faction="hatikvah" relation="-0.5"/>
+            <relation faction="holyorder" relation="-0.5"/>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="ministry" relation="-0.5"/>
+            <relation faction="paranid" relation="-0.5"/>
+            <relation faction="scaleplate" relation="-0.5"/>
+            <relation faction="teladi" relation="-0.5"/>
+            <relation faction="trinity" relation="-0.5"/>
+            <relation faction="xenon" relation="-1"/>
+            <relation faction="court" relation="-0.5"/>
+            <relation faction="fallensplit" relation="-0.5"/>
+            <relation faction="freesplit" relation="-0.5"/>
+            <relation faction="split" relation="-0.5"/>
+            <relation faction="pioneers" relation="-0.5"/>
+            <relation faction="terran" relation="-0.5"/>
+            <relation faction="yaki" relation="-0.5"/>
+            <relation faction="loanshark" relation="-0.5"/>
+        </relations>
+    </faction>
+    <faction id="argon">
+        <relations>
+            <relation faction="boron" relation="0.5"/>
+            <relation faction="player" relation="0.00256"/>
+            <relation faction="alliance" relation="0.1"/>
+            <relation faction="antigone" relation="0.67"/>
+            <relation faction="buccaneers" relation="-0.032"/>
+            <relation faction="criminal" relation="-0.5"/>
+            <relation faction="holyorder" relation="-0.1"/>
+            <relation faction="holyorderfanatic" relation="-1"/>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="scaleplate" relation="-0.32"/>
+            <relation faction="smuggler" relation="-0.06"/>
+            <relation faction="teladi" relation="0.1"/>
+            <relation faction="xenon" relation="-1"/>
+            <relation faction="court" relation="-0.011"/>
+            <relation faction="fallensplit" relation="-0.32"/>
+            <relation faction="freesplit" relation="-0.011"/>
+            <relation faction="split" relation="-0.1"/>
+            <relation faction="terran" relation="-0.011"/>
+            <relation faction="yaki" relation="-0.32"/>
+            <relation faction="loanshark" relation="-0.032"/>
+            <booster faction="player" relation="1" time="1368388.118"/>
+            <booster faction="yaki" relation="0" time="532977.848"/>
+        </relations>
+        <moods>
+            <mood type="avarice" level="high"/>
+        </moods>
+        <discounts>
+            <booster faction="player" amount="0.25" time="1222330.945"/>
+        </discounts>
+        <licences>
+            <licence type="capitalship" factions="antigone"/>
+            <licence type="generaluseship" factions="antigone hatikvah"/>
+            <licence type="militaryship" factions="antigone"/>
+        </licences>
+    </faction>
+    <faction id="visitor">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="scavenger">
+        <relations>
+            <relation faction="boron" relation="0.032"/>
+            <relation faction="player" relation="0.00256"/>
+            <relation faction="buccaneers" relation="-0.032"/>
+            <relation faction="criminal" relation="-0.5"/>
+            <relation faction="holyorderfanatic" relation="-1"/>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="scaleplate" relation="-0.32"/>
+            <relation faction="smuggler" relation="-0.06"/>
+            <relation faction="xenon" relation="-1"/>
+            <relation faction="fallensplit" relation="-0.32"/>
+            <relation faction="terran" relation="-0.011"/>
+            <relation faction="yaki" relation="-0.32"/>
+            <booster faction="player" relation="0.0387519" time="1260337.84"/>
+        </relations>
+        <moods>
+            <mood type="aggression" level="low"/>
+        </moods>
+        <buildrules method="closedloop"/>
+        <discounts>
+            <booster faction="player" amount="0.05" time="1222330.945"/>
+        </discounts>
+        <licences>
+            <licence type="generaluseship" factions="ministry teladi"/>
+        </licences>
+    </faction>
+    <faction id="antigone">
+        <relations>
+            <relation faction="boron" relation="0.032"/>
+            <relation faction="player" relation="0.00256"/>
+            <relation faction="alliance" relation="0.1"/>
+            <relation faction="argon" relation="0.67"/>
+            <relation faction="buccaneers" relation="-0.032"/>
+            <relation faction="criminal" relation="-0.5"/>
+            <relation faction="holyorder" relation="-0.1"/>
+            <relation faction="holyorderfanatic" relation="-1"/>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="scaleplate" relation="-0.1"/>
+            <relation faction="smuggler" relation="-0.06"/>
+            <relation faction="xenon" relation="-1"/>
+            <relation faction="court" relation="-0.011"/>
+            <relation faction="fallensplit" relation="-0.1"/>
+            <relation faction="freesplit" relation="-0.011"/>
+            <relation faction="split" relation="-0.1"/>
+            <relation faction="terran" relation="-0.011"/>
+            <relation faction="yaki" relation="-0.32"/>
+            <relation faction="loanshark" relation="-0.032"/>
+            <booster faction="player" relation="1" time="1368316.38"/>
+            <booster faction="yaki" relation="0" time="532977.848"/>
+        </relations>
+        <moods>
+            <mood type="avarice" level="high"/>
+        </moods>
+        <discounts>
+            <booster faction="player" amount="0.25" time="1222330.945"/>
+        </discounts>
+        <licences>
+            <licence type="capitalequipment" factions="argon"/>
+            <licence type="capitalship" factions="argon"/>
+            <licence type="generaluseequipment" factions="argon"/>
+            <licence type="generaluseship" factions="argon hatikvah"/>
+            <licence type="militaryequipment" factions="argon"/>
+            <licence type="militaryship" factions="argon"/>
+            <licence type="police" factions="argon"/>
+        </licences>
+    </faction>
+    <faction id="fallensplit">
+        <relations>
+            <relation faction="scavenger" relation="-0.32"/>
+            <relation faction="boron" relation="-0.32"/>
+            <relation faction="player" relation="0.00256"/>
+            <relation faction="alliance" relation="0.011"/>
+            <relation faction="antigone" relation="-0.1"/>
+            <relation faction="argon" relation="-0.32"/>
+            <relation faction="buccaneers" relation="-0.32"/>
+            <relation faction="criminal" relation="-0.5"/>
+            <relation faction="hatikvah" relation="0.011"/>
+            <relation faction="holyorder" relation="-0.32"/>
+            <relation faction="holyorderfanatic" relation="-0.1"/>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="ministry" relation="-0.32"/>
+            <relation faction="paranid" relation="-0.32"/>
+            <relation faction="scaleplate" relation="0.011"/>
+            <relation faction="smuggler" relation="-0.06"/>
+            <relation faction="teladi" relation="-0.1"/>
+            <relation faction="trinity" relation="-0.32"/>
+            <relation faction="xenon" relation="-1"/>
+            <relation faction="court" relation="-0.32"/>
+            <relation faction="freesplit" relation="0.1"/>
+            <relation faction="split" relation="-0.32"/>
+            <relation faction="pioneers" relation="-0.32"/>
+            <relation faction="terran" relation="-0.32"/>
+            <relation faction="yaki" relation="-0.32"/>
+            <relation faction="loanshark" relation="-0.32"/>
+            <booster faction="player" relation="-0.01145" time="1344458.585"/>
+        </relations>
+        <moods>
+            <mood type="aggression" level="high"/>
+        </moods>
+        <signals>
+            <response signal="policehalt" response="attack"/>
+        </signals>
+        <licences>
+            <licence type="capitalequipment" factions="court freesplit"/>
+            <licence type="capitalship" factions="court freesplit"/>
+            <licence type="generaluseequipment" factions="court freesplit"/>
+            <licence type="generaluseship" factions="court freesplit"/>
+            <licence type="militaryequipment" factions="court freesplit"/>
+            <licence type="militaryship" factions="court freesplit"/>
+        </licences>
+    </faction>
+    <faction id="pioneers">
+        <relations>
+            <relation faction="boron" relation="0.032"/>
+            <relation faction="player" relation="0.00256"/>
+            <relation faction="alliance" relation="0.1"/>
+            <relation faction="buccaneers" relation="-0.032"/>
+            <relation faction="criminal" relation="-0.5"/>
+            <relation faction="holyorderfanatic" relation="-1"/>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="scaleplate" relation="-0.32"/>
+            <relation faction="smuggler" relation="-0.06"/>
+            <relation faction="xenon" relation="-1"/>
+            <relation faction="fallensplit" relation="-0.32"/>
+            <relation faction="terran" relation="0.1"/>
+            <relation faction="yaki" relation="-0.011"/>
+            <relation faction="loanshark" relation="-0.032"/>
+            <booster faction="player" relation="0.681969" time="1367986.141"/>
+        </relations>
+        <moods>
+            <mood type="avarice" level="low"/>
+        </moods>
+        <discounts>
+            <booster faction="player" amount="0.15" time="1222330.945"/>
+        </discounts>
+        <licences>
+            <licence type="capitalequipment" factions="terran"/>
+            <licence type="capitalship" factions="terran"/>
+            <licence type="generaluseequipment" factions="terran"/>
+            <licence type="generaluseship" factions="terran"/>
+            <licence type="militaryequipment" factions="terran"/>
+            <licence type="militaryship" factions="terran"/>
+            <licence type="police" factions="terran"/>
+        </licences>
+    </faction>
+    <faction id="freesplit">
+        <relations>
+            <relation faction="boron" relation="-0.1"/>
+            <relation faction="player" relation="0.00256"/>
+            <relation faction="antigone" relation="-0.011"/>
+            <relation faction="argon" relation="-0.011"/>
+            <relation faction="buccaneers" relation="-0.032"/>
+            <relation faction="criminal" relation="-0.5"/>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="scaleplate" relation="-0.1"/>
+            <relation faction="xenon" relation="-1"/>
+            <relation faction="fallensplit" relation="0.1"/>
+            <relation faction="terran" relation="-0.011"/>
+            <relation faction="yaki" relation="-0.32"/>
+            <relation faction="loanshark" relation="-0.032"/>
+            <booster faction="player" relation="1" time="1368346.985"/>
+            <booster faction="yaki" relation="0" time="532977.848"/>
+        </relations>
+        <moods>
+            <mood type="avarice" level="low"/>
+        </moods>
+        <signals>
+            <response signal="policehalt" response="attack"/>
+        </signals>
+        <discounts>
+            <booster faction="player" amount="0.25" time="1222330.945"/>
+        </discounts>
+    </faction>
+    <faction id="holyorderfanatic">
+        <relations locked="1">
+            <relation faction="scavenger" relation="-1"/>
+            <relation faction="boron" relation="-0.1"/>
+            <relation faction="player" relation="-1"/>
+            <relation faction="antigone" relation="-1"/>
+            <relation faction="argon" relation="-1"/>
+            <relation faction="buccaneers" relation="-0.32"/>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="paranid" relation="-1"/>
+            <relation faction="trinity" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+            <relation faction="fallensplit" relation="-0.1"/>
+            <relation faction="pioneers" relation="-1"/>
+            <relation faction="terran" relation="-1"/>
+            <relation faction="yaki" relation="-1"/>
+            <relation faction="loanshark" relation="-1"/>
+        </relations>
+        <licences>
+            <licence type="capitalequipment" factions="holyorder paranid"/>
+            <licence type="capitalship" factions="holyorder"/>
+            <licence type="generaluseequipment" factions="holyorder paranid"/>
+            <licence type="generaluseship" factions="holyorder"/>
+            <licence type="militaryequipment" factions="holyorder paranid"/>
+            <licence type="militaryship" factions="holyorder"/>
+        </licences>
+    </faction>
+    <faction id="player">
+        <relations>
+            <relation faction="scavenger" relation="0.00256"/>
+            <relation faction="alliance" relation="0.00256"/>
+            <relation faction="antigone" relation="0.00256"/>
+            <relation faction="argon" relation="0.00256"/>
+            <relation faction="buccaneers" relation="-0.032"/>
+            <relation faction="criminal" relation="-0.5"/>
+            <relation faction="hatikvah" relation="0.00256"/>
+            <relation faction="holyorder" relation="0.00256"/>
+            <relation faction="holyorderfanatic" relation="-1"/>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="ministry" relation="0.00256"/>
+            <relation faction="paranid" relation="0.00256"/>
+            <relation faction="scaleplate" relation="0.00256"/>
+            <relation faction="teladi" relation="0.00256"/>
+            <relation faction="trinity" relation="0.00256"/>
+            <relation faction="xenon" relation="-1"/>
+            <relation faction="court" relation="0.00256"/>
+            <relation faction="fallensplit" relation="0.00256"/>
+            <relation faction="freesplit" relation="0.00256"/>
+            <relation faction="split" relation="0.00256"/>
+            <relation faction="pioneers" relation="0.00256"/>
+            <relation faction="terran" relation="0.00256"/>
+            <relation faction="yaki" relation="-0.32"/>
+            <relation faction="loanshark" relation="0.00256"/>
+            <booster faction="scavenger" relation="0.0387519" time="1260337.84"/>
+            <booster faction="boron" relation="1" time="1368338.763"/>
+            <booster faction="alliance" relation="0.0196588" time="1343645.794"/>
+            <booster faction="antigone" relation="1" time="1368316.38"/>
+            <booster faction="argon" relation="1" time="1368388.118"/>
+            <booster faction="hatikvah" relation="1" time="1368379.134"/>
+            <booster faction="holyorder" relation="1" time="1368294.816"/>
+            <booster faction="ministry" relation="0.226268" time="1366669.604"/>
+            <booster faction="paranid" relation="1" time="1368236.127"/>
+            <booster faction="teladi" relation="1" time="1368382.052"/>
+            <booster faction="fallensplit" relation="-0.01145" time="1344458.585"/>
+            <booster faction="freesplit" relation="1" time="1368346.985"/>
+            <booster faction="split" relation="1" time="1368372.074"/>
+            <booster faction="pioneers" relation="0.681969" time="1367986.141"/>
+            <booster faction="terran" relation="0.315139" time="1366773.436"/>
+            <booster faction="yaki" relation="1" time="1368378.087"/>
+            <booster faction="loanshark" relation="0.203441" time="1367946.45"/>
+        </relations>
+        <signals>
+            <response signal="piratehalt" response="comply"/>
+            <response signal="attacked" response="auto"/>
+        </signals>
+        <blacklists>
+            <blacklist type="sectortravel" civilian="1"/>
+        </blacklists>
+        <buildrules method="default"/>
+        <licences>
+            <licence type="capitalequipment" factions="teladi argon holyorder paranid split terran freesplit hatikvah pioneers antigone ministry loanshark boron"/>
+            <licence type="capitalship" factions="teladi argon holyorder paranid split terran freesplit hatikvah pioneers antigone ministry loanshark boron"/>
+            <licence type="ceremonyfriend" factions="teladi holyorder argon paranid pioneers freesplit ministry antigone split hatikvah terran yaki scavenger loanshark alliance boron"/>
+            <licence type="ceremonyally" factions="teladi argon holyorder paranid split terran freesplit hatikvah pioneers antigone ministry loanshark boron"/>
+            <licence type="generaluseequipment" factions="boron alliance antigone argon buccaneers hatikvah holyorder ministry paranid scaleplate teladi trinity court freesplit pioneers terran scavenger split yaki loanshark"/>
+            <licence type="generaluseship" factions="boron alliance antigone argon buccaneers hatikvah holyorder ministry paranid scaleplate teladi trinity court freesplit pioneers scavenger split terran loanshark"/>
+            <licence type="militaryequipment" factions="teladi holyorder argon paranid pioneers freesplit ministry antigone split hatikvah terran yaki scavenger loanshark alliance boron"/>
+            <licence type="militaryship" factions="teladi holyorder argon paranid pioneers freesplit ministry antigone split hatikvah terran yaki scavenger loanshark alliance boron"/>
+            <licence type="police" factions="argon pioneers ministry split terran holyorder paranid loanshark boron"/>
+            <licence type="station_gen_basic" factions="boron alliance antigone argon buccaneers holyorder ministry paranid scaleplate teladi trinity court freesplit pioneers terran scavenger split loanshark"/>
+            <licence type="station_gen_intermediate" factions="teladi holyorder argon paranid pioneers freesplit ministry antigone split terran scavenger loanshark alliance boron"/>
+            <licence type="station_gen_advanced" factions="teladi argon holyorder paranid split terran freesplit pioneers antigone ministry loanshark boron"/>
+            <licence type="station_equip_sm" factions="teladi argon holyorder paranid split terran freesplit pioneers antigone ministry loanshark boron"/>
+            <licence type="station_equip_lxl" factions="teladi argon holyorder paranid split terran freesplit pioneers antigone ministry loanshark boron"/>
+            <licence type="station_illegal" factions="hatikvah scaleplate teladi ministry"/>
+            <licence type="subgroupfriend" factions="teladi argon hatikvah alliance"/>
+            <licence type="tradesubscription" factions="teladi argon holyorder paranid split terran freesplit hatikvah pioneers antigone ministry loanshark boron"/>
+            <licence type="innercore_access" factions="terran"/>
+            <licence type="outercore_access" factions="terran"/>
+            <licence type="shipsalecontract" factions="loanshark"/>
+        </licences>
+        <account id="[0x108]" amount="9793997968"/>
+    </faction>
+    <faction id="smuggler">
+        <relations locked="1">
+            <relation faction="scavenger" relation="-0.06"/>
+            <relation faction="boron" relation="-0.06"/>
+            <relation faction="alliance" relation="-0.06"/>
+            <relation faction="antigone" relation="-0.06"/>
+            <relation faction="argon" relation="-0.06"/>
+            <relation faction="buccaneers" relation="-0.06"/>
+            <relation faction="civilian" relation="-0.06"/>
+            <relation faction="hatikvah" relation="-0.06"/>
+            <relation faction="holyorder" relation="-0.06"/>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="ministry" relation="-0.06"/>
+            <relation faction="paranid" relation="-0.06"/>
+            <relation faction="scaleplate" relation="-0.06"/>
+            <relation faction="teladi" relation="-0.06"/>
+            <relation faction="trinity" relation="-0.06"/>
+            <relation faction="xenon" relation="-1"/>
+            <relation faction="court" relation="-0.06"/>
+            <relation faction="fallensplit" relation="-0.06"/>
+            <relation faction="pioneers" relation="-0.06"/>
+            <relation faction="terran" relation="-0.06"/>
+            <relation faction="yaki" relation="-0.06"/>
+            <relation faction="loanshark" relation="-0.06"/>
+        </relations>
+    </faction>
+    <faction id="split">
+        <relations>
+            <relation faction="boron" relation="-0.32"/>
+            <relation faction="player" relation="0.00256"/>
+            <relation faction="antigone" relation="-0.1"/>
+            <relation faction="argon" relation="-0.1"/>
+            <relation faction="buccaneers" relation="-0.032"/>
+            <relation faction="criminal" relation="-0.5"/>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="scaleplate" relation="-0.32"/>
+            <relation faction="xenon" relation="-1"/>
+            <relation faction="court" relation="-0.1"/>
+            <relation faction="fallensplit" relation="-0.32"/>
+            <relation faction="terran" relation="-0.011"/>
+            <relation faction="yaki" relation="-0.32"/>
+            <relation faction="loanshark" relation="-0.032"/>
+            <booster faction="player" relation="1" time="1368372.074"/>
+            <booster faction="yaki" relation="0" time="532977.848"/>
+        </relations>
+        <moods>
+            <mood type="aggression" level="high"/>
+            <mood type="avarice" level="low"/>
+        </moods>
+        <discounts>
+            <booster faction="player" amount="0.25" time="1222330.945"/>
+        </discounts>
+        <licences>
+            <licence type="generaluseship" factions="hatikvah"/>
+        </licences>
+    </faction>
+    <faction id="alliance">
+        <relations>
+            <relation faction="boron" relation="0.1"/>
+            <relation faction="player" relation="0.00256"/>
+            <relation faction="antigone" relation="0.1"/>
+            <relation faction="argon" relation="0.1"/>
+            <relation faction="criminal" relation="-0.5"/>
+            <relation faction="hatikvah" relation="0.1"/>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="ministry" relation="0.1"/>
+            <relation faction="paranid" relation="0.67"/>
+            <relation faction="smuggler" relation="-0.06"/>
+            <relation faction="teladi" relation="0.1"/>
+            <relation faction="trinity" relation="0.67"/>
+            <relation faction="xenon" relation="-1"/>
+            <relation faction="fallensplit" relation="0.011"/>
+            <relation faction="pioneers" relation="0.1"/>
+            <relation faction="terran" relation="0.1"/>
+            <relation faction="yaki" relation="-0.32"/>
+            <relation faction="loanshark" relation="0.1"/>
+            <booster faction="player" relation="0.0196588" time="1343645.794"/>
+        </relations>
+        <discounts>
+            <booster faction="player" amount="0.05" time="1222330.945"/>
+        </discounts>
+        <licences>
+            <licence type="capitalequipment" factions="buccaneers paranid trinity"/>
+            <licence type="ceremonyally" factions="loanshark"/>
+            <licence type="generaluseequipment" factions="antigone argon buccaneers holyorder ministry paranid teladi trinity"/>
+            <licence type="generaluseship" factions="hatikvah"/>
+            <licence type="police" factions="buccaneers paranid trinity"/>
+            <licence type="subgroupfriend" factions="argon"/>
+        </licences>
+    </faction>
+    <faction id="holyorder">
+        <relations>
+            <relation faction="boron" relation="-0.1"/>
+            <relation faction="player" relation="0.00256"/>
+            <relation faction="antigone" relation="-0.1"/>
+            <relation faction="argon" relation="-0.1"/>
+            <relation faction="buccaneers" relation="-0.032"/>
+            <relation faction="criminal" relation="-0.5"/>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="ministry" relation="-0.1"/>
+            <relation faction="paranid" relation="-0.1"/>
+            <relation faction="scaleplate" relation="-0.32"/>
+            <relation faction="smuggler" relation="-0.06"/>
+            <relation faction="teladi" relation="-0.1"/>
+            <relation faction="trinity" relation="1"/>
+            <relation faction="xenon" relation="-1"/>
+            <relation faction="fallensplit" relation="-0.32"/>
+            <relation faction="terran" relation="-0.011"/>
+            <relation faction="yaki" relation="-0.32"/>
+            <relation faction="loanshark" relation="-0.032"/>
+            <booster faction="player" relation="1" time="1368294.816"/>
+            <booster faction="paranid" relation="-0.01" time="1280607.301"/>
+        </relations>
+        <moods>
+            <mood type="aggression" level="high"/>
+        </moods>
+        <discounts>
+            <booster faction="player" amount="0.25" time="1222330.945"/>
+        </discounts>
+        <licences>
+            <licence type="capitalequipment" factions="paranid"/>
+            <licence type="generaluseequipment" factions="paranid"/>
+            <licence type="generaluseship" factions="hatikvah"/>
+            <licence type="militaryequipment" factions="paranid"/>
+        </licences>
+    </faction>
+    <faction id="scaleplate">
+        <relations locked="1">
+            <relation faction="scavenger" relation="-0.32"/>
+            <relation faction="boron" relation="-0.32"/>
+            <relation faction="player" relation="0.00256"/>
+            <relation faction="antigone" relation="-0.1"/>
+            <relation faction="argon" relation="-0.32"/>
+            <relation faction="buccaneers" relation="-0.32"/>
+            <relation faction="criminal" relation="-0.5"/>
+            <relation faction="holyorder" relation="-0.32"/>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="ministry" relation="-0.32"/>
+            <relation faction="paranid" relation="-0.32"/>
+            <relation faction="smuggler" relation="-0.06"/>
+            <relation faction="trinity" relation="-0.32"/>
+            <relation faction="xenon" relation="-1"/>
+            <relation faction="court" relation="-0.32"/>
+            <relation faction="fallensplit" relation="0.011"/>
+            <relation faction="freesplit" relation="-0.1"/>
+            <relation faction="split" relation="-0.32"/>
+            <relation faction="pioneers" relation="-0.32"/>
+            <relation faction="terran" relation="-0.32"/>
+            <relation faction="yaki" relation="-0.32"/>
+            <relation faction="loanshark" relation="-0.32"/>
+        </relations>
+        <moods>
+            <mood type="avarice" level="veryhigh"/>
+        </moods>
+        <signals>
+            <response signal="foundlockbox" response="collect"/>
+            <response signal="policehalt" response="attack"/>
+        </signals>
+        <licences>
+            <licence type="capitalequipment" factions="argon buccaneers paranid teladi trinity"/>
+            <licence type="capitalship" factions="antigone argon ministry teladi"/>
+            <licence type="generaluseequipment" factions="boron argon buccaneers paranid teladi trinity"/>
+            <licence type="generaluseship" factions="boron antigone argon hatikvah ministry teladi"/>
+            <licence type="militaryequipment" factions="boron argon buccaneers paranid teladi trinity"/>
+            <licence type="militaryship" factions="boron antigone argon ministry teladi"/>
+            <licence type="station_illegal" factions="teladi"/>
+        </licences>
+    </faction>
+    <faction id="xenon">
+        <relations locked="1">
+            <relation faction="scavenger" relation="-1"/>
+            <relation faction="boron" relation="-1"/>
+            <relation faction="player" relation="-1"/>
+            <relation faction="alliance" relation="-1"/>
+            <relation faction="antigone" relation="-1"/>
+            <relation faction="argon" relation="-1"/>
+            <relation faction="buccaneers" relation="-1"/>
+            <relation faction="civilian" relation="-1"/>
+            <relation faction="criminal" relation="-1"/>
+            <relation faction="hatikvah" relation="-1"/>
+            <relation faction="holyorder" relation="-1"/>
+            <relation faction="holyorderfanatic" relation="-1"/>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="ministry" relation="-1"/>
+            <relation faction="paranid" relation="-1"/>
+            <relation faction="scaleplate" relation="-1"/>
+            <relation faction="smuggler" relation="-1"/>
+            <relation faction="teladi" relation="-1"/>
+            <relation faction="trinity" relation="-1"/>
+            <relation faction="visitor" relation="-1"/>
+            <relation faction="visitor001" relation="-1"/>
+            <relation faction="visitor002" relation="-1"/>
+            <relation faction="visitor003" relation="-1"/>
+            <relation faction="visitor004" relation="-1"/>
+            <relation faction="visitor005" relation="-1"/>
+            <relation faction="visitor006" relation="-1"/>
+            <relation faction="visitor007" relation="-1"/>
+            <relation faction="visitor008" relation="-1"/>
+            <relation faction="visitor009" relation="-1"/>
+            <relation faction="visitor010" relation="-1"/>
+            <relation faction="visitor011" relation="-1"/>
+            <relation faction="visitor012" relation="-1"/>
+            <relation faction="visitor013" relation="-1"/>
+            <relation faction="visitor014" relation="-1"/>
+            <relation faction="visitor015" relation="-1"/>
+            <relation faction="visitor016" relation="-1"/>
+            <relation faction="visitor017" relation="-1"/>
+            <relation faction="visitor018" relation="-1"/>
+            <relation faction="visitor019" relation="-1"/>
+            <relation faction="visitor020" relation="-1"/>
+            <relation faction="visitor021" relation="-1"/>
+            <relation faction="visitor022" relation="-1"/>
+            <relation faction="visitor023" relation="-1"/>
+            <relation faction="visitor024" relation="-1"/>
+            <relation faction="visitor025" relation="-1"/>
+            <relation faction="visitor026" relation="-1"/>
+            <relation faction="visitor027" relation="-1"/>
+            <relation faction="visitor028" relation="-1"/>
+            <relation faction="visitor029" relation="-1"/>
+            <relation faction="visitor030" relation="-1"/>
+            <relation faction="visitor031" relation="-1"/>
+            <relation faction="visitor032" relation="-1"/>
+            <relation faction="visitor033" relation="-1"/>
+            <relation faction="visitor034" relation="-1"/>
+            <relation faction="visitor035" relation="-1"/>
+            <relation faction="visitor036" relation="-1"/>
+            <relation faction="visitor037" relation="-1"/>
+            <relation faction="visitor038" relation="-1"/>
+            <relation faction="visitor039" relation="-1"/>
+            <relation faction="visitor040" relation="-1"/>
+            <relation faction="visitor041" relation="-1"/>
+            <relation faction="visitor042" relation="-1"/>
+            <relation faction="visitor043" relation="-1"/>
+            <relation faction="visitor044" relation="-1"/>
+            <relation faction="visitor045" relation="-1"/>
+            <relation faction="visitor046" relation="-1"/>
+            <relation faction="visitor047" relation="-1"/>
+            <relation faction="visitor048" relation="-1"/>
+            <relation faction="visitor049" relation="-1"/>
+            <relation faction="visitor050" relation="-1"/>
+            <relation faction="visitor051" relation="-1"/>
+            <relation faction="visitor052" relation="-1"/>
+            <relation faction="visitor053" relation="-1"/>
+            <relation faction="visitor054" relation="-1"/>
+            <relation faction="visitor055" relation="-1"/>
+            <relation faction="visitor056" relation="-1"/>
+            <relation faction="visitor057" relation="-1"/>
+            <relation faction="visitor058" relation="-1"/>
+            <relation faction="visitor059" relation="-1"/>
+            <relation faction="visitor060" relation="-1"/>
+            <relation faction="visitor061" relation="-1"/>
+            <relation faction="visitor062" relation="-1"/>
+            <relation faction="visitor063" relation="-1"/>
+            <relation faction="visitor064" relation="-1"/>
+            <relation faction="visitor065" relation="-1"/>
+            <relation faction="visitor066" relation="-1"/>
+            <relation faction="visitor067" relation="-1"/>
+            <relation faction="visitor068" relation="-1"/>
+            <relation faction="visitor069" relation="-1"/>
+            <relation faction="visitor070" relation="-1"/>
+            <relation faction="visitor071" relation="-1"/>
+            <relation faction="visitor072" relation="-1"/>
+            <relation faction="visitor073" relation="-1"/>
+            <relation faction="visitor074" relation="-1"/>
+            <relation faction="visitor075" relation="-1"/>
+            <relation faction="visitor076" relation="-1"/>
+            <relation faction="visitor077" relation="-1"/>
+            <relation faction="visitor078" relation="-1"/>
+            <relation faction="visitor079" relation="-1"/>
+            <relation faction="visitor080" relation="-1"/>
+            <relation faction="visitor081" relation="-1"/>
+            <relation faction="visitor082" relation="-1"/>
+            <relation faction="visitor083" relation="-1"/>
+            <relation faction="visitor084" relation="-1"/>
+            <relation faction="visitor085" relation="-1"/>
+            <relation faction="visitor086" relation="-1"/>
+            <relation faction="visitor087" relation="-1"/>
+            <relation faction="visitor088" relation="-1"/>
+            <relation faction="visitor089" relation="-1"/>
+            <relation faction="visitor090" relation="-1"/>
+            <relation faction="visitor091" relation="-1"/>
+            <relation faction="visitor092" relation="-1"/>
+            <relation faction="visitor093" relation="-1"/>
+            <relation faction="visitor094" relation="-1"/>
+            <relation faction="visitor095" relation="-1"/>
+            <relation faction="visitor096" relation="-1"/>
+            <relation faction="visitor097" relation="-1"/>
+            <relation faction="visitor098" relation="-1"/>
+            <relation faction="visitor099" relation="-1"/>
+            <relation faction="visitor100" relation="-1"/>
+            <relation faction="court" relation="-1"/>
+            <relation faction="fallensplit" relation="-1"/>
+            <relation faction="freesplit" relation="-1"/>
+            <relation faction="split" relation="-1"/>
+            <relation faction="pioneers" relation="-1"/>
+            <relation faction="terran" relation="-1"/>
+            <relation faction="yaki" relation="-0.011"/>
+            <relation faction="loanshark" relation="-1"/>
+        </relations>
+        <moods>
+            <mood type="aggression" level="veryhigh"/>
+            <mood type="avarice" level="low"/>
+        </moods>
+        <signals>
+            <response signal="policehalt" response="attack"/>
+        </signals>
+    </faction>
+    <faction id="ministry">
+        <relations>
+            <relation faction="boron" relation="0.032"/>
+            <relation faction="player" relation="0.00256"/>
+            <relation faction="alliance" relation="0.1"/>
+            <relation faction="buccaneers" relation="-0.032"/>
+            <relation faction="criminal" relation="-0.5"/>
+            <relation faction="holyorder" relation="-0.1"/>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="scaleplate" relation="-0.32"/>
+            <relation faction="smuggler" relation="-0.06"/>
+            <relation faction="teladi" relation="0.67"/>
+            <relation faction="xenon" relation="-1"/>
+            <relation faction="fallensplit" relation="-0.32"/>
+            <relation faction="terran" relation="-0.011"/>
+            <relation faction="yaki" relation="-0.32"/>
+            <relation faction="loanshark" relation="-0.1"/>
+            <booster faction="player" relation="0.226268" time="1366669.604"/>
+            <booster faction="yaki" relation="0" time="532977.848"/>
+        </relations>
+        <moods>
+            <mood type="aggression" level="low"/>
+            <mood type="avarice" level="veryhigh"/>
+        </moods>
+        <discounts>
+            <booster faction="player" amount="0.15" time="1222330.945"/>
+        </discounts>
+        <licences>
+            <licence type="capitalequipment" factions="teladi"/>
+            <licence type="capitalship" factions="teladi"/>
+            <licence type="generaluseequipment" factions="teladi"/>
+            <licence type="generaluseship" factions="hatikvah scaleplate teladi"/>
+            <licence type="militaryequipment" factions="teladi"/>
+            <licence type="militaryship" factions="teladi"/>
+            <licence type="station_illegal" factions="teladi"/>
+        </licences>
+    </faction>
+    <faction id="loanshark">
+        <relations>
+            <relation faction="boron" relation="-0.032"/>
+            <relation faction="player" relation="0.00256"/>
+            <relation faction="alliance" relation="0.1"/>
+            <relation faction="antigone" relation="-0.032"/>
+            <relation faction="argon" relation="-0.032"/>
+            <relation faction="buccaneers" relation="-0.032"/>
+            <relation faction="civilian" relation="0.032"/>
+            <relation faction="criminal" relation="-0.5"/>
+            <relation faction="holyorder" relation="-0.032"/>
+            <relation faction="holyorderfanatic" relation="-1"/>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="ministry" relation="-0.1"/>
+            <relation faction="paranid" relation="-0.032"/>
+            <relation faction="scaleplate" relation="-0.32"/>
+            <relation faction="smuggler" relation="-0.06"/>
+            <relation faction="trinity" relation="-0.032"/>
+            <relation faction="xenon" relation="-1"/>
+            <relation faction="court" relation="-0.032"/>
+            <relation faction="fallensplit" relation="-0.32"/>
+            <relation faction="freesplit" relation="-0.032"/>
+            <relation faction="split" relation="-0.032"/>
+            <relation faction="pioneers" relation="-0.032"/>
+            <relation faction="terran" relation="-0.011"/>
+            <relation faction="yaki" relation="-0.32"/>
+            <booster faction="player" relation="0.203441" time="1367946.45"/>
+        </relations>
+        <moods>
+            <mood type="aggression" level="high"/>
+            <mood type="avarice" level="low"/>
+        </moods>
+        <buildrules method="closedloop"/>
+        <discounts>
+            <booster faction="player" amount="0.15" time="1222330.945"/>
+        </discounts>
+    </faction>
+    <faction id="boron">
+        <relations>
+            <relation faction="scavenger" relation="0.032"/>
+            <relation faction="alliance" relation="0.1"/>
+            <relation faction="antigone" relation="0.032"/>
+            <relation faction="argon" relation="0.5"/>
+            <relation faction="criminal" relation="-0.5"/>
+            <relation faction="holyorder" relation="-0.1"/>
+            <relation faction="holyorderfanatic" relation="-0.1"/>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="ministry" relation="0.032"/>
+            <relation faction="scaleplate" relation="-0.32"/>
+            <relation faction="smuggler" relation="-0.06"/>
+            <relation faction="teladi" relation="0.032"/>
+            <relation faction="xenon" relation="-1"/>
+            <relation faction="court" relation="-0.032"/>
+            <relation faction="fallensplit" relation="-0.32"/>
+            <relation faction="freesplit" relation="-0.1"/>
+            <relation faction="split" relation="-0.32"/>
+            <relation faction="pioneers" relation="0.032"/>
+            <relation faction="terran" relation="-0.032"/>
+            <relation faction="yaki" relation="-0.32"/>
+            <relation faction="loanshark" relation="-0.032"/>
+            <booster faction="player" relation="1" time="1368338.763"/>
+        </relations>
+        <moods>
+            <mood type="aggression" level="low"/>
+            <mood type="avarice" level="low"/>
+        </moods>
+        <discounts>
+            <booster faction="player" amount="0.25" time="1222330.945"/>
+        </discounts>
+        <licences>
+            <licence type="capitalequipment" factions="argon"/>
+            <licence type="capitalship" factions="argon"/>
+            <licence type="generaluseequipment" factions="argon"/>
+            <licence type="generaluseship" factions="argon"/>
+            <licence type="militaryequipment" factions="argon"/>
+            <licence type="militaryship" factions="argon"/>
+            <licence type="police" factions="argon"/>
+        </licences>
+        <custom>
+            <name name="{20203,1301}" shortname="{20203,1303}" prefixname="{20203,1304}" description="{20203,1302}"/>
+            <image icon="faction_boron"/>
+        </custom>
+    </faction>
+    <faction active="0" id="trinity">
+        <relations>
+            <relation faction="player" relation="0.00256"/>
+            <relation faction="alliance" relation="0.67"/>
+            <relation faction="buccaneers" relation="-0.032"/>
+            <relation faction="criminal" relation="-0.5"/>
+            <relation faction="holyorder" relation="1"/>
+            <relation faction="holyorderfanatic" relation="-1"/>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="paranid" relation="1"/>
+            <relation faction="scaleplate" relation="-0.32"/>
+            <relation faction="smuggler" relation="-0.06"/>
+            <relation faction="xenon" relation="-1"/>
+            <relation faction="fallensplit" relation="-0.32"/>
+            <relation faction="terran" relation="-0.011"/>
+            <relation faction="yaki" relation="-0.32"/>
+            <relation faction="loanshark" relation="-0.032"/>
+        </relations>
+    </faction>
+    <faction id="ownerless">
+        <relations locked="1"/>
+    </faction>
+    <faction id="visitor100">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor098">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor099">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor094">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor095">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor096">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor097">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor090">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor091">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor092">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor093">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor089">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor088">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor087">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor086">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor085">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor084">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor083">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor082">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor081">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor080">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor058">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor059">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor050">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor051">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor052">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor053">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor054">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor055">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor056">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor057">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor049">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor048">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor043">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor042">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor041">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor040">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor047">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor046">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor045">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor044">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor078">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor079">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor076">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor077">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor074">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor075">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor072">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor073">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor070">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor071">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor061">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor060">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor063">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor062">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor065">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor064">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor067">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor066">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor069">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor068">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor014">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor015">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor016">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor017">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor010">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor011">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor012">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor013">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor018">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor019">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor007">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor006">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor005">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor004">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor003">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor002">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor001">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor009">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor008">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor038">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor039">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor032">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor033">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor030">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor031">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor036">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor037">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor034">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor035">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor029">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor028">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor025">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor024">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor027">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor026">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor021">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor020">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor023">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="visitor022">
+        <relations>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="xenon" relation="-1"/>
+        </relations>
+    </faction>
+    <faction id="paranid">
+        <relations>
+            <relation faction="player" relation="0.00256"/>
+            <relation faction="alliance" relation="0.67"/>
+            <relation faction="buccaneers" relation="-0.032"/>
+            <relation faction="criminal" relation="-0.5"/>
+            <relation faction="holyorder" relation="-0.1"/>
+            <relation faction="holyorderfanatic" relation="-1"/>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="scaleplate" relation="-0.32"/>
+            <relation faction="smuggler" relation="-0.06"/>
+            <relation faction="trinity" relation="1"/>
+            <relation faction="xenon" relation="-1"/>
+            <relation faction="fallensplit" relation="-0.32"/>
+            <relation faction="terran" relation="-0.011"/>
+            <relation faction="yaki" relation="-0.32"/>
+            <relation faction="loanshark" relation="-0.032"/>
+            <booster faction="player" relation="1" time="1368236.127"/>
+            <booster faction="holyorder" relation="-0.01" time="1280607.301"/>
+        </relations>
+        <moods>
+            <mood type="aggression" level="high"/>
+        </moods>
+        <discounts>
+            <booster faction="player" amount="0.25" time="1222330.945"/>
+        </discounts>
+        <licences>
+            <licence type="generaluseship" factions="hatikvah"/>
+        </licences>
+    </faction>
+    <faction id="yaki">
+        <relations>
+            <relation faction="scavenger" relation="-0.32"/>
+            <relation faction="boron" relation="-0.32"/>
+            <relation faction="player" relation="-0.32"/>
+            <relation faction="alliance" relation="-0.32"/>
+            <relation faction="antigone" relation="-0.32"/>
+            <relation faction="argon" relation="-0.32"/>
+            <relation faction="buccaneers" relation="-0.32"/>
+            <relation faction="criminal" relation="-0.5"/>
+            <relation faction="hatikvah" relation="-0.32"/>
+            <relation faction="holyorder" relation="-0.32"/>
+            <relation faction="holyorderfanatic" relation="-1"/>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="ministry" relation="-0.32"/>
+            <relation faction="paranid" relation="-0.32"/>
+            <relation faction="scaleplate" relation="-0.32"/>
+            <relation faction="smuggler" relation="-0.06"/>
+            <relation faction="teladi" relation="-0.32"/>
+            <relation faction="trinity" relation="-0.32"/>
+            <relation faction="xenon" relation="-0.011"/>
+            <relation faction="court" relation="-0.32"/>
+            <relation faction="fallensplit" relation="-0.32"/>
+            <relation faction="freesplit" relation="-0.32"/>
+            <relation faction="split" relation="-0.32"/>
+            <relation faction="pioneers" relation="-0.011"/>
+            <relation faction="terran" relation="-1"/>
+            <relation faction="loanshark" relation="-0.32"/>
+            <booster faction="player" relation="1" time="1368378.087"/>
+            <booster faction="antigone" relation="0" time="532977.848"/>
+            <booster faction="argon" relation="0" time="532977.848"/>
+            <booster faction="ministry" relation="0" time="532977.848"/>
+            <booster faction="teladi" relation="0" time="532977.848"/>
+            <booster faction="court" relation="0" time="532977.848"/>
+            <booster faction="freesplit" relation="0" time="532977.848"/>
+            <booster faction="split" relation="0" time="532977.848"/>
+        </relations>
+        <signals>
+            <response signal="foundabandonedship" response="claim"/>
+            <response signal="policehalt" response="attack"/>
+        </signals>
+        <discounts>
+            <booster faction="player" amount="0.25" time="1222330.945"/>
+        </discounts>
+    </faction>
+    <faction id="buccaneers">
+        <relations locked="1">
+            <relation faction="scavenger" relation="-0.032"/>
+            <relation faction="player" relation="-0.032"/>
+            <relation faction="antigone" relation="-0.032"/>
+            <relation faction="argon" relation="-0.032"/>
+            <relation faction="criminal" relation="-0.5"/>
+            <relation faction="hatikvah" relation="-0.032"/>
+            <relation faction="holyorder" relation="-0.032"/>
+            <relation faction="holyorderfanatic" relation="-0.32"/>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="ministry" relation="-0.032"/>
+            <relation faction="paranid" relation="-0.032"/>
+            <relation faction="scaleplate" relation="-0.32"/>
+            <relation faction="smuggler" relation="-0.06"/>
+            <relation faction="trinity" relation="-0.032"/>
+            <relation faction="xenon" relation="-1"/>
+            <relation faction="court" relation="-0.032"/>
+            <relation faction="fallensplit" relation="-0.32"/>
+            <relation faction="freesplit" relation="-0.032"/>
+            <relation faction="split" relation="-0.032"/>
+            <relation faction="pioneers" relation="-0.032"/>
+            <relation faction="terran" relation="-0.032"/>
+            <relation faction="yaki" relation="-0.32"/>
+            <relation faction="loanshark" relation="-0.032"/>
+        </relations>
+        <moods>
+            <mood type="aggression" level="high"/>
+            <mood type="avarice" level="low"/>
+        </moods>
+        <licences>
+            <licence type="capitalequipment" factions="antigone argon holyorder paranid"/>
+            <licence type="capitalship" factions="antigone argon holyorder paranid"/>
+            <licence type="generaluseequipment" factions="antigone argon holyorder paranid"/>
+            <licence type="generaluseship" factions="antigone argon holyorder paranid"/>
+            <licence type="militaryequipment" factions="antigone argon holyorder paranid"/>
+            <licence type="militaryship" factions="antigone argon holyorder paranid"/>
+            <licence type="station_gen_basic" factions="holyorder paranid"/>
+            <licence type="station_gen_intermediate" factions="holyorder paranid"/>
+            <licence type="station_gen_advanced" factions="holyorder paranid"/>
+            <licence type="station_equip_sm" factions="holyorder paranid"/>
+            <licence type="station_equip_lxl" factions="holyorder paranid"/>
+        </licences>
+    </faction>
+    <faction id="terran">
+        <relations>
+            <relation faction="scavenger" relation="-0.011"/>
+            <relation faction="boron" relation="-0.032"/>
+            <relation faction="player" relation="0.00256"/>
+            <relation faction="alliance" relation="0.1"/>
+            <relation faction="antigone" relation="-0.011"/>
+            <relation faction="argon" relation="-0.011"/>
+            <relation faction="buccaneers" relation="-0.032"/>
+            <relation faction="criminal" relation="-0.5"/>
+            <relation faction="holyorder" relation="-0.011"/>
+            <relation faction="holyorderfanatic" relation="-1"/>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="ministry" relation="-0.011"/>
+            <relation faction="paranid" relation="-0.011"/>
+            <relation faction="scaleplate" relation="-0.32"/>
+            <relation faction="smuggler" relation="-0.06"/>
+            <relation faction="trinity" relation="-0.011"/>
+            <relation faction="xenon" relation="-1"/>
+            <relation faction="court" relation="-0.011"/>
+            <relation faction="fallensplit" relation="-0.32"/>
+            <relation faction="freesplit" relation="-0.011"/>
+            <relation faction="split" relation="-0.011"/>
+            <relation faction="pioneers" relation="0.1"/>
+            <relation faction="yaki" relation="-1"/>
+            <relation faction="loanshark" relation="-0.011"/>
+            <booster faction="player" relation="0.315139" time="1366773.436"/>
+        </relations>
+        <moods>
+            <mood type="avarice" level="high"/>
+        </moods>
+        <discounts>
+            <booster faction="player" amount="0.15" time="1222330.945"/>
+        </discounts>
+        <licences>
+            <licence type="capitalequipment" factions="pioneers"/>
+            <licence type="capitalship" factions="pioneers"/>
+            <licence type="generaluseequipment" factions="pioneers"/>
+            <licence type="generaluseship" factions="pioneers"/>
+            <licence type="militaryequipment" factions="pioneers"/>
+            <licence type="militaryship" factions="pioneers"/>
+            <licence type="police" factions="pioneers"/>
+        </licences>
+    </faction>
+    <faction id="teladi">
+        <relations>
+            <relation faction="boron" relation="0.032"/>
+            <relation faction="player" relation="0.00256"/>
+            <relation faction="alliance" relation="0.1"/>
+            <relation faction="argon" relation="0.1"/>
+            <relation faction="criminal" relation="-0.5"/>
+            <relation faction="holyorder" relation="-0.1"/>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="ministry" relation="0.67"/>
+            <relation faction="smuggler" relation="-0.06"/>
+            <relation faction="xenon" relation="-1"/>
+            <relation faction="fallensplit" relation="-0.1"/>
+            <relation faction="yaki" relation="-0.32"/>
+            <booster faction="player" relation="1" time="1368382.052"/>
+            <booster faction="yaki" relation="0" time="532977.848"/>
+        </relations>
+        <moods>
+            <mood type="aggression" level="low"/>
+            <mood type="avarice" level="veryhigh"/>
+        </moods>
+        <discounts>
+            <booster faction="player" amount="0.25" time="1222330.945"/>
+        </discounts>
+        <licences>
+            <licence type="capitalship" factions="ministry"/>
+            <licence type="generaluseship" factions="hatikvah ministry scaleplate"/>
+            <licence type="militaryship" factions="ministry"/>
+            <licence type="police" factions="ministry"/>
+        </licences>
+    </faction>
+    <faction id="hatikvah">
+        <relations>
+            <relation faction="player" relation="0.00256"/>
+            <relation faction="alliance" relation="0.1"/>
+            <relation faction="buccaneers" relation="-0.032"/>
+            <relation faction="criminal" relation="-0.5"/>
+            <relation faction="khaak" relation="-1"/>
+            <relation faction="smuggler" relation="-0.06"/>
+            <relation faction="xenon" relation="-1"/>
+            <relation faction="fallensplit" relation="0.011"/>
+            <relation faction="yaki" relation="-0.32"/>
+            <booster faction="player" relation="1" time="1368379.134"/>
+        </relations>
+        <moods>
+            <mood type="aggression" level="low"/>
+        </moods>
+        <signals>
+            <response signal="foundlockbox" response="collect"/>
+        </signals>
+        <discounts>
+            <booster faction="player" amount="0.25" time="1222330.945"/>
+        </discounts>
+        <licences>
+            <licence type="generaluseequipment" factions="argon buccaneers paranid teladi trinity boron"/>
+            <licence type="generaluseship" factions="antigone argon buccaneers holyorder ministry paranid scaleplate teladi trinity boron"/>
+            <licence type="militaryequipment" factions="boron"/>
+            <licence type="militaryship" factions="boron"/>
+            <licence type="station_gen_basic" factions="scaleplate"/>
+            <licence type="station_illegal" factions="scaleplate teladi"/>
+        </licences>
+    </faction>
+</factions>
