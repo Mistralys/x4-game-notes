@@ -4,22 +4,24 @@
     </info>
     <universe>
         <blacklists>
-			<blacklist id="1" owner="player" type="sectortravel" name="Dangerous Sectors">
-				<macros>
-					<macro ref="cluster_45_sector001_macro"/>
-				</macros>
-			</blacklist>
-		</blacklists>
-		<traderules>
-			<traderule id="1" owner="player" name="Self-Trade only" factions="player" allow="1"/>
-		</traderules>
+            <blacklist id="1" owner="player" type="sectortravel" name="Dangerous Sectors">
+                <macros>
+                    <macro ref="cluster_45_sector001_macro"/>
+                </macros>
+            </blacklist>
+        </blacklists>
+        <traderules>
+            <traderule id="1" owner="player" name="Self-Trade only" factions="player" allow="1"/>
+        </traderules>
 		<factions>
 			<!-- See factions -->
         </factions>
         <jobs>
+            <!-- Not analyzed yet -->
         </jobs>
         <god/>
         <controltextures>
+            <!-- Ignored, does not seem meaningful -->
         </controltextures>
         <component class="galaxy">
             <connections>
