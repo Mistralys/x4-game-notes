@@ -16,6 +16,10 @@
 		<factions>
 			<!-- See factions -->
         </factions>
+        
+        <!--
+            List of build jobs, universe-wide 
+        -->
         <jobs>
             <!-- Not analyzed yet -->
         </jobs>
