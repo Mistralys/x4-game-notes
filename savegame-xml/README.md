@@ -15,15 +15,23 @@ several gigabytes in size (their size increases over time as more objects and da
 - [Station](https://github.com/Mistralys/x4-game-notes/blob/main/savegame-xml/structure-station.xml)
 - [Khaak Hive station](https://github.com/Mistralys/x4-game-notes/blob/main/savegame-xml/structure-station-khaak-hive.xml)
 - [Factions](https://github.com/Mistralys/x4-game-notes/blob/main/savegame-xml/structure-factions.xml)
-- [Event log](https://github.com/Mistralys/x4-game-notes/blob/main/savegame-xml/structure-log.xml)
-- [Message log](https://github.com/Mistralys/x4-game-notes/blob/main/savegame-xml/structure-messages.xml)
 - [Missions](https://github.com/Mistralys/x4-game-notes/blob/main/savegame-xml/structure-missions.xml)
 - [Savegame info](https://github.com/Mistralys/x4-game-notes/blob/main/savegame-xml/structure-savegame-info.xml)
-- [S-size Ship (transport)](https://github.com/Mistralys/x4-game-notes/blob/main/savegame-xml/structure-ship-s-transport.xml)
 - [Player statistics](https://github.com/Mistralys/x4-game-notes/blob/main/savegame-xml/structure-statistics.xml)
 - [Satellites](https://github.com/Mistralys/x4-game-notes/blob/main/savegame-xml/structure-satellite.xml)
-- [Economy log](https://github.com/Mistralys/x4-game-notes/blob/main/savegame-xml/structure-economylog.xml)
 - [Build storages](https://github.com/Mistralys/x4-game-notes/blob/main/savegame-xml/structure-build-storages.xml)
+
+**Logs**
+
+- [Event log](https://github.com/Mistralys/x4-game-notes/blob/main/savegame-xml/structure-log.xml)
+- [Message log](https://github.com/Mistralys/x4-game-notes/blob/main/savegame-xml/structure-messages.xml)
+- [Economy log](https://github.com/Mistralys/x4-game-notes/blob/main/savegame-xml/structure-economylog.xml)
+
+**Ships**
+
+- [S-size ship (transport, NPC)](https://github.com/Mistralys/x4-game-notes/blob/main/savegame-xml/structure-ship-s-transport.xml)
+- [L-size ship (destroyer, NPC)](https://github.com/Mistralys/x4-game-notes/blob/main/savegame-xml/structure-ship-l-destroyer.xml) 
+- [L-size ship (gas miner, player)](https://github.com/Mistralys/x4-game-notes/blob/main/savegame-xml/structure-ship-l-miner-player.xml)
 
 ## Notable tag paths
 
