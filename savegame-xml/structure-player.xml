@@ -1,0 +1,3661 @@
+<connection connection="player">
+	<component class="player" macro="character_player_custom_f_asi_macro" connection="room" name="Anthea Syrkos" code="TCP-454" owner="player" known="1" read="0" lastcontrolled="[0x88aae]" id="[0x49ba7]">
+		<listeners>
+			<listener listener="[0x21d5546]" event="addmapblip hexdiscovered mappedboundschanged playerdiscoveredmissionoffer"/>
+		</listeners>
+		<movement class="firstperson">
+			<floor>
+				<position x="-0.002065" y="-2.051" z="-12.058"/>
+			</floor>
+			<time start="1367779.965"/>
+			<offset>
+				<position y="0.4357" z="0.003215"/>
+			</offset>
+		</movement>
+		<offset>
+			<position x="-0.001975" y="-1.611" z="-12.055"/>
+		</offset>
+		<traits flags="remotecommable">
+			<skill type="boarding" value="15"/>
+			<skill type="engineering" value="15"/>
+			<skill type="management" value="15"/>
+			<skill type="morale" value="15"/>
+			<skill type="piloting" value="15"/>
+		</traits>
+		<inventory>
+			<ware ware="weapon_gen_spacesuit_repairlaser_01_mk1"/>
+			<ware ware="software_scannerobjectmk3"/>
+			<ware ware="engine_gen_spacesuit_01_mk2"/>
+			<ware ware="weapon_gen_spacesuit_laser_01_mk1"/>
+			<ware ware="weapon_gen_spacesuit_laser_02_mk1"/>
+			<ware ware="weapon_gen_spacesuit_demolition_01_mk1" amount="2"/>
+			<ware ware="inv_timewarp"/>
+			<ware ware="bomb_player_limpet_emp_01_mk1" amount="9987"/>
+			<ware ware="bomb_player_limpet_mine_01_mk1" amount="9995"/>
+			<ware ware="inv_advancedtargetingmodule" amount="10007"/>
+			<ware ware="inv_agidevice_01" amount="10012"/>
+			<ware ware="inv_agidevice_02" amount="10007"/>
+			<ware ware="inv_agidevice_03" amount="9999"/>
+			<ware ware="inv_algaescrubber" amount="10000"/>
+			<ware ware="inv_antimatter_injection_sensor" amount="9998"/>
+			<ware ware="inv_argnusteak" amount="9999"/>
+			<ware ware="inv_bandages" amount="10006"/>
+			<ware ware="inv_carbonfilter" amount="9999"/>
+			<ware ware="inv_crystalbit" amount="9999"/>
+			<ware ware="inv_crystal_01" amount="9999"/>
+			<ware ware="inv_crystal_02" amount="10001"/>
+			<ware ware="inv_crystal_03" amount="10000"/>
+			<ware ware="inv_damagedsingularityengine" amount="10007"/>
+			<ware ware="inv_decryptionmodule" amount="10008"/>
+			<ware ware="inv_finemeal" amount="9999"/>
+			<ware ware="inv_fluxcapacitor" amount="10005"/>
+			<ware ware="inv_hallucinogenics" amount="9999"/>
+			<ware ware="inv_herbicide" amount="10001"/>
+			<ware ware="inv_hydraulicpump" amount="10002"/>
+			<ware ware="inv_interfaceunit" amount="10497"/>
+			<ware ware="inv_kyondevice_03" amount="10003"/>
+			<ware ware="inv_magneticmaterial" amount="9999"/>
+			<ware ware="inv_majaglit" amount="10594"/>
+			<ware ware="inv_microgimble" amount="10041"/>
+			<ware ware="inv_micromotor" amount="10008"/>
+			<ware ware="inv_mixedfruit" amount="9999"/>
+			<ware ware="inv_modulartrigger" amount="9999"/>
+			<ware ware="inv_needle" amount="10003"/>
+			<ware ware="inv_processing_panel_12G" amount="10000"/>
+			<ware ware="inv_processing_panel_19L" amount="10006"/>
+			<ware ware="inv_processing_panel_46B" amount="10003"/>
+			<ware ware="inv_processing_panel_7A" amount="10040"/>
+			<ware ware="inv_processing_panel_8X" amount="10038"/>
+			<ware ware="inv_programmablefieldarray" amount="10030"/>
+			<ware ware="inv_rapidsandfilter" amount="10001"/>
+			<ware ware="inv_rarespices" amount="9999"/>
+			<ware ware="inv_remotedetonator" amount="9997"/>
+			<ware ware="inv_salvagedelectronics" amount="9999"/>
+			<ware ware="inv_securecontainer" amount="10030"/>
+			<ware ware="inv_securitybypasssystem" amount="10000"/>
+			<ware ware="inv_securitydecryptionsystem" amount="10007"/>
+			<ware ware="inv_securityslicer" amount="10002"/>
+			<ware ware="inv_sedative" amount="10000"/>
+			<ware ware="inv_spaceflyeggs" amount="10115"/>
+			<ware ware="inv_unstablecrystal" amount="9997"/>
+			<ware ware="inv_seminar_management_0" amount="10002"/>
+			<ware ware="inv_seminar_management_1" amount="9998"/>
+			<ware ware="inv_seminar_management_2" amount="9999"/>
+			<ware ware="inv_seminar_piloting_0" amount="10000"/>
+			<ware ware="inv_seminar_piloting_1" amount="9999"/>
+			<ware ware="modpart_enginefuelinjector_t1" amount="10000014"/>
+			<ware ware="modpart_enginefuelinjector_t2" amount="9999998"/>
+			<ware ware="modpart_enginefuelinjector_t3" amount="9999389"/>
+			<ware ware="modpart_extendedfuelcontainer" amount="9995895"/>
+			<ware ware="modpart_highenergycatalyst" amount="9986568"/>
+			<ware ware="modpart_nividiumcrystallite" amount="9992692"/>
+			<ware ware="modpart_nividiumoxide" amount="9995917"/>
+			<ware ware="modpart_shieldgeneratorcoil_t1" amount="9999996"/>
+			<ware ware="modpart_shieldgeneratorcoil_t2" amount="10000000"/>
+			<ware ware="modpart_shieldgeneratorcoil_t3" amount="9998890"/>
+			<ware ware="modpart_shipnanoweave_t1" amount="10000004"/>
+			<ware ware="modpart_shipnanoweave_t2" amount="9999998"/>
+			<ware ware="modpart_shipnanoweave_t3" amount="9999390"/>
+			<ware ware="modpart_tuningsoftware" amount="9997113"/>
+			<ware ware="modpart_weaponchamber_t1" amount="9999998"/>
+			<ware ware="modpart_weaponchamber_t2" amount="9999999"/>
+			<ware ware="modpart_weaponchamber_t3" amount="9998175"/>
+			<ware ware="inv_encrypted_contract"/>
+			<ware ware="inv_unmarked_black_box"/>
+			<ware ware="inv_xenoterran_implant"/>
+			<ware ware="axesemerald" amount="11"/>
+			<ware ware="axesblue" amount="6"/>
+			<ware ware="axesmagnum" amount="7"/>
+			<ware ware="axessherman" amount="6"/>
+			<ware ware="axesguerilla" amount="9"/>
+			<ware ware="axesskyline" amount="7"/>
+			<ware ware="axeshardware" amount="7"/>
+			<ware ware="axespursuit" amount="9"/>
+			<ware ware="axesvirginian" amount="12"/>
+			<ware ware="axesvirginian2" amount="8"/>
+			<ware ware="axeslabyrinth" amount="8"/>
+			<ware ware="axesamoeba" amount="6"/>
+			<ware ware="axesstarbound" amount="8"/>
+			<ware ware="inv_research_blackbox"/>
+			<ware ware="inv_encrypted_report"/>
+			<ware ware="paintmod_0081" amount="4"/>
+			<ware ware="paintmod_0084" amount="10"/>
+			<ware ware="inv_crystal_04" amount="3"/>
+			<ware ware="paintmod_0112" amount="10"/>
+		</inventory>
+		<blackboard>
+			<value name="$x4ep1_teleporter_malfunctioning" type="integer"/>
+			<value name="$haltedby" type="component" value="[0x0]"/>
+			<value name="$PlayerTaxi" type="component" value="[0x49b9f]"/>
+			<value name="$escortgroup" type="group" value="26606"/>
+			<value name="$squad_formationdist" type="length" value="5000"/>
+			<value name="$x4ep1_hq_research_unlocked" type="integer" value="1"/>
+			<value name="$indestructibleobjects" type="list" value="65270"/>
+		</blackboard>
+		<flightcontrols enabled="0"/>
+		<known>
+			<entries>
+				<entry id="countermeasure_flares_01_macro" read="0"/>
+			</entries>
+			<entries type="shiptypes_xl">
+				<entry id="ship_arg_xl_carrier_01_a_macro" read="0"/>
+				<entry id="ship_arg_xl_resupplier_01_a_macro" read="0"/>
+				<entry id="ship_xen_xl_destroyer_01_a_macro" read="0"/>
+				<entry id="ship_arg_xl_carrier_01_b_macro" read="0"/>
+				<entry id="ship_ter_xl_carrier_01_a_macro" read="0"/>
+				<entry id="ship_bor_xl_carrier_01_a_macro" read="0"/>
+				<entry id="ship_spl_xl_carrier_01_a_macro" read="0"/>
+				<entry id="ship_tel_xl_resupplier_01_b_macro" read="0"/>
+				<entry id="ship_arg_xl_builder_01_a_macro" read="0"/>
+				<entry id="ship_arg_xl_resupplier_01_b_macro" read="0"/>
+				<entry id="ship_arg_xl_builder_01_b_macro" read="0"/>
+				<entry id="ship_par_xl_builder_01_a_macro" read="0"/>
+				<entry id="ship_par_xl_carrier_02_a_macro" read="0"/>
+				<entry id="ship_par_xl_resupplier_02_a_macro" read="0"/>
+				<entry id="ship_par_xl_builder_01_b_macro" read="0"/>
+				<entry id="ship_ter_xl_builder_01_a_macro" read="0"/>
+				<entry id="ship_ter_xl_resupplier_01_a_macro" read="0"/>
+				<entry id="ship_atf_xl_battleship_01_a_macro" read="0"/>
+				<entry id="ship_pir_xl_builder_01_macro" read="0"/>
+				<entry id="ship_bor_xl_resupplier_01_a_macro" read="0"/>
+				<entry id="ship_bor_xl_builder_01_a_macro" read="0"/>
+				<entry id="ship_tel_xl_builder_01_b_macro" read="0"/>
+				<entry id="ship_tel_xl_builder_01_a_macro" read="0"/>
+				<entry id="ship_tel_xl_carrier_01_a_macro" read="0"/>
+				<entry id="ship_tel_xl_resupplier_01_a_macro" read="0"/>
+				<entry id="ship_spl_xl_builder_01_a_macro" read="0"/>
+				<entry id="ship_spl_xl_resupplier_01_a_macro" read="0"/>
+				<entry id="ship_par_xl_carrier_01_a_macro" read="0"/>
+				<entry id="ship_par_xl_resupplier_01_a_macro" read="0"/>
+				<entry id="ship_par_xl_carrier_01_b_macro" read="0"/>
+				<entry id="ship_par_xl_resupplier_01_b_macro" read="0"/>
+			</entries>
+			<entries type="shiptypes_l">
+				<entry id="ship_tel_l_destroyer_01_b_macro" read="0"/>
+				<entry id="ship_par_l_trans_container_03_a_macro" read="0"/>
+				<entry id="ship_tel_l_trans_container_01_a_macro" read="0"/>
+				<entry id="ship_pir_l_scavenger_01_a_storyhighcapacity_macro" read="0"/>
+				<entry id="ship_arg_l_destroyer_01_a_macro" read="0"/>
+				<entry id="ship_bor_l_destroyer_01_a_macro" read="0"/>
+				<entry id="ship_bor_l_carrier_01_a_macro" read="0"/>
+				<entry id="ship_ter_l_destroyer_01_a_macro" read="0"/>
+				<entry id="ship_arg_l_trans_container_05_a_macro" read="0"/>
+				<entry id="ship_tel_l_miner_solid_01_a_macro" read="0"/>
+				<entry id="ship_tel_l_miner_liquid_01_a_macro" read="0"/>
+				<entry id="ship_ter_l_trans_container_01_a_macro" read="0"/>
+				<entry id="ship_arg_l_miner_liquid_01_a_macro" read="0"/>
+				<entry id="ship_tel_l_destroyer_01_a_macro" read="0"/>
+				<entry id="ship_par_l_miner_solid_02_a_macro" read="0"/>
+				<entry id="ship_arg_l_trans_container_04_a_macro" read="0"/>
+				<entry id="ship_tel_l_miner_solid_01_b_macro" read="0"/>
+				<entry id="ship_atf_l_destroyer_01_a_macro" read="0"/>
+				<entry id="ship_tel_l_miner_liquid_01_b_macro" read="0"/>
+				<entry id="ship_arg_l_miner_solid_01_a_macro" read="0"/>
+				<entry id="ship_tel_l_trans_container_02_b_macro" read="0"/>
+				<entry id="ship_arg_l_miner_solid_01_b_macro" read="0"/>
+				<entry id="ship_par_l_trans_container_02_b_macro" read="0"/>
+				<entry id="ship_par_l_destroyer_01_a_macro" read="0"/>
+				<entry id="ship_par_l_miner_solid_01_a_macro" read="0"/>
+				<entry id="ship_arg_l_trans_container_01_a_macro" read="0"/>
+				<entry id="ship_arg_l_trans_container_01_b_macro" read="0"/>
+				<entry id="ship_spl_l_destroyer_01_a_macro" read="0"/>
+				<entry id="ship_arg_l_destroyer_01_b_macro" read="0"/>
+				<entry id="ship_par_l_destroyer_01_b_macro" read="0"/>
+				<entry id="ship_spl_l_trans_container_01_a_macro" read="0"/>
+				<entry id="ship_arg_l_trans_container_03_b_macro" read="0"/>
+				<entry id="ship_arg_l_trans_container_04_b_macro" read="0"/>
+				<entry id="ship_arg_l_trans_container_03_a_macro" read="0"/>
+				<entry id="ship_arg_l_trans_container_02_a_macro" read="0"/>
+				<entry id="ship_arg_l_trans_container_02_b_macro" read="0"/>
+				<entry id="ship_arg_l_trans_container_05_b_macro" read="0"/>
+				<entry id="ship_arg_l_miner_liquid_01_b_macro" read="0"/>
+				<entry id="ship_par_l_miner_liquid_02_a_macro" read="0"/>
+				<entry id="ship_par_l_destroyer_02_a_macro" read="0"/>
+				<entry id="ship_tel_l_trans_container_02_a_macro" read="0"/>
+				<entry id="ship_tel_l_trans_container_01_b_macro" read="0"/>
+				<entry id="ship_ter_l_miner_solid_01_a_macro" read="0"/>
+				<entry id="ship_ter_l_miner_liquid_01_a_macro" read="0"/>
+				<entry id="ship_pir_l_scavenger_01_a_macro" read="0"/>
+				<entry id="ship_pir_l_miner_solid_01_a_macro" read="0"/>
+				<entry id="ship_pir_l_scrapper_01_macro" read="0"/>
+				<entry id="ship_bor_l_miner_solid_01_a_macro" read="0"/>
+				<entry id="ship_bor_l_miner_liquid_01_a_macro" read="0"/>
+				<entry id="ship_bor_l_trans_container_01_a_macro" read="0"/>
+				<entry id="ship_spl_l_miner_solid_01_a_macro" read="0"/>
+				<entry id="ship_spl_l_miner_liquid_01_a_macro" read="0"/>
+				<entry id="ship_par_l_trans_container_01_a_macro" read="0"/>
+				<entry id="ship_par_l_trans_container_01_b_macro" read="0"/>
+				<entry id="ship_par_l_miner_liquid_01_b_macro" read="0"/>
+				<entry id="ship_ter_l_research_01_a_macro" read="0"/>
+				<entry id="ship_par_l_miner_liquid_01_a_macro" read="0"/>
+				<entry id="ship_par_l_trans_container_02_a_macro" read="0"/>
+				<entry id="ship_par_l_miner_solid_01_b_macro" read="0"/>
+			</entries>
+			<entries type="shiptypes_m">
+				<entry id="ship_tel_m_trans_container_02_b_macro" read="0"/>
+				<entry id="ship_arg_m_trans_container_02_a_macro" read="0"/>
+				<entry id="ship_tel_m_trans_container_01_a_macro" read="0"/>
+				<entry id="ship_arg_m_trans_container_01_a_macro" read="0"/>
+				<entry id="ship_arg_m_frigate_01_a_macro" read="0"/>
+				<entry id="ship_arg_m_bomber_01_a_macro" read="0"/>
+				<entry id="ship_arg_m_miner_solid_01_a_macro" read="0"/>
+				<entry id="ship_arg_m_bomber_01_b_macro" read="0"/>
+				<entry id="ship_par_m_corvette_01_b_macro" read="0"/>
+				<entry id="ship_par_m_corvette_01_a_macro" read="0"/>
+				<entry id="ship_bor_m_corvette_01_a_macro" read="0"/>
+				<entry id="ship_bor_m_gunboat_01_a_macro" read="0"/>
+				<entry id="ship_bor_m_corvette_02_a_macro" read="0"/>
+				<entry id="ship_ter_m_frigate_01_a_macro" read="0"/>
+				<entry id="ship_bor_m_miner_liquid_01_a_macro" read="0"/>
+				<entry id="ship_tel_m_trans_container_02_a_macro" read="0"/>
+				<entry id="ship_spl_m_trans_container_01_a_macro" read="0"/>
+				<entry id="ship_ter_m_trans_container_01_a_macro" read="0"/>
+				<entry id="ship_par_m_trans_container_01_a_macro" read="0"/>
+				<entry id="ship_par_m_trans_container_01_b_macro" read="0"/>
+				<entry id="ship_par_m_miner_liquid_01_a_macro" read="0"/>
+				<entry id="ship_arg_m_miner_liquid_01_b_macro" read="0"/>
+				<entry id="ship_par_m_miner_solid_01_a_macro" read="0"/>
+				<entry id="ship_tel_m_frigate_01_a_macro" read="0"/>
+				<entry id="ship_tel_m_trans_container_03_a_macro" read="0"/>
+				<entry id="ship_arg_m_trans_container_01_b_macro" read="0"/>
+				<entry id="ship_ter_m_gunboat_01_a_macro" read="0"/>
+				<entry id="ship_tel_m_miner_liquid_01_b_macro" read="0"/>
+				<entry id="ship_par_m_trans_container_02_a_macro" read="0"/>
+				<entry id="ship_tel_m_miner_solid_01_b_macro" read="0"/>
+				<entry id="ship_arg_m_trans_container_02_b_macro" read="0"/>
+				<entry id="ship_yak_m_corvette_01_a_macro" read="0"/>
+				<entry id="ship_arg_m_miner_liquid_01_a_macro" read="0"/>
+				<entry id="ship_spl_m_corvette_01_a_macro" read="0"/>
+				<entry id="ship_ter_m_miner_solid_01_a_macro" read="0"/>
+				<entry id="ship_spl_m_miner_solid_01_a_macro" read="0"/>
+				<entry id="ship_ter_m_corvette_01_a_macro" read="0"/>
+				<entry id="ship_gen_m_transdrone_container_02_a_macro" read="0"/>
+				<entry id="ship_gen_m_transdrone_container_01_a_macro" read="0"/>
+				<entry id="ship_spl_m_frigate_01_a_macro" read="0"/>
+				<entry id="ship_par_m_frigate_01_b_macro" read="0"/>
+				<entry id="ship_arg_m_miner_solid_01_b_macro" read="0"/>
+				<entry id="ship_arg_m_frigate_01_b_macro" read="0"/>
+				<entry id="ship_par_m_frigate_01_a_macro" read="0"/>
+				<entry id="ship_par_m_trans_container_02_b_macro" read="0"/>
+				<entry id="ship_par_m_miner_solid_01_b_macro" read="0"/>
+				<entry id="ship_tel_m_trans_container_01_b_macro" read="0"/>
+				<entry id="ship_tel_m_miner_liquid_01_a_macro" read="0"/>
+				<entry id="ship_gen_m_tugboat_01_a_macro" read="0"/>
+				<entry id="ship_ter_m_miner_liquid_01_a_macro" read="0"/>
+				<entry id="ship_bor_m_trans_container_01_a_macro" read="0"/>
+				<entry id="ship_bor_m_miner_solid_01_a_macro" read="0"/>
+				<entry id="ship_spl_m_corvette_01_b_macro" read="0"/>
+				<entry id="ship_tel_m_miner_solid_01_a_macro" read="0"/>
+				<entry id="ship_tel_m_bomber_01_a_macro" read="0"/>
+				<entry id="ship_tel_m_frigate_01_b_macro" read="0"/>
+				<entry id="ship_xen_m_miner_01_a_macro" read="0"/>
+				<entry id="ship_xen_m_fighter_01_a_macro" read="0"/>
+				<entry id="ship_arg_m_bomber_02_a_macro" read="0"/>
+				<entry id="ship_kha_m_fighter_01_a_macro" read="0"/>
+				<entry id="ship_par_m_trans_container_03_a_macro" read="0"/>
+				<entry id="ship_kha_m_fighter_02_a_macro" read="0"/>
+				<entry id="ship_spl_m_miner_liquid_01_a_macro" read="0"/>
+				<entry id="ship_par_m_miner_liquid_01_b_macro" read="0"/>
+				<entry id="ship_tel_m_bomber_01_b_macro" read="0"/>
+				<entry id="ship_gen_m_yacht_01_a_macro" read="0"/>
+			</entries>
+			<entries type="shiptypes_s">
+				<entry id="ship_tel_s_fighter_01_a_macro" read="0"/>
+				<entry id="ship_ter_s_fighter_01_a_macro" read="0"/>
+				<entry id="ship_arg_s_trans_container_02_b_macro" read="0"/>
+				<entry id="ship_pir_s_fighter_01_a_macro" read="0"/>
+				<entry id="ship_tel_s_fighter_02_b_macro" read="0"/>
+				<entry id="ship_pir_s_heavyfighter_01_a_macro" read="0"/>
+				<entry id="ship_pir_s_fighter_02_a_macro" read="0"/>
+				<entry id="ship_pir_s_trans_container_01_a_macro" read="0"/>
+				<entry id="ship_arg_s_miner_solid_01_a_macro" read="0"/>
+				<entry id="ship_arg_s_fighter_04_a_macro" read="0"/>
+				<entry id="ship_gen_s_fighter_01_a_macro" read="0"/>
+				<entry id="ship_arg_s_fighter_02_a_macro" read="0"/>
+				<entry id="ship_arg_s_fighter_01_a_macro" read="0"/>
+				<entry id="ship_arg_s_heavyfighter_02_a_macro" read="0"/>
+				<entry id="ship_arg_s_scout_01_a_macro" read="0"/>
+				<entry id="ship_arg_s_trans_container_01_a_macro" read="0"/>
+				<entry id="ship_gen_s_fightingdrone_01_a_macro" read="0"/>
+				<entry id="ship_bor_s_heavyfighter_01_a_macro" read="0"/>
+				<entry id="ship_par_s_fighter_01_a_macro" read="0"/>
+				<entry id="ship_par_s_heavyfighter_01_a_macro" read="0"/>
+				<entry id="ship_bor_s_scout_01_a_macro" read="0"/>
+				<entry id="ship_bor_s_fighter_01_a_macro" read="0"/>
+				<entry id="ship_bor_s_miner_solid_01_story_macro" read="0"/>
+				<entry id="ship_bor_s_miner_solid_01_a_macro" read="0"/>
+				<entry id="ship_par_s_scout_01_b_macro" read="0"/>
+				<entry id="ship_ter_s_heavyfighter_01_a_macro" read="0"/>
+				<entry id="ship_gen_s_miningdrone_solid_01_a_macro" read="0"/>
+				<entry id="ship_yak_s_fighter_01_a_macro" read="0"/>
+				<entry id="ship_gen_s_miningdrone_liquid_01_a_macro" read="0"/>
+				<entry id="ship_bor_s_scout_02_a_macro" read="0"/>
+				<entry id="ship_ter_s_fighter_02_a_macro" read="0"/>
+				<entry id="ship_par_s_fighter_02_a_macro" read="0"/>
+				<entry id="ship_ter_s_fighter_03_a_macro" read="0"/>
+				<entry id="ship_gen_s_transdrone_container_01_a_macro" read="0"/>
+				<entry id="ship_gen_s_transdrone_container_02_a_macro" read="0"/>
+				<entry id="ship_arg_s_fighter_02_b_macro" read="0"/>
+				<entry id="ship_arg_s_fighter_01_b_macro" read="0"/>
+				<entry id="ship_tel_s_fighter_01_b_macro" read="0"/>
+				<entry id="ship_tel_s_scout_02_a_macro" read="0"/>
+				<entry id="ship_tel_s_scout_01_a_macro" read="0"/>
+				<entry id="ship_spl_s_heavyfighter_01_a_macro" read="0"/>
+				<entry id="ship_spl_s_fighter_01_a_macro" read="0"/>
+				<entry id="ship_arg_s_scout_01_b_macro" read="0"/>
+				<entry id="ship_arg_s_trans_container_01_b_macro" read="0"/>
+				<entry id="ship_arg_s_trans_container_02_a_macro" read="0"/>
+				<entry id="ship_par_s_trans_container_01_a_macro" read="0"/>
+				<entry id="ship_par_s_miner_solid_01_a_macro" read="0"/>
+				<entry id="ship_par_s_scout_01_a_macro" read="0"/>
+				<entry id="ship_par_s_trans_container_01_b_macro" read="0"/>
+				<entry id="ship_par_s_fighter_02_b_macro" read="0"/>
+				<entry id="ship_par_s_fighter_01_b_macro" read="0"/>
+				<entry id="ship_tel_s_trans_container_01_b_macro" read="0"/>
+				<entry id="ship_tel_s_trans_container_01_a_macro" read="0"/>
+				<entry id="ship_ter_s_trans_container_01_a_macro" read="0"/>
+				<entry id="ship_ter_s_miner_solid_01_a_macro" read="0"/>
+				<entry id="ship_ter_s_scout_01_a_macro" read="0"/>
+				<entry id="ship_ter_s_scout_02_a_macro" read="0"/>
+				<entry id="ship_bor_s_trans_container_01_a_macro" read="0"/>
+				<entry id="ship_pir_s_trans_condensate_01_a_macro" read="0"/>
+				<entry id="ship_spl_s_scout_01_a_macro" read="0"/>
+				<entry id="ship_spl_s_heavyfighter_02_a_macro" read="0"/>
+				<entry id="ship_spl_s_fighter_02_b_macro" read="0"/>
+				<entry id="ship_tel_s_miner_solid_01_a_macro" read="0"/>
+				<entry id="ship_tel_s_fighter_02_a_macro" read="0"/>
+				<entry id="ship_tel_s_scout_01_b_macro" read="0"/>
+				<entry id="ship_tel_s_scout_02_b_macro" read="0"/>
+				<entry id="ship_xen_s_fighter_01_a_macro" read="0"/>
+				<entry id="ship_xen_s_fighter_02_a_macro" read="0"/>
+				<entry id="ship_xen_s_scout_01_a_macro" read="0"/>
+				<entry id="ship_kha_s_fighter_02_a_macro" read="0"/>
+				<entry id="ship_spl_s_fighter_02_a_macro" read="0"/>
+				<entry id="ship_spl_s_trans_container_01_a_macro" read="0"/>
+				<entry id="ship_spl_s_miner_solid_01_a_macro" read="0"/>
+				<entry id="ship_arg_s_fighter_03_a_macro" read="0"/>
+				<entry id="ship_spl_s_trans_container_01_plot_01_macro" read="0"/>
+				<entry id="ship_kha_s_fighter_01_a_macro" read="0"/>
+				<entry id="ship_gen_s_fightingdrone_explosive_01_a_macro" read="0"/>
+				<entry id="ship_gen_s_fighter_01_b_macro" read="0"/>
+			</entries>
+			<entries type="shiptypes_xs">
+				<entry id="ship_gen_xs_repairdrone_01_a_macro" read="0"/>
+				<entry id="ship_gen_xs_cargodrone_empty_01_a_macro" read="0"/>
+				<entry id="ship_gen_xs_cargodrone_container_01_a_macro" read="0"/>
+				<entry id="ship_gen_xs_cargodrone_solid_01_a_macro" read="0"/>
+				<entry id="ship_spl_xs_police_01_a_macro" read="0"/>
+				<entry id="ship_gen_xs_buildingdrone_01_a_macro" read="0"/>
+				<entry id="ship_gen_xs_cargodrone_pickup_01_a_macro" read="0"/>
+				<entry id="ship_ter_xs_cv_02_a_macro" read="0"/>
+				<entry id="ship_ter_xs_cv_01_a_macro" read="0"/>
+				<entry id="ship_gen_xs_boardingpod_01_a_macro" read="0"/>
+				<entry id="ship_gen_xs_escapepod_01_a_macro" read="0"/>
+				<entry id="ship_spl_xs_pv_01_a_macro" read="0"/>
+				<entry id="ship_spl_xs_pv_01_b_macro" read="0"/>
+				<entry id="ship_spl_xs_pv_02_a_macro" read="0"/>
+				<entry id="ship_arg_xs_pv_05_a_macro" read="0"/>
+				<entry id="ship_arg_xs_pv_05_b_macro" read="0"/>
+				<entry id="ship_tel_xs_pv_02_a_macro" read="0"/>
+				<entry id="ship_tel_xs_pv_02_b_macro" read="0"/>
+				<entry id="ship_tel_xs_spacesuit_01_a_macro" read="0"/>
+				<entry id="ship_arg_xs_spacesuit_01_a_macro" read="0"/>
+				<entry id="ship_gen_xs_spacesuit_01_a_macro" read="0"/>
+				<entry id="ship_gen_xs_distressbeacon_01_a_macro" read="0"/>
+			</entries>
+			<entries type="stationtypes">
+				<entry id="station_gen_factory_base_01_macro" read="0"/>
+				<entry id="station_gen_piratebase_base_01_macro" read="0"/>
+				<entry id="xenon_small_station_01_macro" read="0"/>
+				<entry id="xenon_asteroid_02_base_03_macro" read="0"/>
+				<entry id="station_spl_tradestation_base_01_macro" read="0"/>
+				<entry id="station_xen_shipyard_base_01_macro" read="0"/>
+				<entry id="station_xen_factory_base_01_macro" read="0"/>
+				<entry id="landmarks_gen_piratestation_01_macro" read="0"/>
+				<entry id="station_ter_tradestation_base_01_macro" read="0"/>
+				<entry id="station_yak_piratebase_base_01_macro" read="0"/>
+				<entry id="torus_maze_macro" read="0"/>
+				<entry id="landmarks_tel_tradestation_01_macro" read="0"/>
+				<entry id="landmarks_kha_hive_01_macro" read="0"/>
+				<entry id="landmarks_kha_weaponplatform_01_macro" read="0"/>
+				<entry id="landmarks_kha_nest_01_macro" read="0"/>
+				<entry id="station_tel_tradestation_base_01_macro" read="0"/>
+				<entry id="station_par_tradestation_base_01_macro" read="0"/>
+				<entry id="station_xen_defence_base_01_macro" read="0"/>
+				<entry id="station_arg_tradestation_base_01_macro" read="0"/>
+				<entry id="landmarks_gen_piratestation_02_macro" read="0"/>
+				<entry id="xenon_asteroid_01_base_01_story_macro" read="0"/>
+				<entry id="landmarks_soh_condensatedispenser_01_macro" read="0"/>
+				<entry id="station_bor_tradestation_base_01_macro" read="0"/>
+				<entry id="station_pla_headquarters_base_01_macro" read="0"/>
+				<entry id="xenon_asteroid_01_base_01_macro" read="0"/>
+			</entries>
+			<entries type="moduletypes_production">
+				<entry id="prod_gen_advancedelectronics_macro" read="0"/>
+				<entry id="prod_arg_foodrations_macro" read="0"/>
+				<entry id="prod_arg_medicalsupplies_macro" read="0"/>
+				<entry id="prod_spl_scruffinfruit_macro" read="0"/>
+				<entry id="prod_gen_spices_macro" read="0"/>
+				<entry id="prod_spl_cheltmeat_macro" read="0"/>
+				<entry id="prod_ter_proteinpaste_macro" read="0"/>
+				<entry id="prod_gen_turretcomponents_macro" read="0"/>
+				<entry id="prod_gen_superfluidcoolant_macro" read="0"/>
+				<entry id="prod_gen_dronecomponents_macro" read="0"/>
+				<entry id="prod_ter_medicalsupplies_macro" read="0"/>
+				<entry id="prod_gen_antimatterconverters_macro" read="0"/>
+				<entry id="prod_arg_meat_macro" read="0"/>
+				<entry id="prod_gen_quantumtubes_macro" read="0"/>
+				<entry id="prod_gen_weaponcomponents_macro" read="0"/>
+				<entry id="prod_spl_medicalsupplies_macro" read="0"/>
+				<entry id="prod_gen_advancedcomposites_macro" read="0"/>
+				<entry id="prod_ter_metallicmicrolattice_macro" read="0"/>
+				<entry id="prod_gen_antimattercells_macro" read="0"/>
+				<entry id="prod_gen_scanningarrays_macro" read="0"/>
+				<entry id="prod_gen_engineparts_macro" read="0"/>
+				<entry id="prod_gen_claytronics_macro" read="0"/>
+				<entry id="prod_ter_mre_macro" read="0"/>
+				<entry id="prod_gen_plasmaconductors_macro" read="0"/>
+				<entry id="prod_gen_shieldcomponents_macro" read="0"/>
+				<entry id="prod_gen_fieldcoils_macro" read="0"/>
+				<entry id="prod_tel_sunriseflowers_macro" read="0"/>
+				<entry id="landmarks_player_hq_01_research_macro" read="0"/>
+				<entry id="prod_gen_microchips_macro" read="0"/>
+				<entry id="prod_gen_energycells_macro" read="0"/>
+				<entry id="prod_gen_refinedmetals_macro" read="0"/>
+				<entry id="prod_gen_siliconwafers_macro" read="0"/>
+				<entry id="prod_gen_smartchips_macro" read="0"/>
+				<entry id="prod_gen_hullparts_macro" read="0"/>
+				<entry id="prod_gen_graphene_macro" read="0"/>
+				<entry id="prod_ter_energycells_macro" read="0"/>
+				<entry id="prod_ter_computronicsubstrate_macro" read="0"/>
+				<entry id="prod_ter_siliconcarbide_macro" read="0"/>
+				<entry id="prod_arg_wheat_macro" read="0"/>
+				<entry id="prod_gen_water_macro" read="0"/>
+				<entry id="prod_tel_swampplant_macro" read="0"/>
+				<entry id="prod_tel_nostropoil_macro" read="0"/>
+				<entry id="prod_tel_teladianium_macro" read="0"/>
+				<entry id="prod_par_medicalsupplies_macro" read="0"/>
+				<entry id="prod_par_sojabeans_macro" read="0"/>
+				<entry id="prod_tel_scanningarrays_macro" read="0"/>
+				<entry id="prod_tel_engineparts_macro" read="0"/>
+				<entry id="prod_par_sojahusk_macro" read="0"/>
+				<entry id="prod_par_majasnails_macro" read="0"/>
+				<entry id="prod_tel_medicalsupplies_macro" read="0"/>
+				<entry id="prod_par_majadust_macro" read="0"/>
+				<entry id="prod_tel_hullparts_macro" read="0"/>
+				<entry id="prod_gen_missilecomponents_macro"/>
+				<entry id="prod_tel_spaceweed_macro" read="0"/>
+				<entry id="prod_ter_stimulants_macro" read="0"/>
+				<entry id="prod_tel_advancedcomposites_macro" read="0"/>
+				<entry id="prod_bor_bogas_macro"/>
+				<entry id="prod_bor_bofu_macro"/>
+				<entry id="prod_bor_medicalsupplies_macro" read="0"/>
+				<entry id="prod_bor_plankton_macro" read="0"/>
+			</entries>
+			<entries type="moduletypes_build">
+				<entry id="buildmodule_bor_equip_l_macro" read="0"/>
+				<entry id="buildmodule_bor_equip_xl_macro" read="0"/>
+				<entry id="buildmodule_gen_ships_m_dockarea_01_macro" read="0"/>
+				<entry id="buildmodule_gen_ships_xl_macro" read="0"/>
+				<entry id="buildmodule_gen_equip_l_macro" read="0"/>
+				<entry id="buildmodule_gen_equip_m_dockarea_01_macro" read="0"/>
+				<entry id="buildmodule_gen_equip_xl_macro" read="0"/>
+				<entry id="buildmodule_gen_ships_l_macro" read="0"/>
+				<entry id="buildmodule_ter_ships_xl_macro" read="0"/>
+				<entry id="buildmodule_ter_ships_m_dockarea_01_macro" read="0"/>
+				<entry id="buildmodule_ter_ships_l_macro" read="0"/>
+				<entry id="buildmodule_ter_equip_l_macro" read="0"/>
+				<entry id="buildmodule_ter_equip_m_dockarea_01_macro" read="0"/>
+				<entry id="buildmodule_ter_equip_xl_macro" read="0"/>
+				<entry id="buildmodule_bor_ships_m_dockarea_01_macro" read="0"/>
+				<entry id="buildmodule_bor_ships_xl_macro" read="0"/>
+				<entry id="buildmodule_bor_ships_l_macro" read="0"/>
+				<entry id="buildmodule_bor_equip_m_dockarea_01_macro" read="0"/>
+			</entries>
+			<entries type="moduletypes_storage">
+				<entry id="storage_bor_m_liquid_01_macro" read="0"/>
+				<entry id="storage_bor_l_solid_01_macro" read="0"/>
+				<entry id="storage_bor_m_container_01_macro" read="0"/>
+				<entry id="storage_arg_l_liquid_01_macro" read="0"/>
+				<entry id="storage_bor_m_solid_01_macro" read="0"/>
+				<entry id="storage_bor_l_liquid_01_macro" read="0"/>
+				<entry id="storage_bor_s_solid_01_macro" read="0"/>
+				<entry id="storage_par_l_container_01_macro" read="0"/>
+				<entry id="storage_par_m_container_01_macro" read="0"/>
+				<entry id="storage_tel_l_container_01_macro" read="0"/>
+				<entry id="storage_tel_m_container_01_macro" read="0"/>
+				<entry id="storage_arg_m_container_01_macro" read="0"/>
+				<entry id="storage_arg_l_container_01_macro"/>
+				<entry id="storage_arg_s_container_01_macro" read="0"/>
+				<entry id="storage_arg_l_tradestation_01_macro" read="0"/>
+				<entry id="storage_arg_m_solid_01_macro" read="0"/>
+				<entry id="storage_spl_s_container_01_macro" read="0"/>
+				<entry id="storage_spl_l_container_01_macro" read="0"/>
+				<entry id="storage_tel_m_solid_01_macro" read="0"/>
+				<entry id="storage_par_s_container_01_macro" read="0"/>
+				<entry id="storage_par_m_solid_01_macro" read="0"/>
+				<entry id="storage_tel_l_solid_01_macro" read="0"/>
+				<entry id="storage_spl_m_container_01_macro" read="0"/>
+				<entry id="storage_spl_s_liquid_01_macro" read="0"/>
+				<entry id="storage_spl_s_solid_01_macro" read="0"/>
+				<entry id="storage_spl_l_solid_01_macro" read="0"/>
+				<entry id="storage_spl_l_liquid_01_macro" read="0"/>
+				<entry id="storage_ter_m_container_01_macro" read="0"/>
+				<entry id="storage_ter_l_container_01_macro" read="0"/>
+				<entry id="storage_spl_m_solid_01_macro" read="0"/>
+				<entry id="storage_ter_s_solid_01_macro" read="0"/>
+				<entry id="storage_ter_l_liquid_01_macro" read="0"/>
+				<entry id="storage_ter_l_solid_01_macro" read="0"/>
+				<entry id="storage_ter_m_liquid_01_macro" read="0"/>
+				<entry id="storage_ter_s_container_01_macro" read="0"/>
+				<entry id="storage_ter_s_liquid_01_macro" read="0"/>
+				<entry id="storage_ter_m_solid_01_macro" read="0"/>
+				<entry id="storage_tel_l_liquid_01_macro" read="0"/>
+				<entry id="storage_arg_m_liquid_01_macro" read="0"/>
+				<entry id="storage_arg_l_solid_01_macro" read="0"/>
+				<entry id="storage_arg_s_solid_01_macro" read="0"/>
+				<entry id="storage_bor_l_container_01_macro" read="0"/>
+				<entry id="storage_bor_s_container_01_macro" read="0"/>
+				<entry id="storage_tel_m_liquid_01_macro" read="0"/>
+				<entry id="storage_arg_s_liquid_01_macro" read="0"/>
+				<entry id="storage_par_s_liquid_01_macro" read="0"/>
+				<entry id="storage_pir_s_condensate_01_macro" read="0"/>
+				<entry id="storage_par_m_liquid_01_macro" read="0"/>
+				<entry id="storage_par_s_solid_01_macro" read="0"/>
+				<entry id="storage_par_l_solid_01_macro" read="0"/>
+				<entry id="storage_spl_m_liquid_01_macro" read="0"/>
+				<entry id="landmarks_gen_piratestation_02_storage_01_macro" read="0"/>
+				<entry id="storage_bor_s_liquid_01_macro" read="0"/>
+				<entry id="storage_par_l_liquid_01_macro" read="0"/>
+			</entries>
+			<entries type="moduletypes_habitation">
+				<entry id="hab_par_m_01_macro" read="0"/>
+				<entry id="hab_par_l_01_macro" read="0"/>
+				<entry id="hab_tel_m_01_macro" read="0"/>
+				<entry id="hab_tel_s_01_macro" read="0"/>
+				<entry id="hab_arg_s_01_macro" read="0"/>
+				<entry id="hab_arg_m_01_macro" read="0"/>
+				<entry id="hab_tel_l_01_macro" read="0"/>
+				<entry id="hab_par_s_01_macro" read="0"/>
+				<entry id="hab_arg_l_01_macro"/>
+				<entry id="hab_spl_s_01_macro" read="0"/>
+				<entry id="hab_spl_l_01_macro" read="0"/>
+				<entry id="hab_spl_m_01_macro" read="0"/>
+				<entry id="hab_ter_s_01_macro" read="0"/>
+				<entry id="hab_ter_l_01_macro" read="0"/>
+				<entry id="hab_ter_m_01_macro" read="0"/>
+				<entry id="hab_pir_l_01_macro"/>
+				<entry id="hab_pir_s_01_macro" read="0"/>
+				<entry id="hab_bor_m_01_macro" read="0"/>
+				<entry id="hab_pir_m_01_macro" read="0"/>
+				<entry id="hab_bor_l_01_macro" read="0"/>
+				<entry id="hab_bor_s_01_macro" read="0"/>
+				<entry id="landmarks_gen_piratestation_01_port_01_macro" read="0"/>
+			</entries>
+			<entries type="moduletypes_defence">
+				<entry id="defence_ter_disc_01_macro" read="0"/>
+				<entry id="defence_par_tube_01_macro" read="0"/>
+				<entry id="defence_par_disc_01_macro" read="0"/>
+				<entry id="defence_arg_tube_01_macro" read="0"/>
+				<entry id="defence_ter_tube_01_macro" read="0"/>
+				<entry id="defence_spl_tube_01_macro" read="0"/>
+				<entry id="defence_spl_disc_01_macro" read="0"/>
+				<entry id="defence_tel_disc_01_macro" read="0"/>
+				<entry id="defence_tel_tube_01_macro" read="0"/>
+				<entry id="defence_arg_disc_01_macro" read="0"/>
+				<entry id="defence_bor_tube_01_macro" read="0"/>
+				<entry id="defence_par_claim_01_macro" read="0"/>
+				<entry id="defence_tel_claim_01_macro" read="0"/>
+				<entry id="defence_arg_claim_01_macro" read="0"/>
+				<entry id="defence_par_claim_story_01_macro" read="0"/>
+				<entry id="defence_spl_claim_01_macro" read="0"/>
+				<entry id="defence_ter_claim_01_macro" read="0"/>
+				<entry id="defence_bor_disc_01_macro" read="0"/>
+				<entry id="defence_bor_claim_01_macro" read="0"/>
+			</entries>
+			<entries type="moduletypes_dock">
+				<entry id="pier_bor_tradestation_01_macro" read="0"/>
+				<entry id="pier_tel_harbor_02_macro" read="0"/>
+				<entry id="dockarea_arg_m_station_01_lowtech_macro" read="0"/>
+				<entry id="dockarea_arg_m_station_02_hightech_macro" read="0"/>
+				<entry id="pier_par_harbor_01_macro" read="0"/>
+				<entry id="pier_tel_harbor_01_macro" read="0"/>
+				<entry id="dockarea_arg_m_station_02_macro" read="0"/>
+				<entry id="dockarea_arg_m_station_01_macro" read="0"/>
+				<entry id="pier_par_harbor_03_macro" read="0"/>
+				<entry id="pier_arg_harbor_01_macro" read="0"/>
+				<entry id="pier_arg_harbor_02_macro" read="0"/>
+				<entry id="dockarea_arg_m_station_02_lowtech_macro" read="0"/>
+				<entry id="dockarea_arg_m_02_tradestation_01_macro" read="0"/>
+				<entry id="dockarea_arg_m_station_01_hightech_macro" read="0"/>
+				<entry id="pier_arg_harbor_03_macro" read="0"/>
+				<entry id="pier_arg_single_01_tradestation_01_macro" read="0"/>
+				<entry id="pier_spl_harbor_01_macro" read="0"/>
+				<entry id="pier_par_harbor_02_macro" read="0"/>
+				<entry id="pier_spl_harbor_02_macro" read="0"/>
+				<entry id="pier_spl_harbor_03_macro" read="0"/>
+				<entry id="pier_tel_harbor_03_macro" read="0"/>
+				<entry id="pier_ter_tradestation_01_macro" read="0"/>
+				<entry id="pier_ter_harbor_01_macro" read="0"/>
+				<entry id="dockarea_ter_m_station_01_hightech_macro" read="0"/>
+				<entry id="pier_ter_harbor_02_macro" read="0"/>
+				<entry id="pier_ter_harbor_03_macro" read="0"/>
+				<entry id="pier_ter_harbor_04_macro" read="0"/>
+				<entry id="pier_bor_harbor_02_macro" read="0"/>
+				<entry id="dockarea_bor_m_station_01_standard_macro" read="0"/>
+				<entry id="pier_bor_harbor_04_macro" read="0"/>
+				<entry id="pier_bor_harbor_03_macro" read="0"/>
+				<entry id="pier_bor_harbor_01_macro" read="0"/>
+			</entries>
+			<entries type="moduletypes_other">
+				<entry id="struct_bor_cross_02_macro" read="0"/>
+				<entry id="struct_spl_base_01_macro" read="0"/>
+				<entry id="struct_spl_base_02_macro" read="0"/>
+				<entry id="struct_spl_vertical_02_macro" read="0"/>
+				<entry id="struct_bor_vertical_01_macro" read="0"/>
+				<entry id="struct_arg_vertical_02_macro" read="0"/>
+				<entry id="struct_spl_vertical_01_macro" read="0"/>
+				<entry id="struct_bor_base_04_macro" read="0"/>
+				<entry id="struct_arg_base_02_macro" read="0"/>
+				<entry id="struct_par_cross_01_macro" read="0"/>
+				<entry id="struct_par_cross_03_macro" read="0"/>
+				<entry id="struct_par_cross_02_macro" read="0"/>
+				<entry id="struct_par_base_01_macro" read="0"/>
+				<entry id="struct_par_vertical_02_macro" read="0"/>
+				<entry id="struct_tel_cross_01_macro" read="0"/>
+				<entry id="struct_tel_base_02_macro" read="0"/>
+				<entry id="struct_tel_base_01_macro" read="0"/>
+				<entry id="struct_tel_vertical_02_macro" read="0"/>
+				<entry id="struct_tel_base_03_macro" read="0"/>
+				<entry id="struct_par_base_02_macro" read="0"/>
+				<entry id="struct_tel_vertical_01_macro" read="0"/>
+				<entry id="struct_par_base_03_macro" read="0"/>
+				<entry id="struct_arg_base_03_macro" read="0"/>
+				<entry id="struct_arg_base_01_macro" read="0"/>
+				<entry id="struct_arg_cross_01_macro" read="0"/>
+				<entry id="struct_spl_cross_01_macro" read="0"/>
+				<entry id="struct_spl_base_03_macro" read="0"/>
+				<entry id="struct_ter_cross_01_macro" read="0"/>
+				<entry id="struct_ter_vertical_02_macro" read="0"/>
+				<entry id="struct_arg_vertical_01_macro" read="0"/>
+				<entry id="struct_ter_base_02_macro" read="0"/>
+				<entry id="struct_ter_base_03_macro" read="0"/>
+				<entry id="struct_ter_vertical_01_macro" read="0"/>
+				<entry id="struct_ter_base_01_macro" read="0"/>
+				<entry id="struct_bor_cross_01_macro" read="0"/>
+				<entry id="struct_bor_base_05_macro" read="0"/>
+				<entry id="struct_bor_base_01_macro" read="0"/>
+				<entry id="struct_bor_base_02_macro" read="0"/>
+				<entry id="struct_bor_vertical_02_macro" read="0"/>
+				<entry id="struct_bor_base_03_macro" read="0"/>
+				<entry id="struct_par_vertical_01_macro" read="0"/>
+				<entry id="landmarks_gen_piratestation_01_core_01_macro" read="0"/>
+			</entries>
+			<entries type="moduletypes_venture">
+				<entry id="dockarea_gen_m_venturer_01_macro" read="0"/>
+				<entry id="ventureplatform_gen_cross_01_macro" read="0"/>
+				<entry id="struct_gen_venturerbase_03_macro" read="0"/>
+				<entry id="struct_gen_venturerbase_02_macro" read="0"/>
+				<entry id="struct_gen_venturervertical_02_macro" read="0"/>
+				<entry id="struct_gen_venturercross_01_macro" read="0"/>
+				<entry id="struct_gen_venturerbase_01_macro" read="0"/>
+				<entry id="struct_gen_venturervertical_01_macro" read="0"/>
+			</entries>
+			<entries type="moduletypes_processing">
+				<entry id="proc_gen_scrapworks_macro" read="0"/>
+				<entry id="prod_gen_scrap_recycler_macro" read="0"/>
+				<entry id="prod_ter_scrap_recycler_macro" read="0"/>
+			</entries>
+			<entries type="weapons_lasers">
+				<entry id="weapon_tel_l_destroyer_01_mk1_macro" read="0"/>
+				<entry id="weapon_gen_m_plasma_01_mk2_macro" read="0"/>
+				<entry id="weapon_ter_m_laser_01_mk2_macro" read="0"/>
+				<entry id="weapon_gen_s_beam_01_mk1_macro" read="0"/>
+				<entry id="weapon_tel_s_charge_01_mk2_macro" read="0"/>
+				<entry id="weapon_tel_s_charge_01_mk1_macro" read="0"/>
+				<entry id="weapon_arg_s_ion_01_mk1_macro" read="0"/>
+				<entry id="weapon_gen_s_plasma_01_mk1_macro" read="0"/>
+				<entry id="weapon_gen_s_burst_01_mk2_macro" read="0"/>
+				<entry id="weapon_gen_s_beam_01_mk2_macro" read="0"/>
+				<entry id="weapon_gen_s_laser_01_mk2_macro" read="0"/>
+				<entry id="weapon_gen_s_shotgun_01_mk2_macro" read="0"/>
+				<entry id="weapon_gen_s_plasma_01_mk2_macro" read="0"/>
+				<entry id="weapon_gen_m_gatling_01_mk2_macro" read="0"/>
+				<entry id="weapon_gen_m_mining_01_mk2_macro" read="0"/>
+				<entry id="weapon_arg_l_destroyer_01_mk1_macro" read="0"/>
+				<entry id="weapon_gen_s_laser_01_mk1_macro" read="0"/>
+				<entry id="weapon_gen_s_gatling_01_mk2_macro" read="0"/>
+				<entry id="weapon_gen_m_laser_01_mk2_macro" read="0"/>
+				<entry id="weapon_par_m_railgun_01_mk2_macro" read="0"/>
+				<entry id="weapon_gen_s_cannon_01_mk1_macro" read="0"/>
+				<entry id="weapon_gen_m_shotgun_01_mk1_macro" read="0"/>
+				<entry id="weapon_bor_l_beam_01_mk1_macro" read="0"/>
+				<entry id="weapon_bor_s_gatling_01_mk1_macro" read="0"/>
+				<entry id="weapon_bor_m_flak_01_mk1_macro" read="0"/>
+				<entry id="weapon_bor_s_laser_01_mk1_macro" read="0"/>
+				<entry id="weapon_bor_m_railgun_01_mk1_macro" read="0"/>
+				<entry id="weapon_bor_s_mining_01_mk1_macro" read="0"/>
+				<entry id="weapon_ter_s_gatling_01_mk2_macro" read="0"/>
+				<entry id="weapon_ter_l_destroyer_01_mk1_macro" read="0"/>
+				<entry id="weapon_ter_m_beam_01_mk2_macro" read="0"/>
+				<entry id="weapon_ter_m_gatling_01_mk2_macro" read="0"/>
+				<entry id="weapon_spl_s_gatling_01_mk2_macro" read="0"/>
+				<entry id="weapon_gen_s_cannon_01_mk2_macro" read="0"/>
+				<entry id="weapon_arg_s_ion_01_mk2_macro" read="0"/>
+				<entry id="weapon_spl_m_shotgun_01_mk2_macro" read="0"/>
+				<entry id="weapon_spl_m_railgun_01_mk2_macro" read="0"/>
+				<entry id="weapon_ter_s_laser_01_mk2_macro" read="0"/>
+				<entry id="weapon_par_s_railgun_01_mk1_macro" read="0"/>
+				<entry id="weapon_arg_m_ion_01_mk2_macro" read="0"/>
+				<entry id="weapon_spl_m_gatling_01_mk2_macro" read="0"/>
+				<entry id="weapon_gen_s_shotgun_01_mk1_macro" read="0"/>
+				<entry id="weapon_spl_l_destroyer_01_mk1_macro" read="0"/>
+				<entry id="weapon_par_l_destroyer_01_mk1_macro" read="0"/>
+				<entry id="weapon_xen_m_mining_01_mk1_macro" read="0"/>
+				<entry id="weapon_xen_s_laser_01_mk1_macro" read="0"/>
+				<entry id="weapon_xen_m_laser_01_mk1_macro" read="0"/>
+				<entry id="weapon_kha_s_laser_01_mk1_macro" read="0"/>
+				<entry id="weapon_kha_m_laser_01_mk1_macro" read="0"/>
+				<entry id="weapon_gen_m_shotgun_01_mk2_macro" read="0"/>
+				<entry id="weapon_gen_m_gatling_01_mk1_macro" read="0"/>
+				<entry id="weapon_gen_m_laser_01_mk1_macro" read="0"/>
+				<entry id="weapon_gen_s_burst_01_mk1_macro" read="0"/>
+				<entry id="weapon_spl_m_sticky_01_mk1_macro" read="0"/>
+				<entry id="weapon_spl_s_sticky_01_mk2_macro" read="0"/>
+				<entry id="weapon_spl_s_shotgun_01_mk2_macro" read="0"/>
+				<entry id="weapon_spl_m_sticky_01_mk2_macro" read="0"/>
+				<entry id="weapon_spl_s_gatling_01_mk1_macro" read="0"/>
+				<entry id="weapon_gen_m_beam_01_mk2_macro" read="0"/>
+				<entry id="weapon_gen_s_gatling_01_mk1_macro" read="0"/>
+				<entry id="weapon_spl_s_shotgun_01_mk1_macro" read="0"/>
+				<entry id="weapon_gen_m_mining_01_mk1_macro" read="0"/>
+				<entry id="weapon_gen_s_mining_01_mk1_macro" read="0"/>
+				<entry id="weapon_spl_s_sticky_01_mk1_macro" read="0"/>
+				<entry id="weapon_spl_s_railgun_01_mk2_macro" read="0"/>
+				<entry id="weapon_spl_m_gatling_01_mk1_macro" read="0"/>
+				<entry id="weapon_spl_m_shotgun_01_mk1_macro" read="0"/>
+				<entry id="weapon_par_s_railgun_01_mk2_macro" read="0"/>
+				<entry id="weapon_spl_m_railgun_01_mk1_macro" read="0"/>
+				<entry id="weapon_bor_s_arc_01_mk1_macro" read="0"/>
+				<entry id="weapon_gen_s_mining_01_mk2_macro" read="0"/>
+				<entry id="weapon_ter_s_gatling_01_mk1_macro" read="0"/>
+				<entry id="weapon_ter_s_beam_01_mk1_macro" read="0"/>
+				<entry id="weapon_ter_s_laser_01_mk1_macro" read="0"/>
+				<entry id="weapon_gen_m_plasma_01_mk1_macro" read="0"/>
+				<entry id="weapon_spl_s_railgun_01_mk1_macro" read="0"/>
+				<entry id="weapon_arg_m_ion_01_mk1_macro" read="0"/>
+				<entry id="weapon_ter_m_gatling_01_mk1_macro" read="0"/>
+				<entry id="weapon_ter_m_beam_01_mk1_macro" read="0"/>
+				<entry id="weapon_gen_m_yacht_01_mk1_macro" read="0"/>
+				<entry id="weapon_ter_s_beam_01_mk2_macro" read="0"/>
+				<entry id="weapon_ter_m_laser_01_mk1_macro" read="0"/>
+				<entry id="weapon_atf_xl_battleship_01_mk1_macro" read="0"/>
+				<entry id="weapon_tel_m_charge_01_mk1_macro" read="0"/>
+				<entry id="weapon_tel_m_charge_01_mk2_macro" read="0"/>
+				<entry id="weapon_par_m_railgun_01_mk1_macro" read="0"/>
+				<entry id="weapon_gen_m_beam_01_mk1_macro" read="0"/>
+				<entry id="weapon_bor_m_laser_01_mk1_macro" read="0"/>
+				<entry id="weapon_bor_m_mining_01_mk1_macro" read="0"/>
+			</entries>
+			<entries type="weapons_missilelaunchers">
+				<entry id="weapon_gen_s_guided_01_mk1_macro" read="0"/>
+				<entry id="weapon_gen_s_dumbfire_01_mk2_macro" read="0"/>
+				<entry id="weapon_gen_m_torpedo_01_mk2_macro" read="0"/>
+				<entry id="weapon_gen_m_guided_01_mk2_macro" read="0"/>
+				<entry id="weapon_bor_s_guided_01_mk1_macro" read="0"/>
+				<entry id="weapon_bor_m_torpedo_01_mk1_macro" read="0"/>
+				<entry id="weapon_gen_s_guided_01_mk2_macro" read="0"/>
+				<entry id="weapon_gen_s_torpedo_01_mk2_macro" read="0"/>
+				<entry id="weapon_gen_m_guided_01_mk1_macro" read="0"/>
+				<entry id="weapon_gen_m_torpedo_01_mk1_macro" read="0"/>
+				<entry id="weapon_gen_m_dumbfire_01_mk2_macro" read="0"/>
+				<entry id="weapon_gen_s_torpedo_01_mk1_macro" read="0"/>
+				<entry id="weapon_bor_m_guided_01_mk1_macro" read="0"/>
+				<entry id="weapon_gen_s_dumbfire_01_mk1_macro" read="0"/>
+				<entry id="weapon_gen_m_dumbfire_01_mk1_macro" read="0"/>
+				<entry id="weapon_bor_s_torpedo_01_mk1_macro" read="0"/>
+				<entry id="weapon_bor_s_dumbfire_01_mk1_macro" read="0"/>
+				<entry id="weapon_bor_m_dumbfire_01_mk1_macro" read="0"/>
+			</entries>
+			<entries type="weapons_turrets">
+				<entry id="turret_par_m_shotgun_02_mk1_macro" read="0"/>
+				<entry id="turret_tel_l_beam_01_mk1_macro" read="0"/>
+				<entry id="turret_tel_m_shotgun_02_mk1_macro" read="0"/>
+				<entry id="turret_par_l_beam_01_mk1_macro" read="0"/>
+				<entry id="turret_tel_m_beam_02_mk1_macro" read="0"/>
+				<entry id="turret_tel_l_laser_01_mk1_macro" read="0"/>
+				<entry id="turret_par_m_plasma_02_mk1_macro" read="0"/>
+				<entry id="turret_tel_m_laser_02_mk1_macro" read="0"/>
+				<entry id="turret_arg_m_beam_02_mk1_macro" read="0"/>
+				<entry id="turret_tel_m_gatling_01_mk1_macro" read="0"/>
+				<entry id="turret_tel_m_laser_01_mk1_macro" read="0"/>
+				<entry id="turret_arg_m_laser_01_mk1_macro" read="0"/>
+				<entry id="turret_arg_m_plasma_02_mk1_macro" read="0"/>
+				<entry id="turret_arg_m_shotgun_01_mk1_macro" read="0"/>
+				<entry id="turret_arg_m_beam_01_mk1_macro" read="0"/>
+				<entry id="turret_arg_m_mining_01_mk1_macro" read="0"/>
+				<entry id="turret_arg_m_gatling_01_mk1_macro" read="0"/>
+				<entry id="turret_arg_l_plasma_01_mk1_macro" read="0"/>
+				<entry id="turret_arg_l_laser_01_mk1_macro" read="0"/>
+				<entry id="turret_arg_m_gatling_02_mk1_macro" read="0"/>
+				<entry id="turret_xen_m_laser_02_mk1_macro" read="0"/>
+				<entry id="turret_xen_l_laser_01_mk1_macro" read="0"/>
+				<entry id="turret_par_m_laser_01_mk1_macro" read="0"/>
+				<entry id="turret_par_m_shotgun_01_mk1_macro" read="0"/>
+				<entry id="turret_bor_l_flak_01_mk1_macro" read="0"/>
+				<entry id="turret_bor_m_arc_01_mk1_macro" read="0"/>
+				<entry id="turret_arg_m_shotgun_02_mk1_macro" read="0"/>
+				<entry id="turret_bor_m_railgun_01_mk1_macro" read="0"/>
+				<entry id="turret_bor_m_laser_02_mk1_macro" read="0"/>
+				<entry id="turret_bor_m_railgun_02_mk1_macro" read="0"/>
+				<entry id="turret_ter_m_gatling_02_mk1_macro" read="0"/>
+				<entry id="turret_ter_m_gatling_01_mk1_macro" read="0"/>
+				<entry id="turret_ter_m_laser_02_mk1_macro" read="0"/>
+				<entry id="turret_ter_l_beam_01_mk1_macro" read="0"/>
+				<entry id="turret_arg_m_mining_02_mk1_macro" read="0"/>
+				<entry id="turret_arg_l_mining_01_mk1_macro" read="0"/>
+				<entry id="turret_ter_m_beam_02_mk1_macro" read="0"/>
+				<entry id="turret_tel_m_mining_02_mk1_macro" read="0"/>
+				<entry id="turret_bor_m_laser_01_mk1_macro" read="0"/>
+				<entry id="turret_ter_l_laser_01_mk1_macro" read="0"/>
+				<entry id="turret_bor_m_arc_02_mk1_macro" read="0"/>
+				<entry id="turret_arg_m_flak_02_mk1_macro" read="0"/>
+				<entry id="turret_ter_m_beam_01_mk1_macro" read="0"/>
+				<entry id="turret_tel_m_gatling_02_mk1_macro" read="0"/>
+				<entry id="turret_tel_l_plasma_01_mk1_macro" read="0"/>
+				<entry id="turret_ter_m_laser_01_mk1_macro" read="0"/>
+				<entry id="turret_par_l_mining_01_mk1_macro" read="0"/>
+				<entry id="turret_spl_m_beam_02_mk1_macro" read="0"/>
+				<entry id="turret_spl_m_plasma_02_mk1_macro" read="0"/>
+				<entry id="turret_par_m_beam_02_mk1_macro" read="0"/>
+				<entry id="turret_ter_m_mining_01_mk1_macro" read="0"/>
+				<entry id="turret_spl_m_mining_01_mk1_macro" read="0"/>
+				<entry id="turret_spl_m_flak_02_mk1_macro" read="0"/>
+				<entry id="turret_tel_m_plasma_02_mk1_macro" read="0"/>
+				<entry id="turret_spl_m_gatling_02_mk1_macro" read="0"/>
+				<entry id="turret_spl_l_plasma_01_mk1_macro" read="0"/>
+				<entry id="turret_spl_m_laser_02_mk1_macro" read="0"/>
+				<entry id="turret_arg_m_plasma_01_mk1_macro" read="0"/>
+				<entry id="turret_spl_l_beam_01_mk1_macro" read="0"/>
+				<entry id="turret_spl_l_laser_01_mk1_macro" read="0"/>
+				<entry id="turret_par_l_plasma_01_mk1_macro" read="0"/>
+				<entry id="turret_par_l_laser_01_mk1_macro" read="0"/>
+				<entry id="turret_par_m_gatling_02_mk1_macro" read="0"/>
+				<entry id="turret_arg_l_beam_01_mk1_macro" read="0"/>
+				<entry id="turret_arg_m_laser_02_mk1_macro" read="0"/>
+				<entry id="turret_arg_m_flak_01_mk1_macro" read="0"/>
+				<entry id="turret_par_m_laser_02_mk1_macro" read="0"/>
+				<entry id="turret_par_m_gatling_01_mk1_macro" read="0"/>
+				<entry id="turret_xen_m_laser_01_mk1_macro" read="0"/>
+				<entry id="turret_ter_l_gatling_01_mk1_macro" read="0"/>
+				<entry id="turret_tel_m_shotgun_01_mk1_macro" read="0"/>
+				<entry id="turret_spl_m_plasma_01_mk1_macro" read="0"/>
+				<entry id="turret_spl_m_gatling_01_mk1_macro" read="0"/>
+				<entry id="turret_spl_m_shotgun_02_mk1_macro" read="0"/>
+				<entry id="turret_spl_m_laser_01_mk1_macro" read="0"/>
+				<entry id="turret_spl_m_shotgun_01_mk1_macro" read="0"/>
+				<entry id="turret_par_m_plasma_01_mk1_macro" read="0"/>
+				<entry id="turret_tel_m_beam_01_mk1_macro" read="0"/>
+				<entry id="turret_spl_l_mining_01_mk1_macro" read="0"/>
+				<entry id="turret_tel_m_mining_01_mk1_macro" read="0"/>
+				<entry id="turret_spl_m_mining_02_mk1_macro" read="0"/>
+				<entry id="turret_ter_m_mining_02_mk1_macro" read="0"/>
+				<entry id="turret_tel_l_mining_01_mk1_macro" read="0"/>
+				<entry id="turret_bor_m_mining_02_mk1_macro" read="0"/>
+				<entry id="turret_spl_m_beam_01_mk1_macro" read="0"/>
+				<entry id="turret_par_m_mining_01_mk1_macro" read="0"/>
+				<entry id="turret_tel_m_plasma_01_mk1_macro" read="0"/>
+				<entry id="turret_gen_m_scrapbeam_01_mk1_macro" read="0"/>
+				<entry id="turret_ter_l_mining_01_mk1_macro" read="0"/>
+				<entry id="turret_par_m_mining_02_mk1_macro" read="0"/>
+				<entry id="turret_spl_m_flak_01_mk1_macro" read="0"/>
+				<entry id="turret_par_m_beam_01_mk1_macro" read="0"/>
+				<entry id="turret_gen_m_yacht_01_mk1_macro" read="0"/>
+				<entry id="turret_bor_l_mining_01_mk1_macro" read="0"/>
+				<entry id="turret_bor_l_laser_01_mk1_macro" read="0"/>
+				<entry id="turret_bor_m_mining_01_mk1_macro" read="0"/>
+				<entry id="turret_bor_l_disruptor_01_mk1_macro" read="0"/>
+			</entries>
+			<entries type="weapons_missileturrets">
+				<entry id="turret_par_m_guided_02_mk1_macro" read="0"/>
+				<entry id="turret_tel_m_guided_02_mk1_macro" read="0"/>
+				<entry id="turret_arg_m_guided_02_mk1_macro" read="0"/>
+				<entry id="turret_bor_m_guided_01_mk1_macro" read="0"/>
+				<entry id="turret_spl_l_guided_01_mk1_macro" read="0"/>
+				<entry id="turret_spl_m_guided_02_mk1_macro" read="0"/>
+				<entry id="turret_spl_l_dumbfire_01_mk1_macro" read="0"/>
+				<entry id="turret_par_m_dumbfire_02_mk1_macro" read="0"/>
+				<entry id="turret_par_l_guided_01_mk1_macro" read="0"/>
+				<entry id="turret_spl_m_dumbfire_02_mk1_macro" read="0"/>
+				<entry id="turret_tel_l_dumbfire_01_mk1_macro" read="0"/>
+				<entry id="turret_tel_m_dumbfire_02_mk1_macro" read="0"/>
+				<entry id="turret_tel_l_guided_01_mk1_macro" read="0"/>
+				<entry id="turret_par_l_dumbfire_01_mk1_macro" read="0"/>
+				<entry id="turret_arg_l_dumbfire_01_mk1_macro" read="0"/>
+				<entry id="turret_ter_m_guided_02_mk1_macro" read="0"/>
+				<entry id="turret_ter_m_dumbfire_02_mk1_macro" read="0"/>
+				<entry id="turret_arg_l_guided_01_mk1_macro" read="0"/>
+				<entry id="turret_arg_m_dumbfire_02_mk1_macro" read="0"/>
+				<entry id="turret_ter_l_guided_01_mk1_macro" read="0"/>
+				<entry id="turret_ter_l_dumbfire_01_mk1_macro" read="0"/>
+				<entry id="turret_bor_m_dumbfire_01_mk1_macro" read="0"/>
+			</entries>
+			<entries type="shieldgentypes">
+				<entry id="shield_tel_l_standard_01_mk2_macro" read="0"/>
+				<entry id="shield_tel_m_standard_02_mk1_macro" read="0"/>
+				<entry id="shield_arg_m_standard_02_mk1_macro" read="0"/>
+				<entry id="shield_arg_l_standard_01_mk1_macro" read="0"/>
+				<entry id="shield_tel_m_standard_01_mk1_macro" read="0"/>
+				<entry id="shield_arg_m_standard_01_mk1_macro" read="0"/>
+				<entry id="shield_arg_s_standard_01_mk3_macro" read="0"/>
+				<entry id="shield_arg_s_standard_01_mk1_macro" read="0"/>
+				<entry id="shield_par_s_standard_01_mk2_macro" read="0"/>
+				<entry id="shield_arg_s_standard_01_mk2_macro" read="0"/>
+				<entry id="shield_arg_m_standard_02_mk2_macro" read="0"/>
+				<entry id="shield_arg_xl_standard_01_mk1_macro" read="0"/>
+				<entry id="shield_arg_m_standard_01_mk2_macro" read="0"/>
+				<entry id="shield_arg_l_standard_01_mk2_macro" read="0"/>
+				<entry id="shield_tel_s_standard_01_mk3_macro" read="0"/>
+				<entry id="shield_xen_xl_standard_01_mk1_macro" read="0"/>
+				<entry id="shield_xen_m_standard_02_mk1_macro" read="0"/>
+				<entry id="shield_tel_m_standard_01_mk2_macro" read="0"/>
+				<entry id="shield_par_m_standard_01_mk2_macro" read="0"/>
+				<entry id="shield_bor_l_standard_01_mk3_macro" read="0"/>
+				<entry id="shield_par_m_standard_01_mk1_macro" read="0"/>
+				<entry id="shield_bor_s_standard_01_mk2_macro" read="0"/>
+				<entry id="shield_bor_m_standard_01_mk1_macro" read="0"/>
+				<entry id="shield_bor_l_standard_01_mk1_macro" read="0"/>
+				<entry id="shield_bor_s_standard_01_mk1_macro" read="0"/>
+				<entry id="shield_bor_s_standard_01_mk3_macro" read="0"/>
+				<entry id="shield_bor_m_standard_02_mk1_macro" read="0"/>
+				<entry id="shield_par_s_standard_01_mk1_macro" read="0"/>
+				<entry id="shield_bor_m_standard_01_mk3_macro" read="0"/>
+				<entry id="shield_ter_s_standard_01_mk2_macro" read="0"/>
+				<entry id="shield_ter_xl_standard_01_mk2_macro" read="0"/>
+				<entry id="shield_ter_m_standard_02_mk1_macro" read="0"/>
+				<entry id="shield_ter_m_standard_02_mk2_macro" read="0"/>
+				<entry id="shield_ter_s_standard_01_mk3_macro" read="0"/>
+				<entry id="shield_ter_m_standard_01_mk3_macro" read="0"/>
+				<entry id="shield_ter_l_standard_01_mk3_macro"/>
+				<entry id="shield_bor_m_standard_02_mk3_macro" read="0"/>
+				<entry id="shield_ter_m_standard_02_mk3_macro" read="0"/>
+				<entry id="shield_bor_xl_standard_01_mk2_macro" read="0"/>
+				<entry id="shield_spl_m_standard_02_mk1_macro" read="0"/>
+				<entry id="shield_spl_l_standard_01_mk1_macro" read="0"/>
+				<entry id="shield_par_s_standard_01_mk3_macro" read="0"/>
+				<entry id="shield_spl_s_standard_01_mk3_macro" read="0"/>
+				<entry id="shield_spl_xl_standard_01_mk1_macro" read="0"/>
+				<entry id="shield_tel_s_standard_01_mk1_macro" read="0"/>
+				<entry id="shield_spl_m_standard_01_mk2_macro" read="0"/>
+				<entry id="shield_spl_m_standard_02_mk2_macro" read="0"/>
+				<entry id="shield_spl_l_standard_01_mk2_macro" read="0"/>
+				<entry id="shield_par_m_standard_02_mk2_macro" read="0"/>
+				<entry id="shield_tel_xl_standard_01_mk1_macro" read="0"/>
+				<entry id="shield_tel_m_standard_02_mk2_macro" read="0"/>
+				<entry id="shield_par_l_standard_01_mk2_macro" read="0"/>
+				<entry id="shield_xen_s_standard_01_mk2_macro" read="0"/>
+				<entry id="shield_xen_m_standard_01_mk1_macro" read="0"/>
+				<entry id="shield_xen_s_standard_01_mk1_macro" read="0"/>
+				<entry id="shield_kha_m_standard_01_mk1_macro" read="0"/>
+				<entry id="shield_kha_s_standard_01_mk1_macro" read="0"/>
+				<entry id="shield_par_m_standard_02_mk1_macro" read="0"/>
+				<entry id="shield_par_l_standard_01_mk1_macro" read="0"/>
+				<entry id="shield_ter_l_standard_01_mk2_macro" read="0"/>
+				<entry id="shield_spl_s_standard_01_mk2_macro" read="0"/>
+				<entry id="shield_spl_s_standard_01_mk1_macro" read="0"/>
+				<entry id="shield_spl_m_standard_01_mk1_macro" read="0"/>
+				<entry id="shield_tel_s_standard_01_mk2_macro" read="0"/>
+				<entry id="shield_par_xl_standard_01_mk1_macro" read="0"/>
+				<entry id="shield_tel_l_standard_01_mk1_macro" read="0"/>
+				<entry id="shield_ter_s_standard_01_mk1_macro" read="0"/>
+				<entry id="shield_ter_xl_standard_01_mk1_macro" read="0"/>
+				<entry id="shield_ter_m_standard_01_mk1_macro" read="0"/>
+				<entry id="shield_ter_m_standard_01_mk2_macro" read="0"/>
+				<entry id="shield_ter_l_standard_01_mk1_macro" read="0"/>
+				<entry id="shield_gen_m_yacht_01_mk1_macro" read="0"/>
+				<entry id="shield_bor_m_standard_02_mk2_macro" read="0"/>
+				<entry id="shield_bor_l_standard_01_mk2_macro" read="0"/>
+				<entry id="shield_bor_m_standard_01_mk2_macro" read="0"/>
+				<entry id="shield_bor_xl_standard_01_mk1_macro" read="0"/>
+			</entries>
+			<entries type="enginetypes">
+				<entry id="engine_tel_l_allround_01_mk1_macro" read="0"/>
+				<entry id="engine_tel_s_allround_01_mk1_macro" read="0"/>
+				<entry id="engine_tel_l_travel_01_mk1_macro" read="0"/>
+				<entry id="engine_ter_m_combat_01_mk3_macro" read="0"/>
+				<entry id="engine_tel_xl_allround_01_mk1_macro" read="0"/>
+				<entry id="engine_tel_s_travel_01_mk1_macro" read="0"/>
+				<entry id="engine_tel_m_combat_01_mk3_macro" read="0"/>
+				<entry id="engine_arg_l_travel_01_mk1_macro" read="0"/>
+				<entry id="engine_tel_s_combat_01_mk1_macro" read="0"/>
+				<entry id="engine_tel_m_travel_01_mk1_macro" read="0"/>
+				<entry id="engine_par_s_travel_01_mk2_macro" read="0"/>
+				<entry id="engine_arg_s_travel_01_mk3_macro" read="0"/>
+				<entry id="engine_arg_m_travel_01_mk1_macro" read="0"/>
+				<entry id="engine_arg_s_allround_01_mk1_macro" read="0"/>
+				<entry id="engine_arg_xl_allround_01_mk1_macro" read="0"/>
+				<entry id="engine_arg_s_combat_01_mk3_macro" read="0"/>
+				<entry id="engine_arg_s_combat_01_mk1_macro" read="0"/>
+				<entry id="engine_arg_m_allround_01_mk3_macro" read="0"/>
+				<entry id="engine_arg_s_travel_01_mk1_macro" read="0"/>
+				<entry id="engine_arg_m_allround_01_mk1_macro" read="0"/>
+				<entry id="engine_arg_m_combat_01_mk1_macro" read="0"/>
+				<entry id="engine_arg_l_allround_01_mk1_macro" read="0"/>
+				<entry id="engine_arg_s_combat_01_mk2_macro" read="0"/>
+				<entry id="engine_arg_s_allround_01_mk3_macro" read="0"/>
+				<entry id="engine_par_m_combat_01_mk3_macro" read="0"/>
+				<entry id="engine_arg_m_combat_01_mk3_macro" read="0"/>
+				<entry id="engine_par_s_combat_01_mk3_macro" read="0"/>
+				<entry id="engine_xen_xl_allround_01_mk1_macro" read="0"/>
+				<entry id="engine_par_s_travel_01_mk1_macro" read="0"/>
+				<entry id="engine_par_s_combat_01_mk1_macro" read="0"/>
+				<entry id="engine_par_m_travel_01_mk1_macro" read="0"/>
+				<entry id="engine_par_s_allround_01_mk1_macro" read="0"/>
+				<entry id="engine_bor_s_allround_01_mk2_macro" read="0"/>
+				<entry id="engine_arg_xl_travel_01_mk1_macro" read="0"/>
+				<entry id="engine_bor_s_allround_01_mk1_macro" read="0"/>
+				<entry id="engine_bor_m_allround_01_mk1_macro" read="0"/>
+				<entry id="engine_bor_s_allround_01_mk3_macro" read="0"/>
+				<entry id="engine_bor_l_travel_01_mk1_macro" read="0"/>
+				<entry id="engine_bor_m_allround_01_mk3_macro" read="0"/>
+				<entry id="engine_ter_xl_travel_01_mk1_macro" read="0"/>
+				<entry id="engine_ter_s_combat_01_mk2_macro" read="0"/>
+				<entry id="engine_ter_l_allround_01_mk1_macro" read="0"/>
+				<entry id="engine_ter_s_combat_01_mk3_macro" read="0"/>
+				<entry id="engine_ter_m_allround_01_mk1_macro" read="0"/>
+				<entry id="engine_spl_m_combat_01_mk4_macro" read="0"/>
+				<entry id="engine_bor_xl_travel_01_mk1_macro" read="0"/>
+				<entry id="engine_ter_l_travel_01_mk1_macro" read="0"/>
+				<entry id="engine_spl_l_allround_01_mk1_macro" read="0"/>
+				<entry id="engine_arg_m_travel_01_mk3_macro" read="0"/>
+				<entry id="engine_spl_s_combat_01_mk4_macro" read="0"/>
+				<entry id="engine_spl_m_travel_01_mk3_macro" read="0"/>
+				<entry id="engine_ter_m_travel_01_mk3_macro" read="0"/>
+				<entry id="engine_ter_m_allround_01_mk2_macro" read="0"/>
+				<entry id="engine_arg_m_travel_01_mk2_macro" read="0"/>
+				<entry id="engine_ter_m_allround_01_mk3_macro" read="0"/>
+				<entry id="engine_spl_l_travel_01_mk1_macro" read="0"/>
+				<entry id="engine_spl_s_combat_01_mk3_macro" read="0"/>
+				<entry id="engine_tel_xl_travel_01_mk1_macro" read="0"/>
+				<entry id="engine_spl_xl_travel_01_mk1_macro" read="0"/>
+				<entry id="engine_ter_m_travel_01_mk1_macro" read="0"/>
+				<entry id="engine_ter_s_travel_01_mk1_macro" read="0"/>
+				<entry id="engine_tel_s_combat_01_mk2_macro" read="0"/>
+				<entry id="engine_tel_s_combat_01_mk3_macro" read="0"/>
+				<entry id="engine_par_l_allround_01_mk1_macro" read="0"/>
+				<entry id="engine_par_l_travel_01_mk1_macro" read="0"/>
+				<entry id="engine_xen_m_travel_01_mk1_macro" read="0"/>
+				<entry id="engine_xen_s_combat_01_mk1_macro" read="0"/>
+				<entry id="engine_xen_m_combat_01_mk1_macro" read="0"/>
+				<entry id="engine_kha_m_combat_01_mk1_macro" read="0"/>
+				<entry id="engine_kha_s_combat_01_mk1_macro" read="0"/>
+				<entry id="engine_kha_m_combat_02_mk1_macro" read="0"/>
+				<entry id="engine_arg_m_combat_01_mk2_macro" read="0"/>
+				<entry id="engine_par_m_combat_01_mk2_macro" read="0"/>
+				<entry id="engine_par_m_combat_01_mk1_macro" read="0"/>
+				<entry id="engine_spl_m_combat_01_mk3_macro" read="0"/>
+				<entry id="engine_par_s_combat_01_mk2_macro" read="0"/>
+				<entry id="engine_arg_s_allround_01_mk2_macro" read="0"/>
+				<entry id="engine_tel_m_combat_01_mk1_macro" read="0"/>
+				<entry id="engine_spl_s_combat_01_mk1_macro" read="0"/>
+				<entry id="engine_par_m_travel_01_mk2_macro" read="0"/>
+				<entry id="engine_spl_s_allround_01_mk3_macro" read="0"/>
+				<entry id="engine_spl_s_travel_01_mk2_macro" read="0"/>
+				<entry id="engine_arg_s_travel_01_mk2_macro" read="0"/>
+				<entry id="engine_tel_m_combat_01_mk2_macro" read="0"/>
+				<entry id="engine_tel_m_allround_01_mk2_macro" read="0"/>
+				<entry id="engine_spl_s_allround_01_mk1_macro" read="0"/>
+				<entry id="engine_spl_m_allround_01_mk2_macro" read="0"/>
+				<entry id="engine_par_s_travel_01_mk3_macro" read="0"/>
+				<entry id="engine_par_s_allround_01_mk3_macro" read="0"/>
+				<entry id="engine_spl_m_combat_01_mk2_macro" read="0"/>
+				<entry id="engine_spl_s_combat_01_mk2_macro" read="0"/>
+				<entry id="engine_tel_s_allround_01_mk2_macro" read="0"/>
+				<entry id="engine_par_s_allround_01_mk2_macro" read="0"/>
+				<entry id="engine_spl_m_travel_01_mk2_macro" read="0"/>
+				<entry id="engine_spl_s_allround_01_mk2_macro" read="0"/>
+				<entry id="engine_tel_m_allround_01_mk1_macro" read="0"/>
+				<entry id="engine_spl_s_travel_01_mk3_macro" read="0"/>
+				<entry id="engine_arg_m_allround_01_mk2_macro" read="0"/>
+				<entry id="engine_par_xl_travel_01_mk1_macro" read="0"/>
+				<entry id="engine_spl_m_combat_01_mk1_macro" read="0"/>
+				<entry id="engine_spl_s_travel_01_mk1_macro" read="0"/>
+				<entry id="engine_spl_m_travel_01_mk1_macro" read="0"/>
+				<entry id="engine_par_m_allround_01_mk2_macro" read="0"/>
+				<entry id="engine_tel_s_allround_01_mk3_macro" read="0"/>
+				<entry id="engine_tel_s_travel_01_mk2_macro" read="0"/>
+				<entry id="engine_par_m_travel_01_mk3_macro" read="0"/>
+				<entry id="engine_tel_m_allround_01_mk3_macro" read="0"/>
+				<entry id="engine_tel_s_travel_01_mk3_macro" read="0"/>
+				<entry id="engine_spl_m_allround_01_mk1_macro" read="0"/>
+				<entry id="engine_par_m_allround_01_mk1_macro" read="0"/>
+				<entry id="engine_ter_s_travel_01_mk2_macro" read="0"/>
+				<entry id="engine_ter_s_combat_01_mk1_macro" read="0"/>
+				<entry id="engine_ter_s_travel_01_mk3_macro" read="0"/>
+				<entry id="engine_ter_s_allround_01_mk1_macro" read="0"/>
+				<entry id="engine_ter_s_allround_01_mk2_macro" read="0"/>
+				<entry id="engine_par_xl_allround_01_mk1_macro" read="0"/>
+				<entry id="engine_tel_m_travel_01_mk2_macro" read="0"/>
+				<entry id="engine_spl_m_allround_01_mk3_macro" read="0"/>
+				<entry id="engine_tel_m_travel_01_mk3_macro" read="0"/>
+				<entry id="engine_ter_m_combat_01_mk2_macro" read="0"/>
+				<entry id="engine_par_m_allround_01_mk3_macro" read="0"/>
+				<entry id="engine_ter_m_combat_01_mk1_macro" read="0"/>
+				<entry id="engine_ter_xl_allround_01_mk1_macro" read="0"/>
+				<entry id="engine_ter_m_travel_01_mk2_macro" read="0"/>
+				<entry id="engine_gen_m_yacht_01_mk1_macro" read="0"/>
+				<entry id="engine_ter_s_allround_01_mk3_macro" read="0"/>
+				<entry id="engine_spl_xl_allround_01_mk1_macro" read="0"/>
+				<entry id="engine_bor_m_allround_01_mk2_macro" read="0"/>
+			</entries>
+			<entries type="thrustertypes">
+				<entry id="thruster_gen_s_allround_01_mk2_macro" read="0"/>
+				<entry id="thruster_gen_m_allround_01_mk1_macro" read="0"/>
+				<entry id="thruster_gen_s_allround_01_mk1_macro" read="0"/>
+				<entry id="thruster_gen_xl_allround_01_mk1_macro" read="0"/>
+				<entry id="thruster_gen_s_combat_01_mk2_macro" read="0"/>
+				<entry id="thruster_gen_s_combat_01_mk3_macro" read="0"/>
+				<entry id="thruster_gen_s_combat_01_mk1_macro" read="0"/>
+				<entry id="thruster_gen_s_allround_01_mk3_macro" read="0"/>
+				<entry id="thruster_gen_m_combat_01_mk1_macro" read="0"/>
+				<entry id="thruster_gen_xl_allround_01_mk3_macro" read="0"/>
+				<entry id="thruster_gen_m_combat_01_mk3_macro" read="0"/>
+				<entry id="thruster_gen_l_allround_01_mk3_macro" read="0"/>
+				<entry id="thruster_gen_l_allround_01_mk2_macro" read="0"/>
+				<entry id="thruster_gen_m_allround_01_mk2_macro" read="0"/>
+				<entry id="thruster_gen_xl_allround_01_mk2_macro" read="0"/>
+				<entry id="thruster_gen_l_allround_01_mk1_macro" read="0"/>
+				<entry id="thruster_gen_m_allround_01_mk3_macro" read="0"/>
+				<entry id="thruster_gen_m_combat_01_mk2_macro" read="0"/>
+			</entries>
+			<entries type="missiletypes">
+				<entry id="missile_guided_light_mk1_macro" read="0"/>
+				<entry id="missile_dumbfire_light_mk2_macro" read="0"/>
+				<entry id="missile_smart_heavy_mk1_macro" read="0"/>
+				<entry id="missile_torpedo_heavy_mk1_macro" read="0"/>
+				<entry id="missile_dumbfire_light_mk1_macro" read="0"/>
+				<entry id="missile_dumbfire_heavy_mk2_macro" read="0"/>
+				<entry id="missile_cluster_heavy_mk1_macro" read="0"/>
+				<entry id="missile_heatseeker_heavy_mk1_macro" read="0"/>
+				<entry id="missile_guided_heavy_mk1_macro" read="0"/>
+				<entry id="missile_swarm_heavy_mk1_macro" read="0"/>
+				<entry id="missile_torpedo_light_mk1_macro" read="0"/>
+				<entry id="missile_swarm_light_mk1_macro" read="0"/>
+				<entry id="missile_dumbfire_heavy_mk1_macro" read="0"/>
+				<entry id="missile_heatseeker_light_mk1_macro" read="0"/>
+				<entry id="missile_starburst_heavy_mk1_macro" read="0"/>
+				<entry id="missile_smart_light_mk1_macro" read="0"/>
+				<entry id="missile_disruptor_light_mk1_macro" read="0"/>
+				<entry id="missile_interceptor_light_mk1_macro" read="0"/>
+				<entry id="missile_cluster_light_mk1_macro" read="0"/>
+				<entry id="missile_scatter_heavy_mk1_macro" read="0"/>
+				<entry id="missile_emp_mk1_macro" read="0"/>
+			</entries>
+			<entries type="wares">
+				<entry id="advancedcomposites" read="0"/>
+				<entry id="advancedelectronics" read="0"/>
+				<entry id="antimattercells" read="0"/>
+				<entry id="antimatterconverters" read="0"/>
+				<entry id="claytronics" read="0"/>
+				<entry id="dronecomponents" read="0"/>
+				<entry id="energycells" read="0"/>
+				<entry id="engineparts" read="0"/>
+				<entry id="fieldcoils" read="0"/>
+				<entry id="foodrations" read="0"/>
+				<entry id="graphene" read="0"/>
+				<entry id="helium" read="0"/>
+				<entry id="hullparts" read="0"/>
+				<entry id="hydrogen" read="0"/>
+				<entry id="ice" read="0"/>
+				<entry id="majadust" read="0"/>
+				<entry id="majasnails" read="0"/>
+				<entry id="meat" read="0"/>
+				<entry id="medicalsupplies" read="0"/>
+				<entry id="methane" read="0"/>
+				<entry id="microchips" read="0"/>
+				<entry id="missilecomponents" read="0"/>
+				<entry id="nividium" read="0"/>
+				<entry id="nostropoil" read="0"/>
+				<entry id="ore" read="0"/>
+				<entry id="plasmaconductors" read="0"/>
+				<entry id="quantumtubes" read="0"/>
+				<entry id="rawscrap" read="0"/>
+				<entry id="refinedmetals" read="0"/>
+				<entry id="scanningarrays" read="0"/>
+				<entry id="scrapmetal" read="0"/>
+				<entry id="shieldcomponents" read="0"/>
+				<entry id="silicon" read="0"/>
+				<entry id="siliconwafers" read="0"/>
+				<entry id="smartchips" read="0"/>
+				<entry id="sojabeans" read="0"/>
+				<entry id="sojahusk" read="0"/>
+				<entry id="spacefuel" read="0"/>
+				<entry id="spaceweed" read="0"/>
+				<entry id="spices" read="0"/>
+				<entry id="sunriseflowers" read="0"/>
+				<entry id="superfluidcoolant" read="0"/>
+				<entry id="swampplant" read="0"/>
+				<entry id="teladianium" read="0"/>
+				<entry id="turretcomponents" read="0"/>
+				<entry id="water" read="0"/>
+				<entry id="weaponcomponents" read="0"/>
+				<entry id="wheat" read="0"/>
+				<entry id="cheltmeat" read="0"/>
+				<entry id="scruffinfruits" read="0"/>
+				<entry id="computronicsubstrate" read="0"/>
+				<entry id="metallicmicrolattice" read="0"/>
+				<entry id="proteinpaste" read="0"/>
+				<entry id="siliconcarbide" read="0"/>
+				<entry id="stimulants" read="0"/>
+				<entry id="terranmre" read="0"/>
+				<entry id="condensate" read="0"/>
+				<entry id="bofu" read="0"/>
+				<entry id="bogas" read="0"/>
+				<entry id="plankton" read="0"/>
+			</entries>
+			<entries type="productionmethods">
+				<entry id="inv_spaceflycaviar.default" read="0"/>
+				<entry id="inv_timewarp.default" read="0"/>
+				<entry id="inv_securitybypasssystem.default" read="0"/>
+				<entry id="inv_securitydecryptionsystem.default" read="0"/>
+				<entry id="inv_securityslicer.default" read="0"/>
+				<entry id="inv_electronics.default" read="0"/>
+				<entry id="inv_harddrug_01.default" read="0"/>
+				<entry id="inv_firstaidkit.default" read="0"/>
+				<entry id="inv_finemeal.default" read="0"/>
+				<entry id="bomb_player_limpet_emp_01_mk1.default" read="0"/>
+				<entry id="bomb_player_limpet_mine_01_mk1.default" read="0"/>
+				<entry id="inv_securityapparatus.default" read="0"/>
+			</entries>
+			<entries type="researchables">
+				<entry id="research_module_defence" read="0"/>
+				<entry id="research_module_dock" read="0"/>
+				<entry id="research_module_habitation" read="0"/>
+				<entry id="research_module_production" read="0"/>
+				<entry id="research_module_storage" read="0"/>
+				<entry id="research_module_welfare_1" read="0"/>
+				<entry id="research_module_welfare_1_pre" read="0"/>
+				<entry id="research_mod_engine_mk1" read="0"/>
+				<entry id="research_mod_engine_mk2" read="0"/>
+				<entry id="research_mod_engine_mk3" read="0"/>
+				<entry id="research_mod_engine_pre" read="0"/>
+				<entry id="research_mod_shield_mk1" read="0"/>
+				<entry id="research_mod_shield_mk2" read="0"/>
+				<entry id="research_mod_shield_mk3" read="0"/>
+				<entry id="research_mod_shield_pre" read="0"/>
+				<entry id="research_mod_ship_mk1" read="0"/>
+				<entry id="research_mod_ship_mk2" read="0"/>
+				<entry id="research_mod_ship_mk3" read="0"/>
+				<entry id="research_mod_ship_pre" read="0"/>
+				<entry id="research_mod_weapon_mk1" read="0"/>
+				<entry id="research_mod_weapon_mk2" read="0"/>
+				<entry id="research_mod_weapon_mk3" read="0"/>
+				<entry id="research_mod_weapon_pre" read="0"/>
+				<entry id="research_teleportation" read="0"/>
+				<entry id="research_teleportation_range_01" read="0"/>
+				<entry id="research_teleportation_range_02" read="0"/>
+				<entry id="research_teleportation_range_03" read="0"/>
+				<entry id="research_warp_hq_01" read="0"/>
+				<entry id="research_warp_hq_02" read="0"/>
+				<entry id="research_tf_tech" read="0"/>
+				<entry id="research_condensate_sample" read="0"/>
+				<entry id="research_condensate_sample_pre" read="0"/>
+			</entries>
+			<entries type="inventory_wares">
+				<entry id="bomb_player_limpet_emp_01_mk1" read="0"/>
+				<entry id="bomb_player_limpet_mine_01_mk1" read="0"/>
+				<entry id="engine_gen_spacesuit_01_mk2" read="0"/>
+				<entry id="inv_advancedtargetingmodule" read="0"/>
+				<entry id="inv_agidevice_01" read="0"/>
+				<entry id="inv_agidevice_02" read="0"/>
+				<entry id="inv_agidevice_03" read="0"/>
+				<entry id="inv_algaescrubber" read="0"/>
+				<entry id="inv_antimatter_injection_sensor" read="0"/>
+				<entry id="inv_argnusteak" read="0"/>
+				<entry id="inv_artificial_paranid_eye" read="0"/>
+				<entry id="inv_bandages" read="0"/>
+				<entry id="inv_bionic_augmentation" read="0"/>
+				<entry id="inv_carbonfilter" read="0"/>
+				<entry id="inv_crystalbit" read="0"/>
+				<entry id="inv_crystal_01" read="0"/>
+				<entry id="inv_crystal_02" read="0"/>
+				<entry id="inv_crystal_03" read="0"/>
+				<entry id="inv_damagedsingularityengine" read="0"/>
+				<entry id="inv_decryptionmodule" read="0"/>
+				<entry id="inv_electronics" read="0"/>
+				<entry id="inv_encrypted_accesskey" read="0"/>
+				<entry id="inv_encrypted_report" read="0"/>
+				<entry id="inv_experimental_medicine" read="0"/>
+				<entry id="inv_finemeal" read="0"/>
+				<entry id="inv_firstaidkit" read="0"/>
+				<entry id="inv_fluxcapacitor" read="0"/>
+				<entry id="inv_hallucinogenics" read="0"/>
+				<entry id="inv_harddrug_01" read="0"/>
+				<entry id="inv_herbicide" read="0"/>
+				<entry id="inv_hydraulicpump" read="0"/>
+				<entry id="inv_interfaceunit" read="0"/>
+				<entry id="inv_kyondevice_03" read="0"/>
+				<entry id="inv_magneticmaterial" read="0"/>
+				<entry id="inv_majaglit" read="0"/>
+				<entry id="inv_microgimble" read="0"/>
+				<entry id="inv_micromotor" read="0"/>
+				<entry id="inv_mixedfruit" read="0"/>
+				<entry id="inv_modulartrigger" read="0"/>
+				<entry id="inv_needle" read="0"/>
+				<entry id="inv_nishala_oceanwater_sample" read="0"/>
+				<entry id="inv_processing_panel_12G" read="0"/>
+				<entry id="inv_processing_panel_19L" read="0"/>
+				<entry id="inv_processing_panel_46B" read="0"/>
+				<entry id="inv_processing_panel_7A" read="0"/>
+				<entry id="inv_processing_panel_8X" read="0"/>
+				<entry id="inv_programmablefieldarray" read="0"/>
+				<entry id="inv_rapidsandfilter" read="0"/>
+				<entry id="inv_rarespices" read="0"/>
+				<entry id="inv_remotedetonator" read="0"/>
+				<entry id="inv_salvagedelectronics" read="0"/>
+				<entry id="inv_securecontainer" read="0"/>
+				<entry id="inv_securitybypasssystem" read="0"/>
+				<entry id="inv_securitydecryptionsystem" read="0"/>
+				<entry id="inv_securityslicer" read="0"/>
+				<entry id="inv_sedative" read="0"/>
+				<entry id="inv_seminar_management_0" read="0"/>
+				<entry id="inv_seminar_management_1" read="0"/>
+				<entry id="inv_seminar_management_2" read="0"/>
+				<entry id="inv_seminar_piloting_0" read="0"/>
+				<entry id="inv_seminar_piloting_1" read="0"/>
+				<entry id="inv_spaceflycaviar" read="0"/>
+				<entry id="inv_spaceflyeggs" read="0"/>
+				<entry id="inv_timewarp" read="0"/>
+				<entry id="inv_unstablecrystal" read="0"/>
+				<entry id="modpart_enginefuelinjector_t1" read="0"/>
+				<entry id="modpart_enginefuelinjector_t2" read="0"/>
+				<entry id="modpart_enginefuelinjector_t3" read="0"/>
+				<entry id="modpart_extendedfuelcontainer" read="0"/>
+				<entry id="modpart_highenergycatalyst" read="0"/>
+				<entry id="modpart_nividiumcrystallite" read="0"/>
+				<entry id="modpart_nividiumoxide" read="0"/>
+				<entry id="modpart_shieldgeneratorcoil_t1" read="0"/>
+				<entry id="modpart_shieldgeneratorcoil_t2" read="0"/>
+				<entry id="modpart_shieldgeneratorcoil_t3" read="0"/>
+				<entry id="modpart_shipnanoweave_t1" read="0"/>
+				<entry id="modpart_shipnanoweave_t2" read="0"/>
+				<entry id="modpart_shipnanoweave_t3" read="0"/>
+				<entry id="modpart_tuningsoftware" read="0"/>
+				<entry id="modpart_weaponchamber_t1" read="0"/>
+				<entry id="modpart_weaponchamber_t2" read="0"/>
+				<entry id="modpart_weaponchamber_t3" read="0"/>
+				<entry id="software_scannerobjectmk3" read="0"/>
+				<entry id="weapon_gen_spacesuit_demolition_01_mk1" read="0"/>
+				<entry id="weapon_gen_spacesuit_laser_01_mk1" read="0"/>
+				<entry id="weapon_gen_spacesuit_laser_02_mk1" read="0"/>
+				<entry id="weapon_gen_spacesuit_repairlaser_01_mk1" read="0"/>
+				<entry id="inv_securityapparatus" read="0"/>
+				<entry id="inv_securityapparatus_chip" read="0"/>
+			</entries>
+			<entries type="races">
+				<entry id="xenon" read="0"/>
+				<entry id="argon" read="0"/>
+				<entry id="boron" read="0"/>
+				<entry id="khaak" read="0"/>
+				<entry id="paranid" read="0"/>
+				<entry id="split" read="0"/>
+				<entry id="teladi" read="0"/>
+				<entry id="terran" read="0"/>
+			</entries>
+			<entries type="factions">
+				<entry id="scavenger" read="0"/>
+				<entry id="boron" read="0"/>
+				<entry id="player"/>
+				<entry id="alliance" read="0"/>
+				<entry id="antigone" read="0"/>
+				<entry id="argon" read="0"/>
+				<entry id="buccaneers" read="0"/>
+				<entry id="hatikvah" read="0"/>
+				<entry id="holyorder" read="0"/>
+				<entry id="khaak" read="0"/>
+				<entry id="ministry" read="0"/>
+				<entry id="paranid" read="0"/>
+				<entry id="scaleplate" read="0"/>
+				<entry id="teladi" read="0"/>
+				<entry id="trinity" read="0"/>
+				<entry id="xenon" read="0"/>
+				<entry id="court" read="0"/>
+				<entry id="fallensplit" read="0"/>
+				<entry id="freesplit" read="0"/>
+				<entry id="split" read="0"/>
+				<entry id="pioneers" read="0"/>
+				<entry id="terran" read="0"/>
+				<entry id="yaki" read="0"/>
+				<entry id="loanshark" read="0"/>
+			</entries>
+			<entries type="licences">
+				<entry id="alliance.generaluseequipment" read="0"/>
+				<entry id="alliance.generaluseship" read="0"/>
+				<entry id="alliance.militaryequipment" read="0"/>
+				<entry id="alliance.militaryship" read="0"/>
+				<entry id="scaleplate.generaluseequipment" read="0"/>
+				<entry id="scaleplate.generaluseship" read="0"/>
+				<entry id="scaleplate.militaryequipment" read="0"/>
+				<entry id="scaleplate.militaryship" read="0"/>
+				<entry id="teladi.generaluseequipment" read="0"/>
+				<entry id="teladi.generaluseship" read="0"/>
+				<entry id="teladi.militaryequipment" read="0"/>
+				<entry id="teladi.militaryship" read="0"/>
+				<entry id="paranid.generaluseequipment" read="0"/>
+				<entry id="paranid.generaluseship" read="0"/>
+				<entry id="paranid.militaryequipment" read="0"/>
+				<entry id="paranid.militaryship" read="0"/>
+				<entry id="buccaneers.capitalequipment" read="0"/>
+				<entry id="buccaneers.capitalship" read="0"/>
+				<entry id="buccaneers.ceremonyally" read="0"/>
+				<entry id="buccaneers.ceremonyfriend" read="0"/>
+				<entry id="holyorder.capitalequipment" read="0"/>
+				<entry id="holyorder.capitalship" read="0"/>
+				<entry id="holyorder.ceremonyally" read="0"/>
+				<entry id="holyorder.ceremonyfriend" read="0"/>
+				<entry id="hatikvah.capitalequipment" read="0"/>
+				<entry id="hatikvah.capitalship" read="0"/>
+				<entry id="hatikvah.ceremonyally" read="0"/>
+				<entry id="hatikvah.ceremonyfriend" read="0"/>
+				<entry id="antigone.capitalequipment" read="0"/>
+				<entry id="antigone.capitalship" read="0"/>
+				<entry id="antigone.ceremonyally" read="0"/>
+				<entry id="antigone.ceremonyfriend" read="0"/>
+				<entry id="argon.generaluseequipment" read="0"/>
+				<entry id="argon.generaluseship" read="0"/>
+				<entry id="argon.militaryequipment" read="0"/>
+				<entry id="argon.militaryship" read="0"/>
+				<entry id="buccaneers.generaluseequipment" read="0"/>
+				<entry id="buccaneers.generaluseship" read="0"/>
+				<entry id="buccaneers.militaryequipment" read="0"/>
+				<entry id="buccaneers.militaryship" read="0"/>
+				<entry id="holyorder.generaluseequipment" read="0"/>
+				<entry id="holyorder.generaluseship" read="0"/>
+				<entry id="holyorder.militaryequipment" read="0"/>
+				<entry id="holyorder.militaryship" read="0"/>
+				<entry id="hatikvah.generaluseequipment" read="0"/>
+				<entry id="hatikvah.generaluseship" read="0"/>
+				<entry id="hatikvah.militaryequipment" read="0"/>
+				<entry id="hatikvah.militaryship" read="0"/>
+				<entry id="ministry.capitalequipment" read="0"/>
+				<entry id="ministry.capitalship" read="0"/>
+				<entry id="ministry.ceremonyally" read="0"/>
+				<entry id="ministry.ceremonyfriend" read="0"/>
+				<entry id="ministry.generaluseequipment" read="0"/>
+				<entry id="ministry.generaluseship" read="0"/>
+				<entry id="ministry.militaryequipment" read="0"/>
+				<entry id="ministry.militaryship" read="0"/>
+				<entry id="antigone.generaluseequipment" read="0"/>
+				<entry id="antigone.generaluseship" read="0"/>
+				<entry id="antigone.militaryequipment" read="0"/>
+				<entry id="antigone.militaryship" read="0"/>
+				<entry id="argon.capitalequipment" read="0"/>
+				<entry id="argon.capitalship" read="0"/>
+				<entry id="argon.ceremonyally" read="0"/>
+				<entry id="argon.ceremonyfriend" read="0"/>
+				<entry id="paranid.capitalequipment" read="0"/>
+				<entry id="paranid.capitalship" read="0"/>
+				<entry id="paranid.ceremonyally" read="0"/>
+				<entry id="paranid.ceremonyfriend" read="0"/>
+				<entry id="alliance.capitalequipment" read="0"/>
+				<entry id="alliance.capitalship" read="0"/>
+				<entry id="alliance.ceremonyally" read="0"/>
+				<entry id="alliance.ceremonyfriend" read="0"/>
+				<entry id="scaleplate.capitalequipment" read="0"/>
+				<entry id="scaleplate.capitalship" read="0"/>
+				<entry id="scaleplate.ceremonyally" read="0"/>
+				<entry id="scaleplate.ceremonyfriend" read="0"/>
+				<entry id="teladi.capitalequipment" read="0"/>
+				<entry id="teladi.capitalship" read="0"/>
+				<entry id="teladi.ceremonyally" read="0"/>
+				<entry id="teladi.ceremonyfriend" read="0"/>
+				<entry id="teladi.tradesubscription" read="0"/>
+				<entry id="terran.station_gen_intermediate" read="0"/>
+				<entry id="terran.tradesubscription" read="0"/>
+				<entry id="argon.tradesubscription" read="0"/>
+				<entry id="ministry.tradesubscription" read="0"/>
+				<entry id="ministry.police" read="0"/>
+				<entry id="ministry.station_equip_lxl" read="0"/>
+				<entry id="ministry.station_equip_sm" read="0"/>
+				<entry id="ministry.station_gen_advanced" read="0"/>
+				<entry id="ministry.station_gen_basic" read="0"/>
+				<entry id="ministry.station_gen_intermediate" read="0"/>
+				<entry id="scaleplate.station_gen_advanced" read="0"/>
+				<entry id="scaleplate.station_gen_basic" read="0"/>
+				<entry id="scaleplate.station_gen_intermediate" read="0"/>
+				<entry id="scaleplate.subgroupfriend" read="0"/>
+				<entry id="scaleplate.tradesubscription" read="0"/>
+				<entry id="teladi.station_equip_lxl" read="0"/>
+				<entry id="teladi.station_equip_sm" read="0"/>
+				<entry id="teladi.station_gen_advanced" read="0"/>
+				<entry id="teladi.station_gen_basic" read="0"/>
+				<entry id="teladi.station_gen_intermediate" read="0"/>
+				<entry id="teladi.subgroupfriend" read="0"/>
+				<entry id="freesplit.station_equip_lxl" read="0"/>
+				<entry id="freesplit.station_equip_sm" read="0"/>
+				<entry id="freesplit.station_gen_advanced" read="0"/>
+				<entry id="freesplit.station_gen_basic" read="0"/>
+				<entry id="freesplit.station_gen_intermediate" read="0"/>
+				<entry id="freesplit.tradesubscription" read="0"/>
+				<entry id="paranid.police" read="0"/>
+				<entry id="paranid.station_equip_lxl" read="0"/>
+				<entry id="paranid.station_equip_sm" read="0"/>
+				<entry id="paranid.station_gen_advanced" read="0"/>
+				<entry id="paranid.station_gen_basic" read="0"/>
+				<entry id="paranid.station_gen_intermediate" read="0"/>
+				<entry id="paranid.tradesubscription" read="0"/>
+				<entry id="split.police" read="0"/>
+				<entry id="split.station_equip_lxl" read="0"/>
+				<entry id="split.station_equip_sm" read="0"/>
+				<entry id="split.station_gen_advanced" read="0"/>
+				<entry id="split.station_gen_basic" read="0"/>
+				<entry id="split.station_gen_intermediate" read="0"/>
+				<entry id="split.tradesubscription" read="0"/>
+				<entry id="pioneers.police" read="0"/>
+				<entry id="pioneers.station_equip_lxl" read="0"/>
+				<entry id="pioneers.station_equip_sm" read="0"/>
+				<entry id="pioneers.station_gen_advanced" read="0"/>
+				<entry id="pioneers.station_gen_basic" read="0"/>
+				<entry id="pioneers.station_gen_intermediate" read="0"/>
+				<entry id="pioneers.tradesubscription" read="0"/>
+				<entry id="alliance.station_equip_lxl" read="0"/>
+				<entry id="alliance.station_equip_sm" read="0"/>
+				<entry id="alliance.station_gen_advanced" read="0"/>
+				<entry id="alliance.station_gen_basic" read="0"/>
+				<entry id="alliance.station_gen_intermediate" read="0"/>
+				<entry id="alliance.subgroupfriend" read="0"/>
+				<entry id="alliance.tradesubscription" read="0"/>
+				<entry id="argon.police" read="0"/>
+				<entry id="argon.station_equip_lxl" read="0"/>
+				<entry id="argon.station_equip_sm" read="0"/>
+				<entry id="argon.station_gen_advanced" read="0"/>
+				<entry id="argon.station_gen_basic" read="0"/>
+				<entry id="argon.station_gen_intermediate" read="0"/>
+				<entry id="argon.subgroupfriend" read="0"/>
+				<entry id="buccaneers.police" read="0"/>
+				<entry id="buccaneers.station_equip_lxl" read="0"/>
+				<entry id="buccaneers.station_equip_sm" read="0"/>
+				<entry id="buccaneers.station_gen_advanced" read="0"/>
+				<entry id="buccaneers.station_gen_basic" read="0"/>
+				<entry id="buccaneers.station_gen_intermediate" read="0"/>
+				<entry id="buccaneers.tradesubscription" read="0"/>
+				<entry id="antigone.station_equip_lxl" read="0"/>
+				<entry id="antigone.station_equip_sm" read="0"/>
+				<entry id="antigone.station_gen_advanced" read="0"/>
+				<entry id="antigone.station_gen_basic" read="0"/>
+				<entry id="antigone.station_gen_intermediate" read="0"/>
+				<entry id="antigone.tradesubscription" read="0"/>
+				<entry id="hatikvah.subgroupfriend" read="0"/>
+				<entry id="hatikvah.tradesubscription" read="0"/>
+				<entry id="holyorder.police" read="0"/>
+				<entry id="holyorder.station_equip_lxl" read="0"/>
+				<entry id="holyorder.station_equip_sm" read="0"/>
+				<entry id="holyorder.station_gen_advanced" read="0"/>
+				<entry id="holyorder.station_gen_basic" read="0"/>
+				<entry id="holyorder.station_gen_intermediate" read="0"/>
+				<entry id="holyorder.tradesubscription" read="0"/>
+				<entry id="freesplit.generaluseequipment" read="0"/>
+				<entry id="freesplit.generaluseship" read="0"/>
+				<entry id="freesplit.militaryequipment" read="0"/>
+				<entry id="freesplit.militaryship" read="0"/>
+				<entry id="pioneers.capitalequipment" read="0"/>
+				<entry id="pioneers.capitalship" read="0"/>
+				<entry id="pioneers.ceremonyally" read="0"/>
+				<entry id="pioneers.ceremonyfriend" read="0"/>
+				<entry id="split.generaluseequipment" read="0"/>
+				<entry id="split.generaluseship" read="0"/>
+				<entry id="split.militaryequipment" read="0"/>
+				<entry id="split.militaryship" read="0"/>
+				<entry id="terran.capitalequipment" read="0"/>
+				<entry id="terran.capitalship" read="0"/>
+				<entry id="terran.ceremonyally" read="0"/>
+				<entry id="terran.ceremonyfriend" read="0"/>
+				<entry id="freesplit.capitalequipment" read="0"/>
+				<entry id="freesplit.capitalship" read="0"/>
+				<entry id="freesplit.ceremonyally" read="0"/>
+				<entry id="freesplit.ceremonyfriend" read="0"/>
+				<entry id="pioneers.generaluseequipment" read="0"/>
+				<entry id="pioneers.generaluseship" read="0"/>
+				<entry id="pioneers.militaryequipment" read="0"/>
+				<entry id="pioneers.militaryship" read="0"/>
+				<entry id="split.capitalequipment" read="0"/>
+				<entry id="split.capitalship" read="0"/>
+				<entry id="split.ceremonyally" read="0"/>
+				<entry id="split.ceremonyfriend" read="0"/>
+				<entry id="loanshark.police" read="0"/>
+				<entry id="loanshark.station_equip_lxl" read="0"/>
+				<entry id="loanshark.station_equip_sm" read="0"/>
+				<entry id="loanshark.station_gen_advanced" read="0"/>
+				<entry id="loanshark.station_gen_basic" read="0"/>
+				<entry id="loanshark.station_gen_intermediate" read="0"/>
+				<entry id="loanshark.tradesubscription" read="0"/>
+				<entry id="terran.militaryship" read="0"/>
+				<entry id="terran.outercore_access" read="0"/>
+				<entry id="terran.police" read="0"/>
+				<entry id="terran.station_equip_lxl" read="0"/>
+				<entry id="terran.station_equip_sm" read="0"/>
+				<entry id="terran.station_gen_advanced" read="0"/>
+				<entry id="terran.station_gen_basic" read="0"/>
+				<entry id="scavenger.station_equip_lxl" read="0"/>
+				<entry id="scavenger.station_equip_sm" read="0"/>
+				<entry id="scavenger.station_gen_advanced" read="0"/>
+				<entry id="scavenger.station_gen_basic" read="0"/>
+				<entry id="scavenger.station_gen_intermediate" read="0"/>
+				<entry id="scavenger.tradesubscription" read="0"/>
+				<entry id="boron.police" read="0"/>
+				<entry id="boron.station_equip_lxl" read="0"/>
+				<entry id="boron.station_equip_sm" read="0"/>
+				<entry id="boron.station_gen_advanced" read="0"/>
+				<entry id="boron.station_gen_basic" read="0"/>
+				<entry id="boron.station_gen_intermediate" read="0"/>
+				<entry id="boron.tradesubscription" read="0"/>
+				<entry id="boron.capitalequipment" read="0"/>
+				<entry id="boron.capitalship" read="0"/>
+				<entry id="boron.ceremonyally" read="0"/>
+				<entry id="boron.ceremonyfriend" read="0"/>
+				<entry id="loanshark.capitalequipment" read="0"/>
+				<entry id="loanshark.capitalship" read="0"/>
+				<entry id="loanshark.ceremonyally" read="0"/>
+				<entry id="loanshark.ceremonyfriend" read="0"/>
+				<entry id="scavenger.capitalequipment" read="0"/>
+				<entry id="scavenger.capitalship" read="0"/>
+				<entry id="scavenger.ceremonyally" read="0"/>
+				<entry id="scavenger.ceremonyfriend" read="0"/>
+				<entry id="loanshark.generaluseequipment" read="0"/>
+				<entry id="loanshark.generaluseship" read="0"/>
+				<entry id="loanshark.militaryequipment" read="0"/>
+				<entry id="loanshark.militaryship" read="0"/>
+				<entry id="scavenger.generaluseequipment" read="0"/>
+				<entry id="scavenger.generaluseship" read="0"/>
+				<entry id="scavenger.militaryequipment" read="0"/>
+				<entry id="scavenger.militaryship" read="0"/>
+				<entry id="terran.generaluseequipment" read="0"/>
+				<entry id="terran.generaluseship" read="0"/>
+				<entry id="terran.innercore_access" read="0"/>
+				<entry id="terran.militaryequipment" read="0"/>
+				<entry id="yaki.ceremonyfriend" read="0"/>
+				<entry id="yaki.generaluseequipment" read="0"/>
+				<entry id="yaki.militaryequipment" read="0"/>
+				<entry id="yaki.militaryship" read="0"/>
+				<entry id="boron.generaluseequipment" read="0"/>
+				<entry id="boron.generaluseship" read="0"/>
+				<entry id="boron.militaryequipment" read="0"/>
+				<entry id="boron.militaryship" read="0"/>
+			</entries>
+			<entries type="equipmentmods">
+				<entry id="mod_engine_boostduration_01_mk1" read="0"/>
+				<entry id="mod_engine_boostthrust_01_mk1" read="0"/>
+				<entry id="mod_engine_boostthrust_01_mk2" read="0"/>
+				<entry id="mod_engine_boostthrust_01_mk3" read="0"/>
+				<entry id="mod_engine_boostthrust_02_mk1" read="0"/>
+				<entry id="mod_engine_boostthrust_02_mk2" read="0"/>
+				<entry id="mod_engine_forwardthrust_01_mk1" read="0"/>
+				<entry id="mod_engine_forwardthrust_01_mk2" read="0"/>
+				<entry id="mod_engine_forwardthrust_01_mk3" read="0"/>
+				<entry id="mod_engine_forwardthrust_02_mk1" read="0"/>
+				<entry id="mod_engine_forwardthrust_02_mk2" read="0"/>
+				<entry id="mod_engine_rotationthrust_01_mk1" read="0"/>
+				<entry id="mod_engine_rotationthrust_01_mk3" read="0"/>
+				<entry id="mod_engine_rotationthrust_02_mk1" read="0"/>
+				<entry id="mod_engine_strafethrust_01_mk1" read="0"/>
+				<entry id="mod_engine_strafethrust_02_mk1" read="0"/>
+				<entry id="mod_engine_travelattacktime_01_mk1" read="0"/>
+				<entry id="mod_engine_travelchargetime_01_mk1" read="0"/>
+				<entry id="mod_engine_travelreleasetime_01_mk1" read="0"/>
+				<entry id="mod_engine_travelstartthrust_01_mk1" read="0"/>
+				<entry id="mod_engine_travelthrust_01_mk1" read="0"/>
+				<entry id="mod_engine_travelthrust_01_mk2" read="0"/>
+				<entry id="mod_engine_travelthrust_01_mk3" read="0"/>
+				<entry id="mod_engine_travelthrust_02_mk1" read="0"/>
+				<entry id="mod_engine_travelthrust_02_mk2" read="0"/>
+				<entry id="mod_shield_capacity_01_mk1" read="0"/>
+				<entry id="mod_shield_capacity_01_mk2" read="0"/>
+				<entry id="mod_shield_capacity_01_mk3" read="0"/>
+				<entry id="mod_shield_capacity_02_mk3" read="0"/>
+				<entry id="mod_shield_rechargedelay_01_mk1" read="0"/>
+				<entry id="mod_shield_rechargerate_01_mk1" read="0"/>
+				<entry id="mod_shield_rechargerate_01_mk2" read="0"/>
+				<entry id="mod_shield_rechargerate_01_mk3" read="0"/>
+				<entry id="mod_ship_countermeasurecapacity_01_mk1" read="0"/>
+				<entry id="mod_ship_deployablecapacity_01_mk1" read="0"/>
+				<entry id="mod_ship_drag_01_mk1" read="0"/>
+				<entry id="mod_ship_drag_01_mk2" read="0"/>
+				<entry id="mod_ship_hidecargo_01" read="0"/>
+				<entry id="mod_ship_mass_01_mk1" read="0"/>
+				<entry id="mod_ship_mass_01_mk2" read="0"/>
+				<entry id="mod_ship_mass_01_mk3" read="0"/>
+				<entry id="mod_ship_maxhull_01_mk1" read="0"/>
+				<entry id="mod_ship_missilecapacity_01_mk1" read="0"/>
+				<entry id="mod_ship_radarcloak_01_mk1" read="0"/>
+				<entry id="mod_ship_radarcloak_01_mk2" read="0"/>
+				<entry id="mod_ship_radarcloak_01_mk3" read="0"/>
+				<entry id="mod_ship_radarrange_01_mk1" read="0"/>
+				<entry id="mod_ship_regiondamage_01_mk1" read="0"/>
+				<entry id="mod_ship_regiondamage_01_mk2" read="0"/>
+				<entry id="mod_ship_regiondamage_01_mk3" read="0"/>
+				<entry id="mod_ship_unitcapacity_01_mk1" read="0"/>
+				<entry id="mod_weapon_beamlength_01_mk1" read="0"/>
+				<entry id="mod_weapon_chargetime_01_mk1" read="0"/>
+				<entry id="mod_weapon_cooling_01_mk1" read="0"/>
+				<entry id="mod_weapon_cooling_01_mk2" read="0"/>
+				<entry id="mod_weapon_cooling_02_mk1" read="0"/>
+				<entry id="mod_weapon_cooling_02_mk2" read="0"/>
+				<entry id="mod_weapon_cooling_03_mk1" read="0"/>
+				<entry id="mod_weapon_cooling_03_mk2" read="0"/>
+				<entry id="mod_weapon_cooling_04_mk2" read="0"/>
+				<entry id="mod_weapon_cooling_05_mk2" read="0"/>
+				<entry id="mod_weapon_damage_01_mk1" read="0"/>
+				<entry id="mod_weapon_damage_01_mk2" read="0"/>
+				<entry id="mod_weapon_damage_01_mk3" read="0"/>
+				<entry id="mod_weapon_damage_02_mk1" read="0"/>
+				<entry id="mod_weapon_damage_02_mk2" read="0"/>
+				<entry id="mod_weapon_damage_02_mk3" read="0"/>
+				<entry id="mod_weapon_damage_03_mk1" read="0"/>
+				<entry id="mod_weapon_damage_03_mk2" read="0"/>
+				<entry id="mod_weapon_damage_04_mk2" read="0"/>
+				<entry id="mod_weapon_damage_05_mk2" read="0"/>
+				<entry id="mod_weapon_lifetime_01_mk1" read="0"/>
+				<entry id="mod_weapon_mining_01_mk1" read="0"/>
+				<entry id="mod_weapon_mining_01_mk3" read="0"/>
+				<entry id="mod_weapon_reload_01_mk1" read="0"/>
+				<entry id="mod_weapon_rotationspeed_01_mk1" read="0"/>
+				<entry id="mod_weapon_speed_01_mk1" read="0"/>
+				<entry id="mod_weapon_speed_01_mk3" read="0"/>
+				<entry id="mod_weapon_sticktime_01_mk1" read="0"/>
+				<entry id="mod_weapon_sticktime_01_mk2" read="0"/>
+				<entry id="mod_weapon_sticktime_02_mk2" read="0"/>
+				<entry id="mod_weapon_sticktime_03_mk2" read="0"/>
+				<entry id="mod_weapon_surfaceelement_01_mk1" read="0"/>
+				<entry id="mod_weapon_surfaceelement_01_mk2" read="0"/>
+				<entry id="mod_weapon_surfaceelement_01_mk3" read="0"/>
+			</entries>
+			<entries type="paintmods">
+				<entry id="paintmod_0006" read="0"/>
+				<entry id="paintmod_0048" read="0"/>
+				<entry id="paintmod_0049" read="0"/>
+				<entry id="paintmod_0050" read="0"/>
+				<entry id="paintmod_0097" read="0"/>
+				<entry id="paintmod_0098" read="0"/>
+				<entry id="paintmod_0099" read="0"/>
+				<entry id="paintmod_0100" read="0"/>
+				<entry id="axesblue" read="0"/>
+				<entry id="axesemerald" read="0"/>
+				<entry id="axesmagnum" read="0"/>
+				<entry id="axessherman" read="0"/>
+				<entry id="axesguerilla" read="0"/>
+				<entry id="axesskyline" read="0"/>
+				<entry id="axeshardware" read="0"/>
+				<entry id="axespursuit" read="0"/>
+				<entry id="axesamoeba" read="0"/>
+				<entry id="axeslabyrinth" read="0"/>
+				<entry id="axesvirginian" read="0"/>
+				<entry id="axesvirginian2" read="0"/>
+				<entry id="axesstarbound" read="0"/>
+			</entries>
+			<entries type="software">
+				<entry id="software_dockmk1" read="0"/>
+				<entry id="software_dockmk2" read="0"/>
+				<entry id="software_flightassistmk1" read="0"/>
+				<entry id="software_scannerlongrangemk1" read="0"/>
+				<entry id="software_scannerlongrangemk2" read="0"/>
+				<entry id="software_scannerobjectmk1" read="0"/>
+				<entry id="software_scannerobjectmk2" read="0"/>
+				<entry id="software_scannerobjectmk3" read="0"/>
+				<entry id="software_targetmk1" read="0"/>
+				<entry id="software_trademk1" read="0"/>
+			</entries>
+			<entries type="bombs">
+				<entry id="bomb_player_limpet_emp_01_mk1_macro" read="0"/>
+				<entry id="bomb_player_limpet_mine_01_mk1_macro" read="0"/>
+			</entries>
+			<entries type="lasertowers">
+				<entry id="ship_gen_xs_lasertower_01_a_macro" read="0"/>
+				<entry id="ship_gen_s_lasertower_01_a_macro" read="0"/>
+			</entries>
+			<entries type="mines">
+				<entry id="weapon_gen_mine_02_macro" read="0"/>
+				<entry id="weapon_gen_mine_03_macro" read="0"/>
+				<entry id="weapon_gen_mine_01_macro" read="0"/>
+				<entry id="weapon_clustermine_01_macro" read="0"/>
+			</entries>
+			<entries type="navbeacons">
+				<entry id="env_deco_nav_beacon_t1_macro" read="0"/>
+			</entries>
+			<entries type="resourceprobes">
+				<entry id="eq_arg_resourceprobe_01_macro" read="0"/>
+			</entries>
+			<entries type="satellites">
+				<entry id="eq_arg_satellite_02_macro" read="0"/>
+				<entry id="eq_arg_satellite_01_macro" read="0"/>
+			</entries>
+			<entries type="timeline">
+				<entry id="first_contact_paranid" read="0"/>
+				<entry id="kyle_brennan_arrival"/>
+				<entry id="omicron_lyrae" read="0"/>
+				<entry id="terran_conflict" read="0"/>
+			</entries>
+		</known>
+		<blueprints>
+			<blueprint ware="module_arg_dock_m_01_lowtech"/>
+			<blueprint ware="module_arg_dock_m_02_lowtech"/>
+			<blueprint ware="satellite_mk2"/>
+			<blueprint ware="module_arg_pier_l_02"/>
+			<blueprint ware="module_arg_pier_l_03"/>
+			<blueprint ware="module_arg_pier_l_01"/>
+			<blueprint ware="module_arg_def_claim_01"/>
+			<blueprint ware="module_arg_conn_base_01"/>
+			<blueprint ware="module_arg_conn_base_02"/>
+			<blueprint ware="module_arg_conn_base_03"/>
+			<blueprint ware="module_arg_def_tube_01"/>
+			<blueprint ware="module_arg_conn_cross_01"/>
+			<blueprint ware="module_arg_def_disc_01"/>
+			<blueprint ware="module_arg_stor_container_l_01"/>
+			<blueprint ware="module_pir_hab_l_01"/>
+			<blueprint ware="module_arg_hab_l_01"/>
+			<blueprint ware="module_arg_stor_liquid_l_01"/>
+			<blueprint ware="module_arg_stor_solid_l_01"/>
+			<blueprint ware="module_arg_stor_container_m_01"/>
+			<blueprint ware="module_pir_hab_m_01"/>
+			<blueprint ware="module_arg_hab_m_01"/>
+			<blueprint ware="module_arg_stor_liquid_m_01"/>
+			<blueprint ware="module_arg_stor_solid_m_01"/>
+			<blueprint ware="module_arg_prod_medicalsupplies_01"/>
+			<blueprint ware="module_arg_conn_vertical_01"/>
+			<blueprint ware="module_arg_conn_vertical_02"/>
+			<blueprint ware="ship_gen_xs_buildingdrone_01_a"/>
+			<blueprint ware="ship_gen_xs_cargodrone_empty_01_a"/>
+			<blueprint ware="weapon_clustermine_01"/>
+			<blueprint ware="ship_gen_s_fightingdrone_01_a"/>
+			<blueprint ware="module_gen_prod_energycells_01"/>
+			<blueprint ware="countermeasure_flares_01"/>
+			<blueprint ware="module_arg_prod_foodrations_01"/>
+			<blueprint ware="weapon_gen_mine_03"/>
+			<blueprint ware="ship_gen_s_miningdrone_liquid_01_a"/>
+			<blueprint ware="ship_gen_xs_lasertower_01_a"/>
+			<blueprint ware="ship_gen_s_lasertower_01_a"/>
+			<blueprint ware="module_arg_prod_meat_01"/>
+			<blueprint ware="weapon_gen_mine_01"/>
+			<blueprint ware="ship_gen_s_miningdrone_solid_01_a"/>
+			<blueprint ware="waypointmarker_01"/>
+			<blueprint ware="module_gen_prod_refinedmetals_01"/>
+			<blueprint ware="ship_gen_xs_repairdrone_01_a"/>
+			<blueprint ware="resourceprobe_01"/>
+			<blueprint ware="satellite_mk1"/>
+			<blueprint ware="module_gen_prod_spices_01"/>
+			<blueprint ware="weapon_gen_mine_02"/>
+			<blueprint ware="module_gen_prod_water_01"/>
+			<blueprint ware="module_arg_prod_wheat_01"/>
+			<blueprint ware="paintmod_0006"/>
+			<blueprint ware="paintmod_0048"/>
+			<blueprint ware="paintmod_0049"/>
+			<blueprint ware="paintmod_0050"/>
+			<blueprint ware="paintmod_0097"/>
+			<blueprint ware="paintmod_0098"/>
+			<blueprint ware="paintmod_0099"/>
+			<blueprint ware="paintmod_0100"/>
+			<blueprint ware="module_gen_conn_venturerbase_01"/>
+			<blueprint ware="module_gen_conn_venturerbase_02"/>
+			<blueprint ware="module_gen_conn_venturerbase_03"/>
+			<blueprint ware="module_gen_conn_venturercross_01"/>
+			<blueprint ware="module_gen_conn_venturervertical_01"/>
+			<blueprint ware="module_gen_conn_venturervertical_02"/>
+			<blueprint ware="module_gen_dock_m_venturer_01"/>
+			<blueprint ware="module_gen_ventureplatform_cross_01"/>
+			<blueprint ware="module_gen_prod_antimattercells_01"/>
+			<blueprint ware="module_tel_prod_teladianium_01"/>
+			<blueprint ware="module_gen_prod_superfluidcoolant_01"/>
+			<blueprint ware="module_gen_prod_graphene_01"/>
+			<blueprint ware="module_gen_prod_siliconwafers_01"/>
+			<blueprint ware="module_ter_pier_02"/>
+			<blueprint ware="module_gen_prod_engineparts_01"/>
+			<blueprint ware="module_gen_prod_advancedelectronics_01"/>
+			<blueprint ware="module_arg_dock_m_01"/>
+			<blueprint ware="module_gen_prod_turretcomponents_01"/>
+			<blueprint ware="module_gen_prod_missilecomponents_01"/>
+			<blueprint ware="mod_ship_missilecapacity_01_mk1"/>
+			<blueprint ware="mod_ship_radarrange_01_mk1"/>
+			<blueprint ware="mod_ship_drag_01_mk1"/>
+			<blueprint ware="mod_ship_radarcloak_01_mk1"/>
+			<blueprint ware="mod_ship_unitcapacity_01_mk1"/>
+			<blueprint ware="mod_ship_mass_01_mk1"/>
+			<blueprint ware="mod_ship_deployablecapacity_01_mk1"/>
+			<blueprint ware="mod_ship_countermeasurecapacity_01_mk1"/>
+			<blueprint ware="mod_ship_maxhull_01_mk1"/>
+			<blueprint ware="mod_ship_regiondamage_01_mk1"/>
+			<blueprint ware="mod_engine_travelthrust_02_mk1"/>
+			<blueprint ware="mod_engine_boostduration_01_mk1"/>
+			<blueprint ware="mod_engine_travelstartthrust_01_mk1"/>
+			<blueprint ware="mod_engine_travelattacktime_01_mk1"/>
+			<blueprint ware="mod_engine_boostthrust_02_mk1"/>
+			<blueprint ware="mod_engine_travelreleasetime_01_mk1"/>
+			<blueprint ware="mod_engine_forwardthrust_02_mk1"/>
+			<blueprint ware="mod_engine_rotationthrust_02_mk1"/>
+			<blueprint ware="mod_engine_strafethrust_02_mk1"/>
+			<blueprint ware="mod_engine_travelthrust_01_mk1"/>
+			<blueprint ware="mod_engine_forwardthrust_01_mk1"/>
+			<blueprint ware="mod_engine_strafethrust_01_mk1"/>
+			<blueprint ware="mod_engine_rotationthrust_01_mk1"/>
+			<blueprint ware="mod_engine_boostthrust_01_mk1"/>
+			<blueprint ware="mod_engine_travelchargetime_01_mk1"/>
+			<blueprint ware="mod_weapon_cooling_01_mk1"/>
+			<blueprint ware="mod_weapon_mining_01_mk1"/>
+			<blueprint ware="mod_weapon_damage_03_mk1"/>
+			<blueprint ware="mod_weapon_chargetime_01_mk1"/>
+			<blueprint ware="mod_weapon_beamlength_01_mk1"/>
+			<blueprint ware="mod_weapon_reload_01_mk1"/>
+			<blueprint ware="mod_weapon_speed_01_mk1"/>
+			<blueprint ware="mod_weapon_rotationspeed_01_mk1"/>
+			<blueprint ware="mod_weapon_damage_02_mk1"/>
+			<blueprint ware="mod_weapon_sticktime_01_mk1"/>
+			<blueprint ware="mod_weapon_cooling_03_mk1"/>
+			<blueprint ware="mod_weapon_damage_01_mk1"/>
+			<blueprint ware="mod_weapon_lifetime_01_mk1"/>
+			<blueprint ware="mod_weapon_surfaceelement_01_mk1"/>
+			<blueprint ware="mod_weapon_cooling_02_mk1"/>
+			<blueprint ware="mod_shield_rechargerate_01_mk1"/>
+			<blueprint ware="mod_shield_capacity_01_mk1"/>
+			<blueprint ware="mod_shield_rechargedelay_01_mk1"/>
+			<blueprint ware="module_gen_prod_claytronics_01"/>
+			<blueprint ware="module_gen_prod_antimatterconverters_01"/>
+			<blueprint ware="mod_ship_drag_01_mk2"/>
+			<blueprint ware="mod_ship_radarcloak_01_mk2"/>
+			<blueprint ware="mod_ship_mass_01_mk2"/>
+			<blueprint ware="mod_ship_regiondamage_01_mk2"/>
+			<blueprint ware="mod_engine_travelthrust_02_mk2"/>
+			<blueprint ware="mod_engine_boostthrust_02_mk2"/>
+			<blueprint ware="mod_engine_forwardthrust_02_mk2"/>
+			<blueprint ware="mod_engine_travelthrust_01_mk2"/>
+			<blueprint ware="mod_engine_forwardthrust_01_mk2"/>
+			<blueprint ware="mod_engine_boostthrust_01_mk2"/>
+			<blueprint ware="shield_arg_l_standard_01_mk1"/>
+			<blueprint ware="weapon_gen_m_laser_01_mk2"/>
+			<blueprint ware="shield_arg_l_standard_01_mk2"/>
+			<blueprint ware="weapon_gen_m_plasma_01_mk2"/>
+			<blueprint ware="shield_arg_s_standard_01_mk2"/>
+			<blueprint ware="weapon_gen_m_gatling_01_mk1"/>
+			<blueprint ware="weapon_gen_m_beam_01_mk2"/>
+			<blueprint ware="weapon_gen_s_torpedo_01_mk1"/>
+			<blueprint ware="weapon_gen_m_beam_01_mk1"/>
+			<blueprint ware="weapon_gen_m_laser_01_mk1"/>
+			<blueprint ware="weapon_arg_m_ion_01_mk2"/>
+			<blueprint ware="weapon_gen_s_dumbfire_01_mk2"/>
+			<blueprint ware="weapon_arg_m_ion_01_mk1"/>
+			<blueprint ware="shield_arg_xl_standard_01_mk1"/>
+			<blueprint ware="weapon_gen_s_laser_01_mk2"/>
+			<blueprint ware="shield_arg_s_standard_01_mk3"/>
+			<blueprint ware="weapon_gen_s_laser_01_mk1"/>
+			<blueprint ware="weapon_gen_s_plasma_01_mk1"/>
+			<blueprint ware="turret_arg_m_mining_02_mk1"/>
+			<blueprint ware="turret_arg_m_mining_01_mk1"/>
+			<blueprint ware="weapon_gen_s_plasma_01_mk2"/>
+			<blueprint ware="turret_arg_l_laser_01_mk1"/>
+			<blueprint ware="weapon_gen_s_mining_01_mk2"/>
+			<blueprint ware="shield_arg_s_standard_01_mk1"/>
+			<blueprint ware="weapon_gen_s_mining_01_mk1"/>
+			<blueprint ware="turret_arg_m_gatling_02_mk1"/>
+			<blueprint ware="turret_arg_m_gatling_01_mk1"/>
+			<blueprint ware="weapon_gen_s_gatling_01_mk1"/>
+			<blueprint ware="shield_arg_m_standard_02_mk2"/>
+			<blueprint ware="shield_arg_m_standard_01_mk2"/>
+			<blueprint ware="weapon_gen_s_gatling_01_mk2"/>
+			<blueprint ware="turret_arg_l_mining_01_mk1"/>
+			<blueprint ware="weapon_gen_s_shotgun_01_mk2"/>
+			<blueprint ware="shield_arg_m_standard_02_mk1"/>
+			<blueprint ware="shield_arg_m_standard_01_mk1"/>
+			<blueprint ware="weapon_gen_s_shotgun_01_mk1"/>
+			<blueprint ware="module_arg_dock_m_02_hightech"/>
+			<blueprint ware="weapon_gen_s_beam_01_mk1"/>
+			<blueprint ware="turret_arg_m_beam_02_mk1"/>
+			<blueprint ware="turret_arg_m_beam_01_mk1"/>
+			<blueprint ware="weapon_gen_s_beam_01_mk2"/>
+			<blueprint ware="turret_arg_m_flak_02_mk1"/>
+			<blueprint ware="turret_arg_m_flak_01_mk1"/>
+			<blueprint ware="weapon_gen_m_dumbfire_01_mk1"/>
+			<blueprint ware="weapon_arg_s_ion_01_mk2"/>
+			<blueprint ware="weapon_gen_m_dumbfire_01_mk2"/>
+			<blueprint ware="weapon_gen_s_torpedo_01_mk2"/>
+			<blueprint ware="weapon_gen_s_guided_01_mk2"/>
+			<blueprint ware="module_arg_dock_m_01_hightech"/>
+			<blueprint ware="weapon_gen_s_guided_01_mk1"/>
+			<blueprint ware="turret_arg_m_dumbfire_02_mk1"/>
+			<blueprint ware="weapon_gen_m_guided_01_mk1"/>
+			<blueprint ware="turret_arg_m_shotgun_02_mk1"/>
+			<blueprint ware="turret_arg_m_shotgun_01_mk1"/>
+			<blueprint ware="weapon_gen_m_guided_01_mk2"/>
+			<blueprint ware="module_arg_dock_m_02"/>
+			<blueprint ware="weapon_gen_m_gatling_01_mk2"/>
+			<blueprint ware="weapon_gen_m_shotgun_01_mk1"/>
+			<blueprint ware="weapon_gen_m_plasma_01_mk1"/>
+			<blueprint ware="turret_arg_m_laser_02_mk1"/>
+			<blueprint ware="turret_arg_m_laser_01_mk1"/>
+			<blueprint ware="weapon_gen_m_mining_01_mk1"/>
+			<blueprint ware="turret_arg_m_plasma_02_mk1"/>
+			<blueprint ware="turret_arg_m_plasma_01_mk1"/>
+			<blueprint ware="weapon_gen_m_mining_01_mk2"/>
+			<blueprint ware="turret_arg_m_guided_02_mk1"/>
+			<blueprint ware="weapon_gen_s_dumbfire_01_mk1"/>
+			<blueprint ware="weapon_arg_s_ion_01_mk1"/>
+			<blueprint ware="weapon_gen_m_torpedo_01_mk1"/>
+			<blueprint ware="weapon_gen_m_shotgun_01_mk2"/>
+			<blueprint ware="weapon_gen_m_torpedo_01_mk2"/>
+			<blueprint ware="ship_tel_l_destroyer_01_a"/>
+			<blueprint ware="module_gen_build_dockarea_m_01"/>
+			<blueprint ware="module_gen_proc_scrapworks"/>
+			<blueprint ware="module_gen_build_l_01"/>
+			<blueprint ware="module_gen_prod_scrap_recycler"/>
+			<blueprint ware="engine_tel_s_combat_01_mk2"/>
+			<blueprint ware="missile_dumbfire_heavy_mk2"/>
+			<blueprint ware="missile_dumbfire_heavy_mk1"/>
+			<blueprint ware="missile_swarm_light_mk1"/>
+			<blueprint ware="missile_guided_light_mk1"/>
+			<blueprint ware="missile_heatseeker_light_mk1"/>
+			<blueprint ware="weapon_tel_l_destroyer_01_mk1"/>
+			<blueprint ware="missile_emp_mk1"/>
+			<blueprint ware="ship_tel_s_trans_container_01_a"/>
+			<blueprint ware="ship_tel_s_miner_solid_01_a"/>
+			<blueprint ware="ship_tel_s_scout_01_a"/>
+			<blueprint ware="weapon_tel_s_charge_01_mk2"/>
+			<blueprint ware="ship_tel_s_scout_02_a"/>
+			<blueprint ware="weapon_tel_s_charge_01_mk1"/>
+			<blueprint ware="ship_tel_s_fighter_01_a"/>
+			<blueprint ware="ship_tel_s_fighter_02_a"/>
+			<blueprint ware="ship_tel_m_trans_container_01_a"/>
+			<blueprint ware="turret_tel_l_guided_01_mk1"/>
+			<blueprint ware="ship_tel_m_trans_container_02_a"/>
+			<blueprint ware="turret_tel_m_guided_02_mk1"/>
+			<blueprint ware="ship_gen_m_tugboat_01_a"/>
+			<blueprint ware="turret_gen_m_scrapbeam_01_mk1"/>
+			<blueprint ware="ship_tel_m_miner_solid_01_a"/>
+			<blueprint ware="engine_tel_l_allround_01_mk1"/>
+			<blueprint ware="ship_tel_m_miner_liquid_01_a"/>
+			<blueprint ware="engine_tel_m_allround_01_mk2"/>
+			<blueprint ware="ship_tel_m_bomber_01_a"/>
+			<blueprint ware="engine_tel_m_allround_01_mk3"/>
+			<blueprint ware="ship_tel_m_frigate_01_a"/>
+			<blueprint ware="engine_tel_m_allround_01_mk1"/>
+			<blueprint ware="ship_tel_l_trans_container_01_a"/>
+			<blueprint ware="engine_tel_s_travel_01_mk1"/>
+			<blueprint ware="ship_tel_l_miner_liquid_01_a"/>
+			<blueprint ware="engine_tel_s_travel_01_mk3"/>
+			<blueprint ware="ship_tel_l_trans_container_02_a"/>
+			<blueprint ware="engine_tel_s_travel_01_mk2"/>
+			<blueprint ware="ship_tel_l_miner_solid_01_a"/>
+			<blueprint ware="thruster_gen_l_allround_01_mk3"/>
+			<blueprint ware="ship_tel_xl_builder_01_a"/>
+			<blueprint ware="thruster_gen_l_allround_01_mk2"/>
+			<blueprint ware="ship_tel_xl_resupplier_01_a"/>
+			<blueprint ware="turret_tel_m_beam_02_mk1"/>
+			<blueprint ware="turret_tel_m_beam_01_mk1"/>
+			<blueprint ware="ship_tel_xl_carrier_01_a"/>
+			<blueprint ware="turret_tel_m_mining_02_mk1"/>
+			<blueprint ware="turret_tel_m_mining_01_mk1"/>
+			<blueprint ware="turret_tel_l_laser_01_mk1"/>
+			<blueprint ware="turret_tel_m_laser_02_mk1"/>
+			<blueprint ware="turret_tel_m_laser_01_mk1"/>
+			<blueprint ware="turret_tel_m_shotgun_02_mk1"/>
+			<blueprint ware="turret_tel_m_shotgun_01_mk1"/>
+			<blueprint ware="thruster_gen_s_combat_01_mk2"/>
+			<blueprint ware="shield_tel_s_standard_01_mk2"/>
+			<blueprint ware="thruster_gen_xl_allround_01_mk3"/>
+			<blueprint ware="shield_tel_s_standard_01_mk1"/>
+			<blueprint ware="thruster_gen_xl_allround_01_mk2"/>
+			<blueprint ware="shield_tel_s_standard_01_mk3"/>
+			<blueprint ware="turret_tel_l_dumbfire_01_mk1"/>
+			<blueprint ware="turret_tel_l_beam_01_mk1"/>
+			<blueprint ware="thruster_gen_m_combat_01_mk3"/>
+			<blueprint ware="shield_tel_m_standard_02_mk1"/>
+			<blueprint ware="shield_tel_m_standard_01_mk1"/>
+			<blueprint ware="thruster_gen_m_combat_01_mk2"/>
+			<blueprint ware="thruster_gen_s_combat_01_mk1"/>
+			<blueprint ware="thruster_gen_m_combat_01_mk1"/>
+			<blueprint ware="shield_tel_m_standard_02_mk2"/>
+			<blueprint ware="shield_tel_m_standard_01_mk2"/>
+			<blueprint ware="thruster_gen_s_allround_01_mk1"/>
+			<blueprint ware="weapon_tel_m_charge_01_mk1"/>
+			<blueprint ware="thruster_gen_s_allround_01_mk2"/>
+			<blueprint ware="thruster_gen_l_allround_01_mk1"/>
+			<blueprint ware="thruster_gen_s_allround_01_mk3"/>
+			<blueprint ware="thruster_gen_xl_allround_01_mk1"/>
+			<blueprint ware="shield_tel_l_standard_01_mk2"/>
+			<blueprint ware="thruster_gen_s_combat_01_mk3"/>
+			<blueprint ware="shield_tel_l_standard_01_mk1"/>
+			<blueprint ware="turret_tel_m_gatling_02_mk1"/>
+			<blueprint ware="turret_tel_m_gatling_01_mk1"/>
+			<blueprint ware="turret_tel_l_mining_01_mk1"/>
+			<blueprint ware="turret_tel_m_plasma_02_mk1"/>
+			<blueprint ware="turret_tel_m_plasma_01_mk1"/>
+			<blueprint ware="turret_tel_m_dumbfire_02_mk1"/>
+			<blueprint ware="turret_tel_l_plasma_01_mk1"/>
+			<blueprint ware="shield_tel_xl_standard_01_mk1"/>
+			<blueprint ware="weapon_tel_m_charge_01_mk2"/>
+			<blueprint ware="engine_tel_s_allround_01_mk1"/>
+			<blueprint ware="thruster_gen_m_allround_01_mk2"/>
+			<blueprint ware="engine_tel_s_allround_01_mk2"/>
+			<blueprint ware="thruster_gen_m_allround_01_mk3"/>
+			<blueprint ware="engine_tel_s_allround_01_mk3"/>
+			<blueprint ware="thruster_gen_m_allround_01_mk1"/>
+			<blueprint ware="engine_tel_m_combat_01_mk3"/>
+			<blueprint ware="missile_torpedo_light_mk1"/>
+			<blueprint ware="engine_tel_m_combat_01_mk2"/>
+			<blueprint ware="missile_guided_heavy_mk1"/>
+			<blueprint ware="engine_tel_m_combat_01_mk1"/>
+			<blueprint ware="missile_smart_light_mk1"/>
+			<blueprint ware="engine_tel_xl_travel_01_mk1"/>
+			<blueprint ware="missile_heatseeker_heavy_mk1"/>
+			<blueprint ware="engine_tel_l_travel_01_mk1"/>
+			<blueprint ware="missile_torpedo_heavy_mk1"/>
+			<blueprint ware="engine_tel_m_travel_01_mk3"/>
+			<blueprint ware="missile_cluster_light_mk1"/>
+			<blueprint ware="engine_tel_m_travel_01_mk2"/>
+			<blueprint ware="missile_swarm_heavy_mk1"/>
+			<blueprint ware="engine_tel_m_travel_01_mk1"/>
+			<blueprint ware="missile_cluster_heavy_mk1"/>
+			<blueprint ware="engine_tel_xl_allround_01_mk1"/>
+			<blueprint ware="missile_dumbfire_light_mk2"/>
+			<blueprint ware="engine_tel_s_combat_01_mk1"/>
+			<blueprint ware="missile_dumbfire_light_mk1"/>
+			<blueprint ware="engine_tel_s_combat_01_mk3"/>
+			<blueprint ware="missile_smart_heavy_mk1"/>
+			<blueprint ware="module_gen_prod_shieldcomponents_01"/>
+			<blueprint ware="module_tel_prod_sunriseflowers_01"/>
+			<blueprint ware="module_tel_def_claim_01"/>
+			<blueprint ware="module_tel_hab_l_01"/>
+			<blueprint ware="module_tel_prod_spaceweed_01"/>
+			<blueprint ware="module_tel_hab_m_01"/>
+			<blueprint ware="module_tel_prod_scanningarrays_01"/>
+			<blueprint ware="module_gen_equip_l_01"/>
+			<blueprint ware="module_tel_prod_nostropoil_01"/>
+			<blueprint ware="module_tel_prod_hullparts_01"/>
+			<blueprint ware="module_gen_prod_advancedcomposites_01"/>
+			<blueprint ware="module_tel_def_disc_01"/>
+			<blueprint ware="module_tel_prod_engineparts_01"/>
+			<blueprint ware="module_tel_conn_vertical_01"/>
+			<blueprint ware="module_tel_conn_vertical_02"/>
+			<blueprint ware="module_tel_conn_cross_01"/>
+			<blueprint ware="module_tel_prod_advancedcomposites_01"/>
+			<blueprint ware="module_gen_prod_scanningarrays_01"/>
+			<blueprint ware="module_tel_hab_s_01"/>
+			<blueprint ware="module_gen_equip_xl_01"/>
+			<blueprint ware="module_gen_build_xl_01"/>
+			<blueprint ware="module_gen_prod_microchips_01"/>
+			<blueprint ware="module_tel_stor_container_m_01"/>
+			<blueprint ware="module_tel_stor_solid_m_01"/>
+			<blueprint ware="module_tel_stor_container_l_01"/>
+			<blueprint ware="module_gen_equip_dockarea_m_01"/>
+			<blueprint ware="module_tel_prod_swampplant_01"/>
+			<blueprint ware="module_tel_stor_liquid_l_01"/>
+			<blueprint ware="module_tel_stor_liquid_m_01"/>
+			<blueprint ware="module_gen_prod_smartchips_01"/>
+			<blueprint ware="module_tel_stor_solid_l_01"/>
+			<blueprint ware="module_gen_prod_hullparts_01"/>
+			<blueprint ware="module_gen_prod_quantumtubes_01"/>
+			<blueprint ware="module_tel_def_tube_01"/>
+			<blueprint ware="module_gen_prod_plasmaconductors_01"/>
+			<blueprint ware="module_tel_conn_base_03"/>
+			<blueprint ware="module_tel_conn_base_02"/>
+			<blueprint ware="module_tel_conn_base_01"/>
+			<blueprint ware="module_gen_prod_fieldcoils_01"/>
+			<blueprint ware="mod_weapon_cooling_04_mk2"/>
+			<blueprint ware="mod_weapon_cooling_05_mk2"/>
+			<blueprint ware="mod_weapon_sticktime_03_mk2"/>
+			<blueprint ware="mod_weapon_sticktime_02_mk2"/>
+			<blueprint ware="mod_weapon_cooling_01_mk2"/>
+			<blueprint ware="mod_weapon_damage_03_mk2"/>
+			<blueprint ware="mod_weapon_damage_02_mk2"/>
+			<blueprint ware="mod_weapon_sticktime_01_mk2"/>
+			<blueprint ware="mod_weapon_damage_04_mk2"/>
+			<blueprint ware="mod_weapon_damage_05_mk2"/>
+			<blueprint ware="mod_weapon_cooling_03_mk2"/>
+			<blueprint ware="mod_weapon_damage_01_mk2"/>
+			<blueprint ware="mod_weapon_surfaceelement_01_mk2"/>
+			<blueprint ware="mod_weapon_cooling_02_mk2"/>
+			<blueprint ware="mod_shield_rechargerate_01_mk2"/>
+			<blueprint ware="mod_shield_capacity_01_mk2"/>
+			<blueprint ware="ship_tel_s_scout_01_b"/>
+			<blueprint ware="ship_tel_m_miner_solid_01_b"/>
+			<blueprint ware="ship_tel_xl_builder_01_b"/>
+			<blueprint ware="ship_tel_l_trans_container_02_b"/>
+			<blueprint ware="ship_tel_l_trans_container_01_b"/>
+			<blueprint ware="ship_tel_m_trans_container_01_b"/>
+			<blueprint ware="ship_tel_m_trans_container_03_a"/>
+			<blueprint ware="ship_tel_m_trans_container_02_b"/>
+			<blueprint ware="weapon_gen_s_cannon_01_mk2"/>
+			<blueprint ware="module_tel_pier_l_02"/>
+			<blueprint ware="module_tel_pier_l_03"/>
+			<blueprint ware="module_tel_pier_l_01"/>
+			<blueprint ware="module_tel_prod_medicalsupplies_01"/>
+			<blueprint ware="module_gen_prod_dronecomponents_01"/>
+			<blueprint ware="ship_tel_s_trans_container_01_b"/>
+			<blueprint ware="ship_tel_l_miner_solid_01_b"/>
+			<blueprint ware="ship_tel_m_frigate_01_b"/>
+			<blueprint ware="weapon_gen_s_cannon_01_mk1"/>
+			<blueprint ware="ship_tel_l_miner_liquid_01_b"/>
+			<blueprint ware="ship_tel_m_bomber_01_b"/>
+			<blueprint ware="ship_tel_xl_resupplier_01_b"/>
+			<blueprint ware="ship_tel_s_fighter_01_b"/>
+			<blueprint ware="ship_tel_s_fighter_02_b"/>
+			<blueprint ware="ship_tel_m_miner_liquid_01_b"/>
+			<blueprint ware="ship_tel_s_scout_02_b"/>
+			<blueprint ware="mod_ship_hidecargo_01"/>
+			<blueprint ware="mod_ship_radarcloak_01_mk3"/>
+			<blueprint ware="mod_ship_mass_01_mk3"/>
+			<blueprint ware="mod_ship_regiondamage_01_mk3"/>
+			<blueprint ware="module_spl_stor_solid_m_01"/>
+			<blueprint ware="module_spl_def_tube_01"/>
+			<blueprint ware="module_spl_stor_solid_l_01"/>
+			<blueprint ware="module_spl_conn_vertical_01"/>
+			<blueprint ware="module_spl_conn_vertical_02"/>
+			<blueprint ware="module_spl_conn_cross_01"/>
+			<blueprint ware="module_spl_prod_scruffinfruits_01"/>
+			<blueprint ware="module_spl_hab_s_01"/>
+			<blueprint ware="ship_spl_l_miner_liquid_01_a"/>
+			<blueprint ware="ship_spl_s_trans_container_01_a"/>
+			<blueprint ware="ship_spl_s_fighter_02_b"/>
+			<blueprint ware="ship_spl_m_trans_container_01_a"/>
+			<blueprint ware="ship_spl_l_miner_solid_01_a"/>
+			<blueprint ware="ship_spl_s_heavyfighter_02_a"/>
+			<blueprint ware="ship_spl_m_miner_liquid_01_a"/>
+			<blueprint ware="ship_spl_s_miner_solid_01_a"/>
+			<blueprint ware="ship_spl_m_corvette_01_b"/>
+			<blueprint ware="ship_spl_s_scout_01_a"/>
+			<blueprint ware="ship_spl_m_miner_solid_01_a"/>
+			<blueprint ware="ship_spl_xl_builder_01_a"/>
+			<blueprint ware="ship_spl_l_trans_container_01_a"/>
+			<blueprint ware="turret_spl_m_guided_02_mk1"/>
+			<blueprint ware="weapon_spl_m_gatling_01_mk1"/>
+			<blueprint ware="weapon_spl_m_gatling_01_mk2"/>
+			<blueprint ware="shield_spl_l_standard_01_mk1"/>
+			<blueprint ware="weapon_spl_s_gatling_01_mk2"/>
+			<blueprint ware="shield_spl_m_standard_02_mk1"/>
+			<blueprint ware="shield_spl_m_standard_01_mk1"/>
+			<blueprint ware="weapon_spl_s_gatling_01_mk1"/>
+			<blueprint ware="shield_spl_xl_standard_01_mk1"/>
+			<blueprint ware="weapon_spl_m_shotgun_01_mk2"/>
+			<blueprint ware="shield_spl_s_standard_01_mk1"/>
+			<blueprint ware="weapon_spl_m_shotgun_01_mk1"/>
+			<blueprint ware="shield_spl_s_standard_01_mk2"/>
+			<blueprint ware="engine_spl_m_combat_01_mk3"/>
+			<blueprint ware="engine_spl_m_combat_01_mk2"/>
+			<blueprint ware="engine_spl_m_combat_01_mk1"/>
+			<blueprint ware="weapon_spl_m_sticky_01_mk2"/>
+			<blueprint ware="weapon_spl_m_sticky_01_mk1"/>
+			<blueprint ware="weapon_spl_s_shotgun_01_mk1"/>
+			<blueprint ware="turret_spl_m_gatling_02_mk1"/>
+			<blueprint ware="turret_spl_m_gatling_01_mk1"/>
+			<blueprint ware="turret_spl_m_shotgun_02_mk1"/>
+			<blueprint ware="turret_spl_m_shotgun_01_mk1"/>
+			<blueprint ware="turret_spl_m_flak_02_mk1"/>
+			<blueprint ware="turret_spl_m_flak_01_mk1"/>
+			<blueprint ware="turret_spl_m_dumbfire_02_mk1"/>
+			<blueprint ware="turret_spl_l_mining_01_mk1"/>
+			<blueprint ware="engine_spl_m_allround_01_mk2"/>
+			<blueprint ware="turret_spl_m_mining_02_mk1"/>
+			<blueprint ware="turret_spl_m_mining_01_mk1"/>
+			<blueprint ware="engine_spl_xl_travel_01_mk1"/>
+			<blueprint ware="engine_spl_m_allround_01_mk1"/>
+			<blueprint ware="engine_spl_m_allround_01_mk3"/>
+			<blueprint ware="engine_spl_l_travel_01_mk1"/>
+			<blueprint ware="engine_spl_s_travel_01_mk1"/>
+			<blueprint ware="turret_spl_m_plasma_02_mk1"/>
+			<blueprint ware="turret_spl_m_plasma_01_mk1"/>
+			<blueprint ware="engine_spl_s_combat_01_mk2"/>
+			<blueprint ware="engine_spl_s_travel_01_mk3"/>
+			<blueprint ware="engine_spl_s_combat_01_mk3"/>
+			<blueprint ware="engine_spl_s_travel_01_mk2"/>
+			<blueprint ware="engine_spl_m_travel_01_mk3"/>
+			<blueprint ware="turret_spl_m_laser_02_mk1"/>
+			<blueprint ware="turret_spl_m_laser_01_mk1"/>
+			<blueprint ware="engine_spl_s_combat_01_mk1"/>
+			<blueprint ware="engine_spl_s_allround_01_mk2"/>
+			<blueprint ware="engine_spl_s_allround_01_mk1"/>
+			<blueprint ware="engine_spl_s_allround_01_mk3"/>
+			<blueprint ware="engine_spl_m_travel_01_mk1"/>
+			<blueprint ware="engine_spl_l_allround_01_mk1"/>
+			<blueprint ware="engine_spl_m_travel_01_mk2"/>
+			<blueprint ware="module_spl_prod_cheltmeat_01"/>
+			<blueprint ware="module_spl_hab_m_01"/>
+			<blueprint ware="module_spl_stor_container_m_01"/>
+			<blueprint ware="module_spl_stor_container_l_01"/>
+			<blueprint ware="module_spl_pier_l_02"/>
+			<blueprint ware="module_spl_pier_l_03"/>
+			<blueprint ware="module_spl_pier_l_01"/>
+			<blueprint ware="module_spl_def_disc_01"/>
+			<blueprint ware="module_spl_stor_solid_s_01"/>
+			<blueprint ware="module_spl_stor_liquid_l_01"/>
+			<blueprint ware="module_spl_stor_liquid_m_01"/>
+			<blueprint ware="module_spl_stor_liquid_s_01"/>
+			<blueprint ware="engine_spl_xl_allround_01_mk1"/>
+			<blueprint ware="turret_spl_m_beam_02_mk1"/>
+			<blueprint ware="turret_spl_m_beam_01_mk1"/>
+			<blueprint ware="module_spl_stor_container_s_01"/>
+			<blueprint ware="module_spl_conn_base_03"/>
+			<blueprint ware="module_spl_conn_base_02"/>
+			<blueprint ware="module_spl_conn_base_01"/>
+			<blueprint ware="module_par_hab_m_01"/>
+			<blueprint ware="module_par_stor_solid_m_01"/>
+			<blueprint ware="module_par_stor_solid_l_01"/>
+			<blueprint ware="module_par_pier_l_02"/>
+			<blueprint ware="module_par_pier_l_03"/>
+			<blueprint ware="module_par_def_disc_01"/>
+			<blueprint ware="module_par_stor_container_m_01"/>
+			<blueprint ware="module_par_stor_container_l_01"/>
+			<blueprint ware="module_par_stor_solid_s_01"/>
+			<blueprint ware="module_par_hab_s_01"/>
+			<blueprint ware="module_par_prod_medicalsupplies_01"/>
+			<blueprint ware="module_par_stor_container_s_01"/>
+			<blueprint ware="module_par_prod_sojahusk_01"/>
+			<blueprint ware="module_par_prod_sojabeans_01"/>
+			<blueprint ware="module_par_def_tube_01"/>
+			<blueprint ware="module_par_stor_liquid_m_01"/>
+			<blueprint ware="module_par_stor_liquid_l_01"/>
+			<blueprint ware="module_par_prod_majasnails_01"/>
+			<blueprint ware="module_par_stor_liquid_s_01"/>
+			<blueprint ware="mod_engine_travelthrust_01_mk3"/>
+			<blueprint ware="mod_engine_forwardthrust_01_mk3"/>
+			<blueprint ware="mod_engine_rotationthrust_01_mk3"/>
+			<blueprint ware="mod_engine_boostthrust_01_mk3"/>
+			<blueprint ware="module_par_hab_l_01"/>
+			<blueprint ware="module_par_conn_cross_03"/>
+			<blueprint ware="module_par_conn_cross_01"/>
+			<blueprint ware="module_par_conn_vertical_02"/>
+			<blueprint ware="module_par_conn_vertical_01"/>
+			<blueprint ware="module_par_conn_cross_02"/>
+			<blueprint ware="module_par_conn_base_01"/>
+			<blueprint ware="module_par_conn_base_03"/>
+			<blueprint ware="module_par_conn_base_02"/>
+			<blueprint ware="mod_weapon_mining_01_mk3"/>
+			<blueprint ware="mod_weapon_speed_01_mk3"/>
+			<blueprint ware="mod_weapon_damage_02_mk3"/>
+			<blueprint ware="mod_weapon_damage_01_mk3"/>
+			<blueprint ware="mod_weapon_surfaceelement_01_mk3"/>
+			<blueprint ware="ship_spl_s_fighter_01_a"/>
+			<blueprint ware="ship_spl_s_fighter_02_a"/>
+			<blueprint ware="ship_spl_s_heavyfighter_01_a"/>
+			<blueprint ware="weapon_spl_m_railgun_01_mk2"/>
+			<blueprint ware="ship_spl_m_corvette_01_a"/>
+			<blueprint ware="weapon_spl_m_railgun_01_mk1"/>
+			<blueprint ware="shield_spl_l_standard_01_mk2"/>
+			<blueprint ware="shield_spl_m_standard_02_mk2"/>
+			<blueprint ware="shield_spl_m_standard_01_mk2"/>
+			<blueprint ware="weapon_spl_s_sticky_01_mk1"/>
+			<blueprint ware="shield_spl_s_standard_01_mk3"/>
+			<blueprint ware="weapon_spl_s_sticky_01_mk2"/>
+			<blueprint ware="engine_spl_m_combat_01_mk4"/>
+			<blueprint ware="weapon_spl_s_railgun_01_mk1"/>
+			<blueprint ware="weapon_spl_s_railgun_01_mk2"/>
+			<blueprint ware="missile_scatter_heavy_mk1"/>
+			<blueprint ware="weapon_spl_s_shotgun_01_mk2"/>
+			<blueprint ware="missile_interceptor_light_mk1"/>
+			<blueprint ware="missile_disruptor_light_mk1"/>
+			<blueprint ware="missile_starburst_heavy_mk1"/>
+			<blueprint ware="engine_spl_s_combat_01_mk4"/>
+			<blueprint ware="ship_spl_m_frigate_01_a"/>
+			<blueprint ware="module_spl_prod_medicalsupplies_01"/>
+			<blueprint ware="mod_shield_capacity_02_mk3"/>
+			<blueprint ware="mod_shield_rechargerate_01_mk3"/>
+			<blueprint ware="mod_shield_capacity_01_mk3"/>
+			<blueprint ware="ship_par_m_miner_solid_01_a"/>
+			<blueprint ware="engine_arg_s_combat_01_mk1"/>
+			<blueprint ware="ship_par_l_miner_liquid_01_a"/>
+			<blueprint ware="ship_par_l_miner_liquid_01_b"/>
+			<blueprint ware="ship_par_l_miner_solid_01_a"/>
+			<blueprint ware="ship_par_l_miner_solid_01_b"/>
+			<blueprint ware="ship_par_s_miner_solid_01_a"/>
+			<blueprint ware="ship_par_m_miner_liquid_01_a"/>
+			<blueprint ware="ship_par_m_miner_liquid_01_b"/>
+			<blueprint ware="ship_arg_m_miner_liquid_01_a"/>
+			<blueprint ware="ship_arg_m_miner_liquid_01_b"/>
+			<blueprint ware="ship_arg_m_miner_solid_01_a"/>
+			<blueprint ware="engine_arg_m_allround_01_mk1"/>
+			<blueprint ware="ship_arg_s_miner_solid_01_a"/>
+			<blueprint ware="engine_arg_s_travel_01_mk1"/>
+			<blueprint ware="engine_arg_s_allround_01_mk1"/>
+			<blueprint ware="engine_arg_m_travel_01_mk1"/>
+			<blueprint ware="engine_arg_m_combat_01_mk1"/>
+			<blueprint ware="engine_arg_l_allround_01_mk1"/>
+			<blueprint ware="module_par_prod_majadust_01"/>
+			<blueprint ware="ship_arg_m_miner_solid_01_b"/>
+			<blueprint ware="ship_arg_s_scout_01_b"/>
+			<blueprint ware="ship_arg_s_scout_01_a"/>
+			<blueprint ware="ship_arg_m_bomber_02_a"/>
+			<blueprint ware="ship_arg_l_miner_solid_01_b"/>
+			<blueprint ware="ship_arg_l_miner_solid_01_a"/>
+			<blueprint ware="ship_arg_l_miner_liquid_01_a"/>
+			<blueprint ware="ship_arg_l_miner_liquid_01_b"/>
+			<blueprint ware="ship_par_m_miner_solid_01_b"/>
+			<blueprint ware="engine_arg_s_travel_01_mk3"/>
+			<blueprint ware="engine_arg_m_travel_01_mk2"/>
+			<blueprint ware="engine_arg_m_travel_01_mk3"/>
+			<blueprint ware="module_pir_hab_s_01"/>
+			<blueprint ware="engine_arg_m_allround_01_mk2"/>
+			<blueprint ware="engine_arg_xl_travel_01_mk1"/>
+			<blueprint ware="ship_pir_s_trans_container_01_a"/>
+			<blueprint ware="ship_pir_xl_builder_01"/>
+			<blueprint ware="ship_pir_s_heavyfighter_01_a"/>
+			<blueprint ware="ship_pir_s_fighter_02_a"/>
+			<blueprint ware="ship_pir_s_fighter_01_a"/>
+			<blueprint ware="ship_pir_s_trans_condensate_01_a"/>
+			<blueprint ware="engine_arg_s_combat_01_mk2"/>
+			<blueprint ware="engine_arg_s_combat_01_mk3"/>
+			<blueprint ware="engine_arg_m_combat_01_mk2"/>
+			<blueprint ware="engine_arg_m_combat_01_mk3"/>
+			<blueprint ware="engine_arg_xl_allround_01_mk1"/>
+			<blueprint ware="engine_arg_m_allround_01_mk3"/>
+			<blueprint ware="engine_arg_s_travel_01_mk2"/>
+			<blueprint ware="weapon_ter_m_gatling_01_mk2"/>
+			<blueprint ware="weapon_ter_m_gatling_01_mk1"/>
+			<blueprint ware="turret_ter_m_dumbfire_02_mk1"/>
+			<blueprint ware="turret_ter_l_mining_01_mk1"/>
+			<blueprint ware="turret_ter_m_guided_02_mk1"/>
+			<blueprint ware="turret_ter_m_gatling_02_mk1"/>
+			<blueprint ware="turret_ter_m_gatling_01_mk1"/>
+			<blueprint ware="module_ter_prod_stimulants_01"/>
+			<blueprint ware="module_ter_prod_proteinpaste_01"/>
+			<blueprint ware="module_ter_dock_m_01_hightech"/>
+			<blueprint ware="module_ter_stor_liquid_l_01"/>
+			<blueprint ware="module_ter_stor_liquid_m_01"/>
+			<blueprint ware="turret_ter_m_beam_02_mk1"/>
+			<blueprint ware="turret_ter_m_beam_01_mk1"/>
+			<blueprint ware="module_ter_pier_tradestation_01"/>
+			<blueprint ware="turret_ter_m_laser_02_mk1"/>
+			<blueprint ware="turret_ter_m_laser_01_mk1"/>
+			<blueprint ware="module_ter_hab_s_01"/>
+			<blueprint ware="shield_ter_s_standard_01_mk3"/>
+			<blueprint ware="module_ter_conn_base_01"/>
+			<blueprint ware="module_ter_conn_base_03"/>
+			<blueprint ware="shield_ter_s_standard_01_mk1"/>
+			<blueprint ware="shield_ter_xl_standard_01_mk2"/>
+			<blueprint ware="shield_ter_xl_standard_01_mk1"/>
+			<blueprint ware="shield_ter_l_standard_01_mk1"/>
+			<blueprint ware="engine_ter_m_allround_01_mk3"/>
+			<blueprint ware="shield_ter_l_standard_01_mk2"/>
+			<blueprint ware="shield_ter_l_standard_01_mk3"/>
+			<blueprint ware="module_ter_conn_cross_01"/>
+			<blueprint ware="module_ter_conn_vertical_02"/>
+			<blueprint ware="module_ter_conn_vertical_01"/>
+			<blueprint ware="module_ter_def_tube_01"/>
+			<blueprint ware="shield_ter_m_standard_02_mk2"/>
+			<blueprint ware="shield_ter_m_standard_01_mk2"/>
+			<blueprint ware="module_ter_prod_terranmre_01"/>
+			<blueprint ware="module_ter_stor_liquid_s_01"/>
+			<blueprint ware="ship_ter_m_miner_liquid_01_a"/>
+			<blueprint ware="module_ter_prod_medicalsupplies_01"/>
+			<blueprint ware="engine_ter_s_travel_01_mk1"/>
+			<blueprint ware="module_ter_stor_container_m_01"/>
+			<blueprint ware="engine_ter_xl_allround_01_mk1"/>
+			<blueprint ware="module_ter_stor_container_l_01"/>
+			<blueprint ware="module_ter_def_disc_01"/>
+			<blueprint ware="module_ter_stor_container_s_01"/>
+			<blueprint ware="module_ter_prod_energycells_01"/>
+			<blueprint ware="module_ter_prod_computronicsubstrate_01"/>
+			<blueprint ware="engine_ter_s_combat_01_mk3"/>
+			<blueprint ware="module_ter_stor_solid_s_01"/>
+			<blueprint ware="module_ter_prod_siliconcarbide_01"/>
+			<blueprint ware="ship_ter_s_scout_01_a"/>
+			<blueprint ware="ship_ter_s_scout_02_a"/>
+			<blueprint ware="ship_ter_l_miner_solid_01_a"/>
+			<blueprint ware="ship_ter_m_trans_container_01_a"/>
+			<blueprint ware="ship_ter_s_fighter_01_a"/>
+			<blueprint ware="ship_ter_l_trans_container_01_a"/>
+			<blueprint ware="ship_ter_xl_builder_01_a"/>
+			<blueprint ware="engine_ter_s_travel_01_mk2"/>
+			<blueprint ware="ship_ter_s_miner_solid_01_a"/>
+			<blueprint ware="engine_ter_xl_travel_01_mk1"/>
+			<blueprint ware="ship_ter_m_frigate_01_a"/>
+			<blueprint ware="engine_ter_s_travel_01_mk3"/>
+			<blueprint ware="ship_ter_l_miner_liquid_01_a"/>
+			<blueprint ware="ship_ter_s_trans_container_01_a"/>
+			<blueprint ware="ship_ter_m_corvette_01_a"/>
+			<blueprint ware="ship_ter_m_miner_solid_01_a"/>
+			<blueprint ware="ship_ter_s_heavyfighter_01_a"/>
+			<blueprint ware="engine_ter_s_combat_01_mk2"/>
+			<blueprint ware="engine_ter_s_combat_01_mk1"/>
+			<blueprint ware="ship_ter_m_gunboat_01_a"/>
+			<blueprint ware="engine_ter_s_allround_01_mk3"/>
+			<blueprint ware="engine_ter_s_allround_01_mk2"/>
+			<blueprint ware="engine_ter_s_allround_01_mk1"/>
+			<blueprint ware="engine_ter_m_travel_01_mk3"/>
+			<blueprint ware="weapon_ter_s_beam_01_mk2"/>
+			<blueprint ware="engine_ter_m_travel_01_mk2"/>
+			<blueprint ware="weapon_ter_s_beam_01_mk1"/>
+			<blueprint ware="engine_ter_m_travel_01_mk1"/>
+			<blueprint ware="weapon_ter_m_beam_01_mk1"/>
+			<blueprint ware="engine_ter_m_combat_01_mk3"/>
+			<blueprint ware="weapon_ter_m_beam_01_mk2"/>
+			<blueprint ware="engine_ter_m_combat_01_mk2"/>
+			<blueprint ware="engine_ter_m_combat_01_mk1"/>
+			<blueprint ware="engine_ter_m_allround_01_mk2"/>
+			<blueprint ware="engine_ter_m_allround_01_mk1"/>
+			<blueprint ware="engine_ter_l_travel_01_mk1"/>
+			<blueprint ware="engine_ter_l_allround_01_mk1"/>
+			<blueprint ware="shield_ter_s_standard_01_mk2"/>
+			<blueprint ware="weapon_ter_s_gatling_01_mk1"/>
+			<blueprint ware="shield_ter_m_standard_02_mk3"/>
+			<blueprint ware="shield_ter_m_standard_01_mk3"/>
+			<blueprint ware="weapon_ter_s_gatling_01_mk2"/>
+			<blueprint ware="shield_ter_m_standard_02_mk1"/>
+			<blueprint ware="shield_ter_m_standard_01_mk1"/>
+			<blueprint ware="weapon_ter_m_laser_01_mk1"/>
+			<blueprint ware="turret_ter_m_mining_02_mk1"/>
+			<blueprint ware="turret_ter_m_mining_01_mk1"/>
+			<blueprint ware="weapon_ter_m_laser_01_mk2"/>
+			<blueprint ware="module_ter_conn_base_02"/>
+			<blueprint ware="module_ter_hab_m_01"/>
+			<blueprint ware="module_ter_stor_solid_m_01"/>
+			<blueprint ware="module_ter_prod_metallicmicrolattice_01"/>
+			<blueprint ware="module_ter_pier_03"/>
+			<blueprint ware="module_ter_stor_solid_l_01"/>
+			<blueprint ware="module_ter_pier_04"/>
+			<blueprint ware="weapon_ter_s_laser_01_mk2"/>
+			<blueprint ware="module_ter_pier_01"/>
+			<blueprint ware="weapon_ter_s_laser_01_mk1"/>
+			<blueprint ware="weapon_arg_l_destroyer_01_mk1"/>
+			<blueprint ware="module_arg_stor_container_s_01"/>
+			<blueprint ware="module_arg_stor_liquid_s_01"/>
+			<blueprint ware="module_arg_hab_s_01"/>
+			<blueprint ware="module_gen_prod_weaponcomponents_01"/>
+			<blueprint ware="turret_arg_l_plasma_01_mk1"/>
+			<blueprint ware="module_arg_dock_tradestation_02"/>
+			<blueprint ware="module_arg_stor_solid_s_01"/>
+			<blueprint ware="ship_arg_xl_carrier_01_a"/>
+			<blueprint ware="ship_arg_xl_builder_01_a"/>
+			<blueprint ware="ship_arg_xl_resupplier_01_a"/>
+			<blueprint ware="ship_arg_l_destroyer_01_a"/>
+			<blueprint ware="ship_arg_m_trans_container_01_a"/>
+			<blueprint ware="ship_arg_m_trans_container_02_a"/>
+			<blueprint ware="ship_arg_l_trans_container_05_a"/>
+			<blueprint ware="ship_arg_l_trans_container_04_a"/>
+			<blueprint ware="ship_arg_l_trans_container_03_a"/>
+			<blueprint ware="ship_arg_l_trans_container_02_a"/>
+			<blueprint ware="ship_arg_l_trans_container_01_a"/>
+			<blueprint ware="ship_arg_s_heavyfighter_02_a"/>
+			<blueprint ware="ship_arg_s_trans_container_02_a"/>
+			<blueprint ware="ship_arg_s_trans_container_01_a"/>
+			<blueprint ware="ship_arg_s_fighter_04_a"/>
+			<blueprint ware="ship_arg_s_fighter_01_a"/>
+			<blueprint ware="ship_arg_s_fighter_02_a"/>
+			<blueprint ware="ship_arg_m_frigate_01_a"/>
+			<blueprint ware="ship_arg_m_bomber_01_a"/>
+			<blueprint ware="engine_arg_s_allround_01_mk2"/>
+			<blueprint ware="turret_arg_l_beam_01_mk1"/>
+			<blueprint ware="turret_arg_l_dumbfire_01_mk1"/>
+			<blueprint ware="turret_arg_l_guided_01_mk1"/>
+			<blueprint ware="engine_arg_l_travel_01_mk1"/>
+			<blueprint ware="engine_arg_s_allround_01_mk3"/>
+			<blueprint ware="turret_par_m_plasma_02_mk1"/>
+			<blueprint ware="turret_par_m_plasma_01_mk1"/>
+			<blueprint ware="turret_par_m_shotgun_02_mk1"/>
+			<blueprint ware="turret_par_m_shotgun_01_mk1"/>
+			<blueprint ware="turret_par_l_laser_01_mk1"/>
+			<blueprint ware="turret_par_m_beam_02_mk1"/>
+			<blueprint ware="turret_par_m_beam_01_mk1"/>
+			<blueprint ware="turret_par_m_guided_02_mk1"/>
+			<blueprint ware="turret_par_l_dumbfire_01_mk1"/>
+			<blueprint ware="turret_par_m_dumbfire_02_mk1"/>
+			<blueprint ware="turret_par_l_beam_01_mk1"/>
+			<blueprint ware="turret_par_m_mining_02_mk1"/>
+			<blueprint ware="turret_par_m_mining_01_mk1"/>
+			<blueprint ware="turret_par_l_guided_01_mk1"/>
+			<blueprint ware="turret_par_l_mining_01_mk1"/>
+			<blueprint ware="shield_par_xl_standard_01_mk1"/>
+			<blueprint ware="shield_par_m_standard_02_mk2"/>
+			<blueprint ware="shield_par_m_standard_01_mk2"/>
+			<blueprint ware="shield_par_m_standard_02_mk1"/>
+			<blueprint ware="shield_par_m_standard_01_mk1"/>
+			<blueprint ware="shield_par_l_standard_01_mk1"/>
+			<blueprint ware="shield_par_l_standard_01_mk2"/>
+			<blueprint ware="shield_par_s_standard_01_mk3"/>
+			<blueprint ware="shield_par_s_standard_01_mk2"/>
+			<blueprint ware="shield_par_s_standard_01_mk1"/>
+			<blueprint ware="engine_par_m_combat_01_mk1"/>
+			<blueprint ware="engine_par_m_combat_01_mk3"/>
+			<blueprint ware="engine_par_m_combat_01_mk2"/>
+			<blueprint ware="engine_par_s_travel_01_mk3"/>
+			<blueprint ware="engine_par_s_travel_01_mk2"/>
+			<blueprint ware="engine_par_s_travel_01_mk1"/>
+			<blueprint ware="engine_par_xl_travel_01_mk1"/>
+			<blueprint ware="engine_par_l_travel_01_mk1"/>
+			<blueprint ware="engine_par_s_combat_01_mk3"/>
+			<blueprint ware="engine_par_s_combat_01_mk2"/>
+			<blueprint ware="engine_par_s_combat_01_mk1"/>
+			<blueprint ware="engine_par_s_allround_01_mk2"/>
+			<blueprint ware="engine_par_s_allround_01_mk3"/>
+			<blueprint ware="engine_par_s_allround_01_mk1"/>
+			<blueprint ware="ship_par_m_corvette_01_b"/>
+			<blueprint ware="ship_par_m_frigate_01_b"/>
+			<blueprint ware="ship_par_l_trans_container_01_b"/>
+			<blueprint ware="ship_par_l_trans_container_02_b"/>
+			<blueprint ware="engine_par_m_travel_01_mk1"/>
+			<blueprint ware="ship_par_l_destroyer_02_a"/>
+			<blueprint ware="engine_par_m_travel_01_mk3"/>
+			<blueprint ware="ship_par_l_miner_liquid_02_a"/>
+			<blueprint ware="engine_par_m_travel_01_mk2"/>
+			<blueprint ware="ship_par_xl_carrier_02_a"/>
+			<blueprint ware="ship_par_xl_carrier_01_b"/>
+			<blueprint ware="ship_par_s_scout_01_b"/>
+			<blueprint ware="engine_par_m_allround_01_mk2"/>
+			<blueprint ware="ship_par_s_heavyfighter_01_a"/>
+			<blueprint ware="ship_par_m_trans_container_02_b"/>
+			<blueprint ware="ship_par_m_trans_container_01_b"/>
+			<blueprint ware="ship_par_xl_resupplier_01_b"/>
+			<blueprint ware="ship_par_xl_resupplier_02_a"/>
+			<blueprint ware="ship_par_s_fighter_02_b"/>
+			<blueprint ware="ship_par_s_fighter_01_b"/>
+			<blueprint ware="ship_par_xl_builder_01_b"/>
+			<blueprint ware="engine_par_xl_allround_01_mk1"/>
+			<blueprint ware="ship_par_l_destroyer_01_b"/>
+			<blueprint ware="module_par_def_claim_01"/>
+			<blueprint ware="engine_par_m_allround_01_mk3"/>
+			<blueprint ware="engine_par_m_allround_01_mk1"/>
+			<blueprint ware="engine_par_l_allround_01_mk1"/>
+			<blueprint ware="ship_par_l_trans_container_03_a"/>
+			<blueprint ware="ship_par_s_trans_container_01_b"/>
+			<blueprint ware="turret_par_l_plasma_01_mk1"/>
+			<blueprint ware="weapon_par_l_destroyer_01_mk1"/>
+			<blueprint ware="turret_par_m_laser_02_mk1"/>
+			<blueprint ware="turret_par_m_laser_01_mk1"/>
+			<blueprint ware="ship_par_l_miner_solid_02_a"/>
+			<blueprint ware="turret_par_m_gatling_02_mk1"/>
+			<blueprint ware="turret_par_m_gatling_01_mk1"/>
+			<blueprint ware="weapon_par_m_railgun_01_mk2"/>
+			<blueprint ware="module_par_pier_l_01"/>
+			<blueprint ware="ship_par_m_corvette_01_a"/>
+			<blueprint ware="ship_par_m_frigate_01_a"/>
+			<blueprint ware="ship_par_l_trans_container_01_a"/>
+			<blueprint ware="ship_par_l_trans_container_02_a"/>
+			<blueprint ware="ship_par_l_destroyer_01_a"/>
+			<blueprint ware="ship_par_xl_carrier_01_a"/>
+			<blueprint ware="ship_par_s_scout_01_a"/>
+			<blueprint ware="ship_par_s_trans_container_01_a"/>
+			<blueprint ware="ship_par_m_trans_container_02_a"/>
+			<blueprint ware="ship_par_m_trans_container_01_a"/>
+			<blueprint ware="ship_par_xl_resupplier_01_a"/>
+			<blueprint ware="ship_par_s_fighter_02_a"/>
+			<blueprint ware="ship_par_s_fighter_01_a"/>
+			<blueprint ware="ship_par_xl_builder_01_a"/>
+			<blueprint ware="weapon_gen_s_burst_01_mk2"/>
+			<blueprint ware="weapon_gen_s_burst_01_mk1"/>
+			<blueprint ware="weapon_par_s_railgun_01_mk2"/>
+			<blueprint ware="weapon_par_s_railgun_01_mk1"/>
+			<blueprint ware="weapon_par_m_railgun_01_mk1"/>
+			<blueprint ware="module_spl_def_claim_01"/>
+			<blueprint ware="turret_spl_l_laser_01_mk1"/>
+			<blueprint ware="weapon_spl_l_destroyer_01_mk1"/>
+			<blueprint ware="turret_spl_l_beam_01_mk1"/>
+			<blueprint ware="turret_spl_l_dumbfire_01_mk1"/>
+			<blueprint ware="module_spl_hab_l_01"/>
+			<blueprint ware="ship_spl_xl_resupplier_01_a"/>
+			<blueprint ware="turret_spl_l_plasma_01_mk1"/>
+			<blueprint ware="ship_spl_xl_carrier_01_a"/>
+			<blueprint ware="turret_spl_l_guided_01_mk1"/>
+			<blueprint ware="ship_spl_l_destroyer_01_a"/>
+			<blueprint ware="module_ter_equip_l_01"/>
+			<blueprint ware="module_ter_hab_l_01"/>
+			<blueprint ware="module_ter_build_xl_01"/>
+			<blueprint ware="module_ter_equip_xl_01"/>
+			<blueprint ware="module_ter_build_dockarea_m_01"/>
+			<blueprint ware="module_ter_equip_dockarea_m_01"/>
+			<blueprint ware="module_ter_def_claim_01"/>
+			<blueprint ware="module_ter_build_l_01"/>
+			<blueprint ware="ship_ter_xl_resupplier_01_a"/>
+			<blueprint ware="ship_atf_xl_battleship_01_a"/>
+			<blueprint ware="ship_ter_l_destroyer_01_a"/>
+			<blueprint ware="ship_ter_xl_carrier_01_a"/>
+			<blueprint ware="ship_atf_l_destroyer_01_a"/>
+			<blueprint ware="weapon_atf_xl_battleship_01_mk1"/>
+			<blueprint ware="weapon_ter_l_destroyer_01_mk1"/>
+			<blueprint ware="turret_ter_l_dumbfire_01_mk1"/>
+			<blueprint ware="turret_ter_l_gatling_01_mk1"/>
+			<blueprint ware="turret_ter_l_laser_01_mk1"/>
+			<blueprint ware="turret_ter_l_beam_01_mk1"/>
+			<blueprint ware="turret_ter_l_guided_01_mk1"/>
+			<blueprint ware="module_ter_prod_scrap_recycler"/>
+			<blueprint ware="ship_ter_s_fighter_02_a"/>
+			<blueprint ware="ship_ter_s_fighter_03_a"/>
+			<blueprint ware="ship_arg_xl_carrier_01_b"/>
+			<blueprint ware="ship_arg_xl_builder_01_b"/>
+			<blueprint ware="ship_arg_xl_resupplier_01_b"/>
+			<blueprint ware="ship_arg_l_destroyer_01_b"/>
+			<blueprint ware="ship_arg_m_trans_container_01_b"/>
+			<blueprint ware="ship_arg_m_trans_container_02_b"/>
+			<blueprint ware="ship_arg_l_trans_container_05_b"/>
+			<blueprint ware="ship_arg_l_trans_container_04_b"/>
+			<blueprint ware="ship_arg_l_trans_container_03_b"/>
+			<blueprint ware="ship_arg_l_trans_container_02_b"/>
+			<blueprint ware="ship_arg_l_trans_container_01_b"/>
+			<blueprint ware="ship_arg_s_trans_container_02_b"/>
+			<blueprint ware="ship_arg_s_trans_container_01_b"/>
+			<blueprint ware="ship_arg_s_fighter_01_b"/>
+			<blueprint ware="ship_arg_s_fighter_03_a"/>
+			<blueprint ware="ship_arg_s_fighter_02_b"/>
+			<blueprint ware="ship_arg_m_frigate_01_b"/>
+			<blueprint ware="ship_arg_m_bomber_01_b"/>
+			<blueprint ware="ship_yak_m_corvette_01_a"/>
+			<blueprint ware="ship_yak_s_fighter_01_a"/>
+			<blueprint ware="ship_pir_l_scrapper_01"/>
+			<blueprint ware="module_pir_stor_condensate_s_01"/>
+			<blueprint ware="module_bor_conn_base_05"/>
+			<blueprint ware="ship_gen_s_fighter_01_b"/>
+			<blueprint ware="ship_gen_s_fighter_01_a"/>
+			<blueprint ware="module_bor_conn_base_01"/>
+			<blueprint ware="module_bor_conn_base_03"/>
+			<blueprint ware="module_bor_conn_base_02"/>
+			<blueprint ware="module_bor_conn_base_04"/>
+			<blueprint ware="module_bor_hab_s_01"/>
+			<blueprint ware="module_bor_conn_vertical_02"/>
+			<blueprint ware="module_bor_conn_vertical_01"/>
+			<blueprint ware="module_bor_pier_tradestation_01"/>
+			<blueprint ware="module_bor_prod_bofu_01"/>
+			<blueprint ware="module_bor_stor_liquid_s_01"/>
+			<blueprint ware="ship_bor_s_scout_01_a"/>
+			<blueprint ware="ship_bor_s_scout_02_a"/>
+			<blueprint ware="ship_bor_s_trans_container_01_a"/>
+			<blueprint ware="ship_bor_l_miner_solid_01_a"/>
+			<blueprint ware="ship_bor_l_miner_liquid_01_a"/>
+			<blueprint ware="ship_bor_m_gunboat_01_a"/>
+			<blueprint ware="ship_bor_s_heavyfighter_01_a"/>
+			<blueprint ware="ship_bor_s_miner_solid_01_a"/>
+			<blueprint ware="ship_bor_xl_builder_01_a"/>
+			<blueprint ware="ship_bor_s_fighter_01_a"/>
+			<blueprint ware="ship_bor_m_miner_liquid_01_a"/>
+			<blueprint ware="ship_bor_m_trans_container_01_a"/>
+			<blueprint ware="ship_bor_m_miner_solid_01_a"/>
+			<blueprint ware="ship_bor_l_trans_container_01_a"/>
+			<blueprint ware="ship_bor_m_corvette_01_a"/>
+			<blueprint ware="weapon_bor_m_dumbfire_01_mk1"/>
+			<blueprint ware="weapon_bor_s_guided_01_mk1"/>
+			<blueprint ware="weapon_bor_s_mining_01_mk1"/>
+			<blueprint ware="weapon_bor_s_gatling_01_mk1"/>
+			<blueprint ware="module_bor_stor_solid_s_01"/>
+			<blueprint ware="weapon_bor_m_torpedo_01_mk1"/>
+			<blueprint ware="weapon_bor_s_dumbfire_01_mk1"/>
+			<blueprint ware="module_bor_prod_plankton_01"/>
+			<blueprint ware="weapon_bor_s_laser_01_mk1"/>
+			<blueprint ware="module_bor_conn_cross_01"/>
+			<blueprint ware="weapon_bor_s_torpedo_01_mk1"/>
+			<blueprint ware="module_bor_stor_solid_m_01"/>
+			<blueprint ware="weapon_bor_s_arc_01_mk1"/>
+			<blueprint ware="module_bor_prod_bogas_01"/>
+			<blueprint ware="weapon_bor_m_flak_01_mk1"/>
+			<blueprint ware="module_bor_dock_m_01_standard"/>
+			<blueprint ware="weapon_bor_m_laser_01_mk1"/>
+			<blueprint ware="weapon_bor_m_mining_01_mk1"/>
+			<blueprint ware="weapon_bor_m_railgun_01_mk1"/>
+			<blueprint ware="weapon_bor_m_guided_01_mk1"/>
+			<blueprint ware="turret_bor_m_arc_02_mk1"/>
+			<blueprint ware="turret_bor_m_arc_01_mk1"/>
+			<blueprint ware="turret_bor_m_railgun_02_mk1"/>
+			<blueprint ware="turret_bor_m_railgun_01_mk1"/>
+			<blueprint ware="turret_bor_l_laser_01_mk1"/>
+			<blueprint ware="turret_bor_l_mining_01_mk1"/>
+			<blueprint ware="turret_bor_m_laser_02_mk1"/>
+			<blueprint ware="turret_bor_m_laser_01_mk1"/>
+			<blueprint ware="turret_bor_m_mining_02_mk1"/>
+			<blueprint ware="turret_bor_m_mining_01_mk1"/>
+			<blueprint ware="engine_bor_m_allround_01_mk3"/>
+			<blueprint ware="turret_bor_l_disruptor_01_mk1"/>
+			<blueprint ware="engine_bor_s_allround_01_mk3"/>
+			<blueprint ware="turret_bor_l_flak_01_mk1"/>
+			<blueprint ware="engine_bor_s_allround_01_mk1"/>
+			<blueprint ware="turret_bor_m_guided_01_mk1"/>
+			<blueprint ware="engine_bor_xl_travel_01_mk1"/>
+			<blueprint ware="turret_bor_m_dumbfire_01_mk1"/>
+			<blueprint ware="shield_bor_l_standard_01_mk1"/>
+			<blueprint ware="shield_bor_l_standard_01_mk2"/>
+			<blueprint ware="engine_bor_s_allround_01_mk2"/>
+			<blueprint ware="shield_bor_l_standard_01_mk3"/>
+			<blueprint ware="engine_bor_m_allround_01_mk2"/>
+			<blueprint ware="shield_bor_xl_standard_01_mk2"/>
+			<blueprint ware="engine_bor_m_allround_01_mk1"/>
+			<blueprint ware="shield_bor_xl_standard_01_mk1"/>
+			<blueprint ware="engine_bor_l_travel_01_mk1"/>
+			<blueprint ware="shield_bor_m_standard_02_mk2"/>
+			<blueprint ware="shield_bor_m_standard_01_mk2"/>
+			<blueprint ware="module_bor_prod_medicalsupplies_01"/>
+			<blueprint ware="shield_bor_m_standard_02_mk3"/>
+			<blueprint ware="shield_bor_m_standard_01_mk3"/>
+			<blueprint ware="shield_bor_s_standard_01_mk2"/>
+			<blueprint ware="shield_bor_m_standard_02_mk1"/>
+			<blueprint ware="shield_bor_m_standard_01_mk1"/>
+			<blueprint ware="shield_bor_s_standard_01_mk1"/>
+			<blueprint ware="module_bor_def_disc_01"/>
+			<blueprint ware="module_bor_stor_container_s_01"/>
+			<blueprint ware="module_bor_hab_m_01"/>
+			<blueprint ware="module_bor_conn_cross_02"/>
+			<blueprint ware="module_bor_stor_solid_l_01"/>
+			<blueprint ware="module_bor_pier_l_04"/>
+			<blueprint ware="module_bor_pier_l_01"/>
+			<blueprint ware="module_bor_pier_l_02"/>
+			<blueprint ware="module_bor_pier_l_03"/>
+			<blueprint ware="module_bor_def_tube_01"/>
+			<blueprint ware="shield_bor_s_standard_01_mk3"/>
+			<blueprint ware="module_bor_stor_container_m_01"/>
+			<blueprint ware="module_bor_stor_container_l_01"/>
+			<blueprint ware="module_bor_stor_liquid_l_01"/>
+			<blueprint ware="module_bor_stor_liquid_m_01"/>
+			<blueprint ware="ship_gen_m_transdrone_container_01_a"/>
+			<blueprint ware="ship_gen_s_transdrone_container_01_a"/>
+			<blueprint ware="ship_gen_m_transdrone_container_02_a"/>
+			<blueprint ware="ship_gen_s_transdrone_container_02_a"/>
+			<blueprint ware="ship_bor_xl_carrier_01_a"/>
+			<blueprint ware="module_bor_hab_l_01"/>
+			<blueprint ware="module_bor_equip_xl_01"/>
+			<blueprint ware="module_bor_build_xl_01"/>
+			<blueprint ware="module_bor_build_dockarea_m_01"/>
+			<blueprint ware="module_bor_def_claim_01"/>
+			<blueprint ware="module_bor_equip_l_01"/>
+			<blueprint ware="module_bor_equip_dockarea_m_01"/>
+			<blueprint ware="module_bor_build_l_01"/>
+			<blueprint ware="ship_bor_l_carrier_01_a"/>
+			<blueprint ware="ship_bor_xl_resupplier_01_a"/>
+			<blueprint ware="ship_bor_l_destroyer_01_a"/>
+			<blueprint ware="weapon_bor_l_beam_01_mk1"/>
+			<blueprint ware="module_par_def_claim_story_01"/>
+		</blueprints>
+		<research>
+			<research ware="research_teleportation" method="research"/>
+			<research ware="research_teleportation_range_01" method="research"/>
+			<research ware="research_teleportation_range_02" method="research"/>
+			<research ware="research_teleportation_range_03" method="research"/>
+			<research ware="research_module_defence" method="research"/>
+			<research ware="research_module_habitation" method="research"/>
+			<research ware="research_module_production" method="research"/>
+			<research ware="research_module_storage" method="research"/>
+			<research ware="research_module_dock" method="research"/>
+			<research ware="research_module_venture" method="research"/>
+			<research ware="research_mod_engine_pre" method="research"/>
+			<research ware="research_tf_tech" method="research"/>
+			<research ware="research_mod_ship_pre" method="research"/>
+			<research ware="research_mod_ship_mk1" method="research"/>
+			<research ware="research_mod_engine_mk1" method="research"/>
+			<research ware="research_mod_weapon_pre" method="research"/>
+			<research ware="research_mod_weapon_mk1" method="research"/>
+			<research ware="research_mod_shield_pre" method="research"/>
+			<research ware="research_mod_shield_mk1" method="research"/>
+			<research ware="research_mod_ship_mk2" method="research"/>
+			<research ware="research_mod_engine_mk2" method="research"/>
+			<research ware="research_mod_weapon_mk2" method="research"/>
+			<research ware="research_mod_shield_mk2" method="research"/>
+			<research ware="research_mod_ship_mk3" method="research"/>
+			<research ware="research_mod_engine_mk3" method="research"/>
+			<research ware="research_mod_weapon_mk3" method="research"/>
+			<research ware="research_mod_shield_mk3" method="research"/>
+			<research ware="research_warp_hq_01" method="research"/>
+			<research ware="research_condensate_sample_pre" method="research"/>
+			<research ware="research_condensate_sample" method="research"/>
+		</research>
+		<unlocks next="749683.294">
+			<modifiers>
+				<modifier faction="scavenger">
+					<commission/>
+					<discount name="Known Associate" type="discount" amount="0.05" id="md_relation_discount_1"/>
+				</modifier>
+				<modifier faction="boron">
+					<commission/>
+					<discount name="Partnership Agreement" type="discount" amount="0.25" id="md_relation_discount_3"/>
+				</modifier>
+				<modifier faction="alliance">
+					<commission/>
+					<discount name="Known Associate" type="discount" amount="0.05" id="md_relation_discount_1"/>
+				</modifier>
+				<modifier faction="antigone">
+					<commission/>
+					<discount name="Partnership Agreement" type="discount" amount="0.25" id="md_relation_discount_3"/>
+				</modifier>
+				<modifier faction="argon">
+					<commission/>
+					<discount name="Partnership Agreement" type="discount" amount="0.25" id="md_relation_discount_3"/>
+				</modifier>
+				<modifier faction="hatikvah">
+					<commission/>
+					<discount name="Partnership Agreement" type="discount" amount="0.25" id="md_relation_discount_3"/>
+				</modifier>
+				<modifier faction="holyorder">
+					<commission/>
+					<discount name="Partnership Agreement" type="discount" amount="0.25" id="md_relation_discount_3"/>
+				</modifier>
+				<modifier faction="ministry">
+					<commission/>
+					<discount name="Prized Investor" type="discount" amount="0.15" id="md_relation_discount_2"/>
+				</modifier>
+				<modifier faction="paranid">
+					<commission/>
+					<discount name="Partnership Agreement" type="discount" amount="0.25" id="md_relation_discount_3"/>
+				</modifier>
+				<modifier faction="teladi">
+					<commission/>
+					<discount name="Partnership Agreement" type="discount" amount="0.25" id="md_relation_discount_3"/>
+				</modifier>
+				<modifier faction="freesplit">
+					<commission/>
+					<discount name="Partnership Agreement" type="discount" amount="0.25" id="md_relation_discount_3"/>
+				</modifier>
+				<modifier faction="split">
+					<commission/>
+					<discount name="Partnership Agreement" type="discount" amount="0.25" id="md_relation_discount_3"/>
+				</modifier>
+				<modifier faction="pioneers">
+					<commission/>
+					<discount name="Prized Investor" type="discount" amount="0.15" id="md_relation_discount_2"/>
+				</modifier>
+				<modifier faction="terran">
+					<commission/>
+					<discount name="Prized Investor" type="discount" amount="0.15" id="md_relation_discount_2"/>
+				</modifier>
+				<modifier faction="yaki">
+					<commission/>
+					<discount name="Partnership Agreement" type="discount" amount="0.25" id="md_relation_discount_3"/>
+				</modifier>
+				<modifier faction="loanshark">
+					<commission/>
+					<discount name="Prized Investor" type="discount" amount="0.15" id="md_relation_discount_2"/>
+				</modifier>
+			</modifiers>
+		</unlocks>
+		<memory>
+			<subscriptions>
+				<item component="[0xa53]" time="1386272.711"/>
+			</subscriptions>
+			<scan>
+				<item component="[0xa57]" level="0"/>
+			</scan>
+			<longrangescan>
+				<item object="[0x6b63a]"/>
+			</longrangescan>
+		</memory>
+		<theme paint="painttheme_player_08"/>
+		<spacesuit>
+			<bomblauncher ammo="bomb_player_limpet_mine_01_mk1"/>
+			<weapongroups>
+				<primary active="1"/>
+				<secondary active="0"/>
+			</weapongroups>
+		</spacesuit>
+		<autopilot nextchecktime="1361195.684"/>
+		<scanner progress="0" level="2"/>
+		<fleet next="26"/>
+		<discovered>
+			<sector id="[0x0]">
+				<boundary size="346304"/>
+				<quadtree/>
+			</sector>
+		</discovered>
+		<platformtriggers>
+			<triggerset navcontext="[0x49e93]">
+				<interactiontriggers>
+					<trigger component="[0x49e94]">
+						<data connection="connection09"/>
+					</trigger>
+				</interactiontriggers>
+				<proximitytriggers>
+					<trigger component="[0x49e94]">
+						<data connection="connection24" locked="1"/>
+						<data connection="connection20" locked="1"/>
+						<data connection="connection12"/>
+						<data connection="connection06"/>
+					</trigger>
+				</proximitytriggers>
+			</triggerset>
+		</platformtriggers>
+		<resupply level="0.5"/>
+		<alerts>
+			<alert interval="60" repeat="1" class="object" owner="khaak" name="Khaak presence" message="Khaak have been spotted" sound="ui_notification_player_alert_05">
+				<spaces>
+					<space space="[0x67f35]"/>
+					<space space="[0x5f5c5]"/>
+					<space space="[0x612eb]"/>
+					<space space="[0x3ffde]"/>
+					<space space="[0x4065b]"/>
+					<space space="[0x24dee]"/>
+					<space space="[0x2578c]"/>
+					<space space="[0x25b11]"/>
+					<space space="[0x88456]"/>
+					<space space="[0x77c3a]"/>
+					<space space="[0x78c02]"/>
+					<space space="[0x62e01]"/>
+					<space space="[0x6cc30]"/>
+					<space space="[0x73552]"/>
+					<space space="[0x45b51]"/>
+					<space space="[0x28319]"/>
+					<space space="[0x18359]"/>
+					<space space="[0xa363]"/>
+					<space space="[0x4ce7b]"/>
+					<space space="[0x4cd0a]"/>
+					<space space="[0x79af7]"/>
+					<space space="[0x37b1f]"/>
+					<space space="[0x4da99]"/>
+					<space space="[0x6e97e]"/>
+					<space space="[0x43b35]"/>
+					<space space="[0x433a6]"/>
+					<space space="[0x55911]"/>
+					<space space="[0x15096]"/>
+					<space space="[0x48684]"/>
+					<space space="[0x2d9f5]"/>
+					<space space="[0x3c804]"/>
+					<space space="[0x3a03e]"/>
+					<space space="[0x3b655]"/>
+					<space space="[0x8aa69]"/>
+					<space space="[0x21e9f]"/>
+					<space space="[0x228a1]"/>
+					<space space="[0x6635c]"/>
+					<space space="[0x64fa9]"/>
+					<space space="[0x49b88]"/>
+					<space space="[0x5a142]"/>
+					<space space="[0x2c45e]"/>
+					<space space="[0x2a8ff]"/>
+					<space space="[0x2ba0a]"/>
+					<space space="[0x735f]"/>
+					<space space="[0x66a7]"/>
+					<space space="[0x4b7e]"/>
+					<space space="[0x4f148]"/>
+					<space space="[0x7d258]"/>
+					<space space="[0x7ecdc]"/>
+					<space space="[0x56c26]"/>
+					<space space="[0x846ba]"/>
+					<space space="[0x6b277]"/>
+					<space space="[0x6b1be]"/>
+					<space space="[0x1647c]"/>
+					<space space="[0x17658]"/>
+					<space space="[0x317b6]"/>
+					<space space="[0x15a22]"/>
+					<space space="[0xcf97]"/>
+					<space space="[0x4c793]"/>
+					<space space="[0x51384]"/>
+					<space space="[0x4449d]"/>
+					<space space="[0x7256f]"/>
+					<space space="[0x52ff0]"/>
+					<space space="[0x1c9ac]"/>
+					<space space="[0x5db1e]"/>
+					<space space="[0x25de9]"/>
+					<space space="[0x7b21d]"/>
+					<space space="[0x7bb47]"/>
+					<space space="[0x7feb0]"/>
+					<space space="[0x52739]"/>
+					<space space="[0x38c95]"/>
+					<space space="[0xb224]"/>
+					<space space="[0x53a13]"/>
+					<space space="[0xb8a9]"/>
+					<space space="[0x7037a]"/>
+					<space space="[0x23f77]"/>
+					<space space="[0x63fb0]"/>
+					<space space="[0x58ee1]"/>
+					<space space="[0x8691f]"/>
+					<space space="[0x6bf7a]"/>
+					<space space="[0x5ef65]"/>
+					<space space="[0x42274]"/>
+					<space space="[0x40c75]"/>
+					<space space="[0x2777b]"/>
+					<space space="[0x2737e]"/>
+					<space space="[0x740d0]"/>
+					<space space="[0x749d1]"/>
+					<space space="[0x5c6d6]"/>
+					<space space="[0x199dd]"/>
+					<space space="[0x230bd]"/>
+					<space space="[0x303de]"/>
+					<space space="[0x11a3d]"/>
+					<space space="[0x4eb85]"/>
+					<space space="[0x6a64e]"/>
+					<space space="[0x69aea]"/>
+					<space space="[0x5f53b]"/>
+					<space space="[0x4a107]"/>
+					<space space="[0xfe01]"/>
+					<space space="[0x3efe]"/>
+					<space space="[0x293fa]"/>
+					<space space="[0x77537]"/>
+					<space space="[0x363c9]"/>
+					<space space="[0x1be4d]"/>
+					<space space="[0x1a973]"/>
+					<space space="[0x418f6]"/>
+					<space space="[0x82f63]"/>
+					<space space="[0x7f09]"/>
+					<space space="[0x71088]"/>
+					<space space="[0x141f2]"/>
+					<space space="[0x13aa4]"/>
+					<space space="[0x1326c]"/>
+					<space space="[0x2cec7]"/>
+					<space space="[0x72d7f]"/>
+					<space space="[0x7be65]"/>
+					<space space="[0x2fb0f]"/>
+					<space space="[0x89290]"/>
+					<space space="[0x327a1]"/>
+					<space space="[0x4b5d6]"/>
+					<space space="[0x575c7]"/>
+					<space space="[0x7c8ec]"/>
+					<space space="[0x2e8a2]"/>
+					<space space="[0x54a38]"/>
+					<space space="[0x20130]"/>
+					<space space="[0x1d0b1]"/>
+					<space space="[0x1f03f]"/>
+				</spaces>
+				<data>
+					<item location="[0x3f00]" lasttime="960348.463"/>
+					<item location="[0x5a3b]" lasttime="1135565.658"/>
+					<item location="[0x66a9]" lasttime="1362621.087"/>
+					<item location="[0x6913]" lasttime="1168032.891"/>
+					<item location="[0x69a4]" lasttime="1312040.956"/>
+					<item location="[0x6afe]" lasttime="1288655.034">
+						<object object="[0x6aff]"/>
+					</item>
+					<item location="[0x6b0c]" lasttime="1350932.046">
+						<object object="[0x6b0d]"/>
+					</item>
+					<item location="[0x6b17]" lasttime="1014686.605"/>
+					<item location="[0x6d21]" lasttime="1119687.331"/>
+					<item location="[0x6deb]" lasttime="1014686.605"/>
+					<item location="[0x6f30]" lasttime="1089838.419"/>
+					<item location="[0x7361]" lasttime="1020994.047"/>
+					<item location="[0x737b]" lasttime="1262326.705"/>
+					<item location="[0x753a]" lasttime="1235117.195"/>
+					<item location="[0x76dd]" lasttime="1202889.824"/>
+					<item location="[0x7935]" lasttime="1115804.06"/>
+					<item location="[0x7a14]" lasttime="963580.788"/>
+					<item location="[0x7f11]" lasttime="1315939.387"/>
+					<item location="[0x7f49]" lasttime="978074.482"/>
+					<item location="[0x8b94]" lasttime="1362621.087"/>
+					<item location="[0x9004]" lasttime="1170262.218"/>
+					<item location="[0x95f6]" lasttime="0"/>
+					<item location="[0x9b63]" lasttime="1331499.062"/>
+					<item location="[0x9cf1]" lasttime="1235117.195"/>
+					<item location="[0x9ef8]" lasttime="1085938.004"/>
+					<item location="[0xa099]" lasttime="1164161.629"/>
+					<item location="[0xb227]" lasttime="1210639.049"/>
+					<item location="[0xb2ee]" lasttime="961346.466"/>
+					<item location="[0xb2f1]" lasttime="1145138.163"/>
+					<item location="[0xb58a]" lasttime="1323719.229"/>
+					<item location="[0xb58f]" lasttime="1139464.98"/>
+					<item location="[0xb6a8]" lasttime="1292552.356"/>
+					<item location="[0xbaa8]" lasttime="1346310.281"/>
+					<item location="[0xc063]" lasttime="1349622.818"/>
+					<item location="[0xc23e]" lasttime="0"/>
+					<item location="[0xc3f3]" lasttime="1314284.172"/>
+					<item location="[0xc558]" lasttime="1117447.754"/>
+					<item location="[0xc77a]" lasttime="1266214.325"/>
+					<item location="[0xc83e]" lasttime="1346190.096"/>
+					<item location="[0xcc41]" lasttime="1342060.109"/>
+					<item location="[0xcc95]" lasttime="1095973.367">
+						<object object="[0xccca]"/>
+					</item>
+					<item location="[0xcdb5]" lasttime="1340052.768"/>
+					<item location="[0xcdd2]" lasttime="1345626.379"/>
+					<item location="[0xcddc]" lasttime="0"/>
+					<item location="[0xcde6]" lasttime="1346030.606"/>
+					<item location="[0xce6b]" lasttime="0"/>
+					<item location="[0xcf9c]" lasttime="0">
+						<object object="[0x190365]"/>
+					</item>
+					<item location="[0xe17c]" lasttime="1037640.609"/>
+					<item location="[0xe180]" lasttime="1148631.589"/>
+					<item location="[0xe728]" lasttime="1218496.13"/>
+					<item location="[0xf1c8]" lasttime="1129429.531"/>
+					<item location="[0xf52b]" lasttime="1300347.244"/>
+					<item location="[0x10070]" lasttime="965788.042"/>
+					<item location="[0x10da7]" lasttime="958139.759"/>
+					<item location="[0x1160b]" lasttime="961780.035"/>
+					<item location="[0x11a40]" lasttime="1022467.308"/>
+					<item location="[0x11cfe]" lasttime="1366520.423">
+						<object object="[0x11d9a]"/>
+					</item>
+					<item location="[0x11fc9]" lasttime="1308142.633"/>
+					<item location="[0x1214e]" lasttime="1323719.229"/>
+					<item location="[0x1234b]" lasttime="1123899.762"/>
+					<item location="[0x12521]" lasttime="1239004.322"/>
+					<item location="[0x127c9]" lasttime="1068669.656"/>
+					<item location="[0x128c1]" lasttime="1347058.062"/>
+					<item location="[0x12bec]" lasttime="1280858.57"/>
+					<item location="[0x12e17]" lasttime="1250664.398"/>
+					<item location="[0x12fe9]" lasttime="1026021.385"/>
+					<item location="[0x13277]" lasttime="1156399.508"/>
+					<item location="[0x13668]" lasttime="971922.177"/>
+					<item location="[0x138c3]" lasttime="0"/>
+					<item location="[0x13bd0]" lasttime="1282997.269"/>
+					<item location="[0x13d60]" lasttime="987652.773"/>
+					<item location="[0x13d85]" lasttime="1276959.595"/>
+					<item location="[0x13e8e]" lasttime="1105425.112"/>
+					<item location="[0x141f4]" lasttime="0"/>
+					<item location="[0x14360]" lasttime="961346.466"/>
+					<item location="[0x143b0]" lasttime="1364861.854"/>
+					<item location="[0x1447f]" lasttime="1310388.215"/>
+					<item location="[0x14765]" lasttime="0"/>
+					<item location="[0x14adb]" lasttime="1282377.543"/>
+					<item location="[0x14e9a]" lasttime="1242889.574"/>
+					<item location="[0x1509b]" lasttime="1029635.709"/>
+					<item location="[0x1547f]" lasttime="1043157.464"/>
+					<item location="[0x15648]" lasttime="1141108.857"/>
+					<item location="[0x158d7]" lasttime="1302587.276"/>
+					<item location="[0x1835d]" lasttime="1288797.39"/>
+					<item location="[0x18755]" lasttime="1141108.857"/>
+					<item location="[0x1885e]" lasttime="1129429.531"/>
+					<item location="[0x18b2b]" lasttime="1239004.322"/>
+					<item location="[0x18f24]" lasttime="0"/>
+					<item location="[0x19118]" lasttime="0"/>
+					<item location="[0x191ff]" lasttime="1191264.939"/>
+					<item location="[0x19504]" lasttime="1250663.07"/>
+					<item location="[0x19606]" lasttime="1202889.824"/>
+					<item location="[0x19773]" lasttime="1179753.958"/>
+					<item location="[0x199e0]" lasttime="1080385.247"/>
+					<item location="[0x19a92]" lasttime="1254550.777"/>
+					<item location="[0x19d1a]" lasttime="1048102.723"/>
+					<item location="[0x1a47f]" lasttime="1031537.212"/>
+					<item location="[0x1a592]" lasttime="1191264.939"/>
+					<item location="[0x1c9ae]" lasttime="1268448.386"/>
+					<item location="[0x1cac7]" lasttime="1355642.568"/>
+					<item location="[0x1ccc3]" lasttime="1366344.113">
+						<object object="[0x5dd1f]"/>
+					</item>
+					<item location="[0x1ccf4]" lasttime="1152518.423"/>
+					<item location="[0x1ce36]" lasttime="1078134.82"/>
+					<item location="[0x230c0]" lasttime="971922.177"/>
+					<item location="[0x2316e]" lasttime="1315939.387"/>
+					<item location="[0x23454]" lasttime="1230238.753"/>
+					<item location="[0x2364b]" lasttime="1057008.882"/>
+					<item location="[0x2373e]" lasttime="1292552.356"/>
+					<item location="[0x239b8]" lasttime="0"/>
+					<item location="[0x23be6]" lasttime="0"/>
+					<item location="[0x23c82]" lasttime="1271410.868"/>
+					<item location="[0x2a90f]" lasttime="1021073.557"/>
+					<item location="[0x2ac86]" lasttime="1323719.229"/>
+					<item location="[0x2b506]" lasttime="1148631.589"/>
+					<item location="[0x2ba14]" lasttime="1187392.406"/>
+					<item location="[0x2bbd4]" lasttime="1239003.001">
+						<object object="[0x190334]"/>
+					</item>
+					<item location="[0x2bf66]" lasttime="1115804.06"/>
+					<item location="[0x2c462]" lasttime="1349274.062"/>
+					<item location="[0x2c4c1]" lasttime="1054779.045"/>
+					<item location="[0x2c5b6]" lasttime="1312040.956"/>
+					<item location="[0x2c79a]" lasttime="1284756.916"/>
+					<item location="[0x2ca12]" lasttime="963643.077"/>
+					<item location="[0x2ccce]" lasttime="1144822.833"/>
+					<item location="[0x2d9f8]" lasttime="1273064.91"/>
+					<item location="[0x2de6d]" lasttime="1224664.447"/>
+					<item location="[0x2e111]" lasttime="0"/>
+					<item location="[0x2e3b9]" lasttime="1327609.061"/>
+					<item location="[0x363d1]" lasttime="1350932.046"/>
+					<item location="[0x365f7]" lasttime="1146984.751"/>
+					<item location="[0x369b9]" lasttime="1350790.34"/>
+					<item location="[0x36a12]" lasttime="1353172.052"/>
+					<item location="[0x36c68]" lasttime="1137216.199"/>
+					<item location="[0x36ec8]" lasttime="1296449.456"/>
+					<item location="[0x36f90]" lasttime="0"/>
+					<item location="[0x37198]" lasttime="1062537.634"/>
+					<item location="[0x374fd]" lasttime="1350702.953"/>
+					<item location="[0x376e6]" lasttime="1008427.768"/>
+					<item location="[0x3a99a]" lasttime="1273064.778"/>
+					<item location="[0x3aa99]" lasttime="1027664.842"/>
+					<item location="[0x3ab70]" lasttime="1171903.752"/>
+					<item location="[0x3adff]" lasttime="1235115.87"/>
+					<item location="[0x3b052]" lasttime="1273189.849"/>
+					<item location="[0x3b660]" lasttime="1226314.193"/>
+					<item location="[0x3bbb7]" lasttime="1331498.948"/>
+					<item location="[0x3c26b]" lasttime="1092075.687"/>
+					<item location="[0x3c3f8]" lasttime="0"/>
+					<item location="[0x3c4ee]" lasttime="1084282.632"/>
+					<item location="[0x3c811]" lasttime="1294792.276"/>
+					<item location="[0x3c890]" lasttime="1145412.38"/>
+					<item location="[0x3ca99]" lasttime="1354829.007"/>
+					<item location="[0x3cc83]" lasttime="1195143.378"/>
+					<item location="[0x3d592]" lasttime="1312040.809"/>
+					<item location="[0x3d9f6]" lasttime="1310383.157"/>
+					<item location="[0x3dfe1]" lasttime="1358724.161"/>
+					<item location="[0x3e1a0]" lasttime="979731.917"/>
+					<item location="[0x3eaa7]" lasttime="1148631.589"/>
+					<item location="[0x3eee9]" lasttime="1337623.963"/>
+					<item location="[0x3f0c9]" lasttime="1066426.459"/>
+					<item location="[0x3f4f6]" lasttime="1144997.348"/>
+					<item location="[0x3fc36]" lasttime="1357067.897"/>
+					<item location="[0x40215]" lasttime="1242889.574"/>
+					<item location="[0x402c4]" lasttime="995305.349"/>
+					<item location="[0x4044a]" lasttime="1323719.083"/>
+					<item location="[0x4065e]" lasttime="1276959.453"/>
+					<item location="[0x40849]" lasttime="1327609.061"/>
+					<item location="[0x40905]" lasttime="1210637.786"/>
+					<item location="[0x40a9a]" lasttime="1099871.835"/>
+					<item location="[0x43671]" lasttime="1280858.57"/>
+					<item location="[0x43842]" lasttime="1366520.423">
+						<object object="[0x4388c]"/>
+					</item>
+					<item location="[0x43b39]" lasttime="1122814.337"/>
+					<item location="[0x43ba4]" lasttime="1343167.994"/>
+					<item location="[0x43f06]" lasttime="1236244.561"/>
+					<item location="[0x441e0]" lasttime="1283099.329"/>
+					<item location="[0x444a1]" lasttime="1318175.162"/>
+					<item location="[0x44728]" lasttime="1288655.034"/>
+					<item location="[0x449ea]" lasttime="1276959.453"/>
+					<item location="[0x44a42]" lasttime="1170261.027"/>
+					<item location="[0x44b51]" lasttime="975823.594"/>
+					<item location="[0x4510c]" lasttime="1131666.163"/>
+					<item location="[0x4526d]" lasttime="1103774.554"/>
+					<item location="[0x45b53]" lasttime="1304244.624"/>
+					<item location="[0x45d24]" lasttime="985895.116"/>
+					<item location="[0x45d9e]" lasttime="1109670.831"/>
+					<item location="[0x45f0c]" lasttime="0"/>
+					<item location="[0x4670d]" lasttime="1312222.463"/>
+					<item location="[0x4745b]" lasttime="0">
+						<object object="[0x18f4ae]"/>
+						<object object="[0x18f4df]"/>
+						<object object="[0x18f4ea]"/>
+						<object object="[0x18f4f5]"/>
+						<object object="[0x18f500]"/>
+					</item>
+					<item location="[0x4752a]" lasttime="1292346.81"/>
+					<item location="[0x47543]" lasttime="1254550.777"/>
+					<item location="[0x4c796]" lasttime="0"/>
+					<item location="[0x4c9d0]" lasttime="1125543.451"/>
+					<item location="[0x4cc5b]" lasttime="1078135.881">
+						<object object="[0x4cc90]"/>
+						<object object="[0x4cc9c]"/>
+						<object object="[0x4cca3]"/>
+						<object object="[0x4ccaa]"/>
+						<object object="[0x4ccb1]"/>
+						<object object="[0x4ccb8]"/>
+					</item>
+					<item location="[0x4eb88]" lasttime="0">
+						<object object="[0x4f0dc]"/>
+						<object object="[0x4f109]"/>
+						<object object="[0x4f111]"/>
+						<object object="[0x4f119]"/>
+					</item>
+					<item location="[0x4eb99]" lasttime="1139463.437">
+						<object object="[0x4f0dc]"/>
+					</item>
+					<item location="[0x4ee27]" lasttime="1218672.267"/>
+					<item location="[0x4ee42]" lasttime="1226314.193"/>
+					<item location="[0x4ef58]" lasttime="1144998.5"/>
+					<item location="[0x4f098]" lasttime="0">
+						<object object="[0x4f0dc]"/>
+						<object object="[0x4f109]"/>
+						<object object="[0x4f119]"/>
+					</item>
+					<item location="[0x4f0db]" lasttime="0">
+						<object object="[0x4f0dc]"/>
+						<object object="[0x4f109]"/>
+						<object object="[0x4f111]"/>
+						<object object="[0x4f119]"/>
+					</item>
+					<item location="[0x4f152]" lasttime="1288655.034"/>
+					<item location="[0x4fa1b]" lasttime="1235066.414"/>
+					<item location="[0x4fc7b]" lasttime="1239003.001"/>
+					<item location="[0x4fee4]" lasttime="1339278.293"/>
+					<item location="[0x4ff7b]" lasttime="1235117.195"/>
+					<item location="[0x50124]" lasttime="1258438.055"/>
+					<item location="[0x50332]" lasttime="1362621.087"/>
+					<item location="[0x50500]" lasttime="983639.582"/>
+					<item location="[0x50629]" lasttime="1210096.723"/>
+					<item location="[0x5090f]" lasttime="1240493.768"/>
+					<item location="[0x50a16]" lasttime="1209970.008"/>
+					<item location="[0x50b1f]" lasttime="1210108.433"/>
+					<item location="[0x51387]" lasttime="1284756.766"/>
+					<item location="[0x514bb]" lasttime="1202889.824"/>
+					<item location="[0x51555]" lasttime="1074237.559"/>
+					<item location="[0x51827]" lasttime="965666.902"/>
+					<item location="[0x51ada]" lasttime="961851.326"/>
+					<item location="[0x51ed3]" lasttime="1332213.512"/>
+					<item location="[0x53a15]" lasttime="1353172.052"/>
+					<item location="[0x53ac9]" lasttime="1348282.431"/>
+					<item location="[0x53bcb]" lasttime="1292552.21"/>
+					<item location="[0x53fbe]" lasttime="1047031.13"/>
+					<item location="[0x5423e]" lasttime="1066426.459"/>
+					<item location="[0x54524]" lasttime="1273064.91"/>
+					<item location="[0x57974]" lasttime="1162936.051"/>
+					<item location="[0x58ee3]" lasttime="1111910.729"/>
+					<item location="[0x58f9e]" lasttime="1246776.901"/>
+					<item location="[0x590e2]" lasttime="1296449.456"/>
+					<item location="[0x595e8]" lasttime="1350932.046"/>
+					<item location="[0x59726]" lasttime="0"/>
+					<item location="[0x598b5]" lasttime="968036.141"/>
+					<item location="[0x59b82]" lasttime="1256784.511"/>
+					<item location="[0x59d2d]" lasttime="1288655.034"/>
+					<item location="[0x59deb]" lasttime="1121447.448"/>
+					<item location="[0x59f26]" lasttime="1187391.16"/>
+					<item location="[0x5c6da]" lasttime="1148631.589"/>
+					<item location="[0x5ca25]" lasttime="1276959.595"/>
+					<item location="[0x5cbf7]" lasttime="1054538.598"/>
+					<item location="[0x5d10d]" lasttime="1039284.96"/>
+					<item location="[0x5d380]" lasttime="1296449.456"/>
+					<item location="[0x5d501]" lasttime="1302592.185"/>
+					<item location="[0x5d7af]" lasttime="1026021.385"/>
+					<item location="[0x5d94e]" lasttime="1160283.713"/>
+					<item location="[0x5dade]" lasttime="1350964.462"/>
+					<item location="[0x5db22]" lasttime="1288655.034"/>
+					<item location="[0x5dcb4]" lasttime="1366415.591">
+						<object object="[0x5dd1f]"/>
+					</item>
+					<item location="[0x5e352]" lasttime="1121452.966"/>
+					<item location="[0x5e3d0]" lasttime="1156398.276"/>
+					<item location="[0x5e52f]" lasttime="1150869.029"/>
+					<item location="[0x5e5fe]" lasttime="1117446.667"/>
+					<item location="[0x5e967]" lasttime="1068669.656"/>
+					<item location="[0x5eb81]" lasttime="1062536.616"/>
+					<item location="[0x5ec64]" lasttime="1277184.153"/>
+					<item location="[0x5eef4]" lasttime="0">
+						<object object="[0x5eef5]"/>
+					</item>
+					<item location="[0x5ef6c]" lasttime="1312040.956"/>
+					<item location="[0x5f256]" lasttime="1275302.259"/>
+					<item location="[0x5f389]" lasttime="1319829.34"/>
+					<item location="[0x5f38c]" lasttime="1298689.835"/>
+					<item location="[0x5f497]" lasttime="1273064.91"/>
+					<item location="[0x5f5c8]" lasttime="1288655.034"/>
+					<item location="[0x5fbd9]" lasttime="1189620.843"/>
+					<item location="[0x60aec]" lasttime="1350932.046"/>
+					<item location="[0x60c53]" lasttime="1039283.961"/>
+					<item location="[0x60e33]" lasttime="1222426.952"/>
+					<item location="[0x63fba]" lasttime="1239003.001"/>
+					<item location="[0x640ec]" lasttime="1331498.948"/>
+					<item location="[0x64247]" lasttime="0"/>
+					<item location="[0x643cb]" lasttime="1284756.766"/>
+					<item location="[0x64554]" lasttime="0"/>
+					<item location="[0x64724]" lasttime="985895.116"/>
+					<item location="[0x6486e]" lasttime="1210637.786"/>
+					<item location="[0x649c7]" lasttime="1156398.276"/>
+					<item location="[0x64acf]" lasttime="1230237.396"/>
+					<item location="[0x64fbe]" lasttime="1246775.587"/>
+					<item location="[0x6524a]" lasttime="1308142.633"/>
+					<item location="[0x6581b]" lasttime="1082037.254"/>
+					<item location="[0x65ca1]" lasttime="1018577.786"/>
+					<item location="[0x65eab]" lasttime="1210637.786"/>
+					<item location="[0x65feb]" lasttime="1108026.258"/>
+					<item location="[0x660d2]" lasttime="1168031.681"/>
+					<item location="[0x6635e]" lasttime="1354829.007"/>
+					<item location="[0x66456]" lasttime="1358724.161"/>
+					<item location="[0x667b6]" lasttime="961345.58"/>
+					<item location="[0x66998]" lasttime="1300347.244"/>
+					<item location="[0x66e8a]" lasttime="1306489.523"/>
+					<item location="[0x6701a]" lasttime="1045388.031"/>
+					<item location="[0x6748e]" lasttime="1284756.766"/>
+					<item location="[0x6757d]" lasttime="1127781.074"/>
+					<item location="[0x67a79]" lasttime="1119687.331"/>
+					<item location="[0x67f3a]" lasttime="1070326.892"/>
+					<item location="[0x6847a]" lasttime="1031538.206"/>
+					<item location="[0x689d1]" lasttime="1149382.683"/>
+					<item location="[0x68d01]" lasttime="1366520.423">
+						<object object="[0x68dc1]"/>
+					</item>
+					<item location="[0x691e1]" lasttime="1022403.979"/>
+					<item location="[0x691e4]" lasttime="1148631.589"/>
+					<item location="[0x6932b]" lasttime="1273064.778"/>
+					<item location="[0x695c4]" lasttime="1362621.087"/>
+					<item location="[0x69691]" lasttime="1022212.51"/>
+					<item location="[0x69693]" lasttime="1018288.44"/>
+					<item location="[0x69761]" lasttime="1022813.378">
+						<object object="[0x69762]"/>
+						<object object="[0x6976f]"/>
+						<object object="[0x69776]"/>
+						<object object="[0x6977d]"/>
+						<object object="[0x69784]"/>
+					</item>
+					<item location="[0x698b8]" lasttime="0"/>
+					<item location="[0x698bd]" lasttime="987825.227"/>
+					<item location="[0x698c4]" lasttime="1022931.034"/>
+					<item location="[0x69aed]" lasttime="1339278.157"/>
+					<item location="[0x69e90]" lasttime="1284756.766"/>
+					<item location="[0x6a32e]" lasttime="957445.824"/>
+					<item location="[0x6a652]" lasttime="0"/>
+					<item location="[0x6a69d]" lasttime="1314284.172"/>
+					<item location="[0x6aa53]" lasttime="1315939.245"/>
+					<item location="[0x6aa6b]" lasttime="1137216.199"/>
+					<item location="[0x6b27a]" lasttime="1178004.47"/>
+					<item location="[0x6b285]" lasttime="1335388.451"/>
+					<item location="[0x6b39b]" lasttime="1058651.941"/>
+					<item location="[0x6b439]" lasttime="1264287.363"/>
+					<item location="[0x6b6fe]" lasttime="1175775.38"/>
+					<item location="[0x6b844]" lasttime="1027664.842"/>
+					<item location="[0x6ba00]" lasttime="0"/>
+					<item location="[0x6bae5]" lasttime="1361289.002">
+						<object object="[0x6bb48]"/>
+						<object object="[0x6bb4e]"/>
+						<object object="[0x6bb59]"/>
+						<object object="[0x6bb6e]"/>
+						<object object="[0x6bb7c]"/>
+						<object object="[0x6bb83]"/>
+						<object object="[0x6bb8f]"/>
+						<object object="[0x6bb95]"/>
+						<object object="[0x6bb9f]"/>
+						<object object="[0x6bbb8]"/>
+						<object object="[0x6bbbd]"/>
+						<object object="[0x6bbc3]"/>
+						<object object="[0x6bbce]"/>
+						<object object="[0x6bbd5]"/>
+						<object object="[0x6bbe8]"/>
+						<object object="[0x6bbf6]"/>
+						<object object="[0x6bc07]"/>
+						<object object="[0x6bc16]"/>
+						<object object="[0x6bc25]"/>
+						<object object="[0x6bc30]"/>
+					</item>
+					<item location="[0x6cc32]" lasttime="1202889.824"/>
+					<item location="[0x6d0c9]" lasttime="1232075.325"/>
+					<item location="[0x6d1a5]" lasttime="1232119.425"/>
+					<item location="[0x6d3b0]" lasttime="1179647.938"/>
+					<item location="[0x6d4ca]" lasttime="983639.582"/>
+					<item location="[0x6d75a]" lasttime="1358724.161"/>
+					<item location="[0x6dbc3]" lasttime="1256784.511"/>
+					<item location="[0x6dd3f]" lasttime="995305.349"/>
+					<item location="[0x6e135]" lasttime="1202889.824"/>
+					<item location="[0x6e2bb]" lasttime="1183519.296"/>
+					<item location="[0x6e457]" lasttime="1027664.842"/>
+					<item location="[0x6e514]" lasttime="1276959.453"/>
+					<item location="[0x70382]" lasttime="1300347.244"/>
+					<item location="[0x7062b]" lasttime="0"/>
+					<item location="[0x708c5]" lasttime="1304244.624"/>
+					<item location="[0x70b5b]" lasttime="1260671.932"/>
+					<item location="[0x70bd8]" lasttime="1157514.445"/>
+					<item location="[0x70d39]" lasttime="1029899.769"/>
+					<item location="[0x70e58]" lasttime="1362621.087"/>
+					<item location="[0x7108d]" lasttime="1254550.777"/>
+					<item location="[0x7122a]" lasttime="1187391.16"/>
+					<item location="[0x717e0]" lasttime="0"/>
+					<item location="[0x71cbb]" lasttime="974173.179"/>
+					<item location="[0x71f67]" lasttime="1070326.892"/>
+					<item location="[0x7208b]" lasttime="0"/>
+					<item location="[0x721ce]" lasttime="1205118.939"/>
+					<item location="[0x7285f]" lasttime="0"/>
+					<item location="[0x72900]" lasttime="1175775.38"/>
+					<item location="[0x7292b]" lasttime="974168.333"/>
+					<item location="[0x72994]" lasttime="1125543.451"/>
+					<item location="[0x72ef2]" lasttime="1319829.225"/>
+					<item location="[0x7316c]" lasttime="1135559.986"/>
+					<item location="[0x732f4]" lasttime="1043158.46"/>
+					<item location="[0x73555]" lasttime="1308142.633"/>
+					<item location="[0x736f5]" lasttime="1180986.628"/>
+					<item location="[0x7376f]" lasttime="1168031.681"/>
+					<item location="[0x7384d]" lasttime="1162517.352"/>
+					<item location="[0x73ac0]" lasttime="1176686.23"/>
+					<item location="[0x73ba4]" lasttime="1178004.47"/>
+					<item location="[0x73e6c]" lasttime="1180975.631"/>
+					<item location="[0x740d5]" lasttime="977125.8"/>
+					<item location="[0x74208]" lasttime="1362813.067"/>
+					<item location="[0x743bc]" lasttime="1154751.964"/>
+					<item location="[0x746d0]" lasttime="1292552.21"/>
+					<item location="[0x747ba]" lasttime="1306484.517"/>
+					<item location="[0x74a09]" lasttime="1335388.451"/>
+					<item location="[0x754d1]" lasttime="1172058.527"/>
+					<item location="[0x75d7a]" lasttime="1047031.13"/>
+					<item location="[0x7753a]" lasttime="1235115.87"/>
+					<item location="[0x77668]" lasttime="1144997.348"/>
+					<item location="[0x77816]" lasttime="1109670.831"/>
+					<item location="[0x778f7]" lasttime="1230237.396"/>
+					<item location="[0x77f16]" lasttime="1246775.587"/>
+					<item location="[0x78555]" lasttime="1156398.276"/>
+					<item location="[0x787c3]" lasttime="1019632.364"/>
+					<item location="[0x78a19]" lasttime="1005558.351"/>
+					<item location="[0x78c11]" lasttime="1273232.809"/>
+					<item location="[0x78e8d]" lasttime="1280858.57"/>
+					<item location="[0x78f58]" lasttime="983639.582"/>
+					<item location="[0x79222]" lasttime="1366894.69"/>
+					<item location="[0x793ca]" lasttime="1347057.922"/>
+					<item location="[0x79535]" lasttime="1031538.206"/>
+					<item location="[0x7b222]" lasttime="1043158.46"/>
+					<item location="[0x7b22e]" lasttime="1078135.881"/>
+					<item location="[0x7b288]" lasttime="1192296.647"/>
+					<item location="[0x7b2fd]" lasttime="1154751.964"/>
+					<item location="[0x7b634]" lasttime="1121447.448"/>
+					<item location="[0x7b63c]" lasttime="957445.824"/>
+					<item location="[0x7b673]" lasttime="1300347.244"/>
+					<item location="[0x7b69d]" lasttime="1246775.587"/>
+					<item location="[0x7b6d8]" lasttime="1214555.676"/>
+					<item location="[0x7b6e2]" lasttime="989786.706"/>
+					<item location="[0x7b89d]" lasttime="1359574.481"/>
+					<item location="[0x7bb49]" lasttime="1029893.86"/>
+					<item location="[0x7bca1]" lasttime="1288655.034"/>
+					<item location="[0x7d268]" lasttime="0"/>
+					<item location="[0x7d554]" lasttime="1339278.157"/>
+					<item location="[0x7d7fd]" lasttime="1133314.417"/>
+					<item location="[0x7dbfd]" lasttime="1035410.488"/>
+					<item location="[0x7e398]" lasttime="1239003.001"/>
+					<item location="[0x7e5bd]" lasttime="1306484.517"/>
+					<item location="[0x7e8c1]" lasttime="1206763.769"/>
+					<item location="[0x7eced]" lasttime="1113560.078"/>
+					<item location="[0x7f50d]" lasttime="1246775.587"/>
+					<item location="[0x7f7e6]" lasttime="1350932.046">
+						<object object="[0x190396]"/>
+					</item>
+					<item location="[0x7fa47]" lasttime="970271.659"/>
+					<item location="[0x8916a]" lasttime="1367991.118">
+						<object object="[0x8919e]"/>
+						<object object="[0x2194e28]"/>
+						<object object="[0x21b06a8]"/>
+						<object object="[0x21c2993]"/>
+						<object object="[0x21c29c2]"/>
+						<object object="[0x21c29cb]"/>
+						<object object="[0x21c29e0]"/>
+						<object object="[0x21c522b]"/>
+						<object object="[0x21c5254]"/>
+						<object object="[0x21c70db]"/>
+						<object object="[0x21c70ed]"/>
+						<object object="[0x21c956c]"/>
+						<object object="[0x21c9593]"/>
+					</item>
+					<item location="[0x891e8]" lasttime="1366661.028">
+						<object object="[0x89216]"/>
+					</item>
+				</data>
+			</alert>
+		</alerts>
+		<lastdeployed macro="eq_arg_satellite_02_macro" civilian="eq_arg_satellite_02_macro" military="weapon_gen_mine_01_macro"/>
+		<tradeloopcargo/>
+		<connections>
+			<connection connection="computer" macro="computer">
+				<component class="computer" macro="entity_betty_macro" connection="player" code="ZEO-994" owner="player" known="1" read="0" lastspeaktime="1367784.765" id="[0x49ba8]">
+					<traits flags="remotecommable">
+						<skill type="engineering" value="11"/>
+						<skill type="management" value="1"/>
+						<skill type="morale" value="7"/>
+						<skill type="piloting" value="5"/>
+					</traits>
+				</component>
+			</connection>
+			<connection connection="cameraanchorscene">
+				<component class="scene" macro="camera_anchor_scene_macro" connection="cameraanchorscene" state="wreck" geometry="" id="[0x49ba9]">
+					<connections>
+						<connection connection="uianchor">
+							<component class="positional" macro="ui_screen_positions_macro" connection="uianchor_connection" state="wreck" geometry="" id="[0x49baa]">
+								<connections/>
+							</component>
+						</connection>
+					</connections>
+				</component>
+			</connection>
+		</connections>
+	</component>
+</connection>
