@@ -1,0 +1,34 @@
+<!--
+    Structure to access the ship build modules of a station
+    and the ships docked there, if any.
+-->
+<component class="station" macro="station_gen_piratebase_base_01_macro" connection="space" attackmethod="lowattentionattack" attacktime="1354545.341" shipattacktime="1354545.341" intentionalattacktime="1354545.341" code="NMV-749" owner="hatikvah" knownto="player" basename="{20102,1511}" level="0.75" transportdronemode="trade" pendingtransportdronemode="trade" usertransportdronemode="trade" spawntime="0" id="[0x2c517]">
+    <connections>
+        <connection connection="modules">
+            <component class="buildmodule" macro="buildmodule_gen_equip_m_dockarea_01_macro" connection="space" attackmethod="lowattentionattack" attacktime="768268.161" shipattacktime="768268.161" intentionalattacktime="768268.161" construction="[0x5115]" id="[0x68ec7]">
+                <connections>
+                    <!--
+                        Docking bay connection
+                        
+                        Repeatable: Yes
+                    -->
+                    <connection connection="connectionfor_dockingbay_arg_s_01_macro10" macro="connectionfor_dockingbay_arg_s_01_macro10">
+                        <component class="dockingbay" macro="dockingbay_arg_s_01_macro" connection="space" id="[0x68f8e]">
+                            <connections>
+                                <!--
+                                    Single dock in the docking bay
+                                    
+                                    Repeatable: Yes
+                                -->
+                                <connection connection="dock">
+                                    <component class="ship_s" macro="ship_arg_s_trans_container_01_b_macro" connection="dock" name="X-TEL ANT" code="TKZ-426" owner="player" knownto="player" variation="0" spawntime="34561.43" thruster="thruster_gen_s_combat_01_mk1_macro" id="[0x68f8f]">
+                                    </component>
+                                </connection>
+                            </connections><!-- Docking bay connections -->
+                        </component><!-- Docking bay component -->
+                    </connection><!-- Docking bay connection -->
+                </connections><!-- Build module connections -->
+            </component><!-- Build module component -->
+        </connection><!-- Modules connection -->
+    </connections><!-- Station connections -->
+</component><!-- Station component -->

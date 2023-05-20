@@ -29,11 +29,13 @@
         </controltextures>
         <component class="galaxy">
             <connections>
-                <connection connection="custer_{00}_connection">
-                    <!-- 
-                        Cluster definition
-                    -->
-                    <component class="cluster" macro="cluster_{00}_macro" connection="galaxy" code="NWM-734" knownto="player" known="1" read="0" id="[0x2c457]">
+                <!--
+                    Cluster connection
+                    
+                    Repeatable: Yes
+                -->
+                <connection connection="cluster_43_connection">
+                    <component class="cluster" macro="cluster_43_macro" connection="galaxy" code="NWM-734" knownto="player" known="1" read="0" id="[0x2c457]">
                         <connections>
                        
                             <!--
