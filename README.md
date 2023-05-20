@@ -69,7 +69,7 @@ Installing mods using a workshop in an NPC station, costs money for each install
 
 > This will also work even if the wharf or shipyard is not capable of actually building ships.
 
-> Workshops are size-depedent, which means that for L and XL-sized ships, a shipyard's workshop must be used.
+> Workshops are size-dependent, which means that for L and XL-sized ships, a shipyard's workshop must be used.
 
 ## Quick station building
 
@@ -90,16 +90,23 @@ Primer on editing, and lots of details:
 
 https://forum.egosoft.com/viewtopic.php?t=350404
 
-## Money
+## Which editor for XML files?
 
-- Save your game and note the amount of money in your account
-- Go to the samegame folder, usually in `Documents\Egosoft\X4\70814229\save`
-- Extract the `.xml` file from the savegame `.gz` archive
-- Open the XML file in a text reader
-- Replace all occurrences of the amount in the file
-- Delete the `.gz` file and leave the `.xml` file  
+The large XML files can be a challenge to open or edit, even on higher end machines.
+Notepad++ is one often recommended, but personally it had trouble with my 1.2 GB save
+files. What worked best for me is the commercial UltraEdit, especially when searching
+or even to collapse XML tags.
+
+## Editing player money
+
+- Save your game and note the amount of money in your account.
+- Go to the samegame folder, usually in `Documents\Egosoft\X4\70814229\save`.
+- Extract the `.xml` file from the savegame `.gz` archive.
+- Open the XML file in a text reader.
+- Replace all occurrences of the amount in the file.
+- Delete the `.gz` file and leave the `.xml` file.
   or
-- Replace the `.xml` file in the archive to save disk space
+- Replace the `.xml` file in the archive to save disk space.
 
 These are the texts to search for and replace:
 
@@ -114,7 +121,7 @@ Where `xxxx` is the amount of money.
 *It's important to replace them all*, otherwise
 the change will not be applied correctly.
 
-## Faction relations
+## Editing faction relations
 
 Faction relations are defined by the following numerical ranges:
 
@@ -127,9 +134,11 @@ Faction relations are defined by the following numerical ranges:
 - Kill: -1.0 to -0.32
 - Nemesis: -1.0 to -1.0
 
-Reputations from -0.1 to -0.31 result in fighting only the military. At -0.32 to -1 they kill everything. This means that the AI factions that are "at war" at -0.1 will already kill military ships on sight.
+Reputations from -0.1 to -0.31 result in fighting only the military. At -0.32 to 
+-1 they kill everything. This means that the AI factions that are "at war" at 
+-0.1 will already kill military ships on sight.
 
-## Player reputation
+## Editing player reputation
 
 Under the faction tag:
 
@@ -150,428 +159,13 @@ Example values:
 - `0.001` +1
 - `0.011` +11
 
-## Blueprints
+## Editing blueprints
 
-These go below the `<blueprints>` tag in the file (there is only one, so it's easy to find).
+The following is a full list of blueprint macros / codes that I collected online, as well 
+as through my own savegames. They go below the `<blueprints>` tag in the file (there is 
+only one, so it's easy to find).
 
-### Common / General
-
-#### Production
-
-```xml
-<blueprint ware="module_gen_prod_energycells_01"/>
-<blueprint ware="module_gen_prod_advancedcomposites_01"/>
-<blueprint ware="module_gen_prod_advancedelectronics_01"/>
-<blueprint ware="module_gen_prod_antimattercells_01"/>
-<blueprint ware="module_gen_prod_antimatterconverters_01"/>
-<blueprint ware="module_gen_prod_claytronics_01"/>
-<blueprint ware="module_gen_prod_dronecomponents_01"/>
-<blueprint ware="module_gen_prod_engineparts_01"/>
-<blueprint ware="module_gen_prod_fieldcoils_01"/>
-<blueprint ware="module_gen_prod_graphene_01"/>
-<blueprint ware="module_gen_prod_hullparts_01"/>
-<blueprint ware="module_gen_prod_microchips_01"/>
-<blueprint ware="module_gen_prod_missilecomponents_01"/>
-<blueprint ware="module_gen_prod_plasmaconductors_01"/>
-<blueprint ware="module_gen_prod_quantumtubes_01"/>
-<blueprint ware="module_gen_prod_refinedmetals_01"/>
-<blueprint ware="module_gen_prod_scanningarrays_01"/>
-<blueprint ware="module_gen_prod_shieldcomponents_01"/>
-<blueprint ware="module_gen_prod_siliconwafers_01"/>
-<blueprint ware="module_gen_prod_smartchips_01"/>
-<blueprint ware="module_gen_prod_spices_01"/>
-<blueprint ware="module_gen_prod_superfluidcoolant_01"/>
-<blueprint ware="module_gen_prod_turretcomponents_01"/>
-<blueprint ware="module_gen_prod_water_01"/>
-<blueprint ware="module_gen_prod_weaponcomponents_01"/>
-```
-
-#### Missiles
-
-```xml
-<blueprint ware="missile_cluster_heavy_mk1"/>
-<blueprint ware="missile_cluster_light_mk1"/>
-<blueprint ware="missile_dumbfire_heavy_mk1"/>
-<blueprint ware="missile_dumbfire_heavy_mk2"/>
-<blueprint ware="missile_dumbfire_light_mk1"/>
-<blueprint ware="missile_dumbfire_light_mk2"/>
-<blueprint ware="missile_emp_mk1"/>
-<blueprint ware="missile_guided_heavy_mk1"/>
-<blueprint ware="missile_guided_light_mk1"/>
-<blueprint ware="missile_heatseeker_heavy_mk1"/>
-<blueprint ware="missile_heatseeker_light_mk1"/>
-<blueprint ware="missile_smart_heavy_mk1"/>
-<blueprint ware="missile_smart_light_mk1"/>
-<blueprint ware="missile_swarm_heavy_mk1"/>
-<blueprint ware="missile_swarm_light_mk1"/>
-<blueprint ware="missile_torpedo_heavy_mk1"/>
-<blueprint ware="missile_torpedo_light_mk1"/>
-```
-
-#### Modifications
-
-```xml
-<blueprint ware="mod_engine_boostduration_01_mk1"/>
-<blueprint ware="mod_engine_boostshielddrain_01_mk1"/>
-<blueprint ware="mod_engine_boostthrust_01_mk1"/>
-<blueprint ware="mod_engine_boostthrust_01_mk2"/>
-<blueprint ware="mod_engine_boostthrust_01_mk3"/>
-<blueprint ware="mod_engine_boostthrust_02_mk1"/>
-<blueprint ware="mod_engine_boostthrust_02_mk2"/>
-<blueprint ware="mod_engine_forwardthrust_01_mk1"/>
-<blueprint ware="mod_engine_forwardthrust_01_mk2"/>
-<blueprint ware="mod_engine_forwardthrust_01_mk3"/>
-<blueprint ware="mod_engine_forwardthrust_02_mk1"/>
-<blueprint ware="mod_engine_forwardthrust_02_mk2"/>
-<blueprint ware="mod_engine_rotationthrust_01_mk1"/>
-<blueprint ware="mod_engine_rotationthrust_01_mk3"/>
-<blueprint ware="mod_engine_rotationthrust_02_mk1"/>
-<blueprint ware="mod_engine_strafethrust_01_mk1"/>
-<blueprint ware="mod_engine_strafethrust_02_mk1"/>
-<blueprint ware="mod_engine_travelattacktime_01_mk1"/>
-<blueprint ware="mod_engine_travelchargetime_01_mk1"/>
-<blueprint ware="mod_engine_travelreleasetime_01_mk1"/>
-<blueprint ware="mod_engine_travelstartthrust_01_mk1"/>
-<blueprint ware="mod_engine_travelthrust_01_mk1"/>
-<blueprint ware="mod_engine_travelthrust_01_mk2"/>
-<blueprint ware="mod_engine_travelthrust_01_mk3"/>
-<blueprint ware="mod_engine_travelthrust_02_mk1"/>
-<blueprint ware="mod_engine_travelthrust_02_mk2"/>
-<blueprint ware="mod_shield_capacity_01_mk1"/>
-<blueprint ware="mod_shield_capacity_01_mk2"/>
-<blueprint ware="mod_shield_capacity_01_mk3"/>
-<blueprint ware="mod_shield_capacity_02_mk3"/>
-<blueprint ware="mod_shield_rechargedelay_01_mk1"/>
-<blueprint ware="mod_shield_rechargerate_01_mk1"/>
-<blueprint ware="mod_shield_rechargerate_01_mk2"/>
-<blueprint ware="mod_shield_rechargerate_01_mk3"/>
-<blueprint ware="mod_ship_countermeasurecapacity_01_mk1"/>
-<blueprint ware="mod_ship_deployablecapacity_01_mk1"/>
-<blueprint ware="mod_ship_drag_01_mk1"/>
-<blueprint ware="mod_ship_drag_01_mk2"/>
-<blueprint ware="mod_ship_mass_01_mk1"/>
-<blueprint ware="mod_ship_mass_01_mk2"/>
-<blueprint ware="mod_ship_mass_01_mk3"/>
-<blueprint ware="mod_ship_maxhull_01_mk1"/>
-<blueprint ware="mod_ship_missilecapacity_01_mk1"/>
-<blueprint ware="mod_ship_radarrange_01_mk1"/>
-<blueprint ware="mod_ship_unitcapacity_01_mk1"/>
-<blueprint ware="mod_weapon_beamlength_01_mk1"/>
-<blueprint ware="mod_weapon_chargetime_01_mk1"/>
-<blueprint ware="mod_weapon_cooling_01_mk1"/>
-<blueprint ware="mod_weapon_cooling_01_mk2"/>
-<blueprint ware="mod_weapon_cooling_02_mk1"/>
-<blueprint ware="mod_weapon_cooling_02_mk2"/>
-<blueprint ware="mod_weapon_cooling_03_mk1"/>
-<blueprint ware="mod_weapon_cooling_03_mk2"/>
-<blueprint ware="mod_weapon_cooling_04_mk2"/>
-<blueprint ware="mod_weapon_cooling_05_mk2"/>
-<blueprint ware="mod_weapon_damage_01_mk1"/>
-<blueprint ware="mod_weapon_damage_01_mk2"/>
-<blueprint ware="mod_weapon_damage_01_mk3"/>
-<blueprint ware="mod_weapon_damage_02_mk1"/>
-<blueprint ware="mod_weapon_damage_02_mk2"/>
-<blueprint ware="mod_weapon_damage_02_mk3"/>
-<blueprint ware="mod_weapon_damage_03_mk1"/>
-<blueprint ware="mod_weapon_damage_03_mk2"/>
-<blueprint ware="mod_weapon_damage_04_mk2"/>
-<blueprint ware="mod_weapon_damage_05_mk2"/>
-<blueprint ware="mod_weapon_lifetime_01_mk1"/>
-<blueprint ware="mod_weapon_mining_01_mk1"/>
-<blueprint ware="mod_weapon_mining_01_mk3"/>
-<blueprint ware="mod_weapon_reload_01_mk1"/>
-<blueprint ware="mod_weapon_rotationspeed_01_mk1"/>
-<blueprint ware="mod_weapon_speed_01_mk1"/>
-<blueprint ware="mod_weapon_speed_01_mk3"/>
-<blueprint ware="mod_weapon_sticktime_01_mk1"/>
-<blueprint ware="mod_weapon_sticktime_01_mk2"/>
-<blueprint ware="mod_weapon_sticktime_02_mk2"/>
-<blueprint ware="mod_weapon_sticktime_03_mk2"/>
-```
-
-### Argon
-
-#### Modules
-
-```xml
-<blueprint ware="module_arg_dock_m_01"/>
-<blueprint ware="module_arg_dock_m_01_hightech"/>
-<blueprint ware="module_arg_dock_m_01_lowtech"/>
-<blueprint ware="module_arg_dock_m_02"/>
-<blueprint ware="module_arg_dock_m_02_hightech"/>
-<blueprint ware="module_arg_dock_m_02_lowtech"/>
-<blueprint ware="module_arg_conn_base_01"/>
-<blueprint ware="module_arg_conn_base_02"/>
-<blueprint ware="module_arg_conn_base_03"/>
-<blueprint ware="module_arg_conn_cross_01"/>
-<blueprint ware="module_arg_conn_vertical_01"/>
-<blueprint ware="module_arg_conn_vertical_02"/>
-<blueprint ware="module_arg_def_claim_01"/>
-<blueprint ware="module_arg_def_disc_01"/>
-<blueprint ware="module_arg_def_tube_01"/>
-<blueprint ware="module_arg_hab_l_01"/>
-<blueprint ware="module_arg_hab_m_01"/>
-<blueprint ware="module_arg_hab_s_01"/>
-<blueprint ware="module_arg_pier_l_01"/>
-<blueprint ware="module_arg_pier_l_02"/>
-<blueprint ware="module_arg_pier_l_03"/>
-<blueprint ware="module_arg_prod_foodrations_01"/>
-<blueprint ware="module_arg_prod_meat_01"/>
-<blueprint ware="module_arg_prod_medicalsupplies_01"/>
-<blueprint ware="module_arg_prod_spacefuel_01"/>
-<blueprint ware="module_arg_prod_wheat_01"/>
-<blueprint ware="module_arg_stor_container_l_01"/>
-<blueprint ware="module_arg_stor_container_m_01"/>
-<blueprint ware="module_arg_stor_container_s_01"/>
-<blueprint ware="module_arg_stor_liquid_l_01"/>
-<blueprint ware="module_arg_stor_liquid_m_01"/>
-<blueprint ware="module_arg_stor_liquid_s_01"/>
-<blueprint ware="module_arg_stor_solid_l_01"/>
-<blueprint ware="module_arg_stor_solid_m_01"/>
-<blueprint ware="module_arg_stor_solid_s_01"/>
-```
-
-#### Turrets
-
-```xml
-<blueprint ware="turret_arg_l_beam_01_mk1"/>
-<blueprint ware="turret_arg_l_dumbfire_01_mk1"/>
-<blueprint ware="turret_arg_l_guided_01_mk1"/>
-<blueprint ware="turret_arg_l_laser_01_mk1"/>
-<blueprint ware="turret_arg_l_mining_01_mk1"/>
-<blueprint ware="turret_arg_l_plasma_01_mk1"/>
-<blueprint ware="turret_arg_m_beam_01_mk1"/>
-<blueprint ware="turret_arg_m_beam_02_mk1"/>
-<blueprint ware="turret_arg_m_dumbfire_01_mk1"/>
-<blueprint ware="turret_arg_m_dumbfire_02_mk1"/>
-<blueprint ware="turret_arg_m_gatling_01_mk1"/>
-<blueprint ware="turret_arg_m_gatling_02_mk1"/>
-<blueprint ware="turret_arg_m_guided_01_mk1"/>
-<blueprint ware="turret_arg_m_guided_02_mk1"/>
-<blueprint ware="turret_arg_m_laser_01_mk1"/>
-<blueprint ware="turret_arg_m_laser_02_mk1"/>
-<blueprint ware="turret_arg_m_mining_01_mk1"/>
-<blueprint ware="turret_arg_m_mining_02_mk1"/>
-<blueprint ware="turret_arg_m_plasma_01_mk1"/>
-<blueprint ware="turret_arg_m_plasma_02_mk1"/>
-<blueprint ware="turret_arg_m_shotgun_01_mk1"/>
-<blueprint ware="turret_arg_m_shotgun_02_mk1"/>
-```
-
-#### Shields
-
-```xml
-<blueprint ware="shield_arg_l_standard_01_mk1"/>
-<blueprint ware="shield_arg_l_standard_01_mk2"/>
-<blueprint ware="shield_arg_m_standard_01_mk1"/>
-<blueprint ware="shield_arg_m_standard_01_mk2"/>
-<blueprint ware="shield_arg_m_standard_02_mk1"/>
-<blueprint ware="shield_arg_m_standard_02_mk2"/>
-<blueprint ware="shield_arg_s_standard_01_mk1"/>
-<blueprint ware="shield_arg_s_standard_01_mk2"/>
-<blueprint ware="shield_arg_s_standard_01_mk3"/>
-<blueprint ware="shield_arg_xl_standard_01_mk1"/>
-```
-
-
-
-### Paranid
-
-#### Modules
-
-```xml
-<blueprint ware="module_par_pier_l_01"/>
-<blueprint ware="module_par_stor_container_s_01"/>
-<blueprint ware="module_par_conn_base_01"/>
-<blueprint ware="module_par_conn_cross_01"/>
-<blueprint ware="module_par_conn_vertical_01"/>
-<blueprint ware="module_par_prod_sojabeans_01"/>
-<blueprint ware="module_par_conn_base_02"/>
-<blueprint ware="module_par_conn_base_03"/>
-<blueprint ware="module_par_conn_cross_02"/>
-<blueprint ware="module_par_conn_cross_03"/>
-<blueprint ware="module_par_conn_vertical_02"/>
-<blueprint ware="module_par_def_claim_01"/>
-<blueprint ware="module_par_def_disc_01"/>n
-<blueprint ware="module_par_def_tube_01"/>
-<blueprint ware="module_par_hab_l_01"/>
-<blueprint ware="module_par_hab_m_01"/>
-<blueprint ware="module_par_hab_s_01"/>
-<blueprint ware="module_par_pier_l_02"/>
-<blueprint ware="module_par_pier_l_03"/>
-<blueprint ware="module_par_prod_majadust_01"/>
-<blueprint ware="module_par_prod_majasnails_01"/>
-<blueprint ware="module_par_prod_medicalsupplies_01"/>
-<blueprint ware="module_par_prod_sojahusk_01"/>
-<blueprint ware="module_par_stor_container_l_01"/>
-<blueprint ware="module_par_stor_container_m_01"/>
-<blueprint ware="module_par_stor_liquid_l_01"/>
-<blueprint ware="module_par_stor_liquid_s_01"/>
-<blueprint ware="module_par_stor_liquid_m_01"/>
-<blueprint ware="module_par_stor_solid_l_01"/>
-<blueprint ware="module_par_stor_solid_s_01"/>
-<blueprint ware="module_par_stor_solid_m_01"/>
-```
-
-#### Turrets
-
-```xml
-<blueprint ware="turret_par_l_beam_01_mk1"/>
-<blueprint ware="turret_par_l_dumbfire_01_mk1"/>
-<blueprint ware="turret_par_l_guided_01_mk1"/>
-<blueprint ware="turret_par_l_laser_01_mk1"/>
-<blueprint ware="turret_par_l_mining_01_mk1"/>
-<blueprint ware="turret_par_l_plasma_01_mk1"/>
-<blueprint ware="turret_par_m_beam_01_mk1"/>
-<blueprint ware="turret_par_m_beam_02_mk1"/>
-<blueprint ware="turret_par_m_dumbfire_01_mk1"/>
-<blueprint ware="turret_par_m_dumbfire_02_mk1"/>
-<blueprint ware="turret_par_m_gatling_01_mk1"/>
-<blueprint ware="turret_par_m_gatling_02_mk1"/>
-<blueprint ware="turret_par_m_guided_01_mk1"/>
-<blueprint ware="turret_par_m_guided_02_mk1"/>
-<blueprint ware="turret_par_m_laser_01_mk1"/>
-<blueprint ware="turret_par_m_laser_02_mk1"/>
-<blueprint ware="turret_par_m_mining_01_mk1"/>
-<blueprint ware="turret_par_m_mining_02_mk1"/>
-<blueprint ware="turret_par_m_plasma_01_mk1"/>
-<blueprint ware="turret_par_m_plasma_02_mk1"/>
-<blueprint ware="turret_par_m_shotgun_01_mk1"/>
-<blueprint ware="turret_par_m_shotgun_02_mk1"/>
-```
-
-#### Shields
-
-```xml 
-<blueprint ware="shield_par_l_standard_01_mk1"/>
-<blueprint ware="shield_par_l_standard_01_mk2"/>
-<blueprint ware="shield_par_m_standard_01_mk1"/>
-<blueprint ware="shield_par_m_standard_01_mk2"/>
-<blueprint ware="shield_par_m_standard_02_mk1"/>
-<blueprint ware="shield_par_m_standard_02_mk2"/>
-<blueprint ware="shield_par_s_standard_01_mk1"/>
-<blueprint ware="shield_par_s_standard_01_mk2"/>
-<blueprint ware="shield_par_s_standard_01_mk3"/>
-<blueprint ware="shield_par_xl_standard_01_mk1"/>
-```
-
-### Teladi
-
-#### Modules
-
-```xml
-<blueprint ware="module_tel_conn_base_01"/>
-<blueprint ware="module_tel_conn_base_02"/>
-<blueprint ware="module_tel_conn_base_03"/>
-<blueprint ware="module_tel_conn_cross_01"/>
-<blueprint ware="module_tel_conn_vertical_01"/>
-<blueprint ware="module_tel_conn_vertical_02"/>
-<blueprint ware="module_tel_def_claim_01"/>
-<blueprint ware="module_tel_def_disc_01"/>n
-<blueprint ware="module_tel_def_tube_01"/>
-<blueprint ware="module_tel_hab_l_01"/>
-<blueprint ware="module_tel_hab_m_01"/>
-<blueprint ware="module_tel_hab_s_01"/>
-<blueprint ware="module_tel_pier_l_01"/>
-<blueprint ware="module_tel_pier_l_02"/>
-<blueprint ware="module_tel_pier_l_03"/>
-<blueprint ware="module_tel_prod_advancedcomposites_01"/>
-<blueprint ware="module_tel_prod_engineparts_01"/>
-<blueprint ware="module_tel_prod_hullparts_01"/>
-<blueprint ware="module_tel_prod_medicalsupplies_01"/>
-<blueprint ware="module_tel_prod_nostropoil_01"/>
-<blueprint ware="module_tel_prod_scanningarrays_01"/>
-<blueprint ware="module_tel_prod_spaceweed_01"/>
-<blueprint ware="module_tel_prod_sunriseflowers_01"/>
-<blueprint ware="module_tel_prod_swampplant_01"/>
-<blueprint ware="module_tel_prod_teladianium"/>
-<blueprint ware="module_tel_stor_container_l_01"/>
-<blueprint ware="module_tel_stor_container_s_01"/>
-<blueprint ware="module_tel_stor_container_m_01"/>
-<blueprint ware="module_tel_stor_liquid_l_01"/>
-<blueprint ware="module_tel_stor_liquid_s_01"/>
-<blueprint ware="module_tel_stor_liquid_m_01"/>
-<blueprint ware="module_tel_stor_solid_l_01"/>
-<blueprint ware="module_tel_stor_solid_s_01"/>
-<blueprint ware="module_tel_stor_solid_m_01"/>
-```
-
-#### Engines
-
-```xml
-<blueprint ware="engine_tel_l_allround_01_mk1"/>
-<blueprint ware="engine_tel_l_travel_01_mk1"/>
-<blueprint ware="engine_tel_m_allround_01_mk1"/>
-<blueprint ware="engine_tel_m_allround_01_mk2"/>
-<blueprint ware="engine_tel_m_allround_01_mk3"/>
-<blueprint ware="engine_tel_m_combat_01_mk1"/>
-<blueprint ware="engine_tel_m_combat_01_mk2"/>
-<blueprint ware="engine_tel_m_combat_01_mk3"/>
-<blueprint ware="engine_tel_m_travel_01_mk1"/>
-<blueprint ware="engine_tel_m_travel_01_mk2"/>
-<blueprint ware="engine_tel_m_travel_01_mk3"/>
-<blueprint ware="engine_tel_s_allround_01_mk1"/>
-<blueprint ware="engine_tel_s_allround_01_mk2"/>
-<blueprint ware="engine_tel_s_allround_01_mk3"/>
-<blueprint ware="engine_tel_s_combat_01_mk1"/>
-<blueprint ware="engine_tel_s_combat_01_mk2"/>
-<blueprint ware="engine_tel_s_combat_01_mk3"/>
-<blueprint ware="engine_tel_s_travel_01_mk1"/>
-<blueprint ware="engine_tel_s_travel_01_mk2"/>
-<blueprint ware="engine_tel_s_travel_01_mk3"/>
-<blueprint ware="engine_tel_xl_allround_01_mk1"/>
-<blueprint ware="engine_tel_xl_travel_01_mk1"/>
-```
-
-#### Shields
-
-```xml
-<blueprint ware="shield_tel_l_standard_01_mk1"/>
-<blueprint ware="shield_tel_l_standard_01_mk2"/>
-<blueprint ware="shield_tel_m_standard_01_mk1"/>
-<blueprint ware="shield_tel_m_standard_01_mk2"/>
-<blueprint ware="shield_tel_m_standard_02_mk1"/>
-<blueprint ware="shield_tel_m_standard_02_mk2"/>
-<blueprint ware="shield_tel_s_standard_01_mk1"/>
-<blueprint ware="shield_tel_s_standard_01_mk2"/>
-<blueprint ware="shield_tel_s_standard_01_mk3"/>
-<blueprint ware="shield_tel_xl_standard_01_mk1"/>
-```
-
-#### Turrets
-
-```xml
-<blueprint ware="turret_tel_l_beam_01_mk1"/>
-<blueprint ware="turret_tel_l_dumbfire_01_mk1"/>
-<blueprint ware="turret_tel_l_guided_01_mk1"/>
-<blueprint ware="turret_tel_l_laser_01_mk1"/>
-<blueprint ware="turret_tel_l_mining_01_mk1"/>
-<blueprint ware="turret_tel_l_plasma_01_mk1"/>
-<blueprint ware="turret_tel_m_beam_01_mk1"/>
-<blueprint ware="turret_tel_m_beam_02_mk1"/>
-<blueprint ware="turret_tel_m_dumbfire_02_mk1"/>
-<blueprint ware="turret_tel_m_gatling_01_mk1"/>
-<blueprint ware="turret_tel_m_gatling_02_mk1"/>
-<blueprint ware="turret_tel_m_guided_02_mk1"/>
-<blueprint ware="turret_tel_m_laser_01_mk1"/>
-<blueprint ware="turret_tel_m_laser_02_mk1"/>
-<blueprint ware="turret_tel_m_mining_01_mk1"/>
-<blueprint ware="turret_tel_m_mining_02_mk1"/>
-<blueprint ware="turret_tel_m_plasma_01_mk1"/>
-<blueprint ware="turret_tel_m_plasma_02_mk1"/>
-<blueprint ware="turret_tel_m_shotgun_01_mk1"/>
-<blueprint ware="turret_tel_m_shotgun_02_mk1"/>
-```
-
-#### Weapons
-
-```xml
-<blueprint ware="weapon_tel_l_destroyer_01_mk1"/>
-<blueprint ware="weapon_tel_m_charge_01_mk1"/>
-<blueprint ware="weapon_tel_m_charge_02_mk1"/>
-<blueprint ware="weapon_tel_s_charge_01_mk1"/>
-<blueprint ware="weapon_tel_s_charge_02_mk1"/>
-```
+The full categorized list of blueprints can be found in the blueprint-ids.md file.
 
 ## Player inventory
 
