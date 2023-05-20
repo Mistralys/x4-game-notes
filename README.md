@@ -165,7 +165,8 @@ The following is a full list of blueprint macros / codes that I collected online
 as through my own savegames. They go below the `<blueprints>` tag in the file (there is 
 only one, so it's easy to find).
 
-The full categorized list of blueprints can be found in the blueprint-ids.md file.
+The full categorized list of blueprints can be found in the [blueprint-ids.md][] file, and 
+a copy & paste XML version in [blueprint-ids.xml][].
 
 ## Player inventory
 
@@ -544,3 +545,6 @@ http://www.x4-game.com/#/station-calculator?l=@$module-module_gen_build_l_01,cou
 [Argon Weapon Component Factory]: http://www.x4-game.com/#/station-calculator?l=@$module-module_gen_prod_weaponcomponents_01,count:12;,$module-module_arg_hab_l_01,count:6;,$module-module_gen_prod_energycells_01,count:2;,$module-module_gen_prod_hullparts_01,count:1;,$module-module_gen_prod_plasmaconductors_01,count:5;,$module-module_arg_prod_foodrations_01,count:2;,$module-module_arg_prod_medicalsupplies_01,count:4;,$module-module_gen_prod_graphene_01,count:2;,$module-module_gen_prod_refinedmetals_01,count:1;,$module-module_gen_prod_superfluidcoolant_01,count:2;,$module-module_arg_prod_meat_01,count:1;,$module-module_gen_prod_spices_01,count:2;,$module-module_arg_prod_wheat_01,count:1;,$module-module_gen_prod_water_01,count:1
 
 [Station Calculator]: http://www.x4-game.com/#/station-calculator
+
+[blueprint-ids.md]: https://github.com/Mistralys/x4-game-notes/blob/main/blueprint-ids.md
+[blueprint-ids.xml]: https://raw.githubusercontent.com/Mistralys/x4-game-notes/main/blueprint-ids.xml
