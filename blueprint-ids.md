@@ -8,13 +8,34 @@
 <blueprint ware="countermeasure_flares_01"/>
 ```
 
-### Deployables
+### Deployable
 
 ```xml
 <blueprint ware="resourceprobe_01"/>
+<blueprint ware="resource_survey_unit_mk1"/>
+<blueprint ware="satellite_hostile_det_mk1"/>
+<blueprint ware="satellite_interdiction_mk1"/>
 <blueprint ware="satellite_mk1"/>
 <blueprint ware="satellite_mk2"/>
+<blueprint ware="ship_gen_s_lasertower_01_a"/>
+<blueprint ware="ship_gen_xs_lasertower_01_a"/>
+<blueprint ware="survey_unit_mk1"/>
 <blueprint ware="waypointmarker_01"/>
+```
+
+### Drones
+
+```xml
+<blueprint ware="ship_gen_m_transdrone_container_01_a"/>
+<blueprint ware="ship_gen_m_transdrone_container_02_a"/>
+<blueprint ware="ship_gen_s_fightingdrone_01_a"/>
+<blueprint ware="ship_gen_s_miningdrone_liquid_01_a"/>
+<blueprint ware="ship_gen_s_miningdrone_solid_01_a"/>
+<blueprint ware="ship_gen_s_transdrone_container_01_a"/>
+<blueprint ware="ship_gen_s_transdrone_container_02_a"/>
+<blueprint ware="ship_gen_xs_buildingdrone_01_a"/>
+<blueprint ware="ship_gen_xs_cargodrone_empty_01_a"/>
+<blueprint ware="ship_gen_xs_repairdrone_01_a"/>
 ```
 
 ### Missiles
@@ -136,21 +157,9 @@
 ### Ships
 
 ```xml
-<blueprint ware="ship_gen_m_transdrone_container_01_a"/>
-<blueprint ware="ship_gen_m_transdrone_container_02_a"/>
 <blueprint ware="ship_gen_m_tugboat_01_a"/>
 <blueprint ware="ship_gen_s_fighter_01_a"/>
 <blueprint ware="ship_gen_s_fighter_01_b"/>
-<blueprint ware="ship_gen_s_fightingdrone_01_a"/>
-<blueprint ware="ship_gen_s_lasertower_01_a"/>
-<blueprint ware="ship_gen_s_miningdrone_liquid_01_a"/>
-<blueprint ware="ship_gen_s_miningdrone_solid_01_a"/>
-<blueprint ware="ship_gen_s_transdrone_container_01_a"/>
-<blueprint ware="ship_gen_s_transdrone_container_02_a"/>
-<blueprint ware="ship_gen_xs_buildingdrone_01_a"/>
-<blueprint ware="ship_gen_xs_cargodrone_empty_01_a"/>
-<blueprint ware="ship_gen_xs_lasertower_01_a"/>
-<blueprint ware="ship_gen_xs_repairdrone_01_a"/>
 ```
 
 ### Skins
@@ -210,6 +219,7 @@
 <blueprint ware="module_gen_prod_water_01"/>
 <blueprint ware="module_gen_prod_weaponcomponents_01"/>
 <blueprint ware="module_gen_ventureplatform_cross_01"/>
+<blueprint ware="module_gen_welfare_gamblinghall_01"/>
 ```
 
 ### Thrusters
@@ -416,6 +426,7 @@
 <blueprint ware="module_arg_prod_foodrations_01"/>
 <blueprint ware="module_arg_prod_meat_01"/>
 <blueprint ware="module_arg_prod_medicalsupplies_01"/>
+<blueprint ware="module_arg_prod_spacefuel_01"/>
 <blueprint ware="module_arg_prod_wheat_01"/>
 <blueprint ware="module_arg_stor_container_l_01"/>
 <blueprint ware="module_arg_stor_container_m_01"/>
@@ -607,6 +618,12 @@
 <blueprint ware="weapon_bor_s_torpedo_01_mk1"/>
 ```
 
+### Welfare modules
+
+```xml
+<blueprint ware="welfare_bor_artacademy_01"/>
+```
+
 ## Paranid
 
 ### Engines
@@ -770,6 +787,58 @@
 <blueprint ware="weapon_par_m_railgun_01_mk2"/>
 <blueprint ware="weapon_par_s_railgun_01_mk1"/>
 <blueprint ware="weapon_par_s_railgun_01_mk2"/>
+```
+
+## Pirates
+
+### Engines
+
+```xml
+<blueprint ware="engine_pir_xl_battleship_01_allround_01_mk1"/>
+```
+
+### Shields
+
+```xml
+<blueprint ware="shield_pir_xl_battleship_01_standard_01_mk1"/>
+```
+
+### Ships
+
+```xml
+<blueprint ware="ship_pir_l_miner_solid_01_a"/>
+<blueprint ware="ship_pir_l_scavenger_01_a"/>
+<blueprint ware="ship_pir_l_scrapper_01"/>
+<blueprint ware="ship_pir_s_fighter_01_a"/>
+<blueprint ware="ship_pir_s_fighter_02_a"/>
+<blueprint ware="ship_pir_s_heavyfighter_01_a"/>
+<blueprint ware="ship_pir_s_trans_condensate_01_a"/>
+<blueprint ware="ship_pir_s_trans_container_01_a"/>
+<blueprint ware="ship_pir_xl_battleship_01_a"/>
+<blueprint ware="ship_pir_xl_builder_01"/>
+```
+
+### Station modules
+
+```xml
+<blueprint ware="module_pir_hab_l_01"/>
+<blueprint ware="module_pir_hab_m_01"/>
+<blueprint ware="module_pir_hab_s_01"/>
+<blueprint ware="module_pir_stor_condensate_l_01"/>
+<blueprint ware="module_pir_stor_condensate_s_01"/>
+```
+
+### Turrets
+
+```xml
+<blueprint ware="turret_pir_l_battleship_01_laser_01_mk1"/>
+<blueprint ware="turret_pir_m_battleship_01_gatling_02_mk1"/>
+```
+
+### Weapons
+
+```xml
+<blueprint ware="weapon_pir_xl_battleship_01_mk1"/>
 ```
 
 ## Split
@@ -973,6 +1042,7 @@
 
 ```xml
 <blueprint ware="ship_tel_l_destroyer_01_a"/>
+<blueprint ware="ship_tel_l_destroyer_01_b"/>
 <blueprint ware="ship_tel_l_miner_liquid_01_a"/>
 <blueprint ware="ship_tel_l_miner_liquid_01_b"/>
 <blueprint ware="ship_tel_l_miner_solid_01_a"/>
@@ -1008,6 +1078,7 @@
 <blueprint ware="ship_tel_xl_builder_01_a"/>
 <blueprint ware="ship_tel_xl_builder_01_b"/>
 <blueprint ware="ship_tel_xl_carrier_01_a"/>
+<blueprint ware="ship_tel_xl_carrier_01_b"/>
 <blueprint ware="ship_tel_xl_resupplier_01_a"/>
 <blueprint ware="ship_tel_xl_resupplier_01_b"/>
 ```
@@ -1261,32 +1332,6 @@
 <blueprint ware="weapon_atf_xl_battleship_01_mk1"/>
 ```
 
-## Pirates
-
-### Ships
-
-```xml
-<blueprint ware="ship_pir_l_miner_solid_01_a"/>
-<blueprint ware="ship_pir_l_scavenger_01_a"/>
-<blueprint ware="ship_pir_l_scrapper_01"/>
-<blueprint ware="ship_pir_s_fighter_01_a"/>
-<blueprint ware="ship_pir_s_fighter_02_a"/>
-<blueprint ware="ship_pir_s_heavyfighter_01_a"/>
-<blueprint ware="ship_pir_s_trans_condensate_01_a"/>
-<blueprint ware="ship_pir_s_trans_container_01_a"/>
-<blueprint ware="ship_pir_xl_builder_01"/>
-```
-
-### Station modules
-
-```xml
-<blueprint ware="module_pir_hab_l_01"/>
-<blueprint ware="module_pir_hab_m_01"/>
-<blueprint ware="module_pir_hab_s_01"/>
-<blueprint ware="module_pir_stor_condensate_l_01"/>
-<blueprint ware="module_pir_stor_condensate_s_01"/>
-```
-
 ## Yaki
 
 ### Ships
@@ -1295,4 +1340,3 @@
 <blueprint ware="ship_yak_m_corvette_01_a"/>
 <blueprint ware="ship_yak_s_fighter_01_a"/>
 ```
-
