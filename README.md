@@ -97,6 +97,10 @@ Notepad++ is one often recommended, but personally it had trouble with my 1.2 GB
 files. What worked best for me is the commercial UltraEdit, especially when searching
 or even to collapse XML tags.
 
+## Savegame XML structure
+
+https://www.reddit.com/r/X4Foundations/comments/thjbik/how_to_read_save_file/
+
 ## Editing player money
 
 - Save your game and note the amount of money in your account.
@@ -176,12 +180,7 @@ component. The inventory is nested in here.
 
 Search for the following:
 
-`<component class="player"`
-
-Alternatively, search for an item that only the player can have, 
-for instance:
-
-`weapon_gen_spacesuit_repairlaser_01_mk1`
+`class="player"`
 
 ### Modding parts
 
@@ -297,6 +296,70 @@ Needs to be researched.
 
 > When an ally reaches 27 reputation, it becomes possible to teleport to any of their stations.
 
+## Getting the Erlking battleship
+
+This unique battleship can be found in one of the Windfall systems, right next 
+to a station called "Keepsake" with a trading station icon. If you approach it,
+the station will warn you off.
+
+> The game is hardwired to allow a single Erlking in the game. Even if you
+  have all the ship's blueprints, you can only build it once. When the sole
+  existing copy is destroyed, Boso Ta will make the Erlking power core 
+  research available.
+
+### The official way
+
+The official way to get it is to board the existing one. However, as the lore
+states, the ship is incomplete. The missing parts can be added at a shipyard,
+but the blueprints must be found first. They are hidden in data vaults usually
+found around the Windfall and Avarice systems.
+
+There is no quest to find the blueprints, so the search can be either an
+interesting scavenger hunt or a frustrating exercise, depending on how you feel 
+about such searches.
+
+A lot of information and player experiences can be found here, for example:
+
+https://forum.egosoft.com/viewtopic.php?t=449650
+
+### The semi-unofficial way
+
+As the data vault locations are randomized and can be pretty hard to find, it 
+is possible, without cheating outright, to find out their exact location, to
+be able to complete the search ingame.
+
+There is a `.bat` file that can extract the locations from a savegame:
+
+https://forum.egosoft.com/viewtopic.php?p=5116566#p5116566
+
+### The unofficial way
+
+This requires you to have access to a shipyard.
+
+1. Extract and open your savegame XML file.
+2. Search for the `<blueprints>` tag.
+3. Add the blueprint tags shown below.
+4. Ingame, simply destroy the Erlking in Windfall.
+5. Boso Ta will add the power core research project.
+6. Build the ship at your shipyard.
+7. If you lose the ship, you may rebuild it :)
+
+Erlking blueprints XML:
+
+```xml
+<blueprint ware="engine_pir_xl_battleship_01_allround_01_mk1"/>
+<blueprint ware="shield_pir_xl_battleship_01_standard_01_mk1"/>
+<blueprint ware="ship_pir_xl_battleship_01_a"/>
+<blueprint ware="turret_pir_l_battleship_01_laser_01_mk1"/>
+<blueprint ware="turret_pir_m_battleship_01_gatling_02_mk1"/>
+<blueprint ware="weapon_pir_xl_battleship_01_mk1"/>
+```
+
+> Adding all blueprints without destroying it works: You will see the
+  ship in the build menu, but it can't be built because the power core
+  research is missing. That's why the existing ship must be destroyed.
+  In my game, I did not even get a reputation hit for that.
+
 ## Ship stuck in something
 
 ### Method 1: Let an NPC do it
@@ -309,7 +372,8 @@ Needs to be researched.
 
 ### Method 2: Wiggle wiggle
 
-I was stuck in a station once with the _Moreya_, and since it's a pilotless ship, I could not let an NPC pilot get it out. This helped:
+I was stuck in a station once with the _Moreya_, and since it's a pilotless ship, 
+I could not let an NPC pilot get it out. This helped:
 
 - Turn off flight assist (this is key)
 - Constantly push forward until you're free
@@ -318,7 +382,8 @@ I was stuck in a station once with the _Moreya_, and since it's a pilotless ship
 
 ### Killing enemies
 
-You get +1 reputation for kills. Any of their enemies count (rival factions or Xenon), but also criminals:
+You get +1 reputation for kills. Any of their enemies count (rival factions or 
+Xenon), but also criminals:
 
 - Approach a station closely
 - Often little red criminal ships will appear
@@ -328,11 +393,12 @@ You get +1 reputation for kills. Any of their enemies count (rival factions or X
    
 ### Missions
 
-Approach their stations, and check if they have any missions to offer. Small repair missions are often 
-available, and are also shown on map as small icons above the station when getting close.
+Approach their stations, and check if they have any missions to offer. Small 
+repair missions are often available, and are also shown on map as small icons 
+above the station when getting close.
 
-> Scanning stations for signals also works, but from experience those mostly give illegal missions
-  that will not help reputation.
+> Scanning stations for signals also works, but from experience those mostly 
+  give illegal missions that will not help reputation.
 
 ## Service crew
 
@@ -352,57 +418,79 @@ I have not been seen the AI try to board any of my ships, so I believe
 they are not needed to defend ships when playing solo. However, they can
 be useful to board ships or recover abandoned ships.
 
+> If you like immersion, adding a few marines (4-6) on bigger ships will make
+  them appear on the bridge. A nice touch for capital ships for sure :)
+
 ## Recovering / claiming abandoned ships:
 
-- Take a ship with at least 1 marine on board
-- Approach the abandoned ship
-- Target it and right-click > "Claim"
+- Pilot a ship with at least 1 marine on board.
+- Approach the abandoned ship.
+- Target it and right-click > "Claim".
 
 A boarding drone will slowly approach the ship, breach it, and take it over.
 
 > Get close to the target ship, as the boarding drone is really slow.
   In some cases, the target ship will take a little damage (the crew
-  of the ship sabotaging it).
+  of the ship sabotaging it, and/or the marine's breaching charges).
 
 ### The lazy way
 
 Let one of your NPC controlled ships do it: 
 
-- Open the map
-- Select a ship with at least 1 marine on board
-- Right-click the abandoned ship
-- Select "Claim"
+- Open the map.
+- Select a ship with at least 1 marine on board.
+- Make the ship fly and wait next to the target ship.
+- Once there, right-click the abandoned ship.
+- Select "Claim".
 
-Your ship will go there and launch a boarding drone automatically.
+Your ship will launch a boarding drone automatically. Sadly the ship will
+not automatically fly there, that's why you need the fly and wait command.
 
 ## Attacking stations
 
-Station defenses pack a wallop, and can easily take down destroyers and battleships with surprising ease. The key here is range, so you can hit a station from outside of its guns' range. A destroyer with some gun modifications will do nicely, even with green level modifications.
+Station defenses pack a wallop, and can easily take down destroyers and 
+battleships with surprising ease. The key here is range, so you can hit a 
+station from outside its guns' range. A destroyer with some gun 
+modifications will do nicely, even with green level modifications.
 
-The biggest issue is that in my experience, using the AI to do a synchronized fleet attack or simple attack command will get your ships shot. The AI invariably gets too close to the station. Even if not at first, the ships slowly get closer over time, often when changing positions to shoot at another part of the station. Even if the guns can hit from 2x the distance they are at, and this even if turrets and defense drones are disarmed. Micromanaging this is almost impossible.
+> Tip: Open the information for the target station, and view its loadout.
+  Watch out for L-sized turrets, those are the ones you need to worry 
+  about. From experience, if there are 9 or more, it's dangerous.
+
+The biggest issue is that in my experience, using the AI to do a 
+synchronized fleet attack or simple attack command will get your ships 
+shot. The AI invariably gets too close to the station. Even if not at 
+first, the ships slowly get closer over time, often when changing positions 
+to shoot at another part of the station. Even if the guns can hit from 2x 
+the distance they are at, and this even if turrets and defense drones are 
+disarmed. Micromanaging this is almost impossible.
 
 My personal, manual solution:
 
-- Identify gun installations (defense disks and bridges)
-- Manually position the ship above the target station
-- Take out all gun installations (it helps to know where they are)
+- Identify gun installations (defense disks and bridges).
+- Manually position the ship above the target station.
+- Take out all gun installations (it helps to know where they are).
 - Once teethless, let your fleet destroy the remaining modules.
 
-Even after killing all gun emplacements and defense modules, the station will still have more than 80% hull left, which is what takes the most time to whittle down.
+Even after killing all gun emplacements and defense modules, the station 
+will still have more than 80% hull left, which is what takes the most time 
+to whittle down.
 
-> The AI rarely, if ever, attacks a station from above or below, from which position it's easier to hit gun emplacements:
-  You can see them all, and hit everything without moving.
+> The AI rarely, if ever, attacks a station from above or below, from which 
+  position it's easier to hit gun emplacements: You can see them all, and hit 
+  everything without moving.
 
 ### Ship choices
 
-From experience, these are the best ships for station bashing when playing OOS:
+From experience, these are the best ships for station bashing when playing _OOS_:
 
 1. Asgard: High damage, least suicidal.
 2. Syn: High damage, but pretty suicidal.
 3. Phoenix / Odysseus: Passable, AI doesn't suicide so often.
 
-Rattlesnakes are the worst. In my games, they just loved making flybys through the center of the target station,
-where all guns can conventiently shoot them at the same time :|
+Rattlesnakes are the worst. In my games, they just loved making flybys 
+through the center of the target station, where all guns can conveniently shoot 
+them at the same time :|
 
 ## Attacking K and I class Xenon ships
 
