@@ -158,6 +158,7 @@
 
 ```xml
 <blueprint ware="ship_gen_m_tugboat_01_a"/>
+<blueprint ware="ship_gen_m_yacht_01_a"/>
 <blueprint ware="ship_gen_s_fighter_01_a"/>
 <blueprint ware="ship_gen_s_fighter_01_b"/>
 ```
