@@ -26,6 +26,9 @@
     <blueprint ware="ship_gen_xs_cargodrone_empty_01_a"/>
     <blueprint ware="ship_gen_xs_repairdrone_01_a"/>
 
+    <!-- Category: Generic / Engines -->
+    <blueprint ware="engine_gen_m_yacht_01_mk1"/>
+
     <!-- Category: Generic / Missiles -->
     <blueprint ware="missile_cluster_heavy_mk1"/>
     <blueprint ware="missile_cluster_light_mk1"/>
@@ -136,6 +139,9 @@
     <blueprint ware="mod_weapon_surfaceelement_01_mk2"/>
     <blueprint ware="mod_weapon_surfaceelement_01_mk3"/>
 
+    <!-- Category: Generic / Shields -->
+    <blueprint ware="shield_gen_m_yacht_01_mk1"/>
+
     <!-- Category: Generic / Ships -->
     <blueprint ware="ship_gen_m_tugboat_01_a"/>
     <blueprint ware="ship_gen_m_yacht_01_a"/>
@@ -218,6 +224,7 @@
 
     <!-- Category: Generic / Turrets -->
     <blueprint ware="turret_gen_m_scrapbeam_01_mk1"/>
+    <blueprint ware="turret_gen_m_yacht_01_mk1"/>
 
     <!-- Category: Generic / Weapons -->
     <blueprint ware="weapon_clustermine_01"/>
@@ -242,6 +249,7 @@
     <blueprint ware="weapon_gen_m_shotgun_01_mk2"/>
     <blueprint ware="weapon_gen_m_torpedo_01_mk1"/>
     <blueprint ware="weapon_gen_m_torpedo_01_mk2"/>
+    <blueprint ware="weapon_gen_m_yacht_01_mk1"/>
     <blueprint ware="weapon_gen_s_beam_01_mk1"/>
     <blueprint ware="weapon_gen_s_beam_01_mk2"/>
     <blueprint ware="weapon_gen_s_burst_01_mk1"/>

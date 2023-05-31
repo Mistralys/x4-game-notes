@@ -38,6 +38,12 @@
 <blueprint ware="ship_gen_xs_repairdrone_01_a"/>
 ```
 
+### Engines
+
+```xml
+<blueprint ware="engine_gen_m_yacht_01_mk1"/>
+```
+
 ### Missiles
 
 ```xml
@@ -154,6 +160,12 @@
 <blueprint ware="mod_weapon_surfaceelement_01_mk3"/>
 ```
 
+### Shields
+
+```xml
+<blueprint ware="shield_gen_m_yacht_01_mk1"/>
+```
+
 ### Ships
 
 ```xml
@@ -250,6 +262,7 @@
 
 ```xml
 <blueprint ware="turret_gen_m_scrapbeam_01_mk1"/>
+<blueprint ware="turret_gen_m_yacht_01_mk1"/>
 ```
 
 ### Weapons
@@ -277,6 +290,7 @@
 <blueprint ware="weapon_gen_m_shotgun_01_mk2"/>
 <blueprint ware="weapon_gen_m_torpedo_01_mk1"/>
 <blueprint ware="weapon_gen_m_torpedo_01_mk2"/>
+<blueprint ware="weapon_gen_m_yacht_01_mk1"/>
 <blueprint ware="weapon_gen_s_beam_01_mk1"/>
 <blueprint ware="weapon_gen_s_beam_01_mk2"/>
 <blueprint ware="weapon_gen_s_burst_01_mk1"/>
