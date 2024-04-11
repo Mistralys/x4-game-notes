@@ -49,6 +49,10 @@ Ship Menu > Ore collector drone > Change status to "Armed"
   > NOTE: It seems the ore collector drone is not always needed,
     since the ship's tractor beam (`O` key) works as well.
 
+# Online resources
+
+- [Printable system maps](https://steamcommunity.com/sharedfiles/filedetails/?id=2420181460)
+
 # Gameplay tips and howtos
 
 ## Minimize player presence
