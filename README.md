@@ -172,6 +172,9 @@ only one, so it's easy to find).
 The full categorized list of blueprints can be found in the [blueprint-ids.md][] file, and 
 a copy & paste XML version in [blueprint-ids.xml][].
 
+The really cool thing is that it is even possible to make the Astrid and the Erlking 
+buildable at player stations by adding their blueprints (for the Erlking, see [Getting the Erlking][]).
+
 ## Player inventory
 
 NPCs have `<inventory>` tags just like the player, so the easiest
@@ -292,7 +295,19 @@ Items detected by the scan will display colored pulse hits in space.
 
 ## Teleportation
 
-Needs to be researched.
+Needs to be researched with the help of Boso and the player HQ. Starting the game, it
+is not possible to teleport anywhere, which can lead to funny situations if you 
+accidentally fnd yourself stuck on an NPC ship for example. 
+
+## Teleporting to stations
+
+The easiest way is to buy cheap ships like a scout with minimum fitting, and to dock it
+at any stations you wish to be able to teleport to. Then, provided the teleport technology
+has been researched far enough, you can simply warp to these ships.
+
+Personally I have a teleport ship at every faction representative's station so I can easily
+go there whenever I need. I name them "X ARG" for example: "X" so the ship is listed at the
+end, and "ARG" for the Argon faction representative.
 
 > When an ally reaches 27 reputation, it becomes possible to teleport to any of their stations.
 
@@ -494,9 +509,11 @@ them at the same time :|
 
 ## Attacking K and I class Xenon ships
 
-Key to killing these when flying a ship solo is speed, to keep out of the range of their guns. 
+Key to killing these when flying a ship solo is speed, to keep out of the range 
+of their guns. 
 
-My personal favorite is the Rattlesnake, modded for better thrust (possible to fly backwards faster too) and increased range on the main guns.
+My personal favorite is the Rattlesnake, modded for better thrust (possible to fly 
+backwards faster too) and increased range on the main guns.
 
 These mods will make it possible:
 
@@ -505,12 +522,26 @@ These mods will make it possible:
 - Large plasma turrets with projectile lifetime mode.
 - Drag or mass mod.
 
-If at all possible, attack the Xenon from behind, or from the side. They turn very slowly, and will not be able to use their top speed to close the distance. It makes them a lot easier to hit by the plasma turrets as well, whose projectiles fly very slowly.
+If at all possible, attack the Xenon from behind, or from the side. They turn 
+very slowly, and will not be able to use their top speed to close the distance. 
+It makes them a lot easier to hit by the plasma turrets as well, whose projectiles 
+fly very slowly.
+
+### Blind spots
+
+If you are feeling adventurous, these ships can even be killed with an M class 
+ship. They have a blind spot right on top, so if you can get there avoiding their 
+fire, it is possible to take them down, a bit slowly, but in relative safety if you
+manage the keep that position.
+
+I have done this several times now in a modded Kurokami. I usually wait for the 
+ship to be otherwise engaged, so there is a bit less incoming fire while
+approaching it.
 
 ## Abbreviations
 
 - PHQ: Player Headquarters Station
-- OOS: "Out Of System", moving the player outside of their own ship's systems for easier navigation
+- OOS: "Out Of System", moving the player outside their own ship's systems for easier navigation
 
 ## Defending, patrolling and policing sectors
 
@@ -579,60 +610,193 @@ a fleet on both incoming stargates.
 
 ## Station building
 
-When building stations, one key factor is workforce. Having too many people is worse than not having enough. Example: if requiring 2000 workers, having 1800 is better than 2200.
+When building stations, one key factor is workforce. Having too many people is 
+worse than not having enough. Example: if requiring 2000 workers, having 1800 
+is better than 2200.
 
-- Use the [Station Calculator][] to simulate the build
-- Make it as close to 100% workforce usage as possible
-- Ideally, everything should be in the green* starting a ~10% workforce
+- Use the [Station Calculator][] to simulate the build.
+- Make it as close to 100% workforce usage as possible.
+- Ideally, everything should be in the green(*) starting at ~10% workforce.
 
-*Profit as well as all production modules. Raw resources like ore excluded.
+* Profit as well as all production modules, raw resources like ore excluded.
+
+### The production trading station
+
+#### Centralizing ware distribution
+
+It actually makes sense to start with a trading station before you even start
+building production stations, to handle raw resources like ore and gases. 
+The reason for this is simple: Miners assigned to a production station will 
+not sell the surplus anywhere, unlike trading ships that sell surplus food
+for example. Once the storage is full, they will sit idle.
+
+> Your miners will tell you that they found no buyers. I always wondered why
+  they won't just sell to NPC stations. In fact, they have only a single
+  buyer - their station manager.
+
+The idea is to have your trading station handle all raw resource deliveries 
+to your production stations instead. This way the mining ships will not sit 
+idle, and you need less of them overall. Granted, ore trading ships are 
+required instead.
+
+#### Building the trading station
+
+A trading station is really simple to build:
+
+- Multiple piers 
+- Multiple docks
+- Storage modules for all types
+
+> Do not add any production modules at all, it would confuse the station
+  manager.
+
+#### Trade ships setup
+
+Since it is not only for trading processed wares, the station will need
+a diverse set of trading ships and miners.
+
+- Assign miners for all solids and liquids.
+- Assign mineral traders.
+- Assign liquid traders.
+- Assign container traders.
+
+The basic principle:
+
+- Large mining ships to gather resources.
+- Medium traders to distribute them.
+- A few large traders for bigger material orders.
+
+The medium traders will ony trade locally between your stations.
+Once the production station's storages are topped up, they will
+only have to transfer small amounts, so large traders would be
+wasted. Only a few large ones will help with initial resource 
+orders when a new production station is built.
+
+> Regarding piracy, since the medium trading ships will only
+  trade between your stations in-system, they are a lot less
+  exposed to piracy. 
+
+#### How many trade ships?
+
+Not that easy to answer. It has always been more than I expected
+to need in my experience. As a rule of thumb, I use this:
+
+- 1x large miner per station per resource
+- 6x medium traders per station per resource
+
+> As an example, in my last playthrough, my HQ's terraforming 
+  trade station had 140 medium traders and 30 large miners 
+  assigned to it. This handled production stations for everything
+  from raw resources, refined resources to processed wares.
+
+The best is to observe what happens over time. A few guidelines:
+
+- The trading station's ore storage is not filling up? You need 
+  more miners.
+- A production station's ore storage is empty? If the trading 
+  station's ore storage is good, you need more ore trading ships.
+- The Advanced Electronics storage is empty or very low? You
+  are probably not producing enough of it.
+
+#### Commodities setup
+
+Since the trading station will only be used to distribute wares
+between your own stations, you can go ahead and configure the
+station for all wares you plan to have production stations for,
+plus ores and basic resources like water and foodstuffs.
+
+> Remember to restrict the buy and sell orders to your faction.
+
+The buy offer should be set to the maximum price, and the sell
+offer to the lowest price. This guarantees that your traders will
+prefer the trading station for all wares.
+
+> Adding all wares is actually a great way to see what wares you 
+  don't control yourself, as those storages won't fill up at all.
+  In one playthrough, it helped me to notice that I had forgotten
+  to build a Microchip production station for example.
+
+#### Selling surplus
+
+Once your trading station is running stable, you can try to make
+wares that you have enough of available to all factions, by not
+restricting the sell offer. The price can be automatic, since
+you are still buying only from your faction. Any sales will make
+a profit.
+
+You have to keep an eye on these wares to avoid shortages in your 
+stations, but it's a great way to make some money passively.
+
+### Production stations
+
+### Building principles
+
+#### Dependent stations 
+
+They rely on a trade station or NPC traders to provide all the 
+wares they need. They typically only include the workforce and
+the target production module(s). The NPC stations are almost 
+all built this way.
+
+- [+] Very simple to build.
+- [+] Cheap.
+- [-] Very susceptible to ware shortages.
+- [-] A single ware shortage can stop production.
+
+#### Independent stations  
+
+They include the workforce, and the whole chain of productions 
+from food and intermediary products to the final product.
+
+- [+] Impervious to market fluctuations.
+- [+] Easy to extend.
+- [+] Injects surplus back into the market.
+- [-] Complexity of the builds (saving plans is your friend).
+- [-] Expensive.
+- [-] Requires a lot of ships.  
+- [-] Idle miners once storage is full.
+
+#### Hybrid stations  
+
+Built like independent stations, but relying on a trading station
+to provide all needed wares.
+
+- [+] Best use of resources.
+- [+] Resistant to market fluctuations.
+- [+] Easier ship management.
+- [+] Injects surplus back into the market.
+- [-] Complexity of the builds.
+- [-] Expensive.
+
+#### Which type to use?
+
+From experience, single stations or small clusters of stations 
+without a trading station to support them should be built to be 
+independent. 
+
+If a trading station is present though, the dependent version can 
+be used. Personally I prefer the hybrid variant, because it makes 
+the market stronger overall (through the surplus wares from their 
+variety of productions). They require a lot less micromanagement 
+once they are up and running.
 
 ### Finding markets
 
-> As a general rule, do not worry about the market too much, your goods will be bought wherever you build your station. 
+> As a general rule, do not worry about the market too much, your goods will 
+  be bought wherever you build your station. 
 
-Still, it can be beneficial to check if there are sectors that lack specific component factories. A good example is ship building parts: In sectors with a wharf or shipyard, check if there are factories for Hull Parts, Engine Parts and Shield Components. If not, you have guaranteed regular customers for matching factories. 
+Still, it can be beneficial to check if there are sectors that lack specific 
+component factories. A good example is ship building parts: In sectors with a 
+wharf or shipyard, check if there are factories for Hull Parts, Engine Parts 
+and Shield Components. If not, you have guaranteed regular customers for 
+matching factories. 
 
-To find out which products stations build, the easiest is to check out the station's trade offers. Otherwise, fly over to the station and scan it to identify the production modules that it uses.
-
-### Building presets
-
-- [Terran Claytronics Factory][]
-- [Split Engine Part Factory][] 
-- [Split Hull Part Factory][]
-- [Split Shield Component Factory][]
-- [Argon Wharf][] _Workforce sustained, relies on externally built components_
-- [Argon Weapon Components Factory][]
-- [Argon Shipyard][] - _Workforce sustained, relies on externally built components_
-- [Argon Smart Chip Factory][]
-- [Argon Missile Components Factory][]
- 
- 
-[Split Hull Part Factory]: http://www.x4-game.com/#/station-calculator?l=@$module-module_gen_prod_hullparts_01,count:13;,$module-module_gen_prod_energycells_01,count:4;,$module-module_gen_prod_graphene_01,count:2;,$module-module_gen_prod_refinedmetals_01,count:7;,$module-module_spl_hab_l_01,count:7;,$module-module_spl_prod_cheltmeat_01,count:2;,$module-module_spl_prod_scruffinfruits_01,count:2;,$module-module_spl_prod_medicalsupplies_01,count:4;,$module-module_gen_prod_spices_01,count:1;,$module-module_gen_prod_water_01,count:2
-
-[Split Engine Part Factory]: http://www.x4-game.com/#/station-calculator?l=@$module-module_gen_prod_engineparts_01,count:12;,$module-module_gen_prod_energycells_01,count:4;,$module-module_gen_prod_antimattercells_01,count:4;,$module-module_gen_prod_refinedmetals_01,count:2;,$module-module_spl_hab_l_01,count:5;,$module-module_spl_prod_cheltmeat_01,count:2;,$module-module_spl_prod_scruffinfruits_01,count:2;,$module-module_spl_prod_medicalsupplies_01,count:3;,$module-module_gen_prod_spices_01,count:1;,$module-module_gen_prod_water_01,count:1
-
-[Split Shield Component Factory]: http://www.x4-game.com/#/station-calculator?l=@$module-module_gen_prod_shieldcomponents_01,count:12;,$module-module_gen_prod_energycells_01,count:4;,$module-module_gen_prod_quantumtubes_01,count:2;,$module-module_gen_prod_refinedmetals_01,count:1;,$module-module_spl_hab_l_01,count:7;,$module-module_spl_prod_cheltmeat_01,count:2;,$module-module_spl_prod_scruffinfruits_01,count:2;,$module-module_spl_prod_medicalsupplies_01,count:4;,$module-module_gen_prod_spices_01,count:1;,$module-module_gen_prod_water_01,count:2;,$module-module_gen_prod_plasmaconductors_01,count:5;,$module-module_gen_prod_superfluidcoolant_01,count:3;,$module-module_gen_prod_graphene_01,count:3
-
-[Terran Claytronics Factory]: http://www.x4-game.com/#/station-calculator?l=@$module-module_ter_hab_m_01,count:1;,$module-module_ter_hab_l_01,count:14;,$module-module_gen_prod_antimattercells_01,count:1;,$module-module_gen_prod_claytronics_01,count:2;,$module-module_gen_prod_graphene_01,count:1;,$module-module_gen_prod_microchips_01,count:3;,$module-module_ter_prod_proteinpaste_01,count:2;,$module-module_gen_prod_quantumtubes_01,count:2;,$module-module_gen_prod_siliconwafers_01,count:3;,$module-module_gen_prod_superfluidcoolant_01,count:1;,$module-module_ter_prod_energycells_01,count:8;,$module-module_ter_prod_terranmre_01,count:4;,$module-module_ter_prod_medicalsupplies_01,count:6
-
-[Argon Wharf]: http://www.x4-game.com/#/station-calculator?l=@$module-module_gen_build_dockarea_m_01,count:1;,$module-module_gen_prod_hullparts_01,count:8;,$module-module_gen_prod_engineparts_01,count:6;,$module-module_gen_prod_antimatterconverters_01,count:2;,$module-module_gen_prod_fieldcoils_01,count:1;,$module-module_gen_prod_shieldcomponents_01,count:1;,$module-module_gen_prod_advancedelectronics_01,count:4;,$module-module_gen_prod_weaponcomponents_01,count:8;,$module-module_gen_prod_turretcomponents_01,count:1;,$module-module_gen_prod_energycells_01,count:6;,$module-module_gen_prod_advancedcomposites_01,count:1;,$module-module_gen_prod_plasmaconductors_01,count:4;,$module-module_gen_prod_scanningarrays_01,count:1;,$module-module_gen_prod_quantumtubes_01,count:2;,$module-module_gen_prod_microchips_01,count:3;,$module-module_gen_prod_superfluidcoolant_01,count:2;,$module-module_gen_prod_siliconwafers_01,count:3;,$module-module_gen_prod_refinedmetals_01,count:5;,$module-module_gen_prod_graphene_01,count:3;,$module-module_gen_prod_antimattercells_01,count:1;,$module-module_gen_prod_dronecomponents_01,count:1;,$module-module_gen_prod_smartchips_01,count:38;,$module-module_gen_prod_missilecomponents_01,count:15;,$module-module_arg_prod_foodrations_01,count:3;,$module-module_arg_prod_medicalsupplies_01,count:6;,$module-module_arg_prod_meat_01,count:1;,$module-module_arg_prod_wheat_01,count:1;,$module-module_gen_prod_spices_01,count:1;,$module-module_gen_prod_water_01,count:1;,$module-module_arg_hab_l_01,count:15;,$module-module_tel_pier_l_03,count:3;,$module-module_arg_dock_m_02_hightech,count:2;,$module-module_arg_stor_container_l_01,count:10;,$module-module_arg_stor_liquid_l_01,count:5;,$module-module_arg_stor_solid_l_01,count:5
-
-[Argon Weapon Components Factory]: 
-http://www.x4-game.com/#/station-calculator?l=@$module-module_gen_prod_weaponcomponents_01,count:6;,$module-module_ter_prod_energycells_01,count:10;,$module-module_gen_prod_hullparts_01,count:2;,$module-module_gen_prod_graphene_01,count:3;,$module-module_gen_prod_refinedmetals_01,count:2;,$module-module_gen_prod_plasmaconductors_01,count:7;,$module-module_gen_prod_superfluidcoolant_01,count:3;,$module-module_arg_hab_l_01,count:6;,$module-module_arg_prod_foodrations_01,count:3;,$module-module_arg_prod_medicalsupplies_01,count:4;,$module-module_arg_prod_meat_01,count:1;,$module-module_gen_prod_spices_01,count:2;,$module-module_arg_prod_wheat_01,count:1;,$module-module_gen_prod_water_01,count:2;,$module-module_arg_hab_m_01,count:1
-
-
-[Argon Shipyard]:
-http://www.x4-game.com/#/station-calculator?l=@$module-module_gen_build_l_01,count:3;,$module-module_arg_hab_l_01,count:3;,$module-module_arg_prod_foodrations_01,count:1;,$module-module_arg_prod_meat_01,count:1;,$module-module_gen_prod_spices_01,count:1;,$module-module_arg_prod_wheat_01,count:1;,$module-module_arg_prod_medicalsupplies_01,count:2;,$module-module_gen_prod_water_01,count:1;,$module-module_ter_prod_energycells_01,count:4
-
-[Argon Smart Chip Factory]: http://www.x4-game.com/#/station-calculator?l=@$module-module_gen_prod_smartchips_01,count:12;,$module-module_ter_prod_energycells_01,count:4;,$module-module_gen_prod_siliconwafers_01,count:1;,$module-module_arg_hab_l_01,count:2;,$module-module_arg_prod_foodrations_01,count:1;,$module-module_arg_prod_medicalsupplies_01,count:2;,$module-module_arg_prod_meat_01,count:1;,$module-module_gen_prod_spices_01,count:1;,$module-module_arg_prod_wheat_01,count:1;,$module-module_gen_prod_water_01,count:1
-
-
-[Argon Missile Components Factory]: http://www.x4-game.com/#/station-calculator?l=@$module-module_gen_prod_missilecomponents_01,count:8;,$module-module_gen_prod_advancedcomposites_01,count:1;,$module-module_gen_prod_energycells_01,count:2;,$module-module_gen_prod_hullparts_01,count:1;,$module-module_gen_prod_graphene_01,count:1;,$module-module_gen_prod_refinedmetals_01,count:1;,$module-module_arg_hab_l_01,count:2;,$module-module_arg_prod_foodrations_01,count:1;,$module-module_arg_prod_medicalsupplies_01,count:2;,$module-module_arg_prod_meat_01,count:1;,$module-module_gen_prod_spices_01,count:1;,$module-module_arg_prod_wheat_01,count:1;,$module-module_gen_prod_water_01,count:1
-
-[Argon Weapon Component Factory]: http://www.x4-game.com/#/station-calculator?l=@$module-module_gen_prod_weaponcomponents_01,count:12;,$module-module_arg_hab_l_01,count:6;,$module-module_gen_prod_energycells_01,count:2;,$module-module_gen_prod_hullparts_01,count:1;,$module-module_gen_prod_plasmaconductors_01,count:5;,$module-module_arg_prod_foodrations_01,count:2;,$module-module_arg_prod_medicalsupplies_01,count:4;,$module-module_gen_prod_graphene_01,count:2;,$module-module_gen_prod_refinedmetals_01,count:1;,$module-module_gen_prod_superfluidcoolant_01,count:2;,$module-module_arg_prod_meat_01,count:1;,$module-module_gen_prod_spices_01,count:2;,$module-module_arg_prod_wheat_01,count:1;,$module-module_gen_prod_water_01,count:1
+To find out which products stations build, the easiest is to check out the 
+station's trade offers. Otherwise, fly over to the station and scan it to 
+identify the production modules that it uses.
 
 [Station Calculator]: http://www.x4-game.com/#/station-calculator
 
 [blueprint-ids.md]: https://github.com/Mistralys/x4-game-notes/blob/main/blueprint-ids.md
 [blueprint-ids.xml]: https://raw.githubusercontent.com/Mistralys/x4-game-notes/main/blueprint-ids.xml
+[Getting the Erlking]: #getting-the-erlking-battleship
