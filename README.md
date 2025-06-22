@@ -297,6 +297,22 @@ Items detected by the scan will display colored pulse hits in space.
 - Blue: Wrecks with contents, data vaults
 - Gray: Asteroids, empty wrecks, stations
 
+## Khaa'k presence
+
+The Khaa'k hives only spwn in a predefined set of sectors. This knowledge makes it a bit easier to handle them, as you can avoid them or set up defenses as necessary.
+
+- Antigone Memorial
+- Black Hole Sun V
+- Company Regard
+- Heretic's End
+- Lasting Vengeance
+- Matrix #451
+- Open Market
+- Pious Mists IV
+- Silent Witness XII
+
+More information is available in [Ram's excellent article](https://steamcommunity.com/sharedfiles/filedetails/?id=3463911140). 
+
 ## Teleportation
 
 Needs to be researched with the help of Boso and the player HQ. Starting the game, it
