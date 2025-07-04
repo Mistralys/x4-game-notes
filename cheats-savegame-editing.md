@@ -1,5 +1,16 @@
 # Cheats and savegame editing
 
+## Where to find the savegames?
+
+X4 saves games under `Documents\Egosoft\X4\70814229\save`.
+
+The savegames are `.xml` files that are compressed in `.gz` files
+by default, so you will need to extract them first. 
+
+> NOTE: Delete the `.gz` file after extracting the `.xml` file, 
+> otherwise the game will load the compressed file instead of the 
+> XML file.
+
 ## Which editor for XML files?
 
 The large XML files can be a challenge to open or edit, even on higher end machines.
