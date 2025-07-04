@@ -13,6 +13,7 @@
 - Speed+: `X`, `Mouse wheel`
 - Speed-: `Y`, `Mouse wheel`
 - Stop ship: `Backspace`
+- Match target speed: `SHIFT+X`
 - Mouse steering (toggle): `SHIFT+Space`
 - Mouse steering  (manual): `Hold Left Mouse + Move`
 - Undock: `SHIFT+D`
