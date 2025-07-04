@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/bin/vendor/components/jquery" />
+      <excludeFolder url="file://$MODULE_DIR$/bin/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/bin/vendor/fortawesome/font-awesome" />
+      <excludeFolder url="file://$MODULE_DIR$/bin/vendor/geshi/geshi" />
+      <excludeFolder url="file://$MODULE_DIR$/bin/vendor/mistralys/application-localization" />
+      <excludeFolder url="file://$MODULE_DIR$/bin/vendor/mistralys/application-utils" />
+      <excludeFolder url="file://$MODULE_DIR$/bin/vendor/mistralys/application-utils-collections" />
+      <excludeFolder url="file://$MODULE_DIR$/bin/vendor/mistralys/application-utils-core" />
+      <excludeFolder url="file://$MODULE_DIR$/bin/vendor/mistralys/application-utils-image" />
+      <excludeFolder url="file://$MODULE_DIR$/bin/vendor/mistralys/application-utils-result-handling" />
+      <excludeFolder url="file://$MODULE_DIR$/bin/vendor/mistralys/jtokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/bin/vendor/mistralys/x4-core" />
+      <excludeFolder url="file://$MODULE_DIR$/bin/vendor/mistralys/x4-data-extractor" />
+      <excludeFolder url="file://$MODULE_DIR$/bin/vendor/neitanod/forceutf8" />
+      <excludeFolder url="file://$MODULE_DIR$/bin/vendor/parsecsv/php-parsecsv" />
+      <excludeFolder url="file://$MODULE_DIR$/bin/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/bin/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/bin/vendor/thomaspark/bootswatch" />
+      <excludeFolder url="file://$MODULE_DIR$/bin/vendor/twbs/bootstrap" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

@@ -7,8 +7,33 @@
     <option name="transferred" value="true" />
   </component>
   <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="highlightLevel" value="WARNING" />
     <option name="transferred" value="true" />
   </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/bin/vendor/twbs/bootstrap" />
+      <path value="$PROJECT_DIR$/bin/vendor/mistralys/application-utils-collections" />
+      <path value="$PROJECT_DIR$/bin/vendor/components/jquery" />
+      <path value="$PROJECT_DIR$/bin/vendor/mistralys/application-utils-result-handling" />
+      <path value="$PROJECT_DIR$/bin/vendor/mistralys/x4-core" />
+      <path value="$PROJECT_DIR$/bin/vendor/mistralys/application-localization" />
+      <path value="$PROJECT_DIR$/bin/vendor/neitanod/forceutf8" />
+      <path value="$PROJECT_DIR$/bin/vendor/mistralys/application-utils-core" />
+      <path value="$PROJECT_DIR$/bin/vendor/fortawesome/font-awesome" />
+      <path value="$PROJECT_DIR$/bin/vendor/mistralys/jtokenizer" />
+      <path value="$PROJECT_DIR$/bin/vendor/geshi/geshi" />
+      <path value="$PROJECT_DIR$/bin/vendor/mistralys/application-utils-image" />
+      <path value="$PROJECT_DIR$/bin/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/bin/vendor/mistralys/x4-data-extractor" />
+      <path value="$PROJECT_DIR$/bin/vendor/mistralys/application-utils" />
+      <path value="$PROJECT_DIR$/bin/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/bin/vendor/composer" />
+      <path value="$PROJECT_DIR$/bin/vendor/thomaspark/bootswatch" />
+      <path value="$PROJECT_DIR$/bin/vendor/parsecsv/php-parsecsv" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.2" />
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
   </component>

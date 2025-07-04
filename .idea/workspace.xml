@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ba22c56a-9526-4f49-bd30-d64e14d3e84b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/x4-game-notes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/x4-game-notes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/BuildCommands.php" beforeDir="false" afterPath="$PROJECT_DIR$/bin/src/BuildCommands.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/station-plans.md" beforeDir="false" afterPath="$PROJECT_DIR$/station-plans.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/bin/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="F:\Webserver\php\php.exe">
+    <include_path>
+      <path value="$PROJECT_DIR$/bin/vendor/twbs/bootstrap" />
+      <path value="$PROJECT_DIR$/bin/vendor/mistralys/application-utils-collections" />
+      <path value="$PROJECT_DIR$/bin/vendor/components/jquery" />
+      <path value="$PROJECT_DIR$/bin/vendor/mistralys/application-utils-result-handling" />
+      <path value="$PROJECT_DIR$/bin/vendor/mistralys/x4-core" />
+      <path value="$PROJECT_DIR$/bin/vendor/mistralys/application-localization" />
+      <path value="$PROJECT_DIR$/bin/vendor/neitanod/forceutf8" />
+      <path value="$PROJECT_DIR$/bin/vendor/mistralys/application-utils-core" />
+      <path value="$PROJECT_DIR$/bin/vendor/fortawesome/font-awesome" />
+      <path value="$PROJECT_DIR$/bin/vendor/mistralys/jtokenizer" />
+      <path value="$PROJECT_DIR$/bin/vendor/geshi/geshi" />
+      <path value="$PROJECT_DIR$/bin/vendor/mistralys/application-utils-image" />
+      <path value="$PROJECT_DIR$/bin/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/bin/vendor/mistralys/x4-data-extractor" />
+      <path value="$PROJECT_DIR$/bin/vendor/mistralys/application-utils" />
+      <path value="$PROJECT_DIR$/bin/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/bin/vendor/composer" />
+      <path value="$PROJECT_DIR$/bin/vendor/thomaspark/bootswatch" />
+      <path value="$PROJECT_DIR$/bin/vendor/parsecsv/php-parsecsv" />
+    </include_path>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2zPlK9rFqbONYTwaqR3EuvasUrk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PS-243.26574.100" />
+        <option value="bundled-php-predefined-a98d8de5180a-1ec7b7818973-com.jetbrains.php.sharedIndexes-PS-243.26574.100" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba22c56a-9526-4f49-bd30-d64e14d3e84b" name="Changes" comment="" />
+      <created>1751640523328</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751640523328</updated>
+      <workItem from="1751640524808" duration="1072000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
