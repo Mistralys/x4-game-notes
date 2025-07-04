@@ -171,10 +171,10 @@ Example values:
 
 The following is a full list of blueprint macros / codes that I collected online, as well
 as through my own savegames. They go below the `<blueprints>` tag in the file (there is
-only one, so it's easy to find).
+only one, so it's straightforward to find).
 
-The full categorized list of blueprints can be found in the [blueprint-ids.md][] file, and
-a copy & paste XML version in [blueprint-ids.xml][].
+The full categorized list of blueprints can be found in the [blueprint-ids.xml][] file, 
+ready to copy and paste.
 
 The really cool thing is that it is even possible to make the Astrid and the Erlking
 buildable at player stations by adding their blueprints (for the Erlking, see [Getting the Erlking][]).
