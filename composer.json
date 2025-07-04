@@ -1,0 +1,25 @@
+{
+  "name": "mistralys/x4-game-notes",
+  "description": "Collection of insights on playing X4: Foundations.",
+  "type": "documentation",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sebastian Mordziol",
+      "email": "s.mordziol@mistralys.eu",
+      "homepage": "https://mistralys.eu"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  },
+  "require": {
+    "mistralys/x4-core": ">=1.0",
+    "php": ">=8.2"
+  },
+  "scripts": {
+    "build": "Mistralys\\X4\\GameNotes\\BuildCommands::build"
+  }
+}
