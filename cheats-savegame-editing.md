@@ -88,7 +88,7 @@ structure (there is only one, so it's straightforward to find).
 See the file [blueprint-ids.xml][] for a full list of blueprints ready to copy and paste.
 
 > The really cool thing is that it is even possible to make the Astrid and the Erlking
-> buildable at player stations by adding their blueprints (for the Erlking, see [Getting the Erlking][]).
+> buildable at player stations by adding their blueprints (for the Erlking, see [getting-the-erlking.md][]).
 
 ## Editing the player inventory
 
@@ -122,3 +122,14 @@ objects the player can use, like the repair laser for the space suit.
 - Primer on editing, and lots of details: https://forum.egosoft.com/viewtopic.php?t=350404
 - XML structure details: https://www.reddit.com/r/X4Foundations/comments/thjbik/how_to_read_save_file/
 - Example savegame XML snippets: [savegame-xml folder](/savegame-xml)
+
+
+
+[blueprint-ids.xml]: /blueprint-ids.xml
+[modparts.xml]: /modparts.xml
+[inventory-items.xml]: /inventory-items.xml
+[ship-production-chain.md]: /ship-production-chain.md
+[cheats-savegame-editing.md]: /cheats-savegame-editing.md
+[station-building.md]: /station-building.md
+[getting-the-erlking.md]: /getting-the-erlking.md
+[x4-core]: https://github.com/Mistralys/x4-core
