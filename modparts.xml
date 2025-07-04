@@ -1,0 +1,17 @@
+<ware ware="modpart_enginefuelinjector_t1" amount="9999"/><!-- Basic Engine Fuel Injector -->
+<ware ware="modpart_enginefuelinjector_t2" amount="9999"/><!-- Advanced Engine Fuel Injector -->
+<ware ware="modpart_enginefuelinjector_t3" amount="9999"/><!-- Exceptional Engine Fuel Injector -->
+<ware ware="modpart_extendedfuelcontainer" amount="9999"/><!-- Extended Fuel Container -->
+<ware ware="modpart_highenergycatalyst" amount="9999"/><!-- High Energy Catalyst -->
+<ware ware="modpart_nividiumcrystallite" amount="9999"/><!-- Nividium Crystallite -->
+<ware ware="modpart_nividiumoxide" amount="9999"/><!-- Nividium Oxide -->
+<ware ware="modpart_shieldgeneratorcoil_t1" amount="9999"/><!-- Basic Shield Generator Coil -->
+<ware ware="modpart_shieldgeneratorcoil_t2" amount="9999"/><!-- Advanced Shield Generator Coil -->
+<ware ware="modpart_shieldgeneratorcoil_t3" amount="9999"/><!-- Exceptional Shield Generator Coil -->
+<ware ware="modpart_shipnanoweave_t1" amount="9999"/><!-- Basic Ship Nanoweave -->
+<ware ware="modpart_shipnanoweave_t2" amount="9999"/><!-- Advanced Ship Nanoweave -->
+<ware ware="modpart_shipnanoweave_t3" amount="9999"/><!-- Exceptional Ship Nanoweave -->
+<ware ware="modpart_tuningsoftware" amount="9999"/><!-- Tuning Software -->
+<ware ware="modpart_weaponchamber_t1" amount="9999"/><!-- Basic Weapon Chamber -->
+<ware ware="modpart_weaponchamber_t2" amount="9999"/><!-- Advanced Weapon Chamber -->
+<ware ware="modpart_weaponchamber_t3" amount="9999"/><!-- Exceptional Weapon Chamber -->

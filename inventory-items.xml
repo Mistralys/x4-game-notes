@@ -1,0 +1,91 @@
+<!-- Personal Upgrades -->
+<ware ware="bomb_player_limpet_emp_01_mk1"/><!-- Spacesuit EMP -->
+<ware ware="bomb_player_limpet_mine_01_mk1"/><!-- Spacesuit Bomb -->
+<ware ware="engine_gen_spacesuit_01_mk1"/><!-- Spacesuit Thrusters Mk1 -->
+<ware ware="engine_gen_spacesuit_01_mk2"/><!-- Spacesuit Thrusters Mk2 -->
+<ware ware="engine_spacesuit_weak"/><!-- Disrupted Engine -->
+<ware ware="software_hackerspacesuitmk1"/><!-- Hacking Tool -->
+<ware ware="software_oxygenspacesuitmk1"/><!-- Oxygen Upgrade -->
+<ware ware="software_scannerobjectmk3"/><!-- Spacesuit Scanner -->
+<ware ware="weapon_gen_spacesuit_demolition_01_mk1"/><!-- Bomb Launcher -->
+<ware ware="weapon_gen_spacesuit_laser_01_mk1"/><!-- Hand Laser -->
+<ware ware="weapon_gen_spacesuit_laser_02_mk1"/><!-- Personal Blaster -->
+<ware ware="weapon_gen_spacesuit_laser_03_mk1"/><!-- Sporting Rifle -->
+<ware ware="weapon_gen_spacesuit_repairlaser_01_mk1"/><!-- Repair Laser -->
+
+<!-- Craftables -->
+<ware ware="inv_agidevice_01" amount="9999"/><!-- AGI Processor -->
+<ware ware="inv_agidevice_02" amount="9999"/><!-- AGI Heuristic Core -->
+<ware ware="inv_agidevice_03" amount="9999"/><!-- AGI Neural Network -->
+<ware ware="inv_argnusteak" amount="9999"/><!-- Argnu Steak -->
+<ware ware="inv_bandages" amount="9999"/><!-- Bandages -->
+<ware ware="inv_damagedsingularityengine" amount="9999"/><!-- Damaged Singularity Engine -->
+<ware ware="inv_decryptionmodule" amount="9999"/><!-- Decryption Module -->
+<ware ware="inv_electronics" amount="9999"/><!-- Electronics -->
+<ware ware="inv_finemeal" amount="9999"/><!-- Fine Meal -->
+<ware ware="inv_firstaidkit" amount="9999"/><!-- First Aid Kit -->
+<ware ware="inv_fluxcapacitor" amount="9999"/><!-- Flux Capacitor -->
+<ware ware="inv_hallucinogenics" amount="9999"/><!-- Hallucinogenics -->
+<ware ware="inv_harddrug_01" amount="9999"/><!-- Delirium -->
+<ware ware="inv_interfaceunit" amount="9999"/><!-- Interface Unit -->
+<ware ware="inv_kyondevice_01" amount="9999"/><!-- Kyon Crystallite -->
+<ware ware="inv_kyondevice_02" amount="9999"/><!-- Kyon Crystal Shard -->
+<ware ware="inv_kyondevice_03" amount="9999"/><!-- Kyon Crystal -->
+<ware ware="inv_magneticmaterial" amount="9999"/><!-- Lodestone -->
+<ware ware="inv_mixedfruit" amount="9999"/><!-- Mixed Fruit -->
+<ware ware="inv_needle" amount="9999"/><!-- Needle -->
+<ware ware="inv_programmablefieldarray" amount="9999"/><!-- Programmable Field Array -->
+<ware ware="inv_rarespices" amount="9999"/><!-- Rare Spices -->
+<ware ware="inv_remotedetonator" amount="9999"/><!-- Remote Detonator -->
+<ware ware="inv_salvagedelectronics" amount="9999"/><!-- Salvaged Electronics -->
+<ware ware="inv_securecontainer" amount="9999"/><!-- Secure Container -->
+<ware ware="inv_securitybypasssystem" amount="9999"/><!-- Security Bypass System -->
+<ware ware="inv_securitydecryptionsystem" amount="9999"/><!-- Security Decryption System -->
+<ware ware="inv_securityslicer" amount="9999"/><!-- Security Slicer -->
+<ware ware="inv_sedative" amount="9999"/><!-- Sedative -->
+<ware ware="inv_spaceflycaviar" amount="9999"/><!-- Spacefly Caviar -->
+<ware ware="inv_spaceflyeggs" amount="9999"/><!-- Spacefly Eggs -->
+<ware ware="inv_timewarp" amount="9999"/><!-- SETA -->
+<ware ware="inv_unstablecrystal" amount="9999"/><!-- Unstable Crystal -->
+
+<!-- Seminars -->
+<ware ware="inv_seminar_management_0" amount="9999"/><!-- Basic Seminar  -->
+<ware ware="inv_seminar_management_1" amount="9999"/><!-- Seminar for 1-Star Crew  -->
+<ware ware="inv_seminar_management_2" amount="9999"/><!-- Seminar for 2-Star Crew  -->
+<ware ware="inv_seminar_management_3" amount="9999"/><!-- Seminar for 3-Star Crew  -->
+<ware ware="inv_seminar_management_4" amount="9999"/><!-- Advanced Seminar for 4-Star Crew  -->
+<ware ware="inv_seminar_piloting_0" amount="9999"/><!-- Basic Seminar  -->
+<ware ware="inv_seminar_piloting_1" amount="9999"/><!-- Seminar for 1-Star Crew  -->
+<ware ware="inv_seminar_piloting_2" amount="9999"/><!-- Seminar for 2-Star Crew  -->
+<ware ware="inv_seminar_piloting_3" amount="9999"/><!-- Seminar for 3-Star Crew  -->
+<ware ware="inv_seminar_piloting_4" amount="9999"/><!-- Advanced Seminar for 4-Star Crew  -->
+
+<!-- Tradeables -->
+<ware ware="inv_advancedtargetingmodule" amount="9999"/><!-- Advanced Targeting Module -->
+<ware ware="inv_algaescrubber" amount="9999"/><!-- Algae Scrubber -->
+<ware ware="inv_carbonfilter" amount="9999"/><!-- Carbon Filter -->
+<ware ware="inv_crystalbit" amount="9999"/><!-- Crystal Bit -->
+<ware ware="inv_crystal_01" amount="9999"/><!-- Bandannite Crystal -->
+<ware ware="inv_crystal_02" amount="9999"/><!-- Menelaene Crystal -->
+<ware ware="inv_crystal_03" amount="9999"/><!-- Aguilite Crystal -->
+<ware ware="inv_crystal_04" amount="9999"/><!-- Mitonene Crystal -->
+<ware ware="inv_crystal_05" amount="9999"/><!-- Burnite Crystal -->
+<ware ware="inv_herbicide" amount="9999"/><!-- Herbicide -->
+<ware ware="inv_hydraulicpump" amount="9999"/><!-- Hydraulic Pump -->
+<ware ware="inv_majaglit" amount="9999"/><!-- Majaglit -->
+<ware ware="inv_microgimble" amount="9999"/><!-- Micro-Gimbal -->
+<ware ware="inv_micromotor" amount="9999"/><!-- Micro-Motor -->
+<ware ware="inv_modulartrigger" amount="9999"/><!-- Modular Trigger -->
+<ware ware="inv_quantum_data_shard" amount="9999"/><!-- AGI Quantum Data Shard -->
+<ware ware="inv_rapidsandfilter" amount="9999"/><!-- Rapid Sand Filter -->
+
+<!-- Miscellaneous -->
+<ware ware="clothingmod_0001" amount="9999"/><!-- Clothing Mod 0001 -->
+<ware ware="clothingmod_0002" amount="9999"/><!-- Clothing Mod 0002 -->
+<ware ware="clothingmod_0003" amount="9999"/><!-- Clothing Mod 0001 -->
+<ware ware="inv_processing_panel_7A" amount="9999"/><!-- Processing Panel Unit 7A -->
+<ware ware="inv_processing_panel_8X" amount="9999"/><!-- Processing Panel Unit 8X -->
+<ware ware="inv_processing_panel_12G" amount="9999"/><!-- Processing Panel Unit 12G -->
+<ware ware="inv_processing_panel_19L" amount="9999"/><!-- Processing Panel Unit 19L -->
+<ware ware="inv_processing_panel_46B" amount="9999"/><!-- Processing Panel Unit 46B -->
+
