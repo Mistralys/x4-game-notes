@@ -4,6 +4,9 @@ declare(strict_types=1);
 
 namespace Mistralys\X4\GameNotes;
 
+use AppUtils\ClassHelper;
+use AppUtils\FileHelper\FolderInfo;
+use Mistralys\X4\Database\Blueprints\BlueprintDefs;
 use Mistralys\X4\Database\Wares\WareDefs;
 
 class BuildCommands
@@ -12,10 +15,58 @@ class BuildCommands
     {
         self::buildModParts();
         self::buildInventory();
+        self::buildBlueprints();
+    }
+
+    public static function buildBlueprints() : void
+    {
+        self::init();
+
+        $blueprints = array();
+        $count = 0;
+        foreach(BlueprintDefs::getInstance()->getAll() as $blueprint) {
+            $category = $blueprint->getCategory()->getID();
+            if(!isset($blueprints[$category])) {
+                $blueprints[$category] = array();
+            }
+
+            $count++;
+
+            $blueprints[$category][] = sprintf(
+                '    <blueprint ware="%1$s"/><!-- %2$s -->',
+                $blueprint->getWareID(),
+                $blueprint->getLabel()
+            );
+        }
+
+        echo sprintf('Found %1$s blueprints.', $count) . PHP_EOL;
+
+        ksort($blueprints);
+
+        $xml = '';
+        foreach($blueprints as $category => $wares) {
+            if(empty($wares)) {
+                continue;
+            }
+
+            $xml .= sprintf(
+                '    <!-- Category: %1$s -->'.PHP_EOL.
+                '%2$s'.PHP_EOL,
+                htmlspecialchars(ucfirst($category)),
+                implode(PHP_EOL, $wares)
+            ).PHP_EOL;
+        }
+
+        file_put_contents(
+            __DIR__.'/../../blueprint-ids.xml',
+            '<blueprints>'.PHP_EOL.$xml.'</blueprints>'.PHP_EOL
+        );
     }
 
     public static function buildModParts() : void
     {
+        self::init();
+
         $modParts = array();
         foreach(WareDefs::getInstance()->getAll() as $ware) {
             if($ware->hasTag('equipmentmodpart')) {
@@ -33,6 +84,8 @@ class BuildCommands
 
     public static function buildInventory() : void
     {
+        self::init();
+
         $upgradeWares = array(
             'inv_timewarp',
         );
@@ -146,5 +199,7 @@ class BuildCommands
         self::$initialized = true;
 
         require_once __DIR__.'/../vendor/autoload.php';
+
+        ClassHelper::setCacheFolder(FolderInfo::factory(__DIR__.'/../cache')->create());
     }
 }
