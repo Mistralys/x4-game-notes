@@ -91,122 +91,7 @@ Drawbacks:
 
 # Cheats
 
-## Savegame editing
-
-Primer on editing, and lots of details:
-
-https://forum.egosoft.com/viewtopic.php?t=350404
-
-## Which editor for XML files?
-
-The large XML files can be a challenge to open or edit, even on higher end machines.
-Notepad++ is one often recommended, but personally it had trouble with my 1.2 GB save
-files. What worked best for me is the commercial UltraEdit, especially when searching
-or even to collapse XML tags.
-
-## Savegame XML structure
-
-https://www.reddit.com/r/X4Foundations/comments/thjbik/how_to_read_save_file/
-
-## Editing player money
-
-- Save your game and note the amount of money in your account.
-- Go to the savegame folder, usually in `Documents\Egosoft\X4\70814229\save`.
-- Extract the `.xml` file from the savegame `.gz` archive.
-- Open the XML file in a text reader.
-- Replace all occurrences of the amount in the file.
-- Delete the `.gz` file and leave the `.xml` file.
-  or
-- Replace the `.xml` file in the archive to save disk space.
-
-These are the texts to search for and replace:
-
-```
-money="xxxx"
-]" amount="xxxx"/>  (to find <account id="[???]" amount="xxxx">)
-<stat id="money_player" value="xxxx"/>
-```
-
-Where `xxxx` is the amount of money.
-
-*It's important to replace them all*, otherwise
-the change will not be applied correctly.
-
-## Editing faction relations
-
-Faction relations are defined by the following numerical ranges:
-
-- Self: 1.0 to 1.0
-- Member: 0.1 to 1.0
-- Friend: 0.01 to 1.0
-- Neutral: -0.01 to 0.01
-- Enemy: -1.0 to -0.01
-- Kill military: -1.0 to -0.1
-- Kill: -1.0 to -0.32
-- Nemesis: -1.0 to -1.0
-
-Reputations from -0.1 to -0.31 result in fighting only the military. At -0.32 to
--1 they kill everything. This means that the AI factions that are "at war" at
--0.1 will already kill military ships on sight.
-
-## Editing player reputation
-
-Under the faction tag:
-
-```
-<faction id="argon">
-```
-
-Insert the following, if it does not exist:
-
-```
-<booster faction="player" relation="0.00999" time="3000.161"/>
-```
-
-This sets your reputation to `+9`, just before the switch to `+10`, to trigger the 
-faction's military license reward.
-
-Example values:
-
-- `0.001` +1
-- `0.011` +11
-
-## Editing blueprints
-
-The following is a full list of blueprints that I extracted directly from the game 
-files using my [x4-core][] tool. They go below the `<blueprints>` tag in the XML
-structure (there is only one, so it's straightforward to find).
-
-See the file [blueprint-ids.xml][] for a full list of blueprints ready to copy and paste.
-
-> The really cool thing is that it is even possible to make the Astrid and the Erlking
-> buildable at player stations by adding their blueprints (for the Erlking, see [Getting the Erlking][]).
-
-## Player inventory
-
-NPCs have `<inventory>` tags just like the player, so the easiest
-way to find the player's inventory is to search for the player
-component. The inventory is nested in here.
-
-Search for the following:
-
-`class="player"`
-
-Once you find it, add any of the `<ware>` tags you want below 
-the `<inventory>` tag.
-
-### Modding parts
-
-These are all known parts that are used for modding ships:
-
-[modparts.xml][]
-
-### Inventory & crafting resources
-
-These are other inventory items used for crafting, as well as the
-objects the player can use, like the repair laser for the space suit.
-
-[inventory-items.xml][]
+See [cheats-savegame-editing.md][] for a primer on how to edit savegames.
 
 # Knowledgebase
 
@@ -299,7 +184,7 @@ This requires you to have access to a shipyard.
 1. Extract and open your savegame XML file.
 2. Search for the `<blueprints>` tag.
 3. Add the blueprint tags shown below.
-4. Ingame, simply destroy the Erlking in Windfall.
+4. Ingame, destroy the Erlking in Windfall.
 5. Boso Ta will add the power core research project.
 6. Build the ship at your shipyard.
 7. If you lose the ship, you may rebuild it :)
@@ -383,7 +268,19 @@ be useful to board ships or recover abandoned ships.
 
 ## Recovering / claiming abandoned ships:
 
-- Pilot a ship with at least 1 marine on board.
+### From your spacesuit
+
+- Approach the abandoned ship.
+- Hop into your spacesuit.
+- Enable scan mode with `SHIFT+2`.
+- Find and approach the ship's spacesuit boarding hatch.
+- There will be a signal leak next to the hatch somewhere.
+- Scan the leak, and the ship is yours.
+- Board and pilot the ship, or assign it a pilot.
+
+### With marines on your own ship
+
+- Pilot a ship with at least one marine on board.
 - Approach the abandoned ship.
 - Target it and right-click > "Claim".
 
@@ -393,18 +290,30 @@ A boarding drone will slowly approach the ship, breach it, and take it over.
   In some cases, the target ship will take a little damage (the crew
   of the ship sabotaging it, and/or the marine's breaching charges).
 
-### The lazy way
+### With marines on another of your ships 
 
 Let one of your NPC controlled ships do it:
 
 - Open the map.
-- Select a ship with at least 1 marine on board.
-- Make the ship fly and wait next to the target ship.
-- Once there, right-click the abandoned ship.
-- Select "Claim".
+- Select a ship with at least one marine on board.
+- Tell the ship to follow the target ship.
+- Once your ship is close, select it.
+- Right-click the abandoned ship, select "Claim".
 
-Your ship will launch a boarding drone automatically. Sadly the ship will
-not automatically fly there, that's why you need the fly and wait command.
+> There is no command to entirely automate the process. 
+> The ship has to get close to the target first.
+
+### Claiming Xenon ships
+
+The Xenon will also occasionally abandon their ships. However, they cannot
+be claimed with marines. If you send marines over, they will disappear and
+the ship will still not belong to you.
+
+You must claim them yourself from your spacesuit.
+
+> I believe this is because Xenon ships already have an AI pilot on board.
+> Checking the ship's information will show that the ship already has a
+> pilot.
 
 ## Attacking stations
 
@@ -564,6 +473,7 @@ Please see [ship-production-chain.md][].
 [modparts.xml]: ./modparts.xml
 [inventory-items.xml]: ./inventory-items.xml
 [ship-production-chain.md]: ./ship-production-chain.md
+[cheats-savegame-editing.md]: ./cheats-savegame-editing.md
 [station-building.md]: ./station-building.md
 [blueprint-ids.md]: ./blueprint-ids.md
 [blueprint-ids.xml]: ./blueprint-ids.xml
