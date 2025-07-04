@@ -7,9 +7,11 @@ X4 saves games under `Documents\Egosoft\X4\70814229\save`.
 The savegames are `.xml` files that are compressed in `.gz` files
 by default, so you will need to extract them first. 
 
-> NOTE: Delete the `.gz` file after extracting the `.xml` file, 
-> otherwise the game will load the compressed file instead of the 
-> XML file.
+## After modifying savegames
+
+- Delete the `.gz` file and leave the `.xml` file.
+- _OR_
+- Replace the `.xml` file in the archive to save disk space.
 
 ## Which editor for XML files?
 
@@ -21,13 +23,7 @@ or even to collapse XML tags.
 ## Editing player money
 
 - Save your game and note the amount of money in your account.
-- Go to the savegame folder, usually in `Documents\Egosoft\X4\70814229\save`.
-- Extract the `.xml` file from the savegame `.gz` archive.
-- Open the XML file in a text reader.
 - Replace all occurrences of the amount in the file.
-- Delete the `.gz` file and leave the `.xml` file.
-  or
-- Replace the `.xml` file in the archive to save disk space.
 
 These are the texts to search for and replace:
 
@@ -41,6 +37,8 @@ Where `xxxx` is the amount of money.
 
 *It's important to replace them all*, otherwise
 the change will not be applied correctly.
+
+> Background: What you are replacing are individual station / ship accounts.
 
 ## Editing faction relations
 
