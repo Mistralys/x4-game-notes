@@ -4,12 +4,11 @@ declare(strict_types=1);
 
 namespace Mistralys\X4\GameNotes;
 
-use JetBrains\PhpStorm\Pure;
 use Mistralys\X4\Database\Wares\WareDefs;
 
 class BuildCommands
 {
-    public static function build()
+    public static function build() : void
     {
         self::buildModParts();
         self::buildInventory();
@@ -29,8 +28,7 @@ class BuildCommands
         }
 
         echo sprintf('Found %1$s modparts.', count($modParts)) . PHP_EOL;
-        file_put_contents(__DIR__.'/../modparts.xml', implode(PHP_EOL, $modParts));
-        echo implode(PHP_EOL, $modParts) . PHP_EOL;
+        file_put_contents(__DIR__.'/../../modparts.xml', implode(PHP_EOL, $modParts));
     }
 
     public static function buildInventory() : void
@@ -134,7 +132,7 @@ class BuildCommands
             ).PHP_EOL;
         }
 
-        file_put_contents(__DIR__.'/../inventory-items.xml', $content);
+        file_put_contents(__DIR__.'/../../inventory-items.xml', $content);
     }
 
     private static bool $initialized = false;
