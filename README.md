@@ -15,7 +15,7 @@
 - Stop ship: `Backspace`
 - Match target speed: `SHIFT+X`
 - Mouse steering (toggle): `SHIFT+Space`
-- Mouse steering  (manual): `Hold Left Mouse + Move`
+- Mouse steering (manual): `Hold Left Mouse + Move`
 - Undock: `SHIFT+D`
 - Pick up items: `O` (tractor beam)
 - Flight Assist: `CTRL+Space`
@@ -28,6 +28,8 @@
 - Target in front of ship: `T`  
   or
 - Open the map, select item, press `T`
+
+> Match target speed: `SHIFT+X`
 
 ## Map
 
@@ -109,7 +111,7 @@ https://www.reddit.com/r/X4Foundations/comments/thjbik/how_to_read_save_file/
 ## Editing player money
 
 - Save your game and note the amount of money in your account.
-- Go to the samegame folder, usually in `Documents\Egosoft\X4\70814229\save`.
+- Go to the savegame folder, usually in `Documents\Egosoft\X4\70814229\save`.
 - Extract the `.xml` file from the savegame `.gz` archive.
 - Open the XML file in a text reader.
 - Replace all occurrences of the amount in the file.
@@ -161,7 +163,8 @@ Insert the following, if it does not exist:
 <booster faction="player" relation="0.00999" time="3000.161"/>
 ```
 
-This sets reputation to `+9`, just before the switch to `+10`, to trigger the faction's military license reward.
+This sets your reputation to `+9`, just before the switch to `+10`, to trigger the 
+faction's military license reward.
 
 Example values:
 
@@ -170,15 +173,14 @@ Example values:
 
 ## Editing blueprints
 
-The following is a full list of blueprint macros / codes that I collected online, as well
-as through my own savegames. They go below the `<blueprints>` tag in the file (there is
-only one, so it's straightforward to find).
+The following is a full list of blueprints that I extracted directly from the game 
+files using my [x4-core][] tool. They go below the `<blueprints>` tag in the XML
+structure (there is only one, so it's straightforward to find).
 
-The full categorized list of blueprints can be found in the [blueprint-ids.xml][] file, 
-ready to copy and paste.
+See the file [blueprint-ids.xml][] for a full list of blueprints ready to copy and paste.
 
-The really cool thing is that it is even possible to make the Astrid and the Erlking
-buildable at player stations by adding their blueprints (for the Erlking, see [Getting the Erlking][]).
+> The really cool thing is that it is even possible to make the Astrid and the Erlking
+> buildable at player stations by adding their blueprints (for the Erlking, see [Getting the Erlking][]).
 
 ## Player inventory
 
@@ -566,3 +568,4 @@ Please see [ship-production-chain.md][].
 [blueprint-ids.md]: ./blueprint-ids.md
 [blueprint-ids.xml]: ./blueprint-ids.xml
 [Getting the Erlking]: #getting-the-erlking-battleship
+[x4-core]: https://github.com/Mistralys/x4-core
