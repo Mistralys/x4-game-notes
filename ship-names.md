@@ -2,5 +2,8 @@
 
 - "Homer's Dream" - Odysseus
 - "Loco Croco" - Rattlesnake
-- "Steadfast" - Behemoth
-- "Hyper Shrimp" - Osaka
+- "Hyper Shrimp"
+- "Starry Skies"
+- "Steadfast"
+- "Intrepid"
+ 
